@@ -1,0 +1,122 @@
+
+@import "project/variables",
+        "project/functions",
+        "project/mixins";
+
+body {
+  margin: 0;
+  background: rgb(238, 238, 238);
+  font: normal 100%/1.2 sans-serif;
+  color: $dark-grey;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  letter-spacing: .05em;
+}
+
+a:link,
+a:visited {
+  color: $blue;
+  text-decoration: none;
+  @include transition(background-color .5s linear);
+}
+
+a:hover,
+a:focus {
+  color: lighten($blue, 10%);
+  text-decoration: underline;
+}
+
+a:active {
+  color: darken($blue, 10%);
+}
+
+.ek-main-header {
+  height: 100vh;
+  padding-top: rem(52);
+  margin-bottom: rem(20);
+  overflow: hidden;
+  background-color: black;
+  border-bottom: 1px solid #222;
+  text-align: center;
+  text-shadow: 0 1px 1px black;
+  @include box-sizing(border-box);
+}
+
+.ek-main-header__link {
+  position: absolute;
+  top: rem(16);
+  right: 0;
+  left: 0;
+  font-size: rem(32);
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:before,
+  &:after {
+    color: darken(white, 40%);
+  }
+
+  &:before {
+    content: "- "
+  }
+
+  &:after {
+    content: " -"
+  }
+
+}
+
+.ek-main-header__inner {
+  padding: 0 rem(8);
+  position: relative;
+  top: 50%;
+  @include box-sizing(border-box);
+  @include transform (translateY(-60%));
+  @include content-width (rem($site-max-width));
+}
+
+.ek-main-header__headline {
+  color: white;
+  font-size: rem(24);
+
+  a {
+    font-size: rem(96);
+    @include transition(color .5s linear);
+
+    &:link,
+    &:visited {
+      color: white;
+    }
+
+    &:hover,
+    &:focus {
+      color: $blue;
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+.ek-content {
+  padding: 0 rem(10);
+}
+
+@media screen and (min-width: rem(460)) {
+  .ek-main-header__headline {
+    font-size: rem(32);
+  }
+}
+
+@media screen and (min-width: rem(768)) {
+  .ek-main-header__headline {
+    padding: 0;
+    font-size: rem(48);
+  }
+}

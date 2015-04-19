@@ -1,0 +1,16 @@
+
+language: ruby
+rvm:
+  - 2.0.0
+env:
+  global:
+    - secure: Iqmw3A+2Yfm/osu4gJsIFYotYfBUp7sCOLove6fwttOCvsdHrKfyLsPkuxWGH/eWMc6f8Iflq5Y/o/bxfHOted95nUwProcRtHlCKgVXgys3olpNFk7oG2k3qJLt5BnJ7pbSs+FqXAT3JTXx4TQ9laWukLnmgKwiCobjQDJlXIY=
+before_script:
+  - npm install -g grunt-cli bower
+  - npm install
+  - bower install
+  - grunt imagemin
+script: bundle exec glynn "./" "./_site" $FTP_USERNAME $FTP_PASSWORD
+branches:
+  only:
+    - master

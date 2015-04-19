@@ -1,0 +1,35 @@
+
+<script>
+
+  // loadCSS
+  {% asset vendor/loadcss/loadCSS.js %}
+
+  // Nanojax
+  {% asset vendor/nanoajax/nanoajax.min.js %}
+
+  // Eventie
+  {% asset vendor/eventie/eventie.js %}
+
+  // PubSub
+  {% asset vendor/vanilla-pubsub/PubSub.js %}
+
+  // JSOnlyLightbox
+  {% asset vendor/jsonlylightbox/js/lightbox.js %}
+
+  // Actually loading CSS async'ly
+  (function (stylesPath, loadCSS) {
+    {% asset load-styles.js %}
+  })('{% asset_path main.css %}', loadCSS);
+
+  // Ajaxify
+  {% asset ajaxify.js %}
+
+  // Lazy-Load
+  {% asset lazy-load.js %}
+
+  // Lightbox
+  {% asset lightbox.js %}
+
+  // Comments
+  {% asset comments.js %}
+</script>

@@ -1,0 +1,205 @@
+
+/* ==|== primary styles =====================================================
+   Author: Emanuel Kluge
+   ========================================================================== */
+
+/* General */
+
+@include selection() {
+  background: #06C;
+  color: white;
+}
+
+/* General Content */
+
+.is-content-ready .ek-main-header {
+  height: 50vh;
+  background-color: #333;
+  transition: height .3s linear, background-color .3s linear;
+  @include transform (translateZ(0));
+  @include backface-visibility (hidden);
+}
+
+.is-content-ready .ek-main-header__inner {
+  -webkit-transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+  @include transform (scale(.75) translateY(-70%) translateZ(0));
+}
+
+.ek-content {
+  min-height: 45vh;
+  border-bottom: 1px solid #AAA;
+  @include content-width (rem($site-max-width));
+}
+
+/* Posts/Pages */
+
+.posts {
+  margin: rem(10);
+}
+
+.posts header {
+  border-bottom: 1px solid white;
+}
+
+.posts h1 {
+  padding-bottom: rem(10);
+  margin-bottom: 0;
+  border-bottom: 1px solid #AAA;
+  color: $blue;
+  text-align: center;
+  font-size: rem(28)
+}
+
+.posts h1 a {
+  display: block;
+}
+
+.ek-post__content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ek-post__content h2 {
+  margin-bottom: rem(-14);
+}
+
+.ek-post__content a {
+  word-wrap: break-word;
+}
+
+.ek-post__content blockquote {
+  padding-left: rem(10);
+  margin-left: rem(10);
+  border-left: 3px solid #DDD;
+}
+
+.ek-post__content small {
+  font-size: rem(12);
+}
+
+.ek-post__content ul {
+  list-style-type: square;
+}
+
+.ek-post__content ins {
+  background: rgba(yellow, .2);
+  color: $dark-grey;
+  text-decoration: none;
+}
+
+.ek-post__content p code {
+  padding: rem(1) rem(3);
+  background-color: rgba(black, .6);
+  border-radius: rem(4);
+  color: white;
+  font-family: "Courier New", Courier;
+  word-spacing: 0;
+}
+
+.ek-post__footer {
+  margin-bottom: rem(64);
+  border-top: 1px solid #AAA;
+  color: #999;
+  &.ek-post__footer--detail {
+    margin-bottom: rem(40);
+  }
+}
+
+.ek-comments {
+  margin-bottom: rem(60);
+}
+
+.ek-comments__trigger {
+  max-width: rem(400);
+  padding: rem(12) rem(32) rem(10) rem(32);
+  margin: 0 auto;
+  display: block;
+  font-size: rem(16);
+  color: white;
+  background-color: $dark-grey;
+  border-radius: 4px;
+  border: none;
+  @include appearance (none);
+  @include transition (background-color .2s linear);
+  &:hover,
+  &:focus {
+    background-color: darken($dark-grey, 10%);
+  }
+}
+
+.ek-post__meta {
+  padding-top: rem(10);
+  margin: 0;
+  border-top: 1px solid white;
+  font-size: rem(14);
+}
+
+.vcard ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ek-meta-nav {
+  margin-bottom: rem(32);
+}
+
+.ek-meta-nav__link {
+  width: 50%;
+}
+
+.ek-meta-nav__link--prev {
+  float: left;
+}
+
+.ek-meta-nav__link--next {
+  float: right;
+  text-align: right;
+}
+
+.ek-meta-nav__link a:link,
+.ek-meta-nav__link a:visited {
+  padding: rem(8);
+  background-color: $blue;
+  border-radius: rem(4);
+  color: white;
+  text-decoration: none;
+  line-height: rem(24);
+  font-size: rem(14);
+}
+
+.ek-meta-nav__link a:hover,
+.ek-meta-nav__link a:focus {
+  background-color: darken($blue, 10%);
+}
+
+.ek-meta-nav__link a:active {
+  background-color: darken($blue, 20%);
+}
+
+/* Footer */
+
+.ek-main-footer {
+  background-color: #333;
+  border-top: 1px solid #222;
+  overflow: hidden;
+}
+
+.ek-main-footer__inner {
+  padding: rem(32) 0;
+  text-align: center;
+  font-size: rem(12);
+  color: white;
+  letter-spacing: 1px;
+  @include content-width (rem($site-max-width));
+}
+
+@media screen and (min-width: rem(460)) {
+
+}
+
+@media screen and (min-width: rem(768)) {
+  .posts h1 {
+    text-align: left;
+  }
+}

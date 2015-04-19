@@ -1,0 +1,51 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if IE]>
+      <meta http-equiv="imagetoolbar" content="no">
+    <![endif]-->
+    <meta name="author" content="Emanuel Kluge">
+    <meta name="MSSmartTagsPreventParsing" content="true">
+    <meta name="verify-v1" content="pYcpJoNSdi6bVynT2dKuPoD+74fWR1PHO3mb3slZJns=">
+    <meta name="geo.region" content="DE-HH">
+    <meta name="geo.placename" content="Wandsbeker Chaussee 315, 22089 Hamburg, Deutschland">
+    <meta name="geo.position" content="53.570240,10.058907">
+    <meta name="ICBM" content="53.570240,10.058907">
+
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Emanuel Kluge">
+    <meta property="og:description" content="ek &middot; Beiträge zum Thema JS, HTML, CSS &amp; anderem Kram">
+    <meta property="og:image" content="">
+
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <script>
+      // Adding `js`-class
+      (function (h, c) {
+        h[c] = h[c].replace(/\bno-js\b/, 'js');
+      })(document.documentElement, 'className');
+    </script>
+    {% if site.description %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
+    <style>{% asset critical.css %}</style>
+    <noscript>
+      {% stylesheet main.css %}
+    </noscript>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <link rel="author" href="https://plus.google.com/+{{ site.google_plus }}/posts">
+    {% if site.production %}
+      <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-1579881-8', 'emanuel-kluge.de');
+          ga('send', 'pageview');
+      </script>
+    {% endif %}
+</head>

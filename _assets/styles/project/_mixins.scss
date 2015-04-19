@@ -1,0 +1,79 @@
+
+// Animation
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  animation: #{$str};
+}
+
+// Appearance
+@mixin appearance ($val: none) {
+  -webkit-appearance: $val;
+  appearance: $val;
+}
+
+// Backface-Visibility
+@mixin backface-visibility ($value: hidden) {
+  -webkit-backface-visibility: $value;
+  backface-visibility: $value;
+}
+
+// Box-Sizing
+@mixin box-sizing($val: border-box) {
+  -webkit-box-sizing: $val;
+  -moz-box-sizing: $val;
+  box-sizing: $val;
+}
+
+@mixin content-width ($width, $margin: 0) {
+  max-width: $width;
+  margin: $margin auto;
+}
+
+// Keyframes
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+// Placeholder
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+     @content;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+     @content;
+  }
+  &::-moz-placeholder {  /* Firefox 19+ */
+     @content;
+  }
+  &:-ms-input-placeholder {
+     @content;
+  }
+}
+
+// Selection
+@mixin selection() {
+  ::-moz-selection {
+    @content;
+  }
+  ::selection {
+    @content;
+  }
+}
+
+// Transition
+@mixin transition($values: all .2s linear) {
+  -webkit-transition: $values;
+  transition: $values;
+}
+
+// Transform
+@mixin transform ($values) {
+  -webkit-transform: $values;
+  -ms-transform: $values;
+  transform: $values;
+}
