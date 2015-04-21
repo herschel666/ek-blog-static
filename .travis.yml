@@ -4,7 +4,8 @@ rvm:
   - 2.0.0
 env:
   global:
-    - secure: Iqmw3A+2Yfm/osu4gJsIFYotYfBUp7sCOLove6fwttOCvsdHrKfyLsPkuxWGH/eWMc6f8Iflq5Y/o/bxfHOted95nUwProcRtHlCKgVXgys3olpNFk7oG2k3qJLt5BnJ7pbSs+FqXAT3JTXx4TQ9laWukLnmgKwiCobjQDJlXIY=
+    - secure: Fd1ihWNr7QReA3ZKBd/NPeqHr6NZdZID02RsXuEmWAc0Tl3b2cMwg4z+1hxdCremR8ph4PIr93D526Y4I8YdC4WZKnpIROsQ2g3rCiH+euLvEZHcxpIllDTickwbmpjSmJCkIY0m3RPmcPMFNWoxzQwFvoH/Jad08UHEIr66tWY=
+    - secure: crqQPXfHx+9/nMBHRjhwGqASQqNiIwHGVhU89YVdhnXH1VPNXmOsmvCF9Eupec5bTJpgeuxn0RDggbcDFN7ku4B0gB3z30vJtToEHmxuKF6YyNaz35aMMntp2CnXxACVEInztVcIxSNMdFLWLbvrvbD10O3HiYl+fqwbxD9EFRs=
 before_script:
   - npm install -g grunt-cli bower
   - npm install
