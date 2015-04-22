@@ -36,7 +36,10 @@
   });
 
   window.addEventListener('popstate', function (evnt) {
-    evnt.state && insertContent(evnt.state);
+    if ( evnt.state ) {
+      removeContentReadyClass();
+      setTimeout(insertContent.bind(null, evnt.state), 200);
+    }
   }, false);
 
   function insertContent(obj) {
@@ -49,11 +52,16 @@
     });
   }
 
+  function removeContentReadyClass() {
+    root.className = root.className.replace(/\b\s?is-content-ready\b/i, '');
+  }
+
   function onLinkClick() {
     var that = this;
     window.scrollTo(0, 0);
     requestAnimationFrame(function () {
-      root.className = root.className.replace(/\b\s?is-content-ready\b/i, '');
+      removeContentReadyClass();
+      document.getElementById(MAIN_TITLE_ID).textContent = '';
       fetchPage(that.pathname, function (response) {
         var dp = new DOMParser(),
             frag = dp.parseFromString(response, 'text/html'),

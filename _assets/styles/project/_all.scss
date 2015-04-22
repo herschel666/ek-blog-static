@@ -12,22 +12,23 @@
 
 /* General Content */
 
-.is-content-ready .ek-main-header {
-  height: 50vh;
-  background-color: #333;
-  transition: height .3s linear, background-color .3s linear;
-  @include transform (translateZ(0));
+.is-content-ready.is-content-ready .ek-main-header,
+.is-content-ready.is-content-ready .ek-main-header__link {
+  @include transform (translateY(0vh) translateZ(0));
   @include backface-visibility (hidden);
 }
 
-.is-content-ready .ek-main-header__inner {
+.is-content-ready.is-content-ready .ek-main-header {
+  background-color: #333;
+  transition: transform .3s linear, background-color .3s linear;
+}
+
+.is-content-ready.is-content-ready .ek-main-header__link {
   -webkit-transition: -webkit-transform .3s linear;
   transition: transform .3s linear;
-  @include transform (scale(.75) translateY(-70%) translateZ(0));
 }
 
 .ek-content {
-  min-height: 45vh;
   border-bottom: 1px solid #AAA;
   @include content-width (rem($site-max-width));
 }
@@ -199,6 +200,9 @@
 }
 
 @media screen and (min-width: rem(768)) {
+  .ek-main-header__inner {
+    padding-top: rem(32);
+  }
   .posts h1 {
     text-align: left;
   }

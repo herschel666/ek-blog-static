@@ -34,23 +34,30 @@ a:active {
 
 .ek-main-header {
   height: 100vh;
-  padding-top: rem(52);
-  margin-bottom: rem(20);
+  padding-top: 70vh;
+  margin-top: -70vh;
   overflow: hidden;
   background-color: black;
   border-bottom: 1px solid #222;
   text-align: center;
   text-shadow: 0 1px 1px black;
+  position: relative;
+  z-index: 100;
   @include box-sizing(border-box);
+  .js & {
+    @include transform (translateY(70vh) translateZ(0));
+  }
 }
 
 .ek-main-header__link {
-  position: absolute;
-  top: rem(16);
-  right: 0;
-  left: 0;
+  display: block;
+  padding-top: rem(16);
+  text-align: center;
   font-size: rem(32);
   line-height: 1;
+  .js & {
+    @include transform (translateY(-40vh) translateZ(0));
+  }
 
   &:hover,
   &:focus {
@@ -73,50 +80,31 @@ a:active {
 }
 
 .ek-main-header__inner {
-  padding: 0 rem(8);
-  position: relative;
-  top: 50%;
+  padding: rem(40) rem(8) 0 rem(8);
   @include box-sizing(border-box);
-  @include transform (translateY(-60%));
   @include content-width (rem($site-max-width));
 }
 
 .ek-main-header__headline {
+  margin: 0;
   color: white;
-  font-size: rem(24);
-
-  a {
-    font-size: rem(96);
-    @include transition(color .5s linear);
-
-    &:link,
-    &:visited {
-      color: white;
-    }
-
-    &:hover,
-    &:focus {
-      color: $blue;
-      text-decoration: none;
-    }
-
-  }
+  font-size: rem(20);
 
 }
 
 .ek-content {
-  padding: 0 rem(10);
+  min-height: 55vh;
+  padding: rem(32) rem(10) 0 rem(10);
 }
 
 @media screen and (min-width: rem(460)) {
   .ek-main-header__headline {
-    font-size: rem(32);
+    font-size: rem(24);
   }
 }
 
 @media screen and (min-width: rem(768)) {
   .ek-main-header__headline {
-    padding: 0;
-    font-size: rem(48);
+    font-size: rem(32);
   }
 }
