@@ -2,8 +2,10 @@
 module.exports = (grunt) ->
 
   grunt.loadNpmTasks "grunt-contrib-imagemin"
+  grunt.loadNpmTasks "grunt-contrib-copy"
 
   grunt.initConfig
+
     imagemin:
       options:
         optimizationLevel: 7
@@ -12,5 +14,14 @@ module.exports = (grunt) ->
           expand: true
           cwd: "userfiles/"
           src: ["**/*.{png,jpg,gif}"]
+          dest: "wp-content/"
+        }]
+
+    copy:
+      zip:
+        files: [{
+          expand: true,
+          cwd: "userfiles/"
+          src: ["**/*.zip"]
           dest: "wp-content/"
         }]

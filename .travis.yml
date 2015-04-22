@@ -11,6 +11,7 @@ before_script:
   - npm install
   - bower install
   - grunt imagemin
+  - grunt copy
 script: bundle exec glynn "./" "./_site" $FTP_USERNAME $FTP_PASSWORD
 branches:
   only:
