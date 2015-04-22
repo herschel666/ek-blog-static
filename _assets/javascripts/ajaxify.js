@@ -3,8 +3,7 @@
 
   "use strict";
 
-  var SITE_URL,
-      FEED_PATH,
+  var FEED_PATH,
       MAIN_CONTENT_ID,
       MAIN_TITLE_ID;
 
@@ -16,7 +15,6 @@
     return;
   }
 
-  SITE_URL = location.protocol + '//' + location.host;
   FEED_PATH = 'feed.xml';
   MAIN_CONTENT_ID = 'main-content';
   MAIN_TITLE_ID = 'main-title';
@@ -28,7 +26,7 @@
 
   document.addEventListener('click', function (evnt) {
     if ( !/^a$/i.test(evnt.target.nodeName) ||
-      evnt.target.href.indexOf(SITE_URL) === -1 ||
+      evnt.target.href.indexOf(location.host) === -1 ||
       evnt.target.href.indexOf(FEED_PATH) > -1 ) {
       return;
     }
