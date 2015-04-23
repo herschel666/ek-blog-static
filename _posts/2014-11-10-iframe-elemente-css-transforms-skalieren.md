@@ -16,9 +16,18 @@ Neulich hatte ich ein interessantes Problem: Ich musste ein `<iframe>`-Element i
 
 Glücklicherweise gibt es in modernen Browsern einen Weg, mit diesem Problem umzugehen. Mithilfe von CSS-Transforms kann der iFrame inklusive seines Inhalts runter skaliert werden wie ein Bild. Der folgende Codepen zeigt, wie das aussehen kann.
 
-<iframe id="cp_embed_pzAGo" src="//codepen.io/herschel666/embed/pzAGo?theme-id=0&amp;height=300&amp;default-tab=result&amp;slug-hash=pzAGo&amp;user=herschel666" scrolling="no" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;" frameborder="0" height="300"></iframe>
-
-([Link zur Demo-Seite][codepen])
+<p data-height="300" data-theme-id="14410" data-slug-hash="pzAGo" data-default-tab="result" data-user="herschel666" class='codepen'>
+  See the Pen [Scaling iFrames with CSS transforms][codepen] by Emanuel Kluge ([@herschel666][codepen_user]) on [CodePen][codepen_frontpage].
+</p>
+<script>
+  (function (doc, scriptElem) {
+    var elem = doc.createElement(scriptElem),
+        ref = doc.getElementsByTagName(scriptElem)[0];
+    elem.async = true; elem.type = 'text/javascript';
+    elem.src = '//assets.codepen.io/assets/embed/ei.js';
+    ref.parentNode.insertBefore(elem, ref);
+  })(document, 'script');
+</script>
 
 Um dieses Verhalten zu implementieren, benötigen wir als erstes einen Breakpoint, ab dem die Skalierung wirksam wird. Den Breakpoint kann man sehr leicht ermitteln, indem man das Browser-Fenster verkleinert. Sobald am iFrame ein horizontaler Scroll-Balken auftaucht, hat man den Breakpoint erreicht.
 
@@ -59,5 +68,7 @@ Setzt man diesen Versatz mithilfe von `transform: translateX(…);`, bleibt der 
 
 Das ist auch schon alles. Solltest du Fragen dazu haben, schreib einen Kommentar oder frag mich via Twitter: [@Herschel_R][twitter].
 
-[codepen]: http://codepen.io/herschel666/full/pzAGo
+[codepen]: http://codepen.io/herschel666/pen/pzAGo/
+[codepen_user]: http://codepen.io/herschel666
+[codepen_frontpage]: http://codepen.io
 [twitter]: https://twitter.com/Herschel_R
