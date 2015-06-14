@@ -20,6 +20,7 @@
       }
       i -= 1;
     }
+    return lazyLoad;
   }
 
   function getElems() {
@@ -38,7 +39,7 @@
   }
 
   getElems();
-  eventie.bind(window, 'scroll', lazyLoad);
+  eventie.bind(window, 'scroll', lazyLoad());
   PubSub.subscribe('ek.ajaxify.inserted', getElems);
 
 })();

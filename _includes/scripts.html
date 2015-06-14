@@ -1,35 +1,20 @@
 
 <script>
-
-  // loadCSS
-  {% asset vendor/loadcss/loadCSS.js %}
-
-  // Nanojax
+  // NanoJAX
   {% asset vendor/nanoajax/nanoajax.min.js %}
 
-  // Eventie
-  {% asset vendor/eventie/eventie.js %}
-
-  // PubSub
-  {% asset vendor/vanilla-pubsub/PubSub.js %}
-
-  // JSOnlyLightbox
-  {% asset vendor/jsonlylightbox/js/lightbox.js %}
+  // LoadCSS
+  {% asset vendor/loadcss/loadCSS.js %}
 
   // Actually loading CSS async'ly
   (function (stylesPath, loadCSS) {
     {% asset load-styles.js %}
   })('{% asset_path main.css %}', loadCSS);
 
-  // Ajaxify
-  {% asset ajaxify.js %}
-
-  // Lazy-Load
-  {% asset lazy-load.js %}
-
-  // Lightbox
-  {% asset lightbox.js %}
-
-  // Comments
-  {% asset comments.js %}
+  // Load main.js
+  (function (scriptPath, doc, elem) {
+    var e = doc.createElement(elem), r = doc.getElementsByTagName(elem)[0];
+    e.src = scriptPath; e.type = 'text/java' + elem; e.async = true;
+    r.parentNode.insertBefore(e, r);
+  })('{% asset_path main.js %}', document, 'script');
 </script>
