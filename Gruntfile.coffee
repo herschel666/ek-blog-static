@@ -25,3 +25,11 @@ module.exports = (grunt) ->
           src: ["**/*.zip"]
           dest: "wp-content/"
         }]
+      loadCSS:
+        src: "_assets/javascripts/vendor/loadcss/loadCSS.js"
+        dest: "_assets/javascripts/vendor/loadcss/loadCSS.js"
+        options:
+          process: (content) ->
+            content.replace "/*!", "/**"
+
+  grunt.registerTask "default", ["imagemin:all", "copy:zip"]

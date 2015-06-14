@@ -10,8 +10,7 @@ before_script:
   - npm install -g grunt-cli bower
   - npm install
   - bower install
-  - grunt imagemin
-  - grunt copy
+  - grunt
 script: bundle exec glynn "./" "./_site" $FTP_USERNAME $FTP_PASSWORD
 branches:
   only:
