@@ -29,6 +29,7 @@ exclude: [
   '_assets',
   '_posts.bak',
   'bower.json',
+  'package.json',
   'Gemfile',
   'Gemfile.lock',
   'Gruntfile.coffee',
