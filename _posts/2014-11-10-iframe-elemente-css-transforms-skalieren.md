@@ -16,14 +16,14 @@ Neulich hatte ich ein interessantes Problem: Ich musste ein `<iframe>`-Element i
 
 Glücklicherweise gibt es in modernen Browsern einen Weg, mit diesem Problem umzugehen. Mithilfe von CSS-Transforms kann der iFrame inklusive seines Inhalts runter skaliert werden wie ein Bild. Der folgende Codepen zeigt, wie das aussehen kann.
 
-<p data-height="300" data-theme-id="14410" data-slug-hash="pzAGo" data-default-tab="result" data-user="herschel666" class='codepen'>
+<p data-height="300" data-theme-id="14410" data-slug-hash="pzAGo" data-default-tab="result" data-user="herschel666" class="codepen">
   See the Pen [Scaling iFrames with CSS transforms][codepen] by Emanuel Kluge ([@herschel666][codepen_user]) on [CodePen][codepen_frontpage].
 </p>
 <script>
   (function (doc, scriptElem) {
     var elem = doc.createElement(scriptElem),
         ref = doc.getElementsByTagName(scriptElem)[0];
-    elem.async = true; elem.type = 'text/javascript';
+    elem.async = 1; elem.type = 'text/javascript';
     elem.src = '//assets.codepen.io/assets/embed/ei.js';
     ref.parentNode.insertBefore(elem, ref);
   })(document, 'script');

@@ -56,6 +56,11 @@
   display: block;
 }
 
+.ek-post__content,
+.codepen {
+  overflow: hidden;
+}
+
 .ek-post__content img {
   max-width: 100%;
   height: auto;
