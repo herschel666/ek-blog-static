@@ -1,0 +1,41 @@
+{% extends './layout.html' %}
+
+{% block content %}
+  <section class="posts">
+    {% for post in posts %}
+      <article class="ek-post" id="post-{{ post.id }}" itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+          <h1 itemprop="headline">
+            <a href="{{ metadata.baseurl }}/{{ post.permalink }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
+          </h1>
+        </header>
+        <div class="ek-post__content" itemprop="articleBody">
+          {{ post.contents | safe }}
+        </div>
+        <footer class="ek-post__footer">
+          <p class="ek-post__meta">
+            Geschrieben am <time datetime="{{ post.date | date('Y-m-d') }}" class="published updated"><meta itemprop="datePublished" content="{{ post.date | date('Y-m-d') }}">{{ post.date | date('d. m. Y') }}</time>
+          </p>
+        </footer>
+      </article>
+    {% endfor %}
+
+    {# <nav class="ek-meta-nav clearfix">
+      <div class="ek-meta-nav__link ek-meta-nav__link--prev">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}">
+            <span>&laquo;</span> Neuere Beiträge
+          </a>
+        {% endif %}
+      </div>
+      <div class="ek-meta-nav__link ek-meta-nav__link--next">
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}">
+            Ältere Beiträge <span>&raquo;</span>
+          </a>
+        {% endif %}
+      </div>
+    </nav> #}
+
+  </section>
+{% endblock %}

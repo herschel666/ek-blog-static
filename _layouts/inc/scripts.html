@@ -1,0 +1,12 @@
+
+<script src="/_assets/javascripts/vendor/nanoajax/nanoajax.min.js"></script>
+<script src="/_assets/javascripts/vendor/loadcss/loadCSS.js"></script>
+<script src="/_assets/javascripts/load-styles.js"></script>
+<script>
+  // Load main.js
+  (function (scriptPath, doc, elem) {
+    var e = doc.createElement(elem), r = doc.getElementsByTagName(elem)[0];
+    e.src = scriptPath; e.type = 'text/java' + elem; e.async = true;
+    r.parentNode.insertBefore(e, r);
+  })('/_assets/javascripts/main.js', document, 'script');
+</script>

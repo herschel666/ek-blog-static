@@ -1,14 +1,15 @@
----
-layout: default
----
-<div class="ek-post">
-  <article class="ek-post__content">
-    {{ content }}
-  </article>
-  <footer class="ek-post__footer ek-post__footer--detail">
-    <p class="ek-post__meta">Geschrieben am <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="published updated"><meta itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d.%-m.%Y" }}</time>
-  </footer>
-  <div class="ek-comments">
-    <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
+{% extends './layout.html' %}
+
+{% block content %}
+  <div class="ek-post">
+    <article class="ek-post__content">
+      {{ contents | safe }}
+    </article>
+    <footer class="ek-post__footer ek-post__footer--detail">
+      <p class="ek-post__meta">Geschrieben am <time datetime="{{ date | date('Y-m-d') }}" class="published updated"><meta itemprop="datePublished" content="{{ date | date('Y-m-d') }}">{{ date | date('d.m.Y') }}</time>
+    </footer>
+    <div class="ek-comments">
+      <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
+    </div>
   </div>
-</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de" itemscope itemtype="http://schema.org/WebPage">
+
+  {% include "./inc/head.html" %}
+
+  <body>
+
+    {% include "./inc/header.html" %}
+
+    <div class="ek-content clearfix">
+      {% block content %}{% endblock %}
+    </div>
+
+    {% include "./inc/footer.html" %}
+    {% include "./inc/scripts.html" %}
+
+  </body>
+
+</html>
