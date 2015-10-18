@@ -1,0 +1,26 @@
+{
+  "source": "./_content",
+  "destination": "./_site",
+  "metadata": {
+    "production": true,
+    "baseurl": "http://www.emanuel-kluge.de",
+    "title": "Emanuel Kluge",
+    "description": "Beiträge zum Thema JS, HTML, CSS & anderem Kram",
+    "google_plus": "Emanuel.Kluge"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "./_plugins/metadata": {},
+    "./_plugins/permalinks": {},
+    "./_plugins/layout": {},
+    "./_plugins/posts": {},
+    "metalsmith-sass": {
+      "outputStyle": "compressed"
+    },
+    "./_plugins/critical-css": {},
+    "metalsmith-templates": {
+      "engine": "swig",
+      "directory": "_layouts"
+    }
+  }
+}
