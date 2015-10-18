@@ -1,0 +1,14 @@
+{
+  "name": "nanoajax",
+  "homepage": "https://github.com/yanatan16/nanoajax",
+  "version": "0.2.4",
+  "_release": "0.2.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.4",
+    "commit": "b3f2fd59b415e2d6e7ddb05b1808d1d2e54aaf54"
+  },
+  "_source": "https://github.com/yanatan16/nanoajax.git",
+  "_target": "~0.2.4",
+  "_originalSource": "https://github.com/yanatan16/nanoajax.git"
+}

@@ -2,10 +2,11 @@
 "use strict";
 
 var STORAGE_PROP = 'ek-styles';
+var STYLES_PATH = '/_assets/styles/main.css';
 
 try {
   nanoajax.ajax({
-    url: stylesPath,
+    url: STYLES_PATH,
     method: 'HEAD'
   }, function (code, resp, xhr) {
     var lastModified = new Date(xhr.getResponseHeader('Last-Modified')),
@@ -13,14 +14,14 @@ try {
     if ( cached.lastModified && cached.lastModified >= lastModified ) {
       return insertStyles(cached.content);
     }
-    nanoajax.ajax(stylesPath, fetchFreshStyles);
+    nanoajax.ajax(STYLES_PATH, fetchFreshStyles);
   });
 } catch (e) {
   loadStyles();
 }
 
 function loadStyles() {
-  loadCSS(stylesPath, null, null, function () {
+  loadCSS(STYLES_PATH, null, null, function () {
     document.documentElement.className += ' is-content-ready';
   });
 }
