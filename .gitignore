@@ -132,4 +132,4 @@ _site/
 .env
 wp-content
 _posts.bak
-_assets/javascripts/vendor
+_content/_assets/javascripts/vendor

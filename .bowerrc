@@ -1,5 +1,5 @@
 {
-  "directory": "_assets/javascripts/vendor",
+  "directory": "_content/_assets/javascripts/vendor",
   "scripts": {
     "postinstall": "grunt copy:loadCSS"
   }
