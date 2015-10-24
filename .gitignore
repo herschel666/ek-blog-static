@@ -130,6 +130,4 @@ dist/
 .ruby-version
 _site/
 .env
-wp-content
 _posts.bak
-_content/_assets/javascripts/vendor
