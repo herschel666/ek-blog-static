@@ -1,6 +1,8 @@
 
 'use strict';
 
+var clone = require('lodash.clone');
+
 module.exports = function _posts() {
   return function (files, metalsmith, done) {
 
@@ -10,7 +12,7 @@ module.exports = function _posts() {
 
     Object.keys(files).forEach(function (file) {
       var data = files[file];
-      if ( files[file].template === 'post.html' ) {
+      if ( data.template === 'post.html' ) {
         posts.push(data);
       }
     });
@@ -25,11 +27,12 @@ module.exports = function _posts() {
         var page = Math.floor(index / 10);
         var pageIndex = page - 1;
         var permalink = 'page/' + page + '/index.html';
-        delete cur.metadata;
-        delete cur.template;
+        var post = clone(cur, true);
+        delete post.metadata;
+        delete post.template;
         if ( index < 10 ) {
           files['index.html'].posts = files['index.html'].posts || [];
-          files['index.html'].posts.push(cur);
+          files['index.html'].posts.push(post);
           return prev;
         }
         if ( !prev[pageIndex] ) {
@@ -42,7 +45,7 @@ module.exports = function _posts() {
           };
         }
         prev[pageIndex].permalink = permalink;
-        prev[pageIndex].posts.push(cur);
+        prev[pageIndex].posts.push(post);
         return prev;
       }, [])
       .forEach(function (page) {
