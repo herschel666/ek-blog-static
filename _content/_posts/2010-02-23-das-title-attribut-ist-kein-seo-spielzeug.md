@@ -40,8 +40,8 @@ Nun wird der eine oder die andere vielleicht einwerfen, dass man den Inhalt des 
 
 Als erstes zwei Beispiele, die mich überhaupt dazu bewogen haben, diesen Text zu schreiben:
 
-  1. [Thinking for a Living][http://www.thinkingforaliving.org/]
-  2. [Interview with Tom Hoops][http://photointerview.ru/2010/02/tom-hoops-the-dark-knight-of-the-portrait-photography/]
+  1. [Thinking for a Living](http://www.thinkingforaliving.org/)
+  2. [Interview with Tom Hoops](http://photointerview.ru/2010/02/tom-hoops-the-dark-knight-of-the-portrait-photography/)
 
 Bei beiden Seiten tauchen links und rechts des Inhalts zwei große Pfeile auf, die einen mehr oder weniger verfolgen und geklickt werden wollen, jedoch nicht preisgeben, welchen Zweck sie haben. Das ist äußerst irritierend und sollte auf jeden Fall vermieden werden. Das gleiche ist es mit Icons und Piktogrammen. Klar weiß ich, wenn ich ein kleines Stift-Symbol auf einer Seite sehe, dass da was bearbeitet werden kann. Doch was genau, sagt mir die Grafik nicht.
 

@@ -7,7 +7,7 @@ categories:
   - Fotografie
 ---
 
-["Last Suppers" ist eine Foto-Serie von James Reynolds][http://www.jwgreynolds.co.uk/index.php?/last-suppers/], welche die Henkersmahlzeiten von Todeskandidaten dokumentiert.
+["Last Suppers" ist eine Foto-Serie von James Reynolds](http://www.jwgreynolds.co.uk/index.php?/last-suppers/), welche die Henkersmahlzeiten von Todeskandidaten dokumentiert.
 
 {% img /wp-content/uploads/2009/10/last-supper-_-chicken-wings-mit-pommes-frites.jpg Last Supper &mdash; Chicken Wings mit Pommes-Frites %}
 
@@ -19,4 +19,4 @@ categories:
 
 Skurrile Sammlung. Nun weiß man zwar nicht, wie James Reynolds die Auswahl getroffen hat, es fällt jedoch auf, dass opulente Mahlzeiten, wie man es sich beim Stichwort Henkersmahlzeit immer in Gedanken ausmalt, nicht dabei sind.
 
-Gefunden bei [TheJunction][http://www.thejunction.de/impulse/2009/10/26/last-suppers-—-james-reynolds-0013422].
+Gefunden bei [TheJunction](http://www.thejunction.de/impulse/2009/10/26/last-suppers-—-james-reynolds-0013422).

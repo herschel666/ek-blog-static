@@ -12,9 +12,9 @@ categories:
   <iframe src="https://player.vimeo.com/video/6661895?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="660" height="446" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%"></iframe>
 </div>
 
-([direktThomYork][http://vimeo.com/6661895])
+([direktThomYork](http://vimeo.com/6661895))
 
-René von [Nerdcore][http://www.nerdcore.de/wp/2009/09/21/banksys-neueste-arbeiten-und-streetart-im-neuen-thom-yorke-video/] sagt:
+René von [Nerdcore](http://www.nerdcore.de/wp/2009/09/21/banksys-neueste-arbeiten-und-streetart-im-neuen-thom-yorke-video/) sagt:
 
 > Und dann hier noch das neue Video von Thom Yorke, das ziemlich wirr rumflackert und jede Menge Streetart und davon jede Menge von Banksy zeigt.
 

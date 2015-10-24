@@ -7,7 +7,7 @@ categories:
   - Überlegungen
 ---
 
-Wenn man sieht, mit wieviel [Inkompetenz und Selbstherrlichkeit][http://www.lawblog.de/index.php/archives/2009/08/02/die-meinungsfreiheit-als-sondermull/] die Politik an das Thema Internet ran geht, kann einem Angst und Bange werden.
+Wenn man sieht, mit wieviel [Inkompetenz und Selbstherrlichkeit](http://www.lawblog.de/index.php/archives/2009/08/02/die-meinungsfreiheit-als-sondermull/) die Politik an das Thema Internet ran geht, kann einem Angst und Bange werden.
 
 Andererseits ist es ziemlich amüsant zu sehen, wie sie mit der gleichen Imkompetenz und Selbstherrlichkeit an das Thema Netzwahlkampf rangeht. Natürlich bietet das Internet ganz neue Möglichkeiten und man kann sagen, dass es ein sehr schnelles Medium ist, was die Informationsverbreitung angeht. Allerdings wird dabei der Umstand etwas vernachlässigt, dass das Internet gleichermaßen ein entschleunigtes, bi-direktionales Dialog-Medium ist.
 
@@ -21,4 +21,4 @@ Vielen Dank für eure Aufmerksamkeit.
 
 **Weiterführende Links:**
 
- * [Aufstand der Netzbürger][http://www.spiegel.de/spiegel/0,1518,639993,00.html]
+ * [Aufstand der Netzbürger](http://www.spiegel.de/spiegel/0,1518,639993,00.html)

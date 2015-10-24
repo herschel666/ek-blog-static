@@ -10,7 +10,7 @@ categories:
 
 {% img /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg Weichgezeichnete Schrift mit CSS3 %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/weichgezeichnete-schrift-mit-css3/] | [Download][/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/weichgezeichnete-schrift-mit-css3/) | [Download](/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip)*
 
 Hier ein kleiner Trick, wie man mithilfe von **CSS3** "Blurred Typo", also weichgezeichnete Schrift, machen kann. Das ganze funktioniert durch den Umweg über die `text-shadow`-Funktion in CSS3.
 

@@ -10,13 +10,13 @@ categories:
 ---
 
 {% img /wp-content/uploads/2009/06/mail-210x140.jpg Mail %}  
-<small>*[The slot for the mail next to the front door also has the doorbell button on it.][http://www.flickr.com/photos/samuraislice/3317585107/] von [Samuraijohnny][http://www.flickr.com/photos/samuraislice/] unter [CC][http://creativecommons.org/licenses/by-sa/2.0/deed.en]-Lizenz*</small>
+<small>*[The slot for the mail next to the front door also has the doorbell button on it.](http://www.flickr.com/photos/samuraislice/3317585107/) von [Samuraijohnny](http://www.flickr.com/photos/samuraislice/) unter [CC](http://creativecommons.org/licenses/by-sa/2.0/deed.en)-Lizenz*</small>
 
 Kontaktformulare sind eine gute Sache, wenn sie funktionieren. Funktionieren sie nicht, werden sie schnell zu einem Quell steten Ärgernis. Dies ist der Fall, wenn man seine WordPress-Installation auf **goneo-Webspace** liegen hat. goneo hat nämlich im März sein System dergestalt modifiziert, dass Mail-Skripte nur noch mit einer bei goneo angelegten Email-Adresse funktionieren. Dies ist eine Reaktion auf das erhöhte Spam-Aufkommen.
 
-Möchte man dann - so wie ich - seinen Blog mit dem ganz ausgezeichneten PlugIn **["Contact Form 7"][http://ideasilo.wordpress.com/2007/04/30/contact-form-7/]** ausstatten, wird das nicht von Erfolg gekrönt sein, auch wenn bei Testläufen immer die Meldung "Email wurde erfolgreich versandt." erscheint. Man muss dem Skript also irgendwie seine bei goneo angemeldete Email-Adresse mitteilen.
+Möchte man dann - so wie ich - seinen Blog mit dem ganz ausgezeichneten PlugIn **["Contact Form 7"](http://ideasilo.wordpress.com/2007/04/30/contact-form-7/)** ausstatten, wird das nicht von Erfolg gekrönt sein, auch wenn bei Testläufen immer die Meldung "Email wurde erfolgreich versandt." erscheint. Man muss dem Skript also irgendwie seine bei goneo angemeldete Email-Adresse mitteilen.
 
-Dies kann man einerseits sicherlich im PlugIn selbst machen, was kompliziert ist und genau bis zum nächsten Update hält, oder man geht den Weg über die [php.ini][http://doc.claroline.net/de/index.php/Was_ist_eine_php.ini-Datei%3F_Wo_finde_ich_sie%3F]. Letztere Möglichkeit beschreibe ich im folgenden, **wobei [mod_rewrite][http://de.wikipedia.org/wiki/Rewrite-Engine] aktiviert sein muss**, was auf dem goneo-Webspace problemlos möglich und generell empfehlenswert ist.
+Dies kann man einerseits sicherlich im PlugIn selbst machen, was kompliziert ist und genau bis zum nächsten Update hält, oder man geht den Weg über die [php.ini](http://doc.claroline.net/de/index.php/Was_ist_eine_php.ini-Datei%3F_Wo_finde_ich_sie%3F). Letztere Möglichkeit beschreibe ich im folgenden, **wobei [mod_rewrite](http://de.wikipedia.org/wiki/Rewrite-Engine) aktiviert sein muss**, was auf dem goneo-Webspace problemlos möglich und generell empfehlenswert ist.
 
 Also dann: Nehmen wir an, unser Kontaktformular ist über den URL "http://www.meine-homepage.tld/kontaktformular/" im WordPress-System erreichbar. Dann müssen wir kurz gesagt nur eine Kopie der php.ini mit den entsprechenden Anpassungen in das Verzeichnis "/kontaktformular/" laden und schon funktioniert alles.
 
@@ -66,11 +66,11 @@ sendmail_path = /usr/local/sbin/sendmail -t -i -f mail@meine-homepage.tld
 
 Nun noch speichern und fertig ist die Laube!
 
-Ich möchte allerdings noch einmal darauf hinweisen, dass sich diese Anleitung nur auf WordPress-Installationen bezieht, die auf **goneo-Webspace** liegen. Solltet ihr bei einem anderen Hoster sein und Probleme haben, kann ich euch nur das [Support Forum][http://wordpress.org/tags/contact-form-7] nahe legen.
+Ich möchte allerdings noch einmal darauf hinweisen, dass sich diese Anleitung nur auf WordPress-Installationen bezieht, die auf **goneo-Webspace** liegen. Solltet ihr bei einem anderen Hoster sein und Probleme haben, kann ich euch nur das [Support Forum](http://wordpress.org/tags/contact-form-7) nahe legen.
 
 **Nachtrag:**
 
-Der Sicherheit halber solltet ihr zum Schluss noch den Zugriff auf auf die php.ini-Datei über den Browser per [.htaccess][http://de.wikipedia.org/wiki/Htaccess] unterbinden. Das geht mit folgendem Code-Schnipsel, der in besagte .htaccess-Datei eingetragen werden muss:
+Der Sicherheit halber solltet ihr zum Schluss noch den Zugriff auf auf die php.ini-Datei über den Browser per [.htaccess](http://de.wikipedia.org/wiki/Htaccess) unterbinden. Das geht mit folgendem Code-Schnipsel, der in besagte .htaccess-Datei eingetragen werden muss:
 
 ```ini
 <Files php.ini>
@@ -81,6 +81,6 @@ Der Sicherheit halber solltet ihr zum Schluss noch den Zugriff auf auf die php.i
 
 Weiterführende Links:
 
- * [Mailversand über den goneo Webserver mit PHP][http://wiki.goneo.de/doku.php?id=mailversand_php]
- * [Eigene php.ini Datei][http://wiki.goneo.de/doku.php?id=php.ini]
- * [Ein Kontaktformular für WordPress - Contact Form 7][http://pingalerie.de/ein-kontaktformular-fuer-wordpress-contact-form-7/]
+ * [Mailversand über den goneo Webserver mit PHP](http://wiki.goneo.de/doku.php?id=mailversand_php)
+ * [Eigene php.ini Datei](http://wiki.goneo.de/doku.php?id=php.ini)
+ * [Ein Kontaktformular für WordPress - Contact Form 7](http://pingalerie.de/ein-kontaktformular-fuer-wordpress-contact-form-7/)

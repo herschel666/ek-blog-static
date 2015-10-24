@@ -9,9 +9,9 @@ categories:
 ---
 
 {% img /wp-content/uploads/2013/07/anarchy-480x357.png Anarchy %}  
-<small>*Photo by [Kim Yokota][http://www.flickr.com/photos/29241352@N05/5226051142/] ([CC][http://creativecommons.org/licenses/by-nc-sa/2.0/])*</small>
+<small>*Photo by [Kim Yokota](http://www.flickr.com/photos/29241352@N05/5226051142/) ([CC](http://creativecommons.org/licenses/by-nc-sa/2.0/))*</small>
 
-Da ich mich gerade auf einem beliebten und nicht unumstrittenen Social Network über den [SpOn-Artikel "NSA-Spähprogramm: Friedrich fordert Deutsche zu mehr Datenschutz auf"][http://www.spiegel.de/politik/deutschland/friedrich-fordert-deutsche-zu-mehr-datenschutz-auf-a-911445.html] aufgeregt habe und das zu einem relativ umfangreichen Kommentar geführt hat, möchte ich die Gelegenheit nutzen, mich auch noch einmal öffentlich zu echauffieren.
+Da ich mich gerade auf einem beliebten und nicht unumstrittenen Social Network über den [SpOn-Artikel "NSA-Spähprogramm: Friedrich fordert Deutsche zu mehr Datenschutz auf"](http://www.spiegel.de/politik/deutschland/friedrich-fordert-deutsche-zu-mehr-datenschutz-auf-a-911445.html) aufgeregt habe und das zu einem relativ umfangreichen Kommentar geführt hat, möchte ich die Gelegenheit nutzen, mich auch noch einmal öffentlich zu echauffieren.
 
 Unser werter Bundesminister des Inneren, HP Friedrich, hängt nämlich der Meinung nach, die Lösung gegen Totalüberwachung à la NSA wären größere Bemühungen seitens der Bürger, sich selbst zu schützen. Nun bin ich sicherlich kein Anhänger des paternalistischen Staates. Ich erfreue mich meiner Mündigkeit und bin gerne bereit, die damit einhergehende Verantwortung für mich und mein Handeln zu tragen.
 

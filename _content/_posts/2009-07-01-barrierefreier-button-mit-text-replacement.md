@@ -12,7 +12,7 @@ Jeder kommt früher oder später beim Bauen einer Website in die Situation, dass
 
 {% img /wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png Barrierefreier Button mit Text Replacement %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/barrierefreier-button-mit-text-replacement/] | [Download][/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/barrierefreier-button-mit-text-replacement/) | [Download](/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement.zip)*
 
 Oftmals sieht man in diesen Fällen, dass das `value`-Attribut einfach leer gelassen wird. Dies ist allerdings eine wenig elegante Lösung, da Besucher mit Screenreader raten müssen, wofür der Button gedacht ist. Alternativ könnte man auf die Standard-Text-Replacement-Methode über `text-indent: -9999px;` zurückgreifen. Dies funktioniert auch ganz passabel in mordernen Browsern. IE6 und IE7 schieben dabei allerdings den kompletten Button nach links ins Abseits.
 
@@ -48,7 +48,7 @@ Diese Technik funktioniert einwandfrei im Firefox, in Safari sowie im IE6/7/8.
 
 Natürlich kann man den gleichen Effekt erzielen, indem man einem `<input>`-Element das Attribut `type="image"` gibt und die Grafik direkt im Quelltext einbaut. Allerdings hat man dann nicht die Möglichkeit, für den `:hover`- und `:active`>-Zustand eine alternative Grafik per CSS zuzuweisen, was der User Experience durchaus zuträglich ist.
 
-PS: Wie ihr `<input>`-Elemente im IE6 `:hover`-fähig macht, erfahrt ihr [hier][/html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen].
+PS: Wie ihr `<input>`-Elemente im IE6 `:hover`-fähig macht, erfahrt ihr [hier](/html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen).
 
 **Nachtrag:**
 

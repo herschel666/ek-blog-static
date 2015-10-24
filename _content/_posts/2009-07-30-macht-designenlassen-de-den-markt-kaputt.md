@@ -9,7 +9,7 @@ categories:
 
 {% img /wp-content/uploads/2009/07/designenlassen.jpg designenlassen.de %}
 
-[Auf dem Fontblog wurde heute ein offener Brief von Stefan Maas an den Online-Dienst DesignenLassen.de veröffentlicht][http://www.fontblog.de/offener-brief-an-designenlassen-de]. ([Link zu DesignenLassen.de][http://www.designenlassen.de/])
+[Auf dem Fontblog wurde heute ein offener Brief von Stefan Maas an den Online-Dienst DesignenLassen.de veröffentlicht](http://www.fontblog.de/offener-brief-an-designenlassen-de). ([Link zu DesignenLassen.de](http://www.designenlassen.de/))
 
 Es geht darum, dass das Geschäftsmodell die Preise kaputt mache und den Stand der Designer generell schädige. In den Kommentaren fallen Begriffe wie "Ausbeutung" und "moderne Sklaverei", und wenn man sich das Konzept von DesignenLassen.de anguckt, hat man das Gefühl, dass das gar nicht so weit hergeholt ist.
 

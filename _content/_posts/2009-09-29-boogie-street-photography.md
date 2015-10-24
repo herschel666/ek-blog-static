@@ -7,7 +7,7 @@ categories:
   - Fotografie
 ---
 
-[Boogie][http://www.artcoup.com/] stammt aus Belgrad, Serbien, und begann in den Neunzigern zu Zeiten des Bürgerkriegs damit Fotos von Menschen, Rebellion und Unruhen zu machen. Später ging er nach New York. Sein Portfolio umfasst viel Street Photography, schwarzweiß und mitunter gut gekörnt. Er war unterwegs in Mexico, Cuba und Istanbul, hat Skinheads, Crack-Süchtige und Gang-Mitglieder fotografiert.
+[Boogie](http://www.artcoup.com/) stammt aus Belgrad, Serbien, und begann in den Neunzigern zu Zeiten des Bürgerkriegs damit Fotos von Menschen, Rebellion und Unruhen zu machen. Später ging er nach New York. Sein Portfolio umfasst viel Street Photography, schwarzweiß und mitunter gut gekörnt. Er war unterwegs in Mexico, Cuba und Istanbul, hat Skinheads, Crack-Süchtige und Gang-Mitglieder fotografiert.
 
 {% img /wp-content/uploads/2009/09/gang-mitglied-mit-halbautomatischer-pistole.jpg Gang-Mitglied mit halbautomatischer Pistole %}  
 <small>*Gang-Mitglied aus Queens, New York mit seiner halbautomatischen Maschinenpistole.*</small>
@@ -20,4 +20,4 @@ categories:
 
 Das Portfolio ist wirklich beeindruckend. Ich kann jedem empfehlen, sich mal in Ruhe da durch zu klicken.
 
-(via [Artskills][http://www.artskills.net/archives/2684])
+(via [Artskills](http://www.artskills.net/archives/2684))

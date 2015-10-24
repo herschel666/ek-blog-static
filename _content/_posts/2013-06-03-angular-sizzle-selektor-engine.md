@@ -10,9 +10,9 @@ categories:
 
 {% img /wp-content/uploads/2013/06/sizzle-angular-480x95.gif Sizzle & Angular %}
 
-Wie weithin bekannt ist, benutzt [Angular][http://angularjs.org] für DOM-Angelegenheiten intern eine abgespeckte [jQuery][http://jquery.com]-Variante namens [jqLite][http://docs.angularjs.org/api/angular.element], auf die über `angular.element` zugegriffen werden kann. Diese bietet ein paar Methoden aus dem Bereich DOM-Manipulation und -Traversing, hat jedoch keine Selektor-Engine. Bindet man parallel zu Angular die jQuery-Library ein, wird jqLite durch jQuery ersetzt.
+Wie weithin bekannt ist, benutzt [Angular](http://angularjs.org) für DOM-Angelegenheiten intern eine abgespeckte [jQuery](http://jquery.com)-Variante namens [jqLite](http://docs.angularjs.org/api/angular.element), auf die über `angular.element` zugegriffen werden kann. Diese bietet ein paar Methoden aus dem Bereich DOM-Manipulation und -Traversing, hat jedoch keine Selektor-Engine. Bindet man parallel zu Angular die jQuery-Library ein, wird jqLite durch jQuery ersetzt.
 
-Angesichts der Tatsache, dass Angular eigene Services für AJAX und Animationen (Version >= 1.1.3 in Verbindung mit CSS3) bietet, ist der Einsatz von jQuery jedoch stark übertrieben. Zum Glück gibt es die von jQuery verwandte und von John Resig geschriebene Selektor-Engine [Sizzle][http://sizzlejs.com/] auch als Stand-alone-Version. Diese kann man alternativ einbinden. Man muss `angular.element` dann nur noch beibringen, sie auch zu verwenden.
+Angesichts der Tatsache, dass Angular eigene Services für AJAX und Animationen (Version >= 1.1.3 in Verbindung mit CSS3) bietet, ist der Einsatz von jQuery jedoch stark übertrieben. Zum Glück gibt es die von jQuery verwandte und von John Resig geschriebene Selektor-Engine [Sizzle](http://sizzlejs.com/) auch als Stand-alone-Version. Diese kann man alternativ einbinden. Man muss `angular.element` dann nur noch beibringen, sie auch zu verwenden.
 
 Das wiederum ist schnell erledigt.
 
@@ -37,7 +37,7 @@ angular.element = function (selector) {
 
 Fertig ist die Laube!
 
-Das ganze gibt es auch als Angular-Modul [Angular-Sizzle" auf Github][https://github.com/herschel666/angular-sizzle].
+Das ganze gibt es auch als Angular-Modul [Angular-Sizzle" auf Github](https://github.com/herschel666/angular-sizzle).
 
 Zum Schluss noch der Hinweis, dass der Einsatz von Angular-Sizzle gut überlegt sein will. Das Konzept von Angular sieht vor, dass tiefgreifendere Arbeiten am DOM über Direktiven erledigt werden. Diese bieten abstrahierte Element-, Klassen- und Attribut-Selektoren. Innerhalb der Direktiven gibt es automatisch eine jqLite-Instanz der relevanten DOM-Elemente, mit der man arbeiten kann.
 

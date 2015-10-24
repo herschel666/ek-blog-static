@@ -9,7 +9,7 @@ categories:
 
 {% img /wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png WordPress-Theme: "Blue and Grey" %}
 
-*[Demo][http://themeviewer.emanuel-kluge.de/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2010/03/blue-and-grey.zip]*
+*[Demo](http://themeviewer.emanuel-kluge.de/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2010/03/blue-and-grey.zip)*
 
 Endlich habe ich es geschafft - mein erstes, für die Veröffentlichung geeignetes WordPress-Theme ist fertig und hört auf den mehr oder minder sinnbehafteten Namen "Blue and Grey". Versionsnummer ist die 1.0.
 

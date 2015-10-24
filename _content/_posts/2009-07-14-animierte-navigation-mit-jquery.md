@@ -12,7 +12,7 @@ categories:
 
 {% img /wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png Animierte Navigation mit jQuery %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/animierte-navigation-mit-jquery/] | [Download][/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/animierte-navigation-mit-jquery/) | [Download](/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.zip)*
 
 Dies ist eine Reiter-Navigation, bei der der aktive Reiter am Inhaltsbereich andockt und die inaktiven Reiter darüber schweben. Sozusagen ein Wink mit dem Zaunpfahl für den User. Damit die Benutzung noch ein bißchen geschmeidiger ist, docken die inaktiven Reiter am Inhaltsbereich an, wenn man mit dem Cursor über sie fährt. Für den Effekt nutze ich die JavaScript-Library.
 

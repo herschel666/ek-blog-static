@@ -12,7 +12,7 @@ categories:
 
 {% img /wp-content/uploads/2010/01/hover-und-spotlight-effekt.jpg Hover-und-Spotlight-Effekt in Bildergalerie mit jQuery %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/hover-und-spotlight-effekt-in-bildergalerie-mit-jquery/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2010/01/hover-und-spotlight-effekt-in-bildergalerie-mit-jquery.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/hover-und-spotlight-effekt-in-bildergalerie-mit-jquery/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2010/01/hover-und-spotlight-effekt-in-bildergalerie-mit-jquery.zip)*
 
 Jede **Bildergalerie** gewinnt, wenn das Thumbnail-Bild unter dem Cursor durch einen **Hover-Effekt** hervorgehoben wird und der Nutzer weiß, was gerade Sache ist. Wenn die umliegenden Thumbnails dann auch noch durch einen **Spotlight-Effekt** abgedunkelt werden, ist es noch leichter für den Nutzer, sich auf das aktuelle Bild zu konzentrieren. Wie man das mit jQuery realisiert, zeige ich jetzt.
 

@@ -14,7 +14,7 @@ Heute möchte ich kurz zeigen, wie man mit etwas **HTML**, **CSS** und ein paar 
 
 {% img /wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif 8Bit-Style-Navigation mit Fly-Out-Menus %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/8bit-style-navigation-mit-fly-out-menus/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/8bit-style-navigation-mit-fly-out-menus/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.zip)*
 
 Beginnen wir wie gewohnt mit dem HTML-Teil:
 
@@ -252,7 +252,7 @@ body {
 }
 ```
 
-Als erstes binde ich den Pixel-Font "SilkScreen" von [Jason Kottke][http://www.kottke.org/plus/type/silkscreen/index.html] ein. Danach folgen die Angaben für die Navigation.
+Als erstes binde ich den Pixel-Font "SilkScreen" von [Jason Kottke](http://www.kottke.org/plus/type/silkscreen/index.html) ein. Danach folgen die Angaben für die Navigation.
 
 Interessant ist dabei, dass selbst das äußere Element `<div id="nav">` die Angabe `float: left` hat, damit es sich der Breite des Inhalts anpasst. Das kann zu Layout-Problemen führen, weshalb man im praktischen Einsatz darauf achten muss, das Element direkt unterhalb der Navigation mit einem `clear: left` zu versehen.
 
@@ -260,7 +260,7 @@ Des weiteren kann man sehen, wie die charakteristischen Ecken zustande kommen: D
 
 Ebenfalls erwähnenswert sind die Grafiken. Da diese nur 4x4 Pixel bzw. 4x6 Pixel groß sind, lohnt es sich, sie in Form von Data URIs einzubinden und so unnötige HTTP Requests zu sparen.
 
-[Bilder in Data URIs umwandeln könnt ihr übrigens mit diesem Online-Tool.][http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/]
+[Bilder in Data URIs umwandeln könnt ihr übrigens mit diesem Online-Tool.](http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/)
 
 Zum Schluss noch etwas jQuery um die Fly-Out-Menu-Funktionalität zu realisieren:
 

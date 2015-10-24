@@ -8,7 +8,7 @@ categories:
   - Überlegungen
 ---
 
-This is a rather unusual post as it is written in english. So don't be irritated by the fact that everything around here on this blog is in german. I switched the language for this post because I wanted to write a response to [an article on Smashing Magazine about Full-stack JavaScript][http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/]. Normally I would have just written a comment over at Smashing Magazine's, but this comment would have gotten way too long.
+This is a rather unusual post as it is written in english. So don't be irritated by the fact that everything around here on this blog is in german. I switched the language for this post because I wanted to write a response to [an article on Smashing Magazine about Full-stack JavaScript](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/). Normally I would have just written a comment over at Smashing Magazine's, but this comment would have gotten way too long.
 
 Also I want to shortly clarify my relationship to JavaScript. I'm working as a frontend developer for an agency in Hanover and I actually love writing JavaScript. In fact I have to love writing JavaScript as it is my main programming-/scripting-language. I'm quite familiar with PHP too and I wrote a little Python some time ago, but most of the time I'm writing JavaScript. And therefor I would get in real trouble if I started to hate writing it.
 

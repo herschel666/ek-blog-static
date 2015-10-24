@@ -13,7 +13,7 @@ categories:
 
 {% img /wp-content/uploads/2012/03/requirejs-autoloader.jpg Require.js-Autoloader %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/requirejs-autoloader/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2012/03/requirejs-autoloader.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/requirejs-autoloader/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2012/03/requirejs-autoloader.zip)*
 
 Wenn aus dem "One-Pager" ein "Multi-One-Pager" wird, kann sich ein gewisser Overhead bezüglich der geladenen Skripte einstellen. Angenommen man baut eine Web-App, die aus vielen Einzelseiten besteht, und jede Einzelseite stellt für sich einen "One-Pager" dar, welcher nicht zwingend beim Besuch eines Nutzers aufgerufen wird. Dann werden &mdash; benutzt man Require.js zum Laden der Skripte &mdash; beim initialen Aufruf der Web-App alle Skripte geladen, auch wenn sie letztlich gar nicht benötigt werden.
 
@@ -84,4 +84,4 @@ Beobachtet man den Inhalt des HTML-Head beim Durchklicken der Seite im Firebug b
 
 Ich hoffe, mein Versuch, den Sachverhalt hier darzustellen, ist einigermaßen verständlich. Über Anregungen, Anmerkungen und Fragen freue ich mich immer. Sollte diesbezüglich Bedarf bestehen, kann ich nur dazu ermutigen, regen Gebrauch von der Kommentar-Funktion zu machen.
 
-Außerdem sei darauf hingewiesen, dass der Code zur schnellen Inspektion auch [auf GitHub zur Verfügung steht][https://github.com/herschel666/Require.js-Autoloader].
+Außerdem sei darauf hingewiesen, dass der Code zur schnellen Inspektion auch [auf GitHub zur Verfügung steht](https://github.com/herschel666/Require.js-Autoloader).

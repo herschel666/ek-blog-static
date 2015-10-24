@@ -11,6 +11,6 @@ categories:
 
 Das ist definitiv die Nachricht des Tages! Genau genommen sogar der Woche. Eigentlich des Monats, doch der Oktober ist noch jung, weshalb ich mich hier jetzt nicht aus dem Fenster lehnen möchte. Aber kommen wir zur eigentlichen Neuigkeit:
 
-Auf [OrphanCameras.com][http://www.butkus.org/chinon/index.html] kann man die Handbücher für 3500 Kameras jedweder Marke kostenlos runterladen. Sogar für meine alte Contaflex (siehe oben), welche ich mal aus einer Laune heraus bei eBay geschossen habe, gibt es eine Anleitung.
+Auf [OrphanCameras.com](http://www.butkus.org/chinon/index.html) kann man die Handbücher für 3500 Kameras jedweder Marke kostenlos runterladen. Sogar für meine alte Contaflex (siehe oben), welche ich mal aus einer Laune heraus bei eBay geschossen habe, gibt es eine Anleitung.
 
-Vielen Dank an den [Stilpir.at][http://stilpir.at/3-500-handbucher-alter-kameras/] für diese Info.
+Vielen Dank an den [Stilpir.at](http://stilpir.at/3-500-handbucher-alter-kameras/) für diese Info.

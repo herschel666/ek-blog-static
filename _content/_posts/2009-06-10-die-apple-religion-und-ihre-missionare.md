@@ -9,7 +9,7 @@ categories:
 ---
 
 {% img /wp-content/uploads/2009/06/apple_sky-157x210.jpg apple in front of sky %}  
-<small>*[Autumn harvest][http://www.flickr.com/photos/28481088@N00/1902807789/] von [tanakawho][http://www.flickr.com/photos/28481088@N00/] unter [CC][http://creativecommons.org/licenses/by/2.0/deed.en]-Lizenz*</small>
+<small>*[Autumn harvest](http://www.flickr.com/photos/28481088@N00/1902807789/) von [tanakawho](http://www.flickr.com/photos/28481088@N00/) unter [CC](http://creativecommons.org/licenses/by/2.0/deed.en)-Lizenz*</small>
 
 Gestern haben wir zu zweit auf einen Bekannten, der nebenbei erwähnte, dass er einen neuen Laptop gebrauchen könnte, eingeredet und ihn mit allen Mittel davon zu überzeugen versucht, dass er etwas aus dem Hause Apple&trade; bräuchte. Zwischendurch habe ich mich zwar gefragt, was ich da mache, aber vom Missionieren habe ich trotzdem nicht abgelassen. Schlussendlich konnten wir ihn davon überzeugen, mal das MacBook Air zu testen, woraufhin mich ein Gefühl tiefer Zufriedenheit durchströmte.
 

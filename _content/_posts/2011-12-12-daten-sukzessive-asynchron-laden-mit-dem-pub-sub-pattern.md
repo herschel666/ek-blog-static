@@ -14,7 +14,7 @@ Derzeit bin ich mit dem Bau einer Web-App beschäftigt, die initial einen Haufen
   1. Es bestehen Abhängigkeiteen zwischen den zu ladenden Daten, so dass sicher gestellt sein muss, dass die Daten vom Typ A fertig geladen sind, bevor das Laden der Daten vom Typ B startet bzw. starten kann.
   2. Der Fortschritt des Ladevorgangs soll visualisiert werden, heißt, ist ein Ladevorgang abgeschlossen und es beginnt der nächste, soll ein Ladebalken vorwärts schreiten.
 
-Es wird ersichtlich, dass es nicht damit getan ist, die AJAX-Calls hintereinander aufzurufen. Vielmehr braucht es eine ordnende Instanz, die dafür sorgt, dass die Aufrufe sauber von einander getrennt ablaufen und zwischendurch Callback-Funktionen aufgerufen werden können. Um das zu erreichen, greife ich auf [das Pub-Sub-Pattern von Addy Osmani][http://msdn.microsoft.com/en-us/scriptjunkie/hh201955.aspx] zurück und kombiniere es mit einer *InitialDataloader*-Funktion. Die AJAX-Funktionalitäten hole ich mir von jQuery.
+Es wird ersichtlich, dass es nicht damit getan ist, die AJAX-Calls hintereinander aufzurufen. Vielmehr braucht es eine ordnende Instanz, die dafür sorgt, dass die Aufrufe sauber von einander getrennt ablaufen und zwischendurch Callback-Funktionen aufgerufen werden können. Um das zu erreichen, greife ich auf [das Pub-Sub-Pattern von Addy Osmani](http://msdn.microsoft.com/en-us/scriptjunkie/hh201955.aspx) zurück und kombiniere es mit einer *InitialDataloader*-Funktion. Die AJAX-Funktionalitäten hole ich mir von jQuery.
 
 Im folgenden das Pub-Sub-Pattern:
 
@@ -51,7 +51,7 @@ var mediator = (function () {
     len = mediator.channels[channel].length;
 
     for ( ; i<len; i += 1 ) {
-      subscription = mediator.channels[channel][i];
+      subscription = mediator.channels[channel](i);
       subscription.callback.apply((context || subscription.context), args);
     }
 

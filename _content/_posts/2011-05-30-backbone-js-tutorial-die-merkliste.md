@@ -13,11 +13,11 @@ categories:
 
 {% img /wp-content/uploads/2011/05/backbone.png Backbone.js-Tutorial %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/backbone-js-merkliste/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2011/05/backbone-js-merkliste.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/backbone-js-merkliste/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2011/05/backbone-js-merkliste.zip)*
 
-[Backbone.js][http://documentcloud.github.com/backbone/] ist ein interessantes JavaScript-MVC, mit welchem ich mich seit etwa zwei Wochen beschäftige. Und nun möchte ich ein kleines Tutorial dazu präsentieren - wir bauen uns ein Merkliste. Das Konzept sieht wie folgt aus: Ständig laufen einem tolle Filme, Bücher und Spiele über den Weg, die man unbedingt noch sehen/lesen/spielen möchte, aber man merkt sie sich nie. Das ist der Punkt, wo die Merkliste ins Spiel kommt.
+[Backbone.js](http://documentcloud.github.com/backbone/) ist ein interessantes JavaScript-MVC, mit welchem ich mich seit etwa zwei Wochen beschäftige. Und nun möchte ich ein kleines Tutorial dazu präsentieren - wir bauen uns ein Merkliste. Das Konzept sieht wie folgt aus: Ständig laufen einem tolle Filme, Bücher und Spiele über den Weg, die man unbedingt noch sehen/lesen/spielen möchte, aber man merkt sie sich nie. Das ist der Punkt, wo die Merkliste ins Spiel kommt.
 
-Bei der Programmierung habe ich mich stark an der [Todo List Application][http://documentcloud.github.com/backbone/examples/todos/index.html] orientiert, allerdings ist die Merkliste vom Funktionsumfang her schmaler, beinhaltet dafür aber einen Controller für das URL-Routing.
+Bei der Programmierung habe ich mich stark an der [Todo List Application](http://documentcloud.github.com/backbone/examples/todos/index.html) orientiert, allerdings ist die Merkliste vom Funktionsumfang her schmaler, beinhaltet dafür aber einen Controller für das URL-Routing.
 
 Aber nun zur Sache:
 
@@ -60,7 +60,7 @@ Als erstes benötigen wir den HTML-Teil.
 </html>
 ```
 
-Für die Merklisten-App benötigen wir [jQuery][http://jquery.com/], [Underscore.js][http://documentcloud.github.com/underscore/], [Backbone.js][http://documentcloud.github.com/backbone/] und die Backbone-Erweiterung [Local-Storage][http://documentcloud.github.com/backbone/docs/backbone-localstorage.html], damit die Einträge im Browser gespeichert werden können. Des weiteren werden die Container für die Navigation und die Listeneinträge, sowie das Eingabefeld angelegt. Schlussendlich brauchen wir noch zwei Templates - eins für die Navigation, eins für die Liste.
+Für die Merklisten-App benötigen wir [jQuery](http://jquery.com/), [Underscore.js](http://documentcloud.github.com/underscore/), [Backbone.js](http://documentcloud.github.com/backbone/) und die Backbone-Erweiterung [Local-Storage](http://documentcloud.github.com/backbone/docs/backbone-localstorage.html), damit die Einträge im Browser gespeichert werden können. Des weiteren werden die Container für die Navigation und die Listeneinträge, sowie das Eingabefeld angelegt. Schlussendlich brauchen wir noch zwei Templates - eins für die Navigation, eins für die Liste.
 
 Kommen wir nun zum JavaScript-Teil. Als erstes benötigen wir hier unser Model:
 

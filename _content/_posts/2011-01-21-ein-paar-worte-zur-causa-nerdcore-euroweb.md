@@ -19,7 +19,7 @@ Sei es, dass man eine entsprechende Erklärung auf der 404-Seite anzeigt oder di
 
 Wer übrigens nicht weiß, worum es bei der Causa "Nerdcore | Euroweb" genau geht, hat im folgenden ein paar Links mit weiterführenden Informationen:
 
-  * [Umfassender Artikel auf netzpolitik.org][http://www.netzpolitik.org/2011/euroweb-vs-nerdcore/]
-  * [Die juritische Sicht auf lawblog.de][http://www.lawblog.de/index.php/archives/2011/01/18/der-glaubiger-darf-er-muss-aber-nicht/]
-  * [Ein Kommentar zu den Reaktionen der Netzgemeinde bei off-the-record.de][http://off-the-record.de/2011/01/19/shitstorms-und-die-selbstgerechtigkeit-des-mob/]
-  * [Der Vollständigkeit halber das neue "Interweb-Domizil" von René Walter][http://www.crackajack.de/]
+  * [Umfassender Artikel auf netzpolitik.org](http://www.netzpolitik.org/2011/euroweb-vs-nerdcore/)
+  * [Die juritische Sicht auf lawblog.de](http://www.lawblog.de/index.php/archives/2011/01/18/der-glaubiger-darf-er-muss-aber-nicht/)
+  * [Ein Kommentar zu den Reaktionen der Netzgemeinde bei off-the-record.de](http://off-the-record.de/2011/01/19/shitstorms-und-die-selbstgerechtigkeit-des-mob/)
+  * [Der Vollständigkeit halber das neue "Interweb-Domizil" von René Walter](http://www.crackajack.de/)

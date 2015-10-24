@@ -9,7 +9,7 @@ categories:
   - WordPress
 ---
 
-Das Statistik-PlugIn [WordPress.com Stats][http://wordpress.org/extend/plugins/stats/] ist sicherlich praktisch. Vom Umfang her eher rudimentär, doch um schnell mal im Backend zu checken, was die Besucherzahl sagt, genau richtig.
+Das Statistik-PlugIn [WordPress.com Stats](http://wordpress.org/extend/plugins/stats/) ist sicherlich praktisch. Vom Umfang her eher rudimentär, doch um schnell mal im Backend zu checken, was die Besucherzahl sagt, genau richtig.
 
 Das einzige was störend sein kann, ist das kleine Smiley, das im Blog erscheint, wenn das PlugIn aktiv ist. Doch das wird man mit vier Zeilen CSS ganz schnell los:
 

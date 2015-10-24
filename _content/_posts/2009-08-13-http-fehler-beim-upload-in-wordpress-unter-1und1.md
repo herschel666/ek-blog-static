@@ -25,4 +25,4 @@ Solltet ihr noch keine .htaccess-Datei haben, legt lokal bei euch eine leere hta
 
 Nun sollte der "HTTP Fehler" Vergangenheit sein.
 
-Quelle: [1&1 Hilfe-Center][http://hilfe-center.1und1.de/hosting/scripte_datenbanken/php/18.html]
+Quelle: [1&1 Hilfe-Center](http://hilfe-center.1und1.de/hosting/scripte_datenbanken/php/18.html)

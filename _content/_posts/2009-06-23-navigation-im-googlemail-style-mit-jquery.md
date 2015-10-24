@@ -15,7 +15,7 @@ Wer Googlemail benutzt, kennt sicherlich die Buttons mit dem Grauverlauf und den
 
 {% img /wp-content/uploads/2009/06/googlemail-style-button-480x126.png navigation im googlemail-style %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/googlemail-style-button/index.html] | [Download][/wp-content/uploads/2009/06/googlemail-style-button.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/googlemail-style-button/index.html) | [Download](/wp-content/uploads/2009/06/googlemail-style-button.zip)*
 
 Und wenn wir schon beim Thema sind, fangen wir am besten mit dem Quelltext an. Dieser sieht so aus:
 
@@ -186,4 +186,4 @@ Zugegeben, das ist ein ganz schöner Rattenschwanz an CSS-Angaben, aber es lohnt
 
 Das ganze funktioniert im Internet Explorer 6-8, im Firefox, in Opera und in Safari. Andere Browser habe ich nicht getestet, allerdings sollte es mit keinem modernen Browser Probleme geben.
 
-Für Anmerkungen nutzt bitte die Kommentarfunktion, ich freue mich immer über Anregungen und konstruktive Kritik. Solltet ihr noch keine Erfahrungen mit jQuery gemacht haben, empfehle ich euch folgendes Einsteiger-Tutorial: [jQuery: Erste Schritte][http://www.professorweb.de/javascript-ajax/jquery-erste-schritte.html]
+Für Anmerkungen nutzt bitte die Kommentarfunktion, ich freue mich immer über Anregungen und konstruktive Kritik. Solltet ihr noch keine Erfahrungen mit jQuery gemacht haben, empfehle ich euch folgendes Einsteiger-Tutorial: [jQuery: Erste Schritte](http://www.professorweb.de/javascript-ajax/jquery-erste-schritte.html)

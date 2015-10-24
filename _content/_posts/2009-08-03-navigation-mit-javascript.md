@@ -11,7 +11,7 @@ categories:
 
 {% img /wp-content/uploads/2009/08/navigation-mit-javascript.jpg Navigation mit JavaScript %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/navigation-mit-javascript/] | [Download][/wp-content/uploads/2009/08/navigation-mit-javascript.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/navigation-mit-javascript/) | [Download](/wp-content/uploads/2009/08/navigation-mit-javascript.zip)*
 
 Dieses mal geht es um eine Navigation, bei der zu jedem Item eine kurze Info erscheint, wenn man mit dem Cursor rüberfährt. Dies wird regelmäßig von Usability-Experten empfohlen und kann durchaus Sinn machen. Meine Lösung baut wie gewohnt auf **HTML** und **CSS**, sowie **JavaScript** für den Hover-Effekt.
 

@@ -11,11 +11,11 @@ categories:
   {% img /wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik-162x210.jpg Gutes Essen braucht keine Gentechnik %}
 </a>
 
-Dieses Statement vom "[Informationsdienst Gentechnik][http://www.keine-gentechnik.de/]" ist wirklich seit langer, langer, langer Zeit das dämlichste, was mir unter gekommen ist. Ein paar Wohlstandskinder, die sich mit populistischen Mitteln gegen Gentechnik einsetzen, weil die Supermärkte ja auch ohne gut gefüllt sind. Jedenfalls in unseren Breiten, und das ist ja erstmal das wichtigste.
+Dieses Statement vom "[Informationsdienst Gentechnik](http://www.keine-gentechnik.de/)" ist wirklich seit langer, langer, langer Zeit das dämlichste, was mir unter gekommen ist. Ein paar Wohlstandskinder, die sich mit populistischen Mitteln gegen Gentechnik einsetzen, weil die Supermärkte ja auch ohne gut gefüllt sind. Jedenfalls in unseren Breiten, und das ist ja erstmal das wichtigste.
 
 Also: Menschen entwickeln Nutzpflanzen seit Jahrhunderten durch Auslese, Kreuzung und Veredelung weiter und passen sie so den umwelttechnischen Gegebenheiten an. Nur so ist sichergestellt, dass der jährliche Ernteertrag die Ernährung ermöglicht. Gentechnik macht nichts anderes auf einer neuen Ebene.
 
-Natürlich ist es fraglich, ob das so ein Segen ist, wie es manche Gentechnik-Befürworter darstellen. Inwiefern gentechnik-veränderte Pflanzen für Mensch und Tier gesundheitsschädlich sind, muss erst noch abschließend erforscht werden. Ebenfalls sind die so genannten [Terminator Seeds][http://en.wikipedia.org/wiki/Terminator_seeds] zu verurteilen, deren Früchte nicht als neues Saatgut verwandt werden können, wodurch die Farmer in die Abhängigkeit großer Saatgut-Konzerne getrieben werden.
+Natürlich ist es fraglich, ob das so ein Segen ist, wie es manche Gentechnik-Befürworter darstellen. Inwiefern gentechnik-veränderte Pflanzen für Mensch und Tier gesundheitsschädlich sind, muss erst noch abschließend erforscht werden. Ebenfalls sind die so genannten [Terminator Seeds](http://en.wikipedia.org/wiki/Terminator_seeds) zu verurteilen, deren Früchte nicht als neues Saatgut verwandt werden können, wodurch die Farmer in die Abhängigkeit großer Saatgut-Konzerne getrieben werden.
 
 Es ist wichtig, dass diesbezüglich ein transparenter Diskurs stattfindet, frei von Populismus und Ideologien. Scheißhausparolen wie "Keiner wills, keiner brauchts (Gentechnik; Anm. d. Autors)", kann sich der entsprechende Verfasser direkt ans Knie nageln. So ein dummes und erbärmliches Geschwätz ist wenig zielführend und sorgt &mdash; sicher nicht nur bei mir &mdash; für hohen Blutdruck. Und dass das auf lange Sicht nicht gesund ist, steht wohl außer Frage.
 
@@ -23,5 +23,5 @@ Zum Schluss noch ein paar Worte zur obigen Abbildung: Es handelt sich dabei um e
 
 Weiterführende Links:
 
- * [Risiken der Gentechnik][http://www.keine-gentechnik.de/argumente/risiken-der-gentechnik.html]
- * [Pflanzenzucht und Frömmigkeit][http://www.welt.de/print-welt/article200343/Pflanzenzucht-und-Froemmigkeit.html]
+ * [Risiken der Gentechnik](http://www.keine-gentechnik.de/argumente/risiken-der-gentechnik.html)
+ * [Pflanzenzucht und Frömmigkeit](http://www.welt.de/print-welt/article200343/Pflanzenzucht-und-Froemmigkeit.html)

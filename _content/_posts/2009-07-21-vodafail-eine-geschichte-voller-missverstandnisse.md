@@ -9,7 +9,7 @@ categories:
 
 {% img /wp-content/uploads/2009/07/vodafone_blog.jpg vodafone-blog %}
 
-Die ganze [#Vodafail/Twittermom-Geschichte][http://blog.vodafone.de/2009/07/20/twittermom/ "Vodafone-Blog: Twittermom"] ist eine Verkettung von Fehlern:
+Die ganze [#Vodafail/Twittermom-Geschichte](http://blog.vodafone.de/2009/07/20/twittermom/ "Vodafone-Blog: Twittermom") ist eine Verkettung von Fehlern:
 
   * Ute Hamelmann schreibt einen platten PR-Text und verhökert damit ihre Glaubwürdigkeit.
   * Die PR-Verantwortlichen bei Vodafone freuen sich über einen Beitrag von jemandem mit Authentizität, denken aber nicht darüber nach, wie der Text bei der Zielgruppe aufgenommen werden könnte und ob die Authentizität der Verfasserin auch im Beitrag transportiert wird.

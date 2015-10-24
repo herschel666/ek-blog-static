@@ -8,7 +8,7 @@ categories:
   - Überlegungen
 ---
 
-[Der Tagesspiegel hat einen interessanten Artikel zum Thema Urheberrecht veröffentlicht][http://www.tagesspiegel.de/kultur/Urheberrecht;art772,2835794], der [große][http://www.nerdcore.de/wp/2009/06/30/tagesspiegel-uber-copyright-wars/] [Resonanz][http://rz.koepke.net/?p=3218] [in der][http://netzpolitik.org/2009/urheberrecht-die-ideen-der-anderen/] [Blogosphäre][http://blog.zdf.de/3sat.neues/2009/06/urheberrecht-wohin-geht-die-re.html] hervorgerufen hat. Dabei geht es um die Frage, welche Zukunft Urheber- und Verwertungsrechte in den Zeiten der Digitalisierung noch haben. 
+[Der Tagesspiegel hat einen interessanten Artikel zum Thema Urheberrecht veröffentlicht](http://www.tagesspiegel.de/kultur/Urheberrecht;art772,2835794), der [große](http://www.nerdcore.de/wp/2009/06/30/tagesspiegel-uber-copyright-wars/) [Resonanz](http://rz.koepke.net/?p=3218) [in der](http://netzpolitik.org/2009/urheberrecht-die-ideen-der-anderen/) [Blogosphäre](http://blog.zdf.de/3sat.neues/2009/06/urheberrecht-wohin-geht-die-re.html) hervorgerufen hat. Dabei geht es um die Frage, welche Zukunft Urheber- und Verwertungsrechte in den Zeiten der Digitalisierung noch haben. 
 
 Natürlich wird auf die Unterhaltungsindustrie und jene Nutzer, die Musik, Filme, etc. illegal aus dem Internet herunterladen, eingegangen, aber am Rande tauchen auch die Künstler auf. Und um die geht es im Endeffekt. Zwar ist es schön, dass sowohl Industrie, als auch Konsumenten sich für das Wohl der Künstler einsetzen. Dass erste allerdings hauptsächlich ans Sichern ihrer Pfründe und letztere an eine Legitimation für ihr &mdash; noch? &mdash; illegales Verhalten denken, ist nicht sehr unwahrscheinlich.
 

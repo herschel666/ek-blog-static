@@ -12,11 +12,11 @@ categories:
 
 {% img /wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg Social Icon-Bar mit jQuery %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/social-icon-bar-mit-jquery/] | [Download][/wp-content/uploads/2009/09/social-icon-bar-mit-jquery.zip]*
+*[Demo](http://www.emanuel-kluge.de/demo/social-icon-bar-mit-jquery/) | [Download](/wp-content/uploads/2009/09/social-icon-bar-mit-jquery.zip)*
 
-Um meine Besucher auf meine diversen Profile in Social Communities aufmerksam zu machen, habe ich rechts in der Sidebar eine Social Icon Bar installiert, deren Icons bspw. auf Flickr und Xing verweisen. Und damit das nicht so langweilig ist, habe ich den Spaß noch ein wenig mit [jQuery][http://jquery.com/] befeuert.
+Um meine Besucher auf meine diversen Profile in Social Communities aufmerksam zu machen, habe ich rechts in der Sidebar eine Social Icon Bar installiert, deren Icons bspw. auf Flickr und Xing verweisen. Und damit das nicht so langweilig ist, habe ich den Spaß noch ein wenig mit [jQuery](http://jquery.com/) befeuert.
 
-Jetzt möchte ich kurz erläutern, wie das geht. Als erstes brauchen wir ein passendes Icon-Set. Ich habe für dieses Tutorial auf die [Matte Black Social Media Icons][http://webtreats.mysitemyway.com/154-matte-black-social-media-icons/] zurückgegriffen, da diese Sammlung u.a. auch ein Xing-Icon beinhaltet. Die Icons bringen wir nun in einem Grafik-Programm mithilfe des Crop-Tools auf die gewünschte Größe, in meinem Fall 40x40 Pixel.
+Jetzt möchte ich kurz erläutern, wie das geht. Als erstes brauchen wir ein passendes Icon-Set. Ich habe für dieses Tutorial auf die [Matte Black Social Media Icons](http://webtreats.mysitemyway.com/154-matte-black-social-media-icons/) zurückgegriffen, da diese Sammlung u.a. auch ein Xing-Icon beinhaltet. Die Icons bringen wir nun in einem Grafik-Programm mithilfe des Crop-Tools auf die gewünschte Größe, in meinem Fall 40x40 Pixel.
 
 {% img /wp-content/uploads/2009/10/icon-crop-tool.jpg Icon mit dem Crop-Tool auf die richtige Groesse bringen %}
 

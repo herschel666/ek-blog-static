@@ -12,7 +12,7 @@ categories:
 
 {% img /wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg Semi-transparente Navigation in WordPress mit CSS %}
 
-*[Demo][http://www.emanuel-kluge.de/demo/semi-transparente-navigation-in-wordpress-mit-css/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css]*
+*[Demo](http://www.emanuel-kluge.de/demo/semi-transparente-navigation-in-wordpress-mit-css/) | [Download](http://www.emanuel-kluge.de/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css)*
 
 Heute geht es um eine horizontale Reiternavigation in **WordPress**, deren inaktive Reiter dank **CSS** Browser-übergreifend semi-transparent sind. Dafür muss als erstes ein `<span>`-Element innerhalb der Listen-Elemente der Navigation eingefügt werden. Dies geschieht über folgenden PHP-Code-Schnipsel:
 

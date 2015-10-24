@@ -8,7 +8,7 @@ categories:
   - Off-Topic
 ---
 
-Gestern, am 31. August 2011, hat der [Stadtjugendring Hannover e.V.][http://www.sjr-hannover.de/] eine Informationsveranstaltung für Erstwähler ausgerichtet, um sie auf die anstehenden Kommunalwahlen am 11. September 2011 einzustimmen. Dafür wurde im Vorfeld ein Fragenkatalog erarbeitet und an die jugendpolitischen Sprecher der im Rat der Landeshauptstadt vertretenen Parteien versandt.
+Gestern, am 31. August 2011, hat der [Stadtjugendring Hannover e.V.](http://www.sjr-hannover.de/) eine Informationsveranstaltung für Erstwähler ausgerichtet, um sie auf die anstehenden Kommunalwahlen am 11. September 2011 einzustimmen. Dafür wurde im Vorfeld ein Fragenkatalog erarbeitet und an die jugendpolitischen Sprecher der im Rat der Landeshauptstadt vertretenen Parteien versandt.
 
 Die Fragen bezogen sich auf das Thema Jugendarbeit und gestalteten sich wie folgt:
 

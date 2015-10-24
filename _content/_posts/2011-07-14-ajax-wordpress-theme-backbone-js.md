@@ -14,11 +14,11 @@ categories:
 
 {% img /wp-content/uploads/2011/07/backboned-screenshot.gif &quot;Backboned&quot; &middot; AJAX-powered WordPress-Theme &middot; Screenshot %}
 
-[Download][http://www.emanuel-kluge.de/wp-content/uploads/2011/07/backboned.zip]
+[Download](http://www.emanuel-kluge.de/wp-content/uploads/2011/07/backboned.zip)
 
-**[Check out Backboned v2!!][https://github.com/herschel666/Backboned-v2]**
+**[Check out Backboned v2!!](https://github.com/herschel666/Backboned-v2)**
 
-Um mir gelegentlich etwas Zerstreuung vom Lernen zu geben, habe ich einen lange gehegten Plan in die Tat umgesetzt: Ein AJAX-betriebenes WordPress-Theme mit [Backbone.js][http://documentcloud.github.com/backbone/] zu bauen. Und zwar keine auf "Graceful Degradation" setzende Kompromisslösung. Alle Inhalte werden asynchron geladen und sind per Hashbang URIs ansteuerbar. Ein Blick in den Quellcode offenbart, was ich meine: Ein JSON-Objekt mit allen grundlegenden Daten, eine Handvoll jQuery-Templates und das HTML-Grundgerüst. Das war es an statischem Content - die Darstellung des Inhalts geschieht über Backbone.js.
+Um mir gelegentlich etwas Zerstreuung vom Lernen zu geben, habe ich einen lange gehegten Plan in die Tat umgesetzt: Ein AJAX-betriebenes WordPress-Theme mit [Backbone.js](http://documentcloud.github.com/backbone/) zu bauen. Und zwar keine auf "Graceful Degradation" setzende Kompromisslösung. Alle Inhalte werden asynchron geladen und sind per Hashbang URIs ansteuerbar. Ein Blick in den Quellcode offenbart, was ich meine: Ein JSON-Objekt mit allen grundlegenden Daten, eine Handvoll jQuery-Templates und das HTML-Grundgerüst. Das war es an statischem Content - die Darstellung des Inhalts geschieht über Backbone.js.
 
 Damit Suchmaschinen nicht außen vor bleiben und man sich nicht die Mühe machen muss, einen "Headless Browser"  à la HtmlUnit auf seinem Server zum laufen bringen zu müssen, werden grundsätzlich alle Inhalte als GET-Anfrage mit dem Parameter `_escaped_fragment_` abgehandelt - die Ausgabe variiert dann je nachdem zwischen statischem HTML oder einem nackten JSON-Objekt. So ist sichergestellt, dass die Inhalte trotzdem indiziert werden können. Die einzigen, die in die Röhre schauen, sind Besucher ohne JavaScript.
 
