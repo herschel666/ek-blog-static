@@ -4,9 +4,9 @@
     <!--[if IE]>
       <meta http-equiv="imagetoolbar" content="no">
     <![endif]-->
-    <style>{{ metadata.criticalCSS }}</style>
+    <style>{{ assets["critical.css"].content | safe }}</style>
     <noscript>
-      <link rel="stylesheet" href="_assets/styles/critical.css">
+      <link rel="stylesheet" href="/{{ assets['main.css'].path }}">
     </noscript>
     <meta name="author" content="Emanuel Kluge">
     <meta name="MSSmartTagsPreventParsing" content="true">
