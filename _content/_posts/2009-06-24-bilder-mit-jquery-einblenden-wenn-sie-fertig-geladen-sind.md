@@ -14,7 +14,7 @@ Das hier ist zwar eher im Bereich "Spielerei" anzusiedeln, aber dennoch recht n�
 
 {% img /wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png Bilder mit jQuery einblenden, wenn sie fertig geladen sind %}
 
-*[Demo][demo] | [Code auf GitHub][github]*
+*[Demo][http://www.emanuel-kluge.de/demo/bilder-einblenden-mit-jquery/index.html] | [Code auf GitHub][https://github.com/herschel666/demo-images-jquery]*
 
 <ins datetime="2013-09-21T16:01:16+00:00">**Update (21.9.2013):**</ins>
 
@@ -42,7 +42,7 @@ Im `<head>`-Bereich der Demo ist außerdem folgender, spannender Schnipsel zu fi
 <script>(function(e,c){e[c]=e[c]+' js'})(document.documentElement,'className')</script>
 ```
 
-Auf diese Weise ist gewährleistet, dass, wenn wir im Stylesheet die Klasse `.js` vor eine Angabe hängen, diese nur greift, wen JavaScript im Browser aktiviert ist. Das gleiche erreicht man übrigens, wenn man statt dieses Code-Schnipsels [Modernizr][modernizr] einbindet, was grundsätzlich zu empfehlen ist.
+Auf diese Weise ist gewährleistet, dass, wenn wir im Stylesheet die Klasse `.js` vor eine Angabe hängen, diese nur greift, wen JavaScript im Browser aktiviert ist. Das gleiche erreicht man übrigens, wenn man statt dieses Code-Schnipsels [Modernizr][http://modernizr.com] einbindet, was grundsätzlich zu empfehlen ist.
 
 Kommen wir nun zum JavaScript-/jQuery-Teil:
 
@@ -151,13 +151,8 @@ a:focus .image {
   }
 ```
 
-Das ganze kann man ganz nach seinen Bedürfnissen anpassen. Wichtig ist nur, dass die Angabe `position: relative;` bei der Klasse `.image-frame` stehen bleibt, damit sich das Ladebildchen innerhalb des dazu gehörenden `<a>`-Tags absolut positionieren lässt. Und falls euch das Ladebildchen nicht so zusagt, findet ihr auf [Ajaxload.info][ajaxload] Alternativen.
+Das ganze kann man ganz nach seinen Bedürfnissen anpassen. Wichtig ist nur, dass die Angabe `position: relative;` bei der Klasse `.image-frame` stehen bleibt, damit sich das Ladebildchen innerhalb des dazu gehörenden `<a>`-Tags absolut positionieren lässt. Und falls euch das Ladebildchen nicht so zusagt, findet ihr auf [Ajaxload.info][http://www.ajaxload.info/] Alternativen.
 
 Die Angabe `backface-visibility: hidden;` bei den `.image`-Elementen sorgt dafür, dass es beim Einblenden durch Transitions keine unschönen Nebeneffekte gibt, bspw. dass sich die Größe der Bilder kurzzeitig leicht ändert und dadurch das ganze Layout "zittert".
 
 Ansonsten bitte ich wie immer, bei Fragen oder Anregungen die Kommentarfunktion zu nutzen.
-
-[demo]: http://www.emanuel-kluge.de/demo/bilder-einblenden-mit-jquery/index.html
-[github]: https://github.com/herschel666/demo-images-jquery
-[modernizr]: http://modernizr.com
-[ajaxload]: http://www.ajaxload.info/

@@ -9,7 +9,7 @@ categories:
   - WordPress
 ---
 
-Normalerweise baut man die Navigation in WordPress mit der Funktion `wp_list_pages()` ([mehr auf WordPress Codex][template_tags]), so dass man im Backend Seiten anlegen kann und diese dynamisch im Frontend erscheinen. Dadurch ist es für Nutzer möglich, jedes beliebige Theme zu laden und trotzdem eine vollständige Navigation zu haben, ohne dass sie im Quelltext rumwerkeln müssen.
+Normalerweise baut man die Navigation in WordPress mit der Funktion `wp_list_pages()` ([mehr auf WordPress Codex][http://codex.wordpress.org/Template_Tags/wp_list_pages]), so dass man im Backend Seiten anlegen kann und diese dynamisch im Frontend erscheinen. Dadurch ist es für Nutzer möglich, jedes beliebige Theme zu laden und trotzdem eine vollständige Navigation zu haben, ohne dass sie im Quelltext rumwerkeln müssen.
 
 Allerdings sind damit eine Menge Abfragen verbunden, die die Ladezeit der Seite erhöhen. Baut man sich ein eigenes Theme und weiß, welche Seiten man anlegen möchte, sollte man ernsthaft darüber nachdenken, auf `wp_list_pages()` zu verzichten und die Navigation selbst in statischem HTML mithilfe einer ungeordneten Liste zu bauen.
 
@@ -56,7 +56,4 @@ Natürlich muss man noch den Normalzustand der Navigation definieren, aber anson
 
 **Weiterführende Links:**
 
- * [WordPress 2.8 and the `body_class()` Function][nathanrice]
-
-[template_tags]: http://codex.wordpress.org/Template_Tags/wp_list_pages
-[nathanrice]: http://www.nathanrice.net/blog/wordpress-2-8-and-the-body_class-function/
+ * [WordPress 2.8 and the `body_class()` Function][http://www.nathanrice.net/blog/wordpress-2-8-and-the-body_class-function/]

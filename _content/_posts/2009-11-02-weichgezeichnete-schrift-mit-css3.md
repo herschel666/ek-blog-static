@@ -10,7 +10,7 @@ categories:
 
 {% img /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg Weichgezeichnete Schrift mit CSS3 %}
 
-*[Demo][demo] | [Download][download]*
+*[Demo][http://www.emanuel-kluge.de/demo/weichgezeichnete-schrift-mit-css3/] | [Download][/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip]*
 
 Hier ein kleiner Trick, wie man mithilfe von **CSS3** "Blurred Typo", also weichgezeichnete Schrift, machen kann. Das ganze funktioniert durch den Umweg über die `text-shadow`-Funktion in CSS3.
 
@@ -69,6 +69,3 @@ Eine ungeordnete Liste, wie es sich für eine anständige Navigation gehört. Al
 Indem man die X- und Y-Offset-Werte bei `text-shadow` gleich Null setzt, entsteht anstelle des Schatten mehr so etwas wie ein äußeres Leuchten. Da dieses Leuchten die gleiche Farbe wie die Schrift hat, wirkt diese dadurch weichgezeichnet. Beim Überfahren mit der Maus verschwindet dieser Effekt und die Schrift erscheint klar.
 
 Da es sich um eine CSS3-Spielerei handelt, braucht man zur Darstellung einen modernen Browser, wie Safari 4, Firefox 3.5, Opera 10 oder Chrome. Im Internet Explorer geht das ganze wie erwartet nicht, was aber kein Weltuntergang ist, da die Funktion der Seite ansich dadurch nicht beeinträchtigt wird.
-
-[demo]: http://www.emanuel-kluge.de/demo/weichgezeichnete-schrift-mit-css3/
-[download]: /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip

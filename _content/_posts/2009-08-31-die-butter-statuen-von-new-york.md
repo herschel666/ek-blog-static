@@ -11,9 +11,6 @@ categories:
 
 Schon im letzten Jahr wurden auf der New York State Fair Skulpturen aus tausenden Pfund Butter ausgestellt. Menschen, Kühe, Kühlschränke und vieles mehr geformt aus dem leckeren Streichfett. Dagegen stinkt Margarine mal sowas von ab!
 
-[Zur Galerie auf syracuse.com][gallery]
+[Zur Galerie auf syracuse.com][http://photos.syracuse.com/gallery/4456/New%20York%20State%20Fair%20butter%20sculptures%20over%20the%20years]
 
-Gefunden bei [@petapixel][petapixel]
-
-[gallery]: http://photos.syracuse.com/gallery/4456/New%20York%20State%20Fair%20butter%20sculptures%20over%20the%20years
-[petapixel]: http://twitter.com/petapixel/status/3659073905
+Gefunden bei [@petapixel][http://twitter.com/petapixel/status/3659073905]

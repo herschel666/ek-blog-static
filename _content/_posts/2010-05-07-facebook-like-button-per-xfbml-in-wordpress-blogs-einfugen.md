@@ -61,18 +61,14 @@ Nun muss der Button selbst noch auf der Artikelseite eingebunden werden:
 <fb:like href="<?php the_permalink() ?>" layout="standard" show_faces="false" width="xyz" action="like" colorscheme="light" font="trebuchet ms"></fb:like>
 ```
 
-Dies tragt ihr in der "single.php" da ein, wo der Button hin soll. Die Attribute könnt ihr in gewissem Maße euren Präferenzen anpassen. [Hier erfahrt ihr, was möglich ist][like].
+Dies tragt ihr in der "single.php" da ein, wo der Button hin soll. Die Attribute könnt ihr in gewissem Maße euren Präferenzen anpassen. [Hier erfahrt ihr, was möglich ist][http://developers.facebook.com/docs/reference/plugins/like].
 
 Hat man das alles eingetragen, werden auf der Einzelansicht eines Artikels die nötigen Meta-Angaben angezeigt, das entsprechende JavaScript für den Like-Button wird eingebunden und der Like-Button selbst erscheint ober- oder unterhalb des Artikels &mdash; je nachdem, wo ihr ihn eingefügt habt.
 
-Sollte euch das alles zu tricky sein, könnt ihr entweder die `iframe`-Variante einbinden oder auf das WordPress-PlugIn von [Bottomless][bottomlessinc] zurückgreifen: [Like][like_plugin].
+Sollte euch das alles zu tricky sein, könnt ihr entweder die `iframe`-Variante einbinden oder auf das WordPress-PlugIn von [Bottomless][http://blog.bottomlessinc.com/] zurückgreifen: [Like][http://wordpress.org/extend/plugins/like/].
 
 Noch ein paar Worte zur Performance. Das Einbinden des Like-Button verlängert natürlich die Ladezeit eures Blogs. Allerdings sprechen wir hier von WordPress - hier ist es normal, dass auf jeder Seite drei zusätzliche JavaScript-Dateien und zwei zusätzliche Stylesheets eingebunden werden, weil irgendwo im Blog mal eine Lightbox aufgehen soll. Will heißen: Denkt darüber nach, ob ihr den Button einbauen wollt, aber bedenkt, dass euer System sowieso nicht Performance-optimiert ist.
 
 Es sei denn, ihr seid bezüglich dieses Themas sensibilisiert und habt entsprechende Schritte unternommen, eurem Blog auf die Sprünge zu helfen.
 
 Ansonsten wie immer: Bei Fragen schreibt einen Kommentar. Bei Gefallen bookmarkt den Artikel. Danke!
-
-[like]: http://developers.facebook.com/docs/reference/plugins/like
-[bottomlessinc]: http://blog.bottomlessinc.com/
-[like_plugin]: http://wordpress.org/extend/plugins/like/

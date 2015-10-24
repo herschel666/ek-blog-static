@@ -10,7 +10,7 @@ categories:
 
 {% img /wp-content/uploads/2012/11/requirejs.jpg Require.js %}
 
-Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js][requirejs], wobei man über das `data-main`-Attribut die Require.js-Konfiguration anspricht und innerhalb dieser mithilfe der `deps`-Eigenschaft die weiteren benötigten Dateien anmeldet. Hat man nun keine klassiche "Single-page App", sondern mehrere Unterseiten, auf welchen man unterschiedliche Funktionalitäten anbieten möchte, hat man drei Möglichkeiten:
+Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js][http://requirejs.org/], wobei man über das `data-main`-Attribut die Require.js-Konfiguration anspricht und innerhalb dieser mithilfe der `deps`-Eigenschaft die weiteren benötigten Dateien anmeldet. Hat man nun keine klassiche "Single-page App", sondern mehrere Unterseiten, auf welchen man unterschiedliche Funktionalitäten anbieten möchte, hat man drei Möglichkeiten:
 
   1. **Man verpackt alles in eine JavaScript-Datei und lädt diese auf allen Unterseiten**  
     Das ist ziemlich unelegant und läuft der Idee von Require.js, JavaScript zu modularisieren, zuwider. 
@@ -31,7 +31,7 @@ Folgendermaßen sieht das Einbinden von Require.js aus:
 
 require.js und die config.js werden geladen. Soweit, so normal. Außerdem wird mithilfe von `data-env` definiert, dass es sich bei der aktuellen Seite um die "About"-Seite handelt, und mithilfe von `data-devmode` weiterhin festgelegt, dass der Entwicklungsmodus aktiv ist. Bei letzterem muss man auf "0" und "1" zurückgreifen, da die Attributwerte immer als `String` ausgelesen werden. "true" und "false" wären als nicht-leere `Strings` also beide in der Abfrage `true`.
 
-"0" und "1" jedoch kann man über den Umweg `Integer` in `Boolean` umwandeln. Dies geht mithilfe von [Bitwise-Operatoren][mdn] folgendermaßen:
+"0" und "1" jedoch kann man über den Umweg `Integer` in `Boolean` umwandeln. Dies geht mithilfe von [Bitwise-Operatoren][https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators] folgendermaßen:
 
 ```javascript
 typeof ('1337' | 0) // => "number"
@@ -69,8 +69,4 @@ Das `devmode`-Flag wird fürs Cache-Busting genutzt. Ist die Seite im Dev-Mode, 
 
 Befindet sich die Seite nicht im Dev-Mode, wird der `urlArgs`-Eigenschaft ein leerer String übergeben und das Caching der Scripte findet statt.
 
-Dies sind nur zwei Möglichkeiten, Require.js mithilfe des `data`-Attributs flexibler zu nutzen. Im täglichen Entwicklerleben ergeben sich bestimmt noch weitere praktische Anwendungsfälle. Kann man zudem sicher sein, nur für moderne Browser zu entwickeln, muss man nicht umständlich mit `getAttribute` hantieren, sondern kann auf die [HTML5-data-Attribute-API][html5doctor] zurückgreifen. Anstatt `requirejsElem.getAttribute('data-env')` reicht in dem Fall `requirejsElem.dataset.env`.
-
-[requirejs]: http://requirejs.org/
-[mdn]: https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators
-[html5doctor]: http://html5doctor.com/html5-custom-data-attributes/
+Dies sind nur zwei Möglichkeiten, Require.js mithilfe des `data`-Attributs flexibler zu nutzen. Im täglichen Entwicklerleben ergeben sich bestimmt noch weitere praktische Anwendungsfälle. Kann man zudem sicher sein, nur für moderne Browser zu entwickeln, muss man nicht umständlich mit `getAttribute` hantieren, sondern kann auf die [HTML5-data-Attribute-API][http://html5doctor.com/html5-custom-data-attributes/] zurückgreifen. Anstatt `requirejsElem.getAttribute('data-env')` reicht in dem Fall `requirejsElem.dataset.env`.

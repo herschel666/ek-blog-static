@@ -13,16 +13,12 @@ categories:
 
 {% img /wp-content/uploads/2009/07/weezer-8bit-480x230.jpg weezer &mdash; 8-bit-album %}
 
-Von [Pterodactyl Squad][ptesquad] gibt es jetzt ein <span lang="en">Weezer-8-Bit-Album</span> zum kostenlosen Download.
+Von [Pterodactyl Squad][http://www.ptesquad.com/more/pte018.html] gibt es jetzt ein <span lang="en">Weezer-8-Bit-Album</span> zum kostenlosen Download.
 
-Zwar kann man [in den Kommentaren auf <span lang="en">Nerdcore</span> nachlesen][nerdcore_comment], dass es Menschen gibt, die 8-Bit-Musik anstrengend finden, aber ich möchte jetzt hier noch einmal darauf hinweisen:
+Zwar kann man [in den Kommentaren auf <span lang="en">Nerdcore</span> nachlesen][http://www.nerdcore.de/wp/2009/07/21/weezer-the-8-bit-album/#comment-883963], dass es Menschen gibt, die 8-Bit-Musik anstrengend finden, aber ich möchte jetzt hier noch einmal darauf hinweisen:
 
 "8Bit" bedeutet nicht automatisch Lo-Fi und über den musikalischen Gehalt sagt das Attribut auch nichts aus. Weezer-8-Bit geht auf jeden Fall steil. Ich habe es durchgehört und werde es zeitnah wieder tun. Das gleiche kann ich euch empfehlen.
 
-[Zum Download][ptesquad]
+[Zum Download][http://www.ptesquad.com/more/pte018.html]
 
-(via [Nerdcore][nerdcore])
-
-[ptesquad]: http://www.ptesquad.com/more/pte018.html
-[nerdcore_comment]: http://www.nerdcore.de/wp/2009/07/21/weezer-the-8-bit-album/#comment-883963
-[nerdcore]: http://www.nerdcore.de/wp/2009/07/21/weezer-the-8-bit-album/
+(via [Nerdcore][http://www.nerdcore.de/wp/2009/07/21/weezer-the-8-bit-album/])

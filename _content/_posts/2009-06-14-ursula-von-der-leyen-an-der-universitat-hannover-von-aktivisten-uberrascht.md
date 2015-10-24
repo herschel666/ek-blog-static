@@ -15,10 +15,6 @@ Frau von der Leyen hat sich daraufhin bemüßigt gefühlt, das Thema spontan in 
 
 Weiterführende Links:
 
- * [Fotos der Aktion][fefe]
- * [von der Leyens Rede][falsepositive]
- * [Aktionsseite zur Petition gegen Netzsperren][zeichne]
-
-[fefe]: http://blog.fefe.de/?ts=b4cad33f
-[falsepositive]: http://falsepositive.eu/archives/20090613-Zensursula/77
-[zeichne]: http://www.zeichne-mit.de/
+ * [Fotos der Aktion][http://blog.fefe.de/?ts=b4cad33f]
+ * [von der Leyens Rede][http://falsepositive.eu/archives/20090613-Zensursula/77]
+ * [Aktionsseite zur Petition gegen Netzsperren][http://www.zeichne-mit.de/]

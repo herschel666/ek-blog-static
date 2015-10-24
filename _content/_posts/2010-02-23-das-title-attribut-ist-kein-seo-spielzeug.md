@@ -40,8 +40,8 @@ Nun wird der eine oder die andere vielleicht einwerfen, dass man den Inhalt des 
 
 Als erstes zwei Beispiele, die mich überhaupt dazu bewogen haben, diesen Text zu schreiben:
 
-  1. [Thinking for a Living][thinkingforaliving]
-  2. [Interview with Tom Hoops][photointerview]
+  1. [Thinking for a Living][http://www.thinkingforaliving.org/]
+  2. [Interview with Tom Hoops][http://photointerview.ru/2010/02/tom-hoops-the-dark-knight-of-the-portrait-photography/]
 
 Bei beiden Seiten tauchen links und rechts des Inhalts zwei große Pfeile auf, die einen mehr oder weniger verfolgen und geklickt werden wollen, jedoch nicht preisgeben, welchen Zweck sie haben. Das ist äußerst irritierend und sollte auf jeden Fall vermieden werden. Das gleiche ist es mit Icons und Piktogrammen. Klar weiß ich, wenn ich ein kleines Stift-Symbol auf einer Seite sehe, dass da was bearbeitet werden kann. Doch was genau, sagt mir die Grafik nicht.
 
@@ -56,6 +56,3 @@ Allerdings muss man in diesem Fall etwas relativieren. In letzter Zeit haben sic
 Verzichtet man jedoch auf Image-Captions, sollte man den Besuchern, die noch über ihr Augenlicht verfügen, den Gefallen tun und das title-Attribut befüllen.
 
 So, das war mein kleiner Diskurs am Morgen. Ich freue mich natürlich immer auf andere Ansichten zu diesem Thema. Wenn ihr also bei dem ein oder anderen Punkt der Meinung seid, das stimmt so nicht, wie ich es geschrieben habe, dann nutzt die Kommentar-Funktion und ergreift das Wort.
-
-[thinkingforaliving]: http://www.thinkingforaliving.org/
-[photointerview]: http://photointerview.ru/2010/02/tom-hoops-the-dark-knight-of-the-portrait-photography/

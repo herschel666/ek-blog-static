@@ -12,7 +12,7 @@ categories:
 
 {% img /wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.jpg "Rising Curtain"-Effekt bei Input-Feldern mit jQuery %}
 
-*[Demo][demo] | [Download][download]*
+*[Demo][http://www.emanuel-kluge.de/demo/rising-curtain-effekt-bei-input-feldern-mit-jquery/] | [Download][http://www.emanuel-kluge.de/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.zip]*
 
 Heute möchte ich zeigen, wie man `<input>`-Felder in Formularen mithilfe des "Rising Curtain"-Effekts und jQuery interessanter gestalten kann, wenn der Fokus auf ihnen liegt. Alles was man dafür braucht, ist eine kleine Hintergrundgrafik mit einem Farbverlauf und ein paar Zeilen jQuery. Als erstes aber wenden wir uns dem HTML-Teil zu:
 
@@ -100,6 +100,3 @@ Liegt der Fokus auf einem `<input>`-Feld, bekommt das umschließende `<span>`-El
 So einfach ist das. Das ganze lässt sich natürlich auch bei einer `<textarea>` anwenden. Denkt aber daran, dass die Hintergrund-Grafik entsprechend groß sein muss. Auch ist es denkbar, die Hintergrund-Grafik ganz aus dem sichtbaren Bereich fahren zu lassen, so dass das `<input>`-Feld weiß wird. Der Kreativität sind kaum Grenzen gesetzt.
 
 Das war es auch schon. Bookmark setzen oder dieses Tutorial via twitter durch den Äther jagen, wird wie immer gern gesehen. Bei Fragen und Anregungen steht die Kommentar-Funktion zur Verfügung. Nichts neues also.
-
-[demo]: http://www.emanuel-kluge.de/demo/rising-curtain-effekt-bei-input-feldern-mit-jquery/
-[download]: http://www.emanuel-kluge.de/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.zip

@@ -23,6 +23,4 @@ Man kann den Namen des Autors aber ganz schnell mit folgendem PHP-Code hinzufüg
 
 Nun erscheint der Autorenname in der Klasse des Beitrags-`<div>` und man kann die einzelnen Posts ganz bequem per CSS optisch anpassen.
 
-(via [the english guy web design][theenglishguy])
-
-[theenglishguy]: http://www.theenglishguy.co.uk/2009/05/15/post_class-and-user-login/
+(via [the english guy web design][http://www.theenglishguy.co.uk/2009/05/15/post_class-and-user-login/])

@@ -7,7 +7,7 @@ categories:
   - Fotografie
 ---
 
-Hinter [De Vetpan Studios][devetpan] steckt Siebe Warmoeskerken, ein 21-jähriger Möbelbauer aus den Niederlanden. Seine Seite wurde neulich schon vom [Stylespion][stylespion] und auf dem [ignant-blog][ignant] erwähnt, doch sind die Fotos so gut, dass ich selbst auch darüber berichten muss.
+Hinter [De Vetpan Studios][http://www.devetpan.com/] steckt Siebe Warmoeskerken, ein 21-jähriger Möbelbauer aus den Niederlanden. Seine Seite wurde neulich schon vom [Stylespion][http://stylespion.de/warum-mich-siebe-warmoeskerkens-fotografieportfolio-gerade-32026-euro-gekostet-hat/4663/] und auf dem [ignant-blog][http://www.ignant.de/2009/09/17/cookie-splash/] erwähnt, doch sind die Fotos so gut, dass ich selbst auch darüber berichten muss.
 
 <a href="http://www.flickr.com/photos/swarmoeskerken/3643252591/">
   {% img /wp-content/uploads/2009/09/de-vetpan-studios_-_new-york.jpg De Vetpan Studios &mdash; New York %}
@@ -23,9 +23,4 @@ Siebe Warmoeskerken scheint es zu lieben, die Blende so weit wie möglich aufzur
   {% img /wp-content/uploads/2009/09/de-vetpan-studios_-_motorrad.jpg De Vetpan Studios &mdash; Motorrad %}
 </a>
 
-Unbedingt auch die anderen Fotos auf seiner Seite angucken. Und wem das nicht reicht, dem sei noch sein [Flickr-Stream][swarmoeskerken] ans Herz gelegt.
-
-[devetpan]: http://www.devetpan.com/
-[stylespion]: http://stylespion.de/warum-mich-siebe-warmoeskerkens-fotografieportfolio-gerade-32026-euro-gekostet-hat/4663/
-[ignant]: http://www.ignant.de/2009/09/17/cookie-splash/
-[swarmoeskerken]: http://www.flickr.com/photos/swarmoeskerken
+Unbedingt auch die anderen Fotos auf seiner Seite angucken. Und wem das nicht reicht, dem sei noch sein [Flickr-Stream][http://www.flickr.com/photos/swarmoeskerken] ans Herz gelegt.

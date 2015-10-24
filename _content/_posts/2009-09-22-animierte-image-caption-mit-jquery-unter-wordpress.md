@@ -13,7 +13,7 @@ categories:
 
 {% img /wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg Animierte Image-Caption mit jQuery unter WordPress %}
 
-*[Demo][demo] | [Code auf GitHub][github]*
+*[Demo][http://www.emanuel-kluge.de/demo/animierte-image-caption-mit-jquery-unter-wordpress/] | [Code auf GitHub][https://github.com/herschel666/animated-wordpress-image-captions]*
 
 <p><ins datetime="2013-10-15T20:31:38+00:00"><strong>Update 15.10.2013</strong></ins></p>
 <p><ins datetime="2013-10-15T20:31:38+00:00">Da der Code schon etwas in die Jahre gekommen ist, habe ich mir mal die Mühe gemacht, ihn zu aktualisieren. Hauptsächlich geändert ist die Art der Animation. Diese läuft nun über CSS-Transitions. Ältere Browser, wie bspw. der IE8, stellen also keine Animation dar. Die Grundfunktionalität ist jedoch auch ohne Animation gegeben.</ins></p>
@@ -115,6 +115,3 @@ Touch-Devices sind von dieser Spielerei ausgenommen. Mit der `each()`-Methode wi
 Daraufhin wird ein `hover()`-Binding aufgemacht. Fährt man mit dem Cursor über eine mage-Caption, bekommt das dazugehörige Bild einen negativen `margin-top`, der der Höhe der Beschreibung entspricht, so dass diese in den sichtbaren Bereich fährt. Verlässt man die mage-Caption wieder mit dem Cursor, wird der `margin-top` des Bildes wieder auf Null gesetzt.
 
 Das war es auch schon, fertig ist die animierte mage-Caption unter WordPress. Wobei natürlich nichts dagegen spricht, das ganze außerhalb von WordPress einzusetzen. Wie immer verweise ich an die Kommentar-Funktion, falls es Fragen gibt oder etwas nicht so funktioniert, wie es soll.
-
-[demo]: http://www.emanuel-kluge.de/demo/animierte-image-caption-mit-jquery-unter-wordpress/
-[github]: https://github.com/herschel666/animated-wordpress-image-captions

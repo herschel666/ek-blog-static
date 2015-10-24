@@ -8,9 +8,9 @@ categories:
   - PHP
 ---
 
-[{% img /wp-content/uploads/2012/07/github-_-herschel666-_-drop-a-site.jpg Github &mdash; herschel666 &mdash; Drop-a-Site %}][github]
+[{% img /wp-content/uploads/2012/07/github-_-herschel666-_-drop-a-site.jpg Github &mdash; herschel666 &mdash; Drop-a-Site %}][https://github.com/herschel666/Drop-a-Site]
 
-["Drop-a-Site" auf GitHub][github] | [Download][download]
+["Drop-a-Site" auf GitHub][https://github.com/herschel666/Drop-a-Site] | [Download][https://github.com/herschel666/Drop-a-Site/zipball/master]
 
 Hin und wieder kommt man in die Verlegenheit, eine kleine statische Seite aufsetzen zu müssen. Diese ist vom Umfang her so dünn, dass es sich nicht lohnt, eine Datenbank anzulegen und das Standard-CMS/-Framework der Wahl zu strapazieren. Andererseits hat man aber auch keine Lust, mit einem Haufen statischer HTML-Dateien rum zu hantieren.
 
@@ -60,7 +60,4 @@ Das ist auch schon alles, was es zu tun gibt, um "Drop-a-Site" in Betrieb zu neh
 
 Bei Fragen oder Anregungen sei an die Kommentarfunktion verwiesen.
 
-["Drop-a-Site" auf GitHub][github] | [Download][download]
-
-[github]: https://github.com/herschel666/Drop-a-Site
-[download]: https://github.com/herschel666/Drop-a-Site/zipball/master
+["Drop-a-Site" auf GitHub][https://github.com/herschel666/Drop-a-Site] | [Download][https://github.com/herschel666/Drop-a-Site/zipball/master]

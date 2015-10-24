@@ -8,7 +8,7 @@ categories:
   - Off-Topic
 ---
 
-Gestern, am 31. August 2011, hat der [Stadtjugendring Hannover e.V.][sjr] eine Informationsveranstaltung für Erstwähler ausgerichtet, um sie auf die anstehenden Kommunalwahlen am 11. September 2011 einzustimmen. Dafür wurde im Vorfeld ein Fragenkatalog erarbeitet und an die jugendpolitischen Sprecher der im Rat der Landeshauptstadt vertretenen Parteien versandt.
+Gestern, am 31. August 2011, hat der [Stadtjugendring Hannover e.V.][http://www.sjr-hannover.de/] eine Informationsveranstaltung für Erstwähler ausgerichtet, um sie auf die anstehenden Kommunalwahlen am 11. September 2011 einzustimmen. Dafür wurde im Vorfeld ein Fragenkatalog erarbeitet und an die jugendpolitischen Sprecher der im Rat der Landeshauptstadt vertretenen Parteien versandt.
 
 Die Fragen bezogen sich auf das Thema Jugendarbeit und gestalteten sich wie folgt:
 
@@ -52,5 +52,3 @@ Weiterhin den Ruf nach Unterstützung als niederes Belästigen herabzustufen ohn
 Dazu gehört auch, dass man sich mit Vertretern der Jugendarbeit auseinandersetzt und diesen nicht einfach auf den Weg mit gibt, sie sollen sich selber um ihren Kram kümmern und eben ihre Strukturen anpassen. Zwar sind Einrichtungen der Jugendarbeit in der Regel keine straff organisierten Wirtschaftsbetriebe. Allerdings ist es fraglich, inwiefern sie das sein müssen. Unabhängig davon ist Ignoranz gegenüber den Sorgen und Nöten dieser Einrichtungen ganz sicher nicht das adäquate Mittel.
 
 Deshalb zum Abschluss die Frage an Herrn Nils Tilsen: Was haben sie sich bei diesem Schreiben gedacht?
-
-[sjr]: http://www.sjr-hannover.de/

@@ -7,7 +7,7 @@ categories:
   - Überlegungen
 ---
 
-Wie man [SpOn heute entnehmen kann, fordert unsere Lieblingsfamilienministerin Frau von der Leyen Benimm-Regeln für das Internet][spiegel].
+Wie man [SpOn heute entnehmen kann, fordert unsere Lieblingsfamilienministerin Frau von der Leyen Benimm-Regeln für das Internet][http://www.spiegel.de/politik/deutschland/0,1518,637710,00.html].
 
 > Ziel es sei, gemeinsam mit den Verantwortlichen sowie jugendlichen Nutzern einen Verhaltenskodex zu entwickeln. Außerdem müssten minderjährige <span lang="en">Internet-Surfer</span> über die Gefahren des Netzes aufgeklärt werden - zum Beispiel darüber, "dass sich Erwachsene mit üblen Absichten in ihre Chats einschleichen können".
 
@@ -25,7 +25,4 @@ Trotzdem danke, Frau von der Leyen, für ihr hohles "Ich nehme die Herausforderu
 
 **Weiterführende Links:**
 
- * [Beitrag auf Heise][heise]
-
-[spiegel]: http://www.spiegel.de/politik/deutschland/0,1518,637710,00.html
-[heise]: http://www.heise.de/newsticker/Ursula-von-der-Leyen-fordert-Verhaltenskodex-fuers-Internet--/meldung/142457/
+ * [Beitrag auf Heise][http://www.heise.de/newsticker/Ursula-von-der-Leyen-fordert-Verhaltenskodex-fuers-Internet--/meldung/142457/]

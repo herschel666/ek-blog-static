@@ -12,7 +12,7 @@ categories:
 
 {% img /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg Der &quot;perfekte&quot; WordPress-Suchschlitz %}
 
-*[Demo][demo] | [Download][download]*
+*[Demo][http://www.emanuel-kluge.de/demo/der-perfekte-wordpress-suchschlitz/] | [Download][/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.zip]*
 
 Heute zeige ich, wie man mit etwas **JavaScript** und **PHP** einen benutzerfreundlichen Suchschlitz in WordPress baut. Das "perfekt" steht deshalb in Anführungszeichen, weil ich mir nicht anmaßen möchte, den wirklich perfekten Suchschlitz zu präsentieren. Möglicherweise würde es "advanced" eher treffen, aber wie klingt das denn bitte?!
 
@@ -39,7 +39,7 @@ Falls ihr in eurem WordPress-Theme keine "searchform.php" habt, legt sie einfach
 <?php include (TEMPLATEPATH . "/searchform.php"); ?>
 ```
 
-Ansonsten handelt es sich um ein simples Formular mit einem Eingabefeld und einem Submit-Button, welchen ich in ein `<div>`-Element eingebettet habe. Warum, könnt ihr in meinem [Beitrag zum "Barrierefreien Button mit Text Replacement"][barrierefreier] nachlesen.
+Ansonsten handelt es sich um ein simples Formular mit einem Eingabefeld und einem Submit-Button, welchen ich in ein `<div>`-Element eingebettet habe. Warum, könnt ihr in meinem [Beitrag zum "Barrierefreien Button mit Text Replacement"][/html-css/barrierefreier-button-mit-text-replacement/] nachlesen.
 
 Als nächstes kommt der JavaScript-Teil, der dafür sorgt, dass das Eingabefeld beim Draufklicken geleert wird und zusätzlich dem Submit-Button die Klasse `submit_active` anhängt, wodurch der Farbwechsel im Schein um den Suchschlitz realisiert wird.
 
@@ -150,7 +150,7 @@ Zum Schluss muss der ganze Spaß nur noch gestylet werden:
 
 Ich denke, die Style-Angaben sind relativ selbsterklärend. Die `<input>`-Elemente werden formatiert und die jeweiligen Zustände mit der entsprechenden Hintergrundgrafik versehen, wobei ich hier auf ein sog. CSS-Sprite zurückgreife, wodurch sich die Grafik-Datei nicht ändert, sondern nur deren Position. Außerdem nutze ich immer ein sog. CSS-Reset, wodurch u.a. das Element `<fieldset>` direkt am Anfang die Style-Angabe `border: 0` zugewiesen bekommt, weshalb das hier im CSS-Teil nicht auftaucht. Bedenkt das, wenn ihr die Sachen hier direkt aus dem Beitrag rauskopiert. Im Zweifelsfalle geht ihr auf Nummer sicher, wenn ihr die Beispiel-Dateien runterladet.
 
-Außerdem dürften der IE6 und der IE7 Probleme mit der Darstellung haben, da sie nicht mit den Pseudo-Klassen `:hover` und `:focus` um können, bzw. erstere nur bei Links anwenden können. Um diesen Makel zu beheben, [guckt nochmal in meinen Beitrag zum Thema <span lang="en">Internet Explorer 6</span>][explorer].
+Außerdem dürften der IE6 und der IE7 Probleme mit der Darstellung haben, da sie nicht mit den Pseudo-Klassen `:hover` und `:focus` um können, bzw. erstere nur bei Links anwenden können. Um diesen Makel zu beheben, [guckt nochmal in meinen Beitrag zum Thema <span lang="en">Internet Explorer 6</span>][/html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen].
 
 Ansonsten ist der "perfekte" Suchschlitz fertig. Ich habe noch die .psd-Datei für das CSS-Sprite in den Download-Ordner gepackt, damit ihr die Farben bei Bedarf anpassen könnt. Alternativ könnt ihr natürlich auch ein ganz eigenes Design machen.
 
@@ -159,8 +159,3 @@ In diesem Sinne viel Spaß damit und bei Fragen immer ran an die Kommentar-Funkt
 **Nachtrag:**
 
 Ich habe im JavaScript-Teil zwei Ergänzungen bei der `mFocus`- und der `mBlur`-Funktion vorgenommen. Bevor der Inhalt des Eingabefeldes automatisch gelöscht oder mit dem Wert "Suche …" aufgefüllt wird, findet eine Abfrage statt. So wird verhindert, dass das vom Nutzer eingegebene Suchwort nach dem Klicken außerhalb des Eingabefeldes verschwindet.
-
-[demo]: http://www.emanuel-kluge.de/demo/der-perfekte-wordpress-suchschlitz/
-[download]: /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.zip
-[barrierefreier]: /html-css/barrierefreier-button-mit-text-replacement/
-[explorer]: /html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen

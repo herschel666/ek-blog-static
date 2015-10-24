@@ -7,7 +7,7 @@ categories:
   - Überlegungen
 ---
 
-Wie [Spiegel Online][spon] heute berichtet, wurde zum Schutz des durch die Taliban in Afghanistan entführten NY Times-Reporters David Rohde ein umfassendes Zensur-Programm in die Wege geleitet. So wurden u.a. alle großen Büros der NY Times angewiesen, nicht über diesen Vorfall zu berichten.
+Wie [Spiegel Online][http://www.spiegel.de/netzwelt/web/0,1518,633181,00.html] heute berichtet, wurde zum Schutz des durch die Taliban in Afghanistan entführten NY Times-Reporters David Rohde ein umfassendes Zensur-Programm in die Wege geleitet. So wurden u.a. alle großen Büros der NY Times angewiesen, nicht über diesen Vorfall zu berichten.
 
 Ebenfalls änderten Kollegen von David Rohde dessen Wikipedia-Eintrag, stutzten Informationen über Christentum-bezogenens Engagement und hoben Islam-bezogenes Engagement hervor. Alles um ihn in einem guten Licht dastehen zu lassen und seinen Marktwert nicht unnötig zu erhöhen. Natürlich regte das den Ärger der Wikipedia-Community, doch Wikipedia-Gründer Jimmy Wales höchstselbst griff ein, um die Maskerade bis zur Befreiung des entführten Reporters aufrecht zu erhalten.
 
@@ -21,8 +21,5 @@ Dies soll natürlich nicht heißen, dass ich professionelle, redaktionelle Inhal
 
 Weiterführende Links:
 
- * [Der Schweigepakt][spon]
- * [Wiki][wikipedia]
-
-[spon]: http://www.spiegel.de/netzwelt/web/0,1518,633181,00.html
-[wikipedia]: http://de.wikipedia.org/wiki/Wiki
+ * [Der Schweigepakt][http://www.spiegel.de/netzwelt/web/0,1518,633181,00.html]
+ * [Wiki][http://de.wikipedia.org/wiki/Wiki]

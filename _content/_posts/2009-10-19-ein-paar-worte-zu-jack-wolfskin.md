@@ -9,11 +9,11 @@ categories:
 ---
 
 {% img /wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg Jack Wolfskin-Logo entfernen %}  
-<small>*[Removing Jack Wolfskin Logo][intro_img_source] unter [Creative Commons][intro_img_license]-Lizenz*</small>
+<small>*[Removing Jack Wolfskin Logo][http://www.flickr.com/photos/35378891@N06/4019431791/] unter [Creative Commons][http://creativecommons.org/licenses/by/2.0/deed.en]-Lizenz*</small>
 
 Seit ein paar Tagen versucht mal wieder eine Firma ihre Marke zu schützen und reitet sich damit nach allen Regeln der Kunst in die Scheiße. Wer das mediale Echo verfolgt hat oder sich nicht zu schade war, den Titel dieses Beitrags zu lesen, weiß um welche Firma es geht: Jack Wolfskin. Dieses Unternehmen produziert Lifestyle-Outdoor-Klamotten größtenteils für Leute, die mit Wetter in Berührung kommen, wenn die Tiefgarage voll ist und sie vor dem Haus parken müssen.
 
-Aber darum geht es nicht, sondern darum, dass Menschen abgemahnt werden, die bei [Dawanda][dawanda] Produkte verkaufen, auf die bspw. eine Pfote gestickt ist, die der Jack-Wolfskin-Pfote ähnelt. Das ganze geht natürlich mit Gebühren von knapp unter 1000 Euro einher. Nun hat Jack Wolfskin eine Stellungnahme veröffentlicht.
+Aber darum geht es nicht, sondern darum, dass Menschen abgemahnt werden, die bei [Dawanda][http://de.dawanda.com/] Produkte verkaufen, auf die bspw. eine Pfote gestickt ist, die der Jack-Wolfskin-Pfote ähnelt. Das ganze geht natürlich mit Gebühren von knapp unter 1000 Euro einher. Nun hat Jack Wolfskin eine Stellungnahme veröffentlicht.
 
 Deren Kernaussagen lassen sich wie folgt zusammenfassen:
 
@@ -25,10 +25,10 @@ Dazu fällt mir ein, dass ich einmal Post von der Rechtsabteilung von Nivea beka
 
 Mehr zum Thema:
 
-  * [Jack Wolfskin eröffnet den Abmahn-Herbst!][werbeblogger]
-  * [Jack Wolfskin Stellungnahme][stellungnahme]
-  * [Jack Wolfskin mahnt Bastler wegen Tatzen-Mustern ab][spiegel]
-  * [Wikpedia-Artikel über Jack Wolfskin mit interessanten Informationen zum Tatzen-Streit mit der taz][wikipedia]
+  * [Jack Wolfskin eröffnet den Abmahn-Herbst!][http://www.werbeblogger.de/2009/10/17/jack-wolfskin-eroeffnet-den-abmahn-herbst/]
+  * [Jack Wolfskin Stellungnahme][http://www.werbeblogger.de/2009/10/19/jack-wolfskin-stellungnahme/]
+  * [Jack Wolfskin mahnt Bastler wegen Tatzen-Mustern ab][http://www.spiegel.de/netzwelt/netzpolitik/0,1518,655890,00.html]
+  * [Wikpedia-Artikel über Jack Wolfskin mit interessanten Informationen zum Tatzen-Streit mit der taz][http://de.wikipedia.org/wiki/Jack_Wolfskin]
 
 <ins datetime="2013-03-29T12:29:52+00:00"><br /> <strong>Update 29. März 2013:</strong></p> 
 
@@ -56,11 +56,3 @@ Mehr zum Thema:
   </p>
 
 </ins>
-
-[intro_img_source]: http://www.flickr.com/photos/35378891@N06/4019431791/
-[intro_img_license]: http://creativecommons.org/licenses/by/2.0/deed.en
-[dawanda]: http://de.dawanda.com/
-[werbeblogger]: http://www.werbeblogger.de/2009/10/17/jack-wolfskin-eroeffnet-den-abmahn-herbst/
-[stellungnahme]: http://www.werbeblogger.de/2009/10/19/jack-wolfskin-stellungnahme/
-[spiegel]: http://www.spiegel.de/netzwelt/netzpolitik/0,1518,655890,00.html
-[wikipedia]: http://de.wikipedia.org/wiki/Jack_Wolfskin

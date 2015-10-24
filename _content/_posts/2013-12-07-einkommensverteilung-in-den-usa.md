@@ -19,9 +19,6 @@ Dabei ist das IMHO blütenreines Konfliktpotenzial. Und je eher man da entgegens
 
 Wir müssen auch gar nicht groß über den Atlantik glotzen. Das gleiche Problem (in weniger extremer Form) haben wir auch bei uns. Und die klassische Ignoranz gegenüber historischen Erfahrungen ist auf dieser Welt so gleichverteilt, wie es Geld selbst im Muster-Sozialismus nicht sein könnte. Von daher ist eine Besserung in nächster Zeit nicht zu erwarten. Um des Friedens Willen wäre es jedoch wünschenswert.
 
-Link: [www.utrend.tv/v/9-out-of-10-americans-are-completely-wrong-about-this-mind-blowing-fact/][source]
+Link: [www.utrend.tv/v/9-out-of-10-americans-are-completely-wrong-about-this-mind-blowing-fact/][http://www.utrend.tv/v/9-out-of-10-americans-are-completely-wrong-about-this-mind-blowing-fact/]
 
-(via [@anked][via])
-
-[source]: http://www.utrend.tv/v/9-out-of-10-americans-are-completely-wrong-about-this-mind-blowing-fact/
-[via]: https://twitter.com/anked/status/409088318115020802
+(via [@anked][https://twitter.com/anked/status/409088318115020802])

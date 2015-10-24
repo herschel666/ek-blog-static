@@ -12,39 +12,39 @@ Der IE6 kann zurecht als Schmutzfleck auf dem Browser-Markt bezeichnet werden. U
 
 Jedenfalls nicht, solange man "nur" einfache Seiten in HTML/CSS schreibt. Es gibt lediglich ein paar Dinge, auf die man achten muss, und schon sieht die Welt gleich viel freundlicher aus.
 
- 1. [Weg mit der XML-Deklaration!][1]
- 2. [Den "Double-Margin-Bug" unterbinden][2]
- 3. [Das "`hasLayout`-Konzept" berücksichtigen][3]
- 4. [`<hr>`-Tags immer umschließen][4]
- 5. [`text-align: center` für zentrierte Layouts][5]
- 6. [Die :Hover-Pseudoklasse für alle Elemente verfügbar machen][6]
- 7. [Finger weg von Attribut-Selektoren][7]
- 8. [Vorsicht bei Hover-Effekten in Verbindung mit Hintergrund-Grafiken][8]
- 9. ["iepngfix" für PNGs mit Alpha-Transparenz][9]
- 10. [Fazit][10]
+ 1. [Weg mit der XML-Deklaration!][#weg-mit-derxml-deklaration]
+ 2. [Den "Double-Margin-Bug" unterbinden][#den-double-margin-bug-unterbinden]
+ 3. [Das "`hasLayout`-Konzept" berücksichtigen][#das-haslayout-konzept-beruecksichtigen]
+ 4. [`<hr>`-Tags immer umschließen][#hr-tags-immer-umschliessen]
+ 5. [`text-align: center` für zentrierte Layouts][#text-align-center-fuer-zentriert-layouts]
+ 6. [Die :Hover-Pseudoklasse für alle Elemente verfügbar machen][#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen]
+ 7. [Finger weg von Attribut-Selektoren][#finger-weg-von-attribut-selektoren]
+ 8. [Vorsicht bei Hover-Effekten in Verbindung mit Hintergrund-Grafiken][#vorsicht-bei-hover-effekten-in-verbindung-mit-hintergrund-grafiken]
+ 9. ["iepngfix" für PNGs mit Alpha-Transparenz][#iepngfix-fuer-png-mit-alpha-transparenz]
+ 10. [Fazit][#ie6-fazit]
 
 <a name="weg-mit-derxml-deklaration"></a>
 ### Weg mit der XML-Deklaration!
 
-Solange euer HTML-Dokument mit der Zeile `<?xml version="1.0" encoding="utf-8"?>` anfängt, fällt der IE6 in den [Quirks-Modus][wikipedia] und das Box-Modell wird falsch berechnet. Das hat zur Folge, dass `margin`-, `padding`- und `border`-Angaben im Stylesheet nicht mit in die Breite bzw. Höhe eines Block-Elements einfließen.
+Solange euer HTML-Dokument mit der Zeile `<?xml version="1.0" encoding="utf-8"?>` anfängt, fällt der IE6 in den [Quirks-Modus][http://de.wikipedia.org/wiki/Quirks-Modus] und das Box-Modell wird falsch berechnet. Das hat zur Folge, dass `margin`-, `padding`- und `border`-Angaben im Stylesheet nicht mit in die Breite bzw. Höhe eines Block-Elements einfließen.
 
- * [XML-Deklaration im IE6][xhtmlforum]
+ * [XML-Deklaration im IE6][http://xhtmlforum.de/33772-xml-version-1-0-encoding-utf.html]
 
 <a name="den-double-margin-bug-unterbinden"></a>
 ### Den "Double-Margin-Bug" unterbinden
 
 Weist man einem Block-Element die Eigenschaft `float: left` zu, verdoppelt der IE6 den Außenabstand nach links. Analog läuft es mit `float: right`. Dies kann einem jedes Layout verhageln. Unterbinden lässt sich dies, indem man dem gefloateten Element die Eigenschaft `display: inline;` zuweist. Klingt absurd, hilft aber.
 
- * [IE6 Double Margin Bug Fix][jaymeblackmon]
- * [IE6 double margin bug][kollermedia]
+ * [IE6 Double Margin Bug Fix][http://www.jaymeblackmon.com/ie6-double-margin-bug-fix]
+ * [IE6 double margin bug][http://www.kollermedia.at/archive/2008/10/17/ie6-double-margin-bug/]
 
 <a name="das-haslayout-konzept-beruecksichtigen"></a>
 ### Das "`hasLayout`-Konzept" berücksichtigen
 
 `hasLayout` ist eine proprietäre Eigenschaft von Microsoft und kann `true` oder `false` sein. Viele Darstellungsfelder im IE6 gehen auf diesen Eigenschaft zurück. Man geht also auf Nummer Sicher, wenn man mit `width`-Angaben im Stylesheet nicht knausert, wodurch das Element auf `hasLayout = true` gesetzt wird.
 
- * [Über hasLayout][satzansatz]
- * ["Microsoft &mdash; HasLayout" Overview][microsoft]
+ * [Über hasLayout][http://www.satzansatz.de/cssd/onhavinglayout.html]
+ * ["Microsoft &mdash; HasLayout" Overview][http://msdn.microsoft.com/en-us/library/bb250481.aspx]
 
 <a name="hr-tags-immer-umschliessen"></a>
 ### `<hr>`-Tags immer umschließen
@@ -67,7 +67,7 @@ Weist man einem Block-Element die Eigenschaft `float: left` zu, verdoppelt der I
 }
 ```
 
- * [Styling `<hr>` with CSS][sovavsiti]
+ * [Styling `<hr>` with CSS][http://www.sovavsiti.cz/css/hr.html]
 
 <a name="text-align-center-fuer-zentriert-layouts"></a>
 ### `text-align: center` für zentrierte Layouts
@@ -95,14 +95,14 @@ Für diesen Fall empfiehlt sich der *"Whatever:hover"-Hack*. Sobald dieser einge
 
 **Achtung: Funktioniert nur bei aktiviertem JavaScript!**
 
- * [Whatever:hover &mdash; Erklärung und Download][xs4all]
+ * [Whatever:hover &mdash; Erklärung und Download][http://www.xs4all.nl/~peterned/csshover.html]
 
 <a name="finger-weg-von-attribut-selektoren"></a>
 ### Finger weg von Attribut-Selektoren
 
 Mit Attribut-Selektoren hat man bspw. die Möglichkeit einzelne `<input>`-Elemente in einem Formular über `input[type=text]` oder `input[type=submit]` anzusprechen und zu stylen. Eine tolle Einrichtung in CSS, die im Internet Explorer 6 leider nicht funktioniert. Man kommt also nicht umhin, althergebrache ID's oder Klassen zu vergeben, wenn man diese Elemente ansprechen möchte.
 
- * [Beschreibung aller Attribut-Selektoren][jendryschik]
+ * [Beschreibung aller Attribut-Selektoren][http://jendryschik.de/wsdev/einfuehrung/css/selektoren#attributselektoren]
 
 <a name="vorsicht-bei-hover-effekten-in-verbindung-mit-hintergrund-grafiken"></a>
 ### Vorsicht bei Hover-Effekten in Verbindung mit Hintergrund-Grafiken
@@ -111,8 +111,8 @@ Besonders bei Hover-Effekten empfiehlt es sich eigentlich, auf sogenannte CSS-Sp
 
 Eine geniale Lösung &mdash; außer für den IE6. Dieser speichert Grafiken nicht im Cache, so dass die große CSS-Sprite-Grafik jedes mal neu geladen werden muss, was den Hover-Effekt noch holperiger als bei der Standard-Lösung macht. Das bedeutet, dass man für den IE6 ein Extra-Stylesheet anlegen muss, in dem man die Hover-Effekte auf althergebrachte Weise mit Einzelgrafiken definiert.
 
- * [Hovereffekte mit CSS-Sprites][webkrauts]
- * [CSS Sprites: Image Slicing’s Kiss of Death][alistapart]
+ * [Hovereffekte mit CSS-Sprites][http://www.webkrauts.de/2007/10/20/hovereffekte-mit-css-sprites/]
+ * [CSS Sprites: Image Slicing’s Kiss of Death][http://www.alistapart.com/articles/sprites]
 
 <a name="iepngfix-fuer-png-mit-alpha-transparenz"></a>
 ### "iepngfix" für PNGs mit Alpha-Transparenz
@@ -121,8 +121,8 @@ Der IE6 unterstützt von Hause aus keine Alpha-Transparenz bei PNGs, weshalb der
 
 **Achtung: Funktioniert nur bei aktiviertem JavaScript!**
 
-* [Entwicklerseite des "iepngfix"][twinhelix]
-* [Transparente PNGs im Internet Explorer 6][drweb]
+* [Entwicklerseite des "iepngfix"][http://www.twinhelix.com/css/iepngfix/]
+* [Transparente PNGs im Internet Explorer 6][http://www.drweb.de/magazin/transparente-pngs-im-internet-explorer-6/]
 
 <a name="ie6-fazit"></a>
 ### Fazit
@@ -131,29 +131,4 @@ Berücksichtigt man diese Dinge, kann man schon von Vornherein eine Menge Unheil
 
 Sollte ich etwas wichtiges vergessen haben, bin ich über einen Hinweis in den Kommentaren dankbar. Ansonsten wünsche ich weiterhin viel Spaß(?) beim Arbeiten mit dem Internet Explorer 6.
 
-PS: Auch interessant ist der [Beitrag über den Umgang mit dem IE6][highresolution] von Dirk Jesse.
-
-[1]: #weg-mit-derxml-deklaration
-[2]: #den-double-margin-bug-unterbinden
-[3]: #das-haslayout-konzept-beruecksichtigen
-[4]: #hr-tags-immer-umschliessen
-[5]: #text-align-center-fuer-zentriert-layouts
-[6]: #die-hover-klasse-fuer-alle-elemente-verfuegbar-machen
-[7]: #finger-weg-von-attribut-selektoren
-[8]: #vorsicht-bei-hover-effekten-in-verbindung-mit-hintergrund-grafiken
-[9]: #iepngfix-fuer-png-mit-alpha-transparenz
-[10]: #ie6-fazit
-[wikipedia]: http://de.wikipedia.org/wiki/Quirks-Modus
-[xhtmlforum]: http://xhtmlforum.de/33772-xml-version-1-0-encoding-utf.html
-[jaymeblackmon]: http://www.jaymeblackmon.com/ie6-double-margin-bug-fix
-[kollermedia]: http://www.kollermedia.at/archive/2008/10/17/ie6-double-margin-bug/
-[satzansatz]: http://www.satzansatz.de/cssd/onhavinglayout.html
-[microsoft]: http://msdn.microsoft.com/en-us/library/bb250481.aspx
-[sovavsiti]: http://www.sovavsiti.cz/css/hr.html
-[xs4all]: http://www.xs4all.nl/~peterned/csshover.html
-[jendryschik]: http://jendryschik.de/wsdev/einfuehrung/css/selektoren#attributselektoren
-[webkrauts]: http://www.webkrauts.de/2007/10/20/hovereffekte-mit-css-sprites/
-[alistapart]: http://www.alistapart.com/articles/sprites
-[twinhelix]: http://www.twinhelix.com/css/iepngfix/
-[drweb]: http://www.drweb.de/magazin/transparente-pngs-im-internet-explorer-6/
-[highresolution]: http://www.highresolution.info/spotlight/entry/hold_on_an_stand_still_das_leben_mit_dem_ie6/
+PS: Auch interessant ist der [Beitrag über den Umgang mit dem IE6][http://www.highresolution.info/spotlight/entry/hold_on_an_stand_still_das_leben_mit_dem_ie6/] von Dirk Jesse.

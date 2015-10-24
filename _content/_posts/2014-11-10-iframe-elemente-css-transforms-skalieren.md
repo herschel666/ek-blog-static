@@ -17,7 +17,7 @@ Neulich hatte ich ein interessantes Problem: Ich musste ein `<iframe>`-Element i
 Glücklicherweise gibt es in modernen Browsern einen Weg, mit diesem Problem umzugehen. Mithilfe von CSS-Transforms kann der iFrame inklusive seines Inhalts runter skaliert werden wie ein Bild. Der folgende Codepen zeigt, wie das aussehen kann.
 
 <p data-height="300" data-theme-id="14410" data-slug-hash="pzAGo" data-default-tab="result" data-user="herschel666" class="codepen">
-  See the Pen [Scaling iFrames with CSS transforms][codepen] by Emanuel Kluge ([@herschel666][codepen_user]) on [CodePen][codepen_frontpage].
+  See the Pen [Scaling iFrames with CSS transforms][http://codepen.io/herschel666/pen/pzAGo/] by Emanuel Kluge ([@herschel666][http://codepen.io/herschel666]) on [CodePen][http://codepen.io].
 </p>
 <script>
   (function (doc, scriptElem) {
@@ -66,9 +66,4 @@ var offsetLeft = (width - 100) / -2; // Versatz nach links in Prozent
 
 Setzt man diesen Versatz mithilfe von `transform: translateX(…);`, bleibt der iFrame in der Mitte der Seite.
 
-Das ist auch schon alles. Solltest du Fragen dazu haben, schreib einen Kommentar oder frag mich via Twitter: [@Herschel_R][twitter].
-
-[codepen]: http://codepen.io/herschel666/pen/pzAGo/
-[codepen_user]: http://codepen.io/herschel666
-[codepen_frontpage]: http://codepen.io
-[twitter]: https://twitter.com/Herschel_R
+Das ist auch schon alles. Solltest du Fragen dazu haben, schreib einen Kommentar oder frag mich via Twitter: [@Herschel_R][https://twitter.com/Herschel_R].

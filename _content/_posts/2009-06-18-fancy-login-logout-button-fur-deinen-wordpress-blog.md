@@ -13,7 +13,7 @@ Hier habe ich ein kleines Tutorial, wie ihr in euren WordPress-Blog einen schick
 
 {% img /wp-content/uploads/2009/06/loginout-button_-_style-480x132.png loginout-button &mdash; style %}
 
-Vorweg eine kleine [Demo][demo].
+Vorweg eine kleine [Demo][http://www.emanuel-kluge.de/demo/loginout-button/].
 
 Und nun los:
 
@@ -75,9 +75,5 @@ Vielen Dank.
 
 Weiterführende Links:
 
- * [Function Reference/wp loginout][wp_loginout]
- * [Function Reference/is user logged in][is_user_logged_in]
-
-[demo]: http://www.emanuel-kluge.de/demo/loginout-button/
-[wp_loginout]: http://codex.wordpress.org/Function_Reference/wp_loginout
-[is_user_logged_in]: http://codex.wordpress.org/Function_Reference/is_user_logged_in
+ * [Function Reference/wp loginout][http://codex.wordpress.org/Function_Reference/wp_loginout]
+ * [Function Reference/is user logged in][http://codex.wordpress.org/Function_Reference/is_user_logged_in]

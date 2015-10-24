@@ -37,8 +37,5 @@ Beide Filme sind durchaus sehenswert. "Dead Snow" ist dabei eher etwas für die 
 
 "Zombieland" dagegen ist nicht nur für Zombie-Freunde ein gefundenes Fressen. Der Film ist einfach witzig, Woddy Harrelson brilliert als verquerer Redneck-Haudegen und sogar Bill Murray hat eine nahezu groteske Nebenrolle &mdash; er spielt sich selbst. Dazu gibt es schöne Bilder der post-apokalyptischen USA, ordentlich Schießeisen und ein paar durchaus brauchbare Regeln für den Fall eines Zombie-Angriffs.
 
-  * [Offizielle Zombieland-Seite][zombieland]
-  * [Offizielle Dead-Snow-Seite][dead_snow]
-
-[zombieland]: http://www.zombieland.com/
-[dead_snow]: http://www.deadsnow.com/
+  * [Offizielle Zombieland-Seite][http://www.zombieland.com/]
+  * [Offizielle Dead-Snow-Seite][http://www.deadsnow.com/]
