@@ -1,3 +1,4 @@
+
 {
   "source": "./_content",
   "destination": "./_site",
@@ -10,14 +11,25 @@
   },
   "plugins": {
     "metalsmith-markdown": {},
+    "./_plugins/custom-markdown": {},
     "./_plugins/metadata": {},
     "./_plugins/permalinks": {},
     "./_plugins/layout": {},
     "./_plugins/posts": {},
-    "metalsmith-sass": {
-      "outputStyle": "compressed"
+    "./_plugins/assets": {
+      "entry": {
+        "main.js": "./_assets/javascripts/main.js",
+        "load-styles.js": "./_assets/javascripts/load-styles.js",
+        "main.css": "./_assets/styles/main.scss",
+        "critical.css": "./_assets/styles/critical.scss"
+      },
+      "output": {
+        "path": "./assets",
+        "filename": "[name]"
+      },
+      "es2015": true,
+      "sass": true
     },
-    "./_plugins/critical-css": {},
     "metalsmith-templates": {
       "engine": "swig",
       "directory": "_layouts"
