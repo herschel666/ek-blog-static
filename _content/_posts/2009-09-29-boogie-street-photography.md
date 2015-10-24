@@ -1,5 +1,5 @@
 ---
-title: 'Boogie &#8211; Street Photography'
+title: Boogie — Street Photography
 author: Emanuel Kluge
 layout: post
 permalink: /fotografie/boogie-street-photography/

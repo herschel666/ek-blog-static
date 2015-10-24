@@ -50,7 +50,7 @@ $(document).ready(function() {
 });
 ```
 
-Als erstes werden die benötigten Elemente &mdash; in diesem Fall `<span>`-Tags &mdash; in Variablen gespeichert. Danach werden die jeweiligen Beschriftungen der Listen-Elemente in einem Array gespeichert. Zum Schluss wird alles zusammengefügt. Nun fehlen nur noch die entsprechenden Styles, um die Buttons fertig zu machen. Diese gestalten sich wie folgt:
+Als erstes werden die benötigten Elemente — in diesem Fall `<span>`-Tags — in Variablen gespeichert. Danach werden die jeweiligen Beschriftungen der Listen-Elemente in einem Array gespeichert. Zum Schluss wird alles zusammengefügt. Nun fehlen nur noch die entsprechenden Styles, um die Buttons fertig zu machen. Diese gestalten sich wie folgt:
 
 ```css
 body {

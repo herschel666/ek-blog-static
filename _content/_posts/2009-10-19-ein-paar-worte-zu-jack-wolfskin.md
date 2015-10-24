@@ -30,26 +30,20 @@ Mehr zum Thema:
   * [Jack Wolfskin mahnt Bastler wegen Tatzen-Mustern ab](http://www.spiegel.de/netzwelt/netzpolitik/0,1518,655890,00.html)
   * [Wikpedia-Artikel über Jack Wolfskin mit interessanten Informationen zum Tatzen-Streit mit der taz](http://de.wikipedia.org/wiki/Jack_Wolfskin)
 
-<ins datetime="2013-03-29T12:29:52+00:00"><br /> <strong>Update 29. März 2013:</strong></p> 
-
+<ins datetime="2013-03-29T12:29:52+00:00">
+  **Update 29. März 2013:**
 
   <p>
     Auf dem letzten ConventionCamp (2013) erzählte ein Verantwortlicher von Jack Wolfskin bezüglich obigen Falles noch, dass seinerzeit eine Verkettung ungünstiger Faktoren stattgefunden hätte und die Angelegenheit dadurch eine negative Dynamik bekommen hätte. Man sei intern selbst nicht glücklich mit dem Fall gewesen und wolle es zukünftig besser machen.
   </p>
 
-
-
   <p>
     Scheinbar wurden die Strukturen bei Jack Wolfskin jedoch nicht vollständig durchbrochen, wie <a href="http://meedia.de/fernsehen/jack-wolfskin-geht-gegen-fuenf-freunde-logo-vor/2013/03/22.html">die neuerliche Abmahnung gegen die Macher des "Fünf Freunde"-Films zeigt</a>. Zwar muss man zugestehen, dass dieses mal eine Konfrontation auf ungefährer Augenhöhe stattfindet und nicht blindlings Privatpersonen abgemahnt werden. <a href="http://www.marketing-blog.biz/blog/archives/4354-Keine-Freunde-mehr-Jack-Wolfskin-trifft-Zielgruppe.html">Doch wie der Marketing-Blog so treffend feststellt</a>, drängt sich einem der Eindruck auf, Juristen wären bei Jack Wolfskin mit der Markenführung betraut. Und das mit zweifelhaftem Erfolg.
   </p>
 
-
-
   <p>
     Sicherlich ist es nicht von der Hand zu weisen, dass man als Unternehmen beim Schutz seiner Marke eine gewisse Konsequenz an den Tag legen muss, um die Ansprüche an die Marke nicht zu verlieren. Aber im Falle von Jack Wolfskin hat sich das meines Erachtens zu einer unendlichen Geschichte voller Missverständnisse entwickelt. Um ehrlich zu sein, habe ich das Gefühl, dass hier ein Re-Branding angebracht wäre. Und zwar mit einer weniger generischen Bildmarke.
   </p>
-
-
 
   <p>
     Das wäre zwar mit erheblichen Kosten verbunden, aber letztlich ist das der Schutz der bisherigen Bildmarke auch.

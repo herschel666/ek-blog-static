@@ -1,5 +1,5 @@
 ---
-title: '&quot;Social Icon Bar&quot; mit jQuery'
+title: "Social Icon Bar" mit jQuery
 author: Emanuel Kluge
 layout: post
 permalink: /tutorial/social-icon-bar-mit-jquery/
@@ -118,8 +118,8 @@ body.js_active #iconbar li span {
 
 Die Listen-Elemente sind 40 Pixel breit und hoch, und werden nach links gefloated. Wichtig beim Listen-Element sind die Angaben `position: relative;`, damit die darin liegenden `<span>`-Elemente absolut positioniert werden können, und `overflow: hidden;`, damit die `<span>`-Elemente beim Mouseover auch wirklich verschwinden. Zusätzlich geben wir den Listen-Elementen noch eine leichte Eckenrundung mit.
 
-Die `<span>`-Elemente sind durch die CSS-Angabe `display: none;` eigentlich unsichtbar. Ist JavaScript allerdings im Browser des Besuchers aktiviert, bekommt das `<body>`-Element die Klasse `.js_active` hinzugefügt und es greift die darunter liegende CSS-Angabe. Die `<span>`-Elemente sind nun 20x20 Pixel groß und absolut positioniert. Durch die Angabe `opacity: 0.7;` werden sie außerdem leicht durchsichtig und geben einen Blick auf das dahinter liegende Icon frei. Durch die Angabe `cursor: pointer;` wird der Cursor schon beim Überfahren der `<span>`-Elemente zur &mdash; für Links charakteristischen &mdash; Hand. Das erhöht die User Experience.
+Die `<span>`-Elemente sind durch die CSS-Angabe `display: none;` eigentlich unsichtbar. Ist JavaScript allerdings im Browser des Besuchers aktiviert, bekommt das `<body>`-Element die Klasse `.js_active` hinzugefügt und es greift die darunter liegende CSS-Angabe. Die `<span>`-Elemente sind nun 20x20 Pixel groß und absolut positioniert. Durch die Angabe `opacity: 0.7;` werden sie außerdem leicht durchsichtig und geben einen Blick auf das dahinter liegende Icon frei. Durch die Angabe `cursor: pointer;` wird der Cursor schon beim Überfahren der `<span>`-Elemente zur — für Links charakteristischen — Hand. Das erhöht die User Experience.
 
 Zum Schluss werden die einzelnen `<span>`-Elemente noch positioniert und schon ist die Social Icon Bar fertig. Ihr könnt sie wie ich in die Sidebar integrieren oder unter jeden Blog-Eintrag für die Bookmark-Links. Möglichkeiten gibt es wie immer viele.
 
-Solltet ihr noch Fragen haben oder Probleme auftreten, nutzt die Kommentar-Funktion und scheut euch nicht, mir Fragen zu stellen. Ansonsten danke ich für eure Aufmerksamkeit und &mdash; falls euch der Artikel gefallen hat &mdash; würde mich freuen, wenn ihr ihn einschlägigen Bookmark-Diensten zuführt.
+Solltet ihr noch Fragen haben oder Probleme auftreten, nutzt die Kommentar-Funktion und scheut euch nicht, mir Fragen zu stellen. Ansonsten danke ich für eure Aufmerksamkeit und — falls euch der Artikel gefallen hat — würde mich freuen, wenn ihr ihn einschlägigen Bookmark-Diensten zuführt.

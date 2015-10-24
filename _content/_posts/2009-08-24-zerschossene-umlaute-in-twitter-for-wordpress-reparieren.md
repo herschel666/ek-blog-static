@@ -1,5 +1,5 @@
 ---
-title: 'Zerschossene Umlaute in &#8220;Twitter for WordPress&#8221; reparieren'
+title: Zerschossene Umlaute in "Twitter for WordPress" reparieren
 author: Emanuel Kluge
 layout: post
 permalink: /tips-und-tricks/zerschossene-umlaute-in-twitter-for-wordpress-reparieren/
@@ -18,8 +18,8 @@ Die Lösung besteht nun aus zwei Arrays aus Franks Plug-In:
 
 
 ```php
-$umlaute = array('&#8211;', '&#8212;', &hellip;);
-$htmlcode = array('&ndash;', '&mdash;', &hellip;);
+$umlaute = array('—', '&amp;#8212;', …);
+$htmlcode = array('&amp;ndash;', '—', …);
 ```
 
 Die kompletten Arrays kann ich hier nicht angeben, da sie viel zu umfangreich sind. Ihr findet sie aber im [SVN-System des Plug-In Directory von WordPress](http://svn.wp-plugins.org/rss-import/branches/3.7/rssimport.php). Die beiden gesuchten Arrays befinden sich in der Mitte und sind eigentlich nicht zu übersehen.

@@ -11,11 +11,11 @@ categories:
   - Tips und Tricks
 ---
 
-{% img /wp-content/uploads/2010/01/aperture-screenshot.jpg Aperture &mdash; Screenshot %}
+{% img /wp-content/uploads/2010/01/aperture-screenshot.jpg Aperture — Screenshot %}
 
-[Aperture](http://www.apple.com/aperture/) ist eine Photo-Editing-Software von Apple&trade;, welche die Möglichkeit bietet, Galerien zu erstellen und im HTML-Format zu exportieren. Diese Funktion kann ich aufgrund des generierten Quelltextes nicht empfehlen, nichtsdestominder ist sie sehr praktisch für Leute, die schnell eine Galerie veröffentlichen wollen, jedoch kein HTML können.
+[Aperture](http://www.apple.com/aperture/) ist eine Photo-Editing-Software von Apple™, welche die Möglichkeit bietet, Galerien zu erstellen und im HTML-Format zu exportieren. Diese Funktion kann ich aufgrund des generierten Quelltextes nicht empfehlen, nichtsdestominder ist sie sehr praktisch für Leute, die schnell eine Galerie veröffentlichen wollen, jedoch kein HTML können.
 
-Ein weiteres Manko ist der Umstand, dass jedes Foto eine eigene Unterseite bekommt und man sich an diesen entlang hangelt. Heutzutage allerdings &mdash; möchte ich behaupten &mdash; ist eine **Lightbox** Standard, wenn es um das Betrachten von Fotos im Browser geht. Deshalb möchte ich zeigen, wie man mithilfe von **jQuery** und einem **PlugIn** diese Funktionalität relativ schnell nachrüsten kann.
+Ein weiteres Manko ist der Umstand, dass jedes Foto eine eigene Unterseite bekommt und man sich an diesen entlang hangelt. Heutzutage allerdings — möchte ich behaupten — ist eine **Lightbox** Standard, wenn es um das Betrachten von Fotos im Browser geht. Deshalb möchte ich zeigen, wie man mithilfe von **jQuery** und einem **PlugIn** diese Funktionalität relativ schnell nachrüsten kann.
 
 Als erstes benötigen wir das PlugIn [jQuery lightBox](http://leandrovieira.com/projects/jquery/lightbox/). Wir entpacken das Zip-File und legen den "js"-Ordner, den "css"-Ordner und den "images"-Ordner aus dem "jquery-lightbox-0.5"-Ordner in dem aus Aperture exportierten Galerie-Ordner ab.
 

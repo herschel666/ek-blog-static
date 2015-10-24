@@ -1,5 +1,5 @@
 ---
-title: 'minimalismus #01'
+title: minimalismus #01
 author: Emanuel Kluge
 layout: post
 permalink: /fotografie/minimalismus-01/
@@ -8,7 +8,7 @@ categories:
   - Hannover
 ---
 
-Auf dem Weg zum Conti-Campus in Hannover habe ich mich heute der Fotografie gewidmet. Thema: Minimalismus. Warum auch nicht. Allerdings frage ich mich, ob die folgenden Resultate meines Ausflugs nicht doch in s/w besser aussehen würden &hellip;
+Auf dem Weg zum Conti-Campus in Hannover habe ich mich heute der Fotografie gewidmet. Thema: Minimalismus. Warum auch nicht. Allerdings frage ich mich, ob die folgenden Resultate meines Ausflugs nicht doch in s/w besser aussehen würden …
 
 <a href="/wp-content/uploads/2010/05/minimalismus-hannover-06.jpg" rel="lightbox">
   {% img /wp-content/uploads/2010/05/minimalismus-hannover-06-480x319.jpg Minimalismus in Hannover %}

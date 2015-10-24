@@ -7,7 +7,7 @@ categories:
   - Überlegungen
 ---
 
-{% img /wp-content/uploads/2009/07/apple-computer-210x157.jpg apple &mdash; computer %}  
+{% img /wp-content/uploads/2009/07/apple-computer-210x157.jpg apple — computer %}  
 <small>*[Apple II](http://www.flickr.com/photos/florianeckerstorfer/1870727397/) unter [CC](http://creativecommons.org/licenses/by-sa/2.0/deed.en)-Lizenz*</small>
 
 [Wie man gestern auf Heise Online lesen konnte](http://www.heise.de/tp/r4/artikel/30/30650/1.html), fordert der Springer Konzern eine Zwangsabgabe auf jeden verkauften Computer zusätzlich zur GEZ-Gebühr. Mit dem Geld sollen Zeitungsverlage am Leben erhalten werden, die sich nicht mehr aus eigenen Kräften am Markt behaupten können, aus welchen Gründen auch immer.

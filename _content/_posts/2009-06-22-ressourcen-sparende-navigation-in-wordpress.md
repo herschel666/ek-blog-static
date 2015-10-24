@@ -52,7 +52,7 @@ Den Pfad zur Seite müsst ihr natürlich ins `href`-Attribut des `<a>`-Tags eint
 }
 ```
 
-Natürlich muss man noch den Normalzustand der Navigation definieren, aber ansonsten ist das **Navigation Highlighting** fertig. Alles mit einer(!) dymischen Komponente &mdash; der `body_class()`-Funktion &mdash;, also schön schlank.
+Natürlich muss man noch den Normalzustand der Navigation definieren, aber ansonsten ist das **Navigation Highlighting** fertig. Alles mit einer(!) dymischen Komponente — der `body_class()`-Funktion —, also schön schlank.
 
 **Weiterführende Links:**
 

@@ -1,5 +1,5 @@
 ---
-title: 'Thom Yorke &ndash; The Hollow Earth'
+title: 'Thom Yorke — The Hollow Earth'
 author: Emanuel Kluge
 layout: post
 permalink: /video/thom-yorke-the-hollow-earth/
@@ -18,6 +18,6 @@ René von [Nerdcore](http://www.nerdcore.de/wp/2009/09/21/banksys-neueste-arbeit
 
 > Und dann hier noch das neue Video von Thom Yorke, das ziemlich wirr rumflackert und jede Menge Streetart und davon jede Menge von Banksy zeigt.
 
-So ist es &mdash; Thom Yorke hat ein neues Video und in diesem wird einem die Streetart wie bekloppt um die Ohren gehauen. Man kann sie nicht sehen, nur erahnen. Sollte man doch versuchen auszumachen, welche Bilder genau verarbeitet wurden, dürfte man recht bald einen epileptischen Anfall bekommen und sich geifernd und zuckend auf dem Boden wälzen. Ich warne davor.
+So ist es — Thom Yorke hat ein neues Video und in diesem wird einem die Streetart wie bekloppt um die Ohren gehauen. Man kann sie nicht sehen, nur erahnen. Sollte man doch versuchen auszumachen, welche Bilder genau verarbeitet wurden, dürfte man recht bald einen epileptischen Anfall bekommen und sich geifernd und zuckend auf dem Boden wälzen. Ich warne davor.
 
 Ansonsten ist der Song Thom Yorke in Reinform, keine Überraschung also.

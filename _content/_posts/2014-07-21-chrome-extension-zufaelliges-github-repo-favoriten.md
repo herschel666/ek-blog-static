@@ -10,9 +10,9 @@ categories:
 
 {% img /wp-content/uploads/2014/07/icon-128.png GitHub Random Favorite %}
 
-&rarr; [&raquo;GH Random Favorite&laquo; im Google Chrome Store](https://chrome.google.com/webstore/detail/gh-random-favorite/ogmnlelgbkfjjjhmhefdlfblpdiopedb)
+» [&raquo;GH Random Favorite&laquo; im Google Chrome Store](https://chrome.google.com/webstore/detail/gh-random-favorite/ogmnlelgbkfjjjhmhefdlfblpdiopedb)
 
-&rarr; [&raquo;GH Random Favorite&laquo; auf GitHub](https://github.com/herschel666/gh-random-favorite)
+» [&raquo;GH Random Favorite&laquo; auf GitHub](https://github.com/herschel666/gh-random-favorite)
 
 Interessante GitHub-Repos zu favorisieren ist fast schon ein Reflex. Ich denke, niemand spart dabei mit Sternen. Allerdings gilt für die meisten favorisierten Repos wohl der Leitspruch: aus den Augen, aus dem Sinn.
 

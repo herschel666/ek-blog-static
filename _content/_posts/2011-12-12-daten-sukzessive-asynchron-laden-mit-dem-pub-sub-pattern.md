@@ -125,7 +125,7 @@ in der Konstruktor-Funktion werden die Argumente entgegen genommen und der Proze
 
 In der *init*-Funktion wiederum wird für jeden Pfad des args-Array eine Funktion im Pub-Sub-Pattern angemeldet. Anschließend wird das erste Element des Pub-Sub-Patterns "veröffentlicht", sprich die *load*-Funktion mit dem ersten Pfad aufgerufen und der Zähler zum nächsten Element des Pfad-Arrays mit übergeben.
 
-Innerhalb der *load*-Funktion wird ein AJAX-Call auf den übergebenen Pfad gemacht und an ein *deferred*-Objekt übergeben. Dies wird anschließend genutzt, um eine *Callback*-Funktion zu starten, wenn der Ladevorgang abgeschlossen ist, und anschließend entweder das nächste Element des Pfad-Array im Pub-Sub-System zu "veröffentlichen" oder &mdash; wenn alle AJAX-Calls gemacht sind &mdash; eine finale Funktion aufzurufen (*console.log(that.result);*).
+Innerhalb der *load*-Funktion wird ein AJAX-Call auf den übergebenen Pfad gemacht und an ein *deferred*-Objekt übergeben. Dies wird anschließend genutzt, um eine *Callback*-Funktion zu starten, wenn der Ladevorgang abgeschlossen ist, und anschließend entweder das nächste Element des Pfad-Array im Pub-Sub-System zu "veröffentlichen" oder — wenn alle AJAX-Calls gemacht sind — eine finale Funktion aufzurufen (*console.log(that.result);*).
 
 Anschließend noch der Aufruf der Funktion:
 

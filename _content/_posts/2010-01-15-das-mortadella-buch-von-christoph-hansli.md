@@ -7,9 +7,9 @@ categories:
   - Off-Topic
 ---
 
-{% img /wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg Mortadella-Buch &mdash; Übersicht %}
+{% img /wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg Mortadella-Buch — Übersicht %}
 
-Gerade noch war ich bei Da Giorgio und habe mir eine schmackhafte Mortadella-Bemme geschossen, schon läuft mir das **Mortadella-Buch** von **Christoph Hänsli** über den Weg. Das ist ein Zeichen &mdash; ich soll darüber bloggen. Und das tue ich hiermit auch.
+Gerade noch war ich bei Da Giorgio und habe mir eine schmackhafte Mortadella-Bemme geschossen, schon läuft mir das **Mortadella-Buch** von **Christoph Hänsli** über den Weg. Das ist ein Zeichen — ich soll darüber bloggen. Und das tue ich hiermit auch.
 
 Für sein [Mortadella-Buch](http://www.christophhänsli.ch/arbeiten/mortadella/mortadella.html) hat Christoph Hänsli eine Mortadella-Wurst der Länge nach in 332 Scheiben aufgeschnitten und jede einzelne gemalt. Das ganze ergibt laut Amazon-Produktbeschreibung ein <cite>hypnotisches Universum zwischen meditativen Mortadella Mandalas und sich langsam verändernden, zartrosa Sternbildern</cite>. Dem ist wohl nichts mehr hinzuzufügen.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Hätte ich stattdessen Apple-Aktien gekauft&#8230;'
+title: Hätte ich stattdessen Apple-Aktien gekauft
 author: Emanuel Kluge
 layout: post
 permalink: /apple/hatte-ich-stattdessen-apple-aktien-gekauft/

@@ -1,5 +1,5 @@
 ---
-title: '&#8220;Rising Curtain&#8221;-Effekt bei Input-Feldern mit jQuery'
+title: "Rising Curtain"-Effekt bei Input-Feldern mit jQuery
 author: Emanuel Kluge
 layout: post
 permalink: /tutorial/rising-curtain-effekt-bei-input-feldern-mit-jquery/

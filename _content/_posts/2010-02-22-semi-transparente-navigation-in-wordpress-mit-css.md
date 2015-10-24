@@ -117,9 +117,9 @@ Kommen wir nun zum CSS:
   }
 ```
 
-Am meisten Platz nehmen hier die Angaben für die Transparenz ein. Das liegt daran, dass alle Eventualitäten &mdash; sprich "Browser" &mdash; berücksichtigt werden müssen. Dafür lässt sich diese Navigation aber auch mit reinem CSS und ohne PNG-Grafiken umsetzen, die ja im IE6 für Ärger sorgen würden.
+Am meisten Platz nehmen hier die Angaben für die Transparenz ein. Das liegt daran, dass alle Eventualitäten — sprich "Browser" — berücksichtigt werden müssen. Dafür lässt sich diese Navigation aber auch mit reinem CSS und ohne PNG-Grafiken umsetzen, die ja im IE6 für Ärger sorgen würden.
 
-Trotzdem funktioniert auch das hier nicht ohne dem ein oder anderen Mätzchen unserer Lieblings-Browser aus Redmond &mdash; den Internet Explorern. Der **IE6** benötigt eine feste Breite für die Listenelemente. Hier ist also etwas **Anpassung** nötig, je nachdem wie lang die Beschriftung der Reiter ist. Der **IE7** hingegen hat Probleme mit den **Hover-Zuständen**, so dass die Reiter hier nicht nach oben fahren und intransparent werden, wenn man mit dem Cursor rüberfährt. Das ist ärgerlich, schränkt jedoch die Benutzbarkeit der Seite nicht ein.
+Trotzdem funktioniert auch das hier nicht ohne dem ein oder anderen Mätzchen unserer Lieblings-Browser aus Redmond — den Internet Explorern. Der **IE6** benötigt eine feste Breite für die Listenelemente. Hier ist also etwas **Anpassung** nötig, je nachdem wie lang die Beschriftung der Reiter ist. Der **IE7** hingegen hat Probleme mit den **Hover-Zuständen**, so dass die Reiter hier nicht nach oben fahren und intransparent werden, wenn man mit dem Cursor rüberfährt. Das ist ärgerlich, schränkt jedoch die Benutzbarkeit der Seite nicht ein.
 
 Des weiteren habe ich noch etwas **CSS3** verwendet. Mit den aktuellen Versionen von Firefox, Safari und Chrome bekommt man deshalb einen **Farbverlauf** bei den Reitern serviert. In den gleichen Browsern sowie der aktuellen Version von Opera gibt es außerdem noch einen leichten **Schlagschatten bei der Link-Beschriftung**.
 

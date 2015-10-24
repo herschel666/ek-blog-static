@@ -16,7 +16,7 @@ Als erstes brauchen wir den entsprechenden HTML-Code:
 
 ```html
 <div id="image">
-  <img src="image_bw.jpg" alt="Scharzwei&szlig;-Bild" />
+  <img src="image_bw.jpg" alt="Scharzweiß-Bild" />
 </div>
 ```
 

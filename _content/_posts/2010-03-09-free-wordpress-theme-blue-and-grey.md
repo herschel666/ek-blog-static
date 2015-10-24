@@ -1,5 +1,5 @@
 ---
-title: 'Free WordPress-Theme: &#8220;Blue and Grey&#8221;'
+title: Free WordPress-Theme: "Blue and Grey"
 author: Emanuel Kluge
 layout: post
 permalink: /wordpress/free-wordpress-theme-blue-and-grey/

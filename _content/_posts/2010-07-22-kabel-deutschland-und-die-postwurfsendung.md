@@ -11,15 +11,15 @@ Postwurfsendungen gehören zum festen Marketing-Kanon von Kabel Deutschland. Die
 
 {% img /wp-content/uploads/2010/07/kabel-deutschland.gif Kabel Deutschland %}
 
-Interessanter ist, dass meine Daten bei der AZ Direct GmbH vorliegen (scheinbar habe ich irgendwann im Netz ein Häkchen zu wenig weg gemacht &hellip;) und ich deshalb in den Genuss regelmäßiger Postwurfsendungen durch Kabel Deutschland gekommen bin. Kuriose Angelegenheit, dachte ich bei mir. Wenn sie sicherstellen wollen, dass ich niemals Kunde bei ihnen werden, können sie sich wohl damit rühmen, die nötigen Schritte unternommen zu haben.
+Interessanter ist, dass meine Daten bei der AZ Direct GmbH vorliegen (scheinbar habe ich irgendwann im Netz ein Häkchen zu wenig weg gemacht …) und ich deshalb in den Genuss regelmäßiger Postwurfsendungen durch Kabel Deutschland gekommen bin. Kuriose Angelegenheit, dachte ich bei mir. Wenn sie sicherstellen wollen, dass ich niemals Kunde bei ihnen werden, können sie sich wohl damit rühmen, die nötigen Schritte unternommen zu haben.
 
 Und um dem Terror Einhalt zu gebieten, habe ich mich an den Kundenservice gewandt und darum gebeten, meine Daten zu löschen. Schließlich haben sie ausreichend sichergestellt, dass ich keinen Vertrag mehr bei ihnen unterschreiben werden - jede weitere Postwurfsendung wäre somit verschwendetes Geld. Außerdem interessierte mich, was hinter der markigen Ansage im Kleingedruckten der Werbebriefe steckte:
 
-> Wir bieten volle Transparenz über die Verarbeitung ihrer Daten und ihr Recht auf Werbewiederspruch: &hellip;
+> Wir bieten volle Transparenz über die Verarbeitung ihrer Daten und ihr Recht auf Werbewiederspruch: …
 
 Dazu noch Internet- und Email-Adresse, sowie Telefonnummer des Kundenservice, wo man den Werbe-Schwachsinn zu beiderseitigem Vorteil beenden kann. Obendrein der Hinweis, wo die Daten erworben wurden und dass alles rechtmäßig und im Sinne des Datenschutzes stattgefunden hat.
 
-Die Antwort kam auch keine 12 Stunden später um 7 Uhr in der Frühe: Meine genauen Daten würden fehlen und &hellip;
+Die Antwort kam auch keine 12 Stunden später um 7 Uhr in der Frühe: Meine genauen Daten würden fehlen und …
 
 > Unser Vorschlag: Bitte schicken Sie uns Ihre Anfrage noch einmal mit diesen Daten. Dann kümmern wir uns selbstverständlich sofort darum. Vielen Dank!
 

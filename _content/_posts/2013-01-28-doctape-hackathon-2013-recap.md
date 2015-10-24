@@ -1,5 +1,5 @@
 ---
-title: 'Doctape Hackathon 2013: A Recap'
+title: Doctape Hackathon 2013: A Recap
 author: Emanuel Kluge
 layout: post
 permalink: /hannover/doctape-hackathon-2013-recap/
@@ -8,7 +8,7 @@ categories:
   - Neuigkeiten
 ---
 
-Das Wochenende um den 19./20. Januar 2013 hatten die Kollegen von [Doctape](http://www.doctape.com/) zum Hackathon geladen. Anlass der Veranstaltung &mdash; falls es zum Hacken einen Anlass braucht &mdash; war der [Launch des Doctape-API](http://blog.doctape.com/the-doctape-public-api-and-developer-center/), welche von den anwesenden Codern auf Herz und Nieren getestet werden sollte. Als Veranstaltungsort wurde das [Co-Working-Space EDELSTALL](http://edelstall.de) gewählt, da es zum einen die nötige Infrastruktur für den Anlass bot und zum anderen die Doctape-Büros beherbergt.
+Das Wochenende um den 19./20. Januar 2013 hatten die Kollegen von [Doctape](http://www.doctape.com/) zum Hackathon geladen. Anlass der Veranstaltung — falls es zum Hacken einen Anlass braucht — war der [Launch des Doctape-API](http://blog.doctape.com/the-doctape-public-api-and-developer-center/), welche von den anwesenden Codern auf Herz und Nieren getestet werden sollte. Als Veranstaltungsort wurde das [Co-Working-Space EDELSTALL](http://edelstall.de) gewählt, da es zum einen die nötige Infrastruktur für den Anlass bot und zum anderen die Doctape-Büros beherbergt.
 
 {% img /wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg doctape-Hackathon | Hannover 2013 %}  
 <small>*Photo by [Nicolas Hafele](http://nicolashafele.tumblr.com)*</small>
@@ -32,7 +32,7 @@ Das Projekt wird weiter entwickelt und freut sich über Contributors!
 
 ## [TapeBooth](https://github.com/kimar/tapebooth)
 
-TapeBooth ist eine iOS-App, die es ermöglicht, Bilder zu machen, diese mit Filtern zu versehen und anschließend zu teilen. Nebenbei findet automatisch eine Synchronisierung mit dem eigenen Doctape-Account statt, so dass die Fotos automatisch in Doctape verwaltet werden können. *Instagram for Doctapers* könnte man &mdash; etwas einfallslos &mdash; sagen.
+TapeBooth ist eine iOS-App, die es ermöglicht, Bilder zu machen, diese mit Filtern zu versehen und anschließend zu teilen. Nebenbei findet automatisch eine Synchronisierung mit dem eigenen Doctape-Account statt, so dass die Fotos automatisch in Doctape verwaltet werden können. *Instagram for Doctapers* könnte man — etwas einfallslos — sagen.
 
 ## [Doctape-Gallery](https://github.com/chmanie/doctape-gallery)
 

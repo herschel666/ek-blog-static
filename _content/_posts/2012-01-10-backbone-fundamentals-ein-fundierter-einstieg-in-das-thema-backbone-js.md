@@ -1,5 +1,5 @@
 ---
-title: „Backbone Fundamentals“ – Ein fundierter Einstieg in das Thema Backbone.js
+title: "Backbone Fundamentals" – Ein fundierter Einstieg in das Thema Backbone.js
 author: Emanuel Kluge
 layout: post
 permalink: /neuigkeiten/backbone-fundamentals-ein-fundierter-einstieg-in-das-thema-backbone-js/
@@ -9,7 +9,7 @@ categories:
   - Neuigkeiten
 ---
 
-{% img /wp-content/uploads/2012/01/backbone-js.png Backbone.js &mdash; Logo %}
+{% img /wp-content/uploads/2012/01/backbone-js.png Backbone.js — Logo %}
 
 Wer hier gelegentlich mitliest, wird eventuell mitbekommen haben, dass ich mich gerne mit dem [JavaScript-MVC-Framework Backbone.js](http://documentcloud.github.com/backbone/) beschäftige. Von daher war meine Freude recht groß, als ich gewahr wurde, dass [Addy Osmani](http://addyosmani.com/) höchstselbst sich dran gemacht hat, eine unter CC-Lizenz stehende Wissenssammlung zum Thema unter dem Namen ["Backbone Fundamentals"](https://github.com/addyosmani/backbone-fundamentals) zu scheiben.
 

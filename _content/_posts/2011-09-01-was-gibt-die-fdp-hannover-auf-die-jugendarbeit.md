@@ -28,9 +28,9 @@ Zusätzlich gab es zu jeder Frage einen erläuternden Satz.
 
 Das Feedback der Aktion war denn auch recht ansehnlich; die jugendpolitischen Sprecher von CDU, Die Grünen, Die Linke und der SPD haben sich die Zeit genommen und alle Fragen hinreichend beantwortet.
 
-Einzig die FDP wollte nicht so recht "mitspielen". Ihr jugendpolitischer Sprecher Dr. Nils Tilsen hat sich &mdash; aus welchen Gründen auch immer &mdash; nicht mit der Beantwortung der Fragen belastet, sondern kurzerhand folgendes Schreiben aufgesetzt:
+Einzig die FDP wollte nicht so recht "mitspielen". Ihr jugendpolitischer Sprecher Dr. Nils Tilsen hat sich — aus welchen Gründen auch immer — nicht mit der Beantwortung der Fragen belastet, sondern kurzerhand folgendes Schreiben aufgesetzt:
 
-> "&hellip; ich teile Ihnen mit, dass ich mich außerstande sehe, Ihren Fragenkatalog abzuarbeiten.
+> "… ich teile Ihnen mit, dass ich mich außerstande sehe, Ihren Fragenkatalog abzuarbeiten.
 > 
 > Die Fragen sind teilweise so ins Detail gehend, dass es für mich einen erheblichen Zeitaufwand bedeuten würde, diese fachgerecht zu beantworten.
 > 

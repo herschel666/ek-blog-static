@@ -1,5 +1,5 @@
 ---
-title: 'Der &quot;perfekte&quot; WordPress-Suchschlitz'
+title: Der "perfekte" WordPress-Suchschlitz
 author: Emanuel Kluge
 layout: post
 permalink: /tutorial/der-perfekte-wordpress-suchschlitz/
@@ -10,13 +10,13 @@ categories:
   - WordPress
 ---
 
-{% img /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg Der &quot;perfekte&quot; WordPress-Suchschlitz %}
+{% img /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg Der "perfekte" WordPress-Suchschlitz %}
 
 *[Demo](http://www.emanuel-kluge.de/demo/der-perfekte-wordpress-suchschlitz/) | [Download](/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.zip)*
 
 Heute zeige ich, wie man mit etwas **JavaScript** und **PHP** einen benutzerfreundlichen Suchschlitz in WordPress baut. Das "perfekt" steht deshalb in Anführungszeichen, weil ich mir nicht anmaßen möchte, den wirklich perfekten Suchschlitz zu präsentieren. Möglicherweise würde es "advanced" eher treffen, aber wie klingt das denn bitte?!
 
-Also los: Wir wollen einen Suchschlitz, in dem "Suchen &hellip;" steht, was wiederum verschwinden soll, wenn der Nutzer auf das Eingabefeld klickt und wieder erscheinen soll, wenn der Nutzer außerhalb des Eingabefeldes klickt. Des weiteren soll auf der Suchergebnis-Seite im Suchschlitz der Suchbegriff stehen, welcher ebenfalls verschwinden und erscheinen soll, je nachdem, wohin der Nutzer klickt.
+Also los: Wir wollen einen Suchschlitz, in dem "Suchen …" steht, was wiederum verschwinden soll, wenn der Nutzer auf das Eingabefeld klickt und wieder erscheinen soll, wenn der Nutzer außerhalb des Eingabefeldes klickt. Des weiteren soll auf der Suchergebnis-Seite im Suchschlitz der Suchbegriff stehen, welcher ebenfalls verschwinden und erscheinen soll, je nachdem, wohin der Nutzer klickt.
 
 Das klingt extrem kompliziert, ich weiß, aber bei Verständnisproblemen einfach die Demo anschauen. Ansonsten lege ich mal los. Und zwar brauchen wir folgenden HTML-Teil in der WordPress-Theme-Datei "searchform.php":
 
@@ -84,7 +84,7 @@ Als nächstes brauchen wir ein wenig PHP, um auf der Suchergebnis-Seite den spez
 ?>
 ```
 
-Über `if (!is_search())` fragen wir ab, ob es sich **nicht** um die Suchergebnis-Seite handelt (man beachte das Ausrufezeichen, welches die Bedingung negiert). Ist dem so, speichert die Variable `$search_text` den Wert "Suche &hellip;". Andernfalls, wenn der Besucher sich auf der Suchergebnis-Seite befindet, speichert die Variable den spezifischen Suchbegriff. Wenn wir nochmal hoch zum HTML-Teil gucken, können wir sehen, dass die Beschriftung des Suchschlitzeingabefeldes mit genau dieser Variable `$search_text` realisiert wird, indem das Attribut `value` den Wert `<?php echo $search_text; ?>` bekommt.
+Über `if (!is_search())` fragen wir ab, ob es sich **nicht** um die Suchergebnis-Seite handelt (man beachte das Ausrufezeichen, welches die Bedingung negiert). Ist dem so, speichert die Variable `$search_text` den Wert "Suche …". Andernfalls, wenn der Besucher sich auf der Suchergebnis-Seite befindet, speichert die Variable den spezifischen Suchbegriff. Wenn wir nochmal hoch zum HTML-Teil gucken, können wir sehen, dass die Beschriftung des Suchschlitzeingabefeldes mit genau dieser Variable `$search_text` realisiert wird, indem das Attribut `value` den Wert `<?php echo $search_text; ?>` bekommt.
 
 Zum Schluss muss der ganze Spaß nur noch gestylet werden:
 

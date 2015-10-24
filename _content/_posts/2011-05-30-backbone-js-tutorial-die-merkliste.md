@@ -1,5 +1,5 @@
 ---
-title: 'Backbone.js-Tutorial: Die Merkliste'
+title: Backbone.js-Tutorial: Die Merkliste
 author: Emanuel Kluge
 layout: post
 permalink: /tutorial/backbone-js-tutorial-die-merkliste/
@@ -38,7 +38,7 @@ Als erstes benötigen wir den HTML-Teil.
 <body>
 
   <ul id="nav"></ul>
-  <input type="text" placeholder="Gib einen Titel ein&hellip;" id="list_input" />
+  <input type="text" placeholder="Gib einen Titel ein…" id="list_input" />
   <ul id="list"></ul>
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -190,7 +190,7 @@ window.ListInputView = Backbone.View.extend({
   addListItem : function (item) {
     var view = new ListItemView({model : item});
     
-    !view.model.length &#038;& this.list.append( view.render().el );
+    !view.model.length && this.list.append( view.render().el );
   },
   
   addAllListItems : function () {

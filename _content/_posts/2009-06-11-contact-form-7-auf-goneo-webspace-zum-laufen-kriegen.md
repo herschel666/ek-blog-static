@@ -1,5 +1,5 @@
 ---
-title: '&quot;Contact Form 7&quot; auf goneo-Webspace zum Laufen kriegen'
+title: "Contact Form 7" auf goneo-Webspace zum Laufen kriegen
 author: Emanuel Kluge
 layout: post
 permalink: /tutorial/contact-form-7-auf-goneo-webspace-zum-laufen-kriegen/
@@ -22,13 +22,13 @@ Also dann: Nehmen wir an, unser Kontaktformular ist über den URL "http://www.me
 
 Dafür brauchen wir als erstes das Verzeichnis "/kontaktformular/". Da wir *mod_rewrite* benutzen, existiert dieses Verzeichnis nicht. Wir legen es aber einfach an, indem wir auf der root-Ebene unserer WordPress-Installation (dort, wo die Ordner wp-admin, wp-content und wp-includes liegen) einen Ordner erstellen und "kontaktformular" nennen. In diesen kopieren wir die "index.php"-Datei von der root-Ebene und modifizieren sie im Text-Editor der Wahl folgendermaßen:
 
-Aus Zeile 17 &hellip;
+Aus Zeile 17 …
 
 ```php
 require('./wp-blog-header.php');
 ```
 
-wird &hellip;
+wird …
 
 ```php
 require('../wp-blog-header.php');

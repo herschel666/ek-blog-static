@@ -1,5 +1,5 @@
 ---
-title: 'Nobody beats the Drum &#8211; Grindin&#8217;'
+title: Nobody beats the Drum — Grindin'
 author: Emanuel Kluge
 layout: post
 permalink: /video/nobody-beats-the-drum-grindin/
@@ -15,6 +15,6 @@ categories:
 
 "Grindin'" von [Nobody beats the Drum](http://www.nobodybeatsthedrum.com/) sieht auf den ersten Blick aus wie Computer-generiert. Allerdings handelt es sich bei dem Video um einen Stop-/Motion-Film, der unter Zuhilfenahme von vielen bunten Klötzchen aus 4085 Einzelbildern entstanden ist.
 
-Wenn man dem [Making-of-Video](http://www.youtube.com/watch?v=XBqxjvDAAWE&#038;feature=channel) auf Youtube glauben darf, ist der Macher dabei dem Wahnsinn anheim gefallen. Kann man glauben oder nicht, auf jeden Fall lohnt es sich, dass Video auch anzugucken, denn es ist wirklich lustig gemacht.
+Wenn man dem [Making-of-Video](http://www.youtube.com/watch?v=XBqxjvDAAWE&feature=channel) auf Youtube glauben darf, ist der Macher dabei dem Wahnsinn anheim gefallen. Kann man glauben oder nicht, auf jeden Fall lohnt es sich, dass Video auch anzugucken, denn es ist wirklich lustig gemacht.
 
 Gefunden bei [Nerdcore](http://www.nerdcore.de/wp/2010/02/26/nobody-beats-the-drum-grindin/).

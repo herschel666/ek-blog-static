@@ -1,5 +1,5 @@
 ---
-title: 'JavaScript doesn&#8217;t mark the advent of the full-stack developer'
+title: JavaScript doesn't mark the advent of the full-stack developer
 author: Emanuel Kluge
 layout: post
 permalink: /ueberlegungen/javascript-doesnt-mark-the-advent-of-the-full-stack-developer/

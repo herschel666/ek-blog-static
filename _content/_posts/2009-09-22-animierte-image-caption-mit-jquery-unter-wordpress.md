@@ -18,7 +18,7 @@ categories:
 <p><ins datetime="2013-10-15T20:31:38+00:00"><strong>Update 15.10.2013</strong></ins></p>
 <p><ins datetime="2013-10-15T20:31:38+00:00">Da der Code schon etwas in die Jahre gekommen ist, habe ich mir mal die Mühe gemacht, ihn zu aktualisieren. Hauptsächlich geändert ist die Art der Animation. Diese läuft nun über CSS-Transitions. Ältere Browser, wie bspw. der IE8, stellen also keine Animation dar. Die Grundfunktionalität ist jedoch auch ohne Animation gegeben.</ins></p>
 
-Google liebt es ja, wenn unter oder neben Bildern noch ein beschreibender Text steht. Deswegen hat **WordPress** vor einiger Zeit die **Image-Caption** eingeführt. Diese kann man - wenn man kein Freund von Bildunterschriften ist &mdash; mit **jQuery** jedoch so manipulieren, dass sie nur bei einem **MouseOver** erscheint. Wie das geht, erkläre ich in diesem Tutorial.
+Google liebt es ja, wenn unter oder neben Bildern noch ein beschreibender Text steht. Deswegen hat **WordPress** vor einiger Zeit die **Image-Caption** eingeführt. Diese kann man - wenn man kein Freund von Bildunterschriften ist — mit **jQuery** jedoch so manipulieren, dass sie nur bei einem **MouseOver** erscheint. Wie das geht, erkläre ich in diesem Tutorial.
 
 Wie gehabt als erstes der HTML-Teil:
 

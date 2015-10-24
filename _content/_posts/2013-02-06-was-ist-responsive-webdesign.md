@@ -23,7 +23,7 @@ Schön und gut, denkt sich da vielleicht der/die geneigte Leser/in. Toll ist das
 
 "Nichts leichter wie dies!", um es mit den Worten Helge Schneiders zu sagen. Man schmeißt die lästigen Pixel-Angaben aus seinem Stylesheet und macht Breiten-Angaben sowie horizontale Abstände in Prozent-Angaben. Zusätzlich gibt man eine Maximal-Breite der Seite an, damit diese bspw. nicht auf 24-Zoll-Bildschirmen den kompletten horizontalen Raum einnimmt. In den *Media Queries* ergänzt man anschließend noch Angaben zur Anpassung des Layouts der Elemente. Das Resultat ist ein Design, dass sich geschmeidig wie eine junge Katze dem Browser-Fenster anpasst, egal, wie breit es ist.
 
-[Hier lässt sich das ganze praktisch erfahren](http://www.devsaran.com/theme/professional/) (kurioserweise ist das *Professional Theme* unter RWD-Gesichtspunkten besser als das *Best Responsive Theme* &hellip;)
+[Hier lässt sich das ganze praktisch erfahren](http://www.devsaran.com/theme/professional/) (kurioserweise ist das *Professional Theme* unter RWD-Gesichtspunkten besser als das *Best Responsive Theme* …)
 
 Dem Design ist es nun egal, mit welchem Gerät man die Seite besucht. Die *Breakpoints* wurden auch nicht nach Lieblingshersteller gesetzt, sondern anhand des Inhalts. Unterstützt werden nicht eine handvoll Auflösungen, sondern ein stufenloser Bereich zwischen einer Minimal- und einer Maximalauflösung.
 
@@ -31,7 +31,7 @@ Und warum habe ich diesen Artikel geschrieben? Ganz einfach, um Missverständnis
 
 Und für diejenigen, die selbst entwickeln und beim Thema *Responsive Webdesign* bisher als erste Assoziation *Media Queries* hatten, die Bitte, sich des Themas umfassender anzunehmen. RWD ist ein neuer Ansatz abseits fixer Layouts. *Media Queries* sind dabei nur ein Teilaspekt. Folgende zwei Bücher sind ein großartiger Einstieg in das Thema:
 
-  1. [Responsive Webdesign: Reaktionsfähige Websites gestalten und umsetzen](http://www.amazon.de/gp/product/3446430156/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3446430156&linkCode=as2&tag=pha5-21)<img src="http://www.assoc-amazon.de/e/ir?t=pha5-21&#038;l=as2&#038;o=3&#038;a=3446430156" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> | neu, umfassend und auf deutsch
+  1. [Responsive Webdesign: Reaktionsfähige Websites gestalten und umsetzen](http://www.amazon.de/gp/product/3446430156/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3446430156&linkCode=as2&tag=pha5-21)<img src="http://www.assoc-amazon.de/e/ir?t=pha5-21&l=as2&o=3&a=3446430156" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> | neu, umfassend und auf deutsch
   2. [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) | der Klassiker von Ethan Marcotte
 
 So, das musste ich einfach mal loswerden. Fragen, Anregungen, Ergänzungen sind hoch willkommen. Scheib einfach einen Kommentar.

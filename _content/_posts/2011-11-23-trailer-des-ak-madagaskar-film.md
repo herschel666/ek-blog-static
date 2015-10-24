@@ -15,4 +15,4 @@ categories:
 
 Vor etwas mehr als einem Jahr sind einige Pfadfinderinnen und Pfadfinder vom [AK Madagaskar](http://akmadagaskar.vcp-nds.de/ "AK Madagaskar") des [VCP Land Niedersachsen](http://www.vcp-niedersachsen.de/ "VCP Land Niedersachsen") nach Madagaskar gereist um das Land kennen zu lernen und den Fortschritt des dort betreuten Projekts zu begutachten.
 
-Des weiteren wurde der Plan gefasst, im Zuge der Reise einen Dokumentarfilm sowie eine Fotoausstellung zum Thema "Kindheit und Jugend in Madagaskar" zu erstellen. Beides &mdash; Film und Ausstellung &mdash; nähern sich nun langsam der Fertigstellung. Obiger Trailer gibt schon einmal einen Vorgeschmack auf das, was kommen wird.
+Des weiteren wurde der Plan gefasst, im Zuge der Reise einen Dokumentarfilm sowie eine Fotoausstellung zum Thema "Kindheit und Jugend in Madagaskar" zu erstellen. Beides — Film und Ausstellung — nähern sich nun langsam der Fertigstellung. Obiger Trailer gibt schon einmal einen Vorgeschmack auf das, was kommen wird.

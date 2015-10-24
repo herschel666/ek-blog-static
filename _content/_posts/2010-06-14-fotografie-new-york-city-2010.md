@@ -1,5 +1,5 @@
 ---
-title: 'Fotografie: New York City 2010'
+title: Fotografie: New York City 2010
 author: Emanuel Kluge
 layout: post
 permalink: /fotografie/fotografie-new-york-city-2010/

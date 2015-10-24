@@ -1,5 +1,5 @@
 ---
-title: 'Minimalismus &#8211; Messe/Ost'
+title: Minimalismus — Messe/Ost
 author: Emanuel Kluge
 layout: post
 permalink: /fotografie/minimalismus-messeost/

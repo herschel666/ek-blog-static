@@ -38,4 +38,4 @@ Da die Tage größtenteils grau sind und der Herbst die Stadt im Griff hat, mach
 <a href="/wp-content/uploads/2009/11/baustelle-in-der-innenstadt-von-hannover.jpg" rel="lightbox">
   {% img /wp-content/uploads/2009/11/baustelle-in-der-innenstadt-von-hannover-480x319.jpg Baustelle in der Innenstadt von Hannover %}</a>
 
-Den Spaziergang in die Stadt habe ich übrigens unternommen, um eine Karte für das "I Am Kloot"-Konzert am Sonntag im Béi Chéz Héinz zu kaufen. Ein Reinfall, da das Konzert abgesagt wurde &hellip; \*hrmpf\*
+Den Spaziergang in die Stadt habe ich übrigens unternommen, um eine Karte für das "I Am Kloot"-Konzert am Sonntag im Béi Chéz Héinz zu kaufen. Ein Reinfall, da das Konzert abgesagt wurde … \*hrmpf\*

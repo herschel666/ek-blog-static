@@ -1,5 +1,5 @@
 ---
-title: 'Sour &mdash; Hibi no Neiro'
+title: Sour — Hibi no Neiro
 author: Emanuel Kluge
 layout: post
 permalink: /video/sour-hibi-no-neiro/

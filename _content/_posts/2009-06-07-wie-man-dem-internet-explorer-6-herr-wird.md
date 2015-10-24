@@ -44,7 +44,7 @@ Weist man einem Block-Element die Eigenschaft `float: left` zu, verdoppelt der I
 `hasLayout` ist eine proprietäre Eigenschaft von Microsoft und kann `true` oder `false` sein. Viele Darstellungsfelder im IE6 gehen auf diesen Eigenschaft zurück. Man geht also auf Nummer Sicher, wenn man mit `width`-Angaben im Stylesheet nicht knausert, wodurch das Element auf `hasLayout = true` gesetzt wird.
 
  * [Über hasLayout](http://www.satzansatz.de/cssd/onhavinglayout.html)
- * ["Microsoft &mdash; HasLayout" Overview](http://msdn.microsoft.com/en-us/library/bb250481.aspx)
+ * ["Microsoft — HasLayout" Overview](http://msdn.microsoft.com/en-us/library/bb250481.aspx)
 
 <a name="hr-tags-immer-umschliessen"></a>
 ### `<hr>`-Tags immer umschließen
@@ -95,7 +95,7 @@ Für diesen Fall empfiehlt sich der *"Whatever:hover"-Hack*. Sobald dieser einge
 
 **Achtung: Funktioniert nur bei aktiviertem JavaScript!**
 
- * [Whatever:hover &mdash; Erklärung und Download](http://www.xs4all.nl/~peterned/csshover.html)
+ * [Whatever:hover — Erklärung und Download](http://www.xs4all.nl/~peterned/csshover.html)
 
 <a name="finger-weg-von-attribut-selektoren"></a>
 ### Finger weg von Attribut-Selektoren
@@ -109,7 +109,7 @@ Mit Attribut-Selektoren hat man bspw. die Möglichkeit einzelne `<input>`-Elemen
 
 Besonders bei Hover-Effekten empfiehlt es sich eigentlich, auf sogenannte CSS-Sprites zurück zu greifen, um Verzögerungen beim Laden der Hover-Grafik zu vermeiden. CSS-Sprites bedeutet, dass man alle Grafiken in eine Datei steckt und beim Hover-Effekt keine neue Grafik lädt, sondern lediglich die Hintergrundposition des CSS-Sprites ändert.
 
-Eine geniale Lösung &mdash; außer für den IE6. Dieser speichert Grafiken nicht im Cache, so dass die große CSS-Sprite-Grafik jedes mal neu geladen werden muss, was den Hover-Effekt noch holperiger als bei der Standard-Lösung macht. Das bedeutet, dass man für den IE6 ein Extra-Stylesheet anlegen muss, in dem man die Hover-Effekte auf althergebrachte Weise mit Einzelgrafiken definiert.
+Eine geniale Lösung — außer für den IE6. Dieser speichert Grafiken nicht im Cache, so dass die große CSS-Sprite-Grafik jedes mal neu geladen werden muss, was den Hover-Effekt noch holperiger als bei der Standard-Lösung macht. Das bedeutet, dass man für den IE6 ein Extra-Stylesheet anlegen muss, in dem man die Hover-Effekte auf althergebrachte Weise mit Einzelgrafiken definiert.
 
  * [Hovereffekte mit CSS-Sprites](http://www.webkrauts.de/2007/10/20/hovereffekte-mit-css-sprites/)
  * [CSS Sprites: Image Slicing’s Kiss of Death](http://www.alistapart.com/articles/sprites)
@@ -117,7 +117,7 @@ Eine geniale Lösung &mdash; außer für den IE6. Dieser speichert Grafiken nich
 <a name="iepngfix-fuer-png-mit-alpha-transparenz"></a>
 ### "iepngfix" für PNGs mit Alpha-Transparenz
 
-Der IE6 unterstützt von Hause aus keine Alpha-Transparenz bei PNGs, weshalb der eigentlich transparente Bereich in einem "dekorativen" grau erstrahlt. Allerdings ist das kein Grund zu verzagen, gibt es doch den "**iepngfix**". Diesen &mdash; genauso wie den "Whatever:hover"-Hack &mdash; in die Website einbinden, und schon bereiten PNGs keine Probleme mehr.
+Der IE6 unterstützt von Hause aus keine Alpha-Transparenz bei PNGs, weshalb der eigentlich transparente Bereich in einem "dekorativen" grau erstrahlt. Allerdings ist das kein Grund zu verzagen, gibt es doch den "**iepngfix**". Diesen — genauso wie den "Whatever:hover"-Hack — in die Website einbinden, und schon bereiten PNGs keine Probleme mehr.
 
 **Achtung: Funktioniert nur bei aktiviertem JavaScript!**
 

@@ -1,5 +1,5 @@
 ---
-title: 'Studie "Backboned": AJAX-powered WordPress-Theme mit Backbone.js'
+title: Studie "Backboned": AJAX-powered WordPress-Theme mit Backbone.js
 author: Emanuel Kluge
 layout: post
 permalink: /html-css/ajax-wordpress-theme-backbone-js/
@@ -12,7 +12,7 @@ categories:
   - WordPress
 ---
 
-{% img /wp-content/uploads/2011/07/backboned-screenshot.gif &quot;Backboned&quot; &middot; AJAX-powered WordPress-Theme &middot; Screenshot %}
+{% img /wp-content/uploads/2011/07/backboned-screenshot.gif "Backboned" · AJAX-powered WordPress-Theme · Screenshot %}
 
 [Download](http://www.emanuel-kluge.de/wp-content/uploads/2011/07/backboned.zip)
 
@@ -26,11 +26,11 @@ Um diesen Workaround zu realisieren, war jedoch ein hohes Maß an Improvisation 
 
 Darüber hinaus bleibt anzumerken, dass das Theme insgesamt eher rudimentär ist. Ich würde von einem Produktiveinsatz abraten. Allerdings bin ich grundsätzlich von der Idee des Themes überzeugt und freue mich natürlich, wenn jemand sich ebenfalls dafür begeistern kann und daran weiterarbeitet. Gerne auch in Kollaboration mit mir. Zu tun gibt es unter anderem noch:
 
-  1. die grundsätzliche Verbesserung des PHP-Codes (sicherer machen, besser in das WordPress-Environment integrieren, &hellip;)
-  2. den Funktionsumfang erhöhen (Neueste Kommentare, Tags, Suchfunktion, Sidebar-Widgets(?), &hellip;)
-  3. das JavaScript straffen (Performance, geschmeidigere GUI-Abläufe, &hellip;)
+  1. die grundsätzliche Verbesserung des PHP-Codes (sicherer machen, besser in das WordPress-Environment integrieren, …)
+  2. den Funktionsumfang erhöhen (Neueste Kommentare, Tags, Suchfunktion, Sidebar-Widgets(?), …)
+  3. das JavaScript straffen (Performance, geschmeidigere GUI-Abläufe, …)
 
-&hellip; um ein paar Aspekte zu nennen.
+… um ein paar Aspekte zu nennen.
 
 Ansonsten freue ich mich wie immer über Anregungen und Verbesserungsvorschläge - gerade bei einem Vorhaben dieser Größenordnung hat man als Entwickler nicht wirklich einen umfassenden Überblick.
 

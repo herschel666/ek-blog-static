@@ -1,5 +1,5 @@
 ---
-title: 'Require.js: Umgebungsvariablen übers Script-Tag mitgeben'
+title: Require.js: Umgebungsvariablen übers Script-Tag mitgeben
 author: Emanuel Kluge
 layout: post
 permalink: /tips-und-tricks/require-js-umgebungsvariablen-ubers-script-tag-mitgeben/
@@ -17,7 +17,7 @@ Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js](http://requir
   2. **Man legt für jeden Unterseite eine Config-Datei an, die das gewünschte, zur Unterseite gehörige Script lädt**  
     Auch dies ist unelegant, da es Redundanz und unnötigen Overhead erzeugt. 
   3. **Man definiert am Script-Tag, welches die Require.js-Library einbindet, seitenspezifische Umgebungsvariablen**  
-    Dazu im folgenden mehr &hellip;
+    Dazu im folgenden mehr …
 
 Der Trick bei letzterer Herangehensweise ist, mithilfe des HTML5-`data`-Attributs weitere Informationen zu übergeben und dem Script-Tag eine ID zu verpassen, so dass es einfach angesprochen werden kann. Dadurch hat man die Möglichkeit, mit einer Konfigurationsdatei flexibel auf die jeweilige Unterseite zu reagieren.
 
@@ -63,7 +63,7 @@ require.config({
 
 Als erstes wird das Script-Tag, welches Require.js lädt, in der Variable `requirejsElem` gespeichert, um bequem darauf zugreifen zu können. Dies ist zwar eine globale Variable, was es eigentlich zu vermeiden gilt, aber hier heiligt der Zweck die Mittel.
 
-Als nächste folgt die eigentliche Require.js-Konfiguration. Die `deps`-Eigenschaft, welche die benötigte Applikationslogik lädt, ist nun dynamisch und spricht alle `<prefix>.main.js`-Dateien an. In diesen können dann die jeweils benötigten Module per `require([&hellip;])` geladen werden.
+Als nächste folgt die eigentliche Require.js-Konfiguration. Die `deps`-Eigenschaft, welche die benötigte Applikationslogik lädt, ist nun dynamisch und spricht alle `<prefix>.main.js`-Dateien an. In diesen können dann die jeweils benötigten Module per `require([…])` geladen werden.
 
 Das `devmode`-Flag wird fürs Cache-Busting genutzt. Ist die Seite im Dev-Mode, wird an alle Script-Pfade der GET-Parameter `bust` angehängt und diesem der aktuelle Timecode übergeben.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Flickr2Twitter &mdash; Innovationen von gestern'
+title: Flickr2Twitter — Innovationen von gestern
 author: Emanuel Kluge
 layout: post
 permalink: /twitter/flickr2twitter-innovationen-von-gestern/

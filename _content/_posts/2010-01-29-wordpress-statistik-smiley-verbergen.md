@@ -13,8 +13,6 @@ Das Statistik-PlugIn [WordPress.com Stats](http://wordpress.org/extend/plugins/s
 
 Das einzige was störend sein kann, ist das kleine Smiley, das im Blog erscheint, wenn das PlugIn aktiv ist. Doch das wird man mit vier Zeilen CSS ganz schnell los:
 
-
-
 ```css
 #wpstats {
   height: 0;

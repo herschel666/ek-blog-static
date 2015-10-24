@@ -21,7 +21,7 @@ Angenommen, man möchte auf eine Unterseite der Website des deutschen Dackel-Clu
 
 
 ```html
-<p>&hellip; bei der <a href="dackel-club.tld/path/to/aufzucht/" title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln">Aufzucht</a> von Dackeln &hellip;</p>
+<p>… bei der <a href="dackel-club.tld/path/to/aufzucht/" title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln">Aufzucht</a> von Dackeln …</p>
 ```
 
 Ohne das title-Attribut weiß man nicht, wohin der Begriff "Aufzucht" führt. Durch Setzen des title-Attributs kann der Leser es jedoch herausfinden, indem er den Cursor etwas länger über dem Link ruhen lässt.

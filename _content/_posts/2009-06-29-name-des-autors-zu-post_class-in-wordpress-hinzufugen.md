@@ -9,7 +9,7 @@ categories:
   - WordPress
 ---
 
-Ein Freund kam neulich auf mich zu fragte mich, wie er die Beiträge seines Blogs optisch trennen kann, je nachdem, welcher Autor den Beitrag geschrieben hat. Ich sagte, das sei ganz einfach und nahm &mdash; optmistisch, wie ich bin &mdash; an, die WordPress-Funktion `post_class()` würde u.a. auch den Namen des Autors als Klasse ausgeben. Dem ist jedoch nicht so.
+Ein Freund kam neulich auf mich zu fragte mich, wie er die Beiträge seines Blogs optisch trennen kann, je nachdem, welcher Autor den Beitrag geschrieben hat. Ich sagte, das sei ganz einfach und nahm — optmistisch, wie ich bin — an, die WordPress-Funktion `post_class()` würde u.a. auch den Namen des Autors als Klasse ausgeben. Dem ist jedoch nicht so.
 
 Man kann den Namen des Autors aber ganz schnell mit folgendem PHP-Code hinzufügen:
 

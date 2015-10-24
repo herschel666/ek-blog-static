@@ -12,7 +12,7 @@ categories:
   <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/DlkMs4ZHHr8?rel=0" frameborder="0" allowfullscreen style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%"></iframe>
 </div>
 
-([AI &mdash; Long Level](https://www.youtube.com/watch?v=DlkMs4ZHHr8))
+([AI — Long Level](https://www.youtube.com/watch?v=DlkMs4ZHHr8))
 
 Hierbei handelt es sich um einen Beitrag zur [Super Mario AI Competition](http://julian.togelius.com/mariocompetition2009/index.php) von [Robin Baumgarten](http://www.doc.ic.ac.uk/~rb1006/projects:marioai).
 

@@ -92,7 +92,7 @@ Kommen wir nun zum JavaScript-/jQuery-Teil:
 })(window, jQuery, '<img src="assets/images/load.gif" class="spinner" alt="L&auml;dt …" />');
 ```
 
-Die Ladegrafik `spinner` wird innerhalb der `init`-Funktion in alle `.image-frame`-Elemente eingefügt. Die Bilder sind &mdash; wenn JavaScript im Browser aktiviert ist &mdash; alle unsichtbar durch die CSS-Angabe `opacity: 0;`. Wenn der `load`-Event auf das `window`-Objekt ge-triggert wird, wird sowohl die Ladegrafik als auch die `.loading`-Klasse von den Bildern entfernt. Das Einblenden geschieht dann mithilfe von CSS-Transitions.
+Die Ladegrafik `spinner` wird innerhalb der `init`-Funktion in alle `.image-frame`-Elemente eingefügt. Die Bilder sind — wenn JavaScript im Browser aktiviert ist — alle unsichtbar durch die CSS-Angabe `opacity: 0;`. Wenn der `load`-Event auf das `window`-Objekt ge-triggert wird, wird sowohl die Ladegrafik als auch die `.loading`-Klasse von den Bildern entfernt. Das Einblenden geschieht dann mithilfe von CSS-Transitions.
 
 In Browsern, die keine CSS-Transitions unterstützen, erscheinen die Bilder ohne den weichen Übergang. Das ist jedoch nicht weiter tragisch, die grundsätzliche Funktionalität ist gewährleistet.
 

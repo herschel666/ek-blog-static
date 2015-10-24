@@ -18,7 +18,7 @@ So entwickeln sich CSS-Transitions von der Spielerei zur ernsten Alternative zu 
 
 Der Artikel behandelt die Eigenschaften `transition-duration` und `transition-timing-function`, und beschreibt, wie man Dauer und Geschwindigkeit von Animationen beeinflusst.
 
-### 2. [CSS Transforms and Transitions &mdash; The OSX Dock example](http://thechriswalker.net/2009-03/more-webkit-goodies-css-transforms-and-transitions-the-osx-dock-example.html)
+### 2. [CSS Transforms and Transitions — The OSX Dock example](http://thechriswalker.net/2009-03/more-webkit-goodies-css-transforms-and-transitions-the-osx-dock-example.html)
 
 {% img /wp-content/uploads/2010/02/mac-osx-dock-realized-with-css3-transition.jpg Mac OSX-Dock realized with- CSS3-Transition %}
 
@@ -44,7 +44,7 @@ Der Akkordeon-Effekt nur mit CSS3 und Transitions realisiert.
 
 ### 6. [CSS3 Hover-Tabs ohne JavaScript](http://www.dosonaro.com/css3-hover-tabs-ohne-javascript/)
 
-{% img /wp-content/uploads/2010/02/dosonaro-blog.jpg Dosonaro &mdash; Blog %}
+{% img /wp-content/uploads/2010/02/dosonaro-blog.jpg Dosonaro — Blog %}
 
 Hover-Tabs ohne JavaScript. Über die Praxistauglichkeit dieser Lösung kann man streiten, aber nichtsdestotrotz veranschaulicht sie sehr schön die Möglichkeiten von CSS3.
 
