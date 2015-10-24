@@ -35,7 +35,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./_site && metalsmith && grunt"
+    "build": "rm -rf ./_site && metalsmith && grunt",
+    "prod": "NODE_ENV=production metalsmith --config metalsmith.production.json && grunt"
   },
   "repository": {
     "type": "git",
