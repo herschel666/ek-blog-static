@@ -19,7 +19,7 @@ a:link,
 a:visited {
   color: $blue;
   text-decoration: none;
-  @include transition(background-color .5s linear);
+  transition: background-color .5s linear;
 }
 
 a:hover,
@@ -43,9 +43,10 @@ a:active {
   text-shadow: 0 1px 1px black;
   position: relative;
   z-index: 100;
-  @include box-sizing(border-box);
+  box-sizing: border-box;
   .js & {
-    @include transform (translateY(70vh) translateZ(0));
+    backface-visibility: hidden;
+    transform: translateY(70vh) translateZ(0);
   }
 }
 
@@ -56,7 +57,8 @@ a:active {
   font-size: rem(32);
   line-height: 1;
   .js & {
-    @include transform (translateY(-40vh) translateZ(0));
+    backface-visibility: hidden;
+    transform: translateY(-40vh) translateZ(0);
   }
 
   &:hover,
@@ -81,7 +83,7 @@ a:active {
 
 .ek-main-header__inner {
   padding: rem(40) rem(8) 0 rem(8);
-  @include box-sizing(border-box);
+  box-sizing: border-box;
   @include content-width (rem($site-max-width));
 }
 
