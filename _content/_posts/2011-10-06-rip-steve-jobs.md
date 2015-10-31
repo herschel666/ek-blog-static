@@ -1,0 +1,21 @@
+---
+title: RIP Steve Jobs
+author: Emanuel Kluge
+layout: post
+permalink: /apple/rip-steve-jobs/
+categories:
+  - Apple
+  - Neuigkeiten
+---
+
+{% img /wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif Apple-Website: RIP Steve Jobs %}
+
+[Letzte Nacht verstarb Steve Jobs — Gründer von u.a. Apple Inc. — mit 56 Jahren an Krebs.](http://www.spiegel.de/netzwelt/web/0,1518,790187,00.html)
+
+Mein Verhältnis zur Firma Apple ist zwar seit längerem recht ambivalent — den in Funktion und Design überragenden Produkten steht ein oftmals zweifelhaftes Geschäftsgebaren gegenüber. Auch die Schar größtenteils unreflektierter Apple-Jünger erzeugt manches mal ein Stirnrunzeln meinerseits. Doch das alles ändert nichts daran, dass Steve Jobs schon zu Lebzeiten als Unternehmer eine Legende war.
+
+Sein beständiger Antrieb, Dinge voran zu treiben und weiter zu entwickeln, die konstante Suche nach Innovationen und das damit einhergehende regelmäßige, kritische Hinterfragen des Status Quo gepaart mit der Kompromisslosigkeit, mit der er die Dinge anging. Selbst Misserfolge waren keine Rückschläge, sondern nur weitere Teilstrecken auf dem Weg nach vorn.
+
+Dies alles bietet Inspiration nicht nur für Unternehmer, sondern jeden Menschen, der das Leben nicht als statische Einheit zwischen Beruf, Reihenhaus und Kegelklub seht, welche es zu konservieren gilt. Und man entschuldige mir das Strapazieren überkommener Stereotype an dieser Stelle.
+
+Wie dem auch sei, der langen Rede kurzer Sinn: RIP Steve Jobs.

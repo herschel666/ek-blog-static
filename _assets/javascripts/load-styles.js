@@ -1,44 +1,48 @@
 
-"use strict";
+'use strict';
 
-var STORAGE_PROP = 'ek-styles';
+import { ajax } from 'nanoajax';
+import loadCSS from 'imports?undefined=>{document:document}!fg-loadcss';
+
+const STORAGE_PROP = 'ek-styles';
+const url = window.STYLES_PATH;
 
 try {
-  nanoajax.ajax({
-    url: stylesPath,
+  ajax({
+    url,
     method: 'HEAD'
-  }, function (code, resp, xhr) {
-    var lastModified = new Date(xhr.getResponseHeader('Last-Modified')),
-        cached = JSON.parse(localStorage.getItem(STORAGE_PROP) || '{}');
+  }, (code, resp, xhr) => {
+    const lastModified = new Date(xhr.getResponseHeader('Last-Modified'));
+    const cached = JSON.parse(localStorage.getItem(STORAGE_PROP) || '{}');
     if ( cached.lastModified && cached.lastModified >= lastModified ) {
       return insertStyles(cached.content);
     }
-    nanoajax.ajax(stylesPath, fetchFreshStyles);
+    ajax({url}, fetchFreshStyles);
   });
 } catch (e) {
   loadStyles();
 }
 
 function loadStyles() {
-  loadCSS(stylesPath, null, null, function () {
+  loadCSS(STYLES_PATH, null, null, () => {
     document.documentElement.className += ' is-content-ready';
   });
 }
 
 function insertStyles(content) {
-  var elem = document.createElement('style'),
-      ref = document.getElementsByTagName('script')[0];
+  const elem = document.createElement('style');
+  const ref = document.getElementsByTagName('script')[0];
   elem.rel = 'stylesheet';
   elem.type = 'text/css';
   elem.textContent = content;
   ref.parentNode.insertBefore(elem, ref);
-  requestAnimationFrame(function () {
+  requestAnimationFrame(() => {
     document.documentElement.className += ' is-content-ready';
   });
 }
 
 function fetchFreshStyles(code, resp, xhr) {
-  var toCache = {
+  const toCache = {
     lastModified: (new Date(xhr.getResponseHeader('Last-Modified'))).getTime(),
     content: resp
   };

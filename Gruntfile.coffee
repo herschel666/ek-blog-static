@@ -8,13 +8,13 @@ module.exports = (grunt) ->
 
     imagemin:
       options:
-        optimizationLevel: 7
+        optimizationLevel: if process.env.NODE_END is 'production' then 7 else 0
       all:
         files: [{
           expand: true
           cwd: "userfiles/"
           src: ["**/*.{png,jpg,gif}"]
-          dest: "wp-content/"
+          dest: "_site/wp-content/"
         }]
 
     copy:
@@ -25,11 +25,5 @@ module.exports = (grunt) ->
           src: ["**/*.zip"]
           dest: "wp-content/"
         }]
-      loadCSS:
-        src: "_assets/javascripts/vendor/loadcss/loadCSS.js"
-        dest: "_assets/javascripts/vendor/loadcss/loadCSS.js"
-        options:
-          process: (content) ->
-            content.replace "/*!", "/**"
 
   grunt.registerTask "default", ["imagemin:all", "copy:zip"]

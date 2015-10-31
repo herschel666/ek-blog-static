@@ -1,0 +1,13 @@
+
+<script>
+  // Load styles
+  window.STYLES_PATH = '{{ assets["main.css"].path }}';
+  {{ assets['load-styles.js'].content | safe }}
+
+  // Load main.js
+  (function (scriptPath, doc, elem) {
+    var e = doc.createElement(elem), r = doc.getElementsByTagName(elem)[0];
+    e.src = scriptPath; e.type = 'text/java' + elem; e.async = true;
+    r.parentNode.insertBefore(e, r);
+  })('/{{ assets["main.js"].path }}', document, 'script');
+</script>
