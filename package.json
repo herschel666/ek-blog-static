@@ -27,6 +27,7 @@
     "nanoajax": "^0.4.0",
     "node-sass": "^3.3.3",
     "sass-loader": "^3.0.0",
+    "strip-bom": "^2.0.0",
     "style-loader": "^0.13.0",
     "surge": "^0.14.3",
     "swig": "^1.4.2",
@@ -35,8 +36,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./_site && metalsmith && grunt",
-    "prod": "NODE_ENV=production metalsmith --config metalsmith.production.json && grunt"
+    "build": "node index && grunt",
+    "prod": "NODE_ENV=production npm run build"
   },
   "repository": {
     "type": "git",

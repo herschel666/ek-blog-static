@@ -52,7 +52,7 @@ module.exports = function _posts() {
         files[page.permalink] = {
           metadata: metadata,
           template: 'index.html',
-          contents: new Buffer(' '),
+          contents: new Buffer(' ', 'utf8'),
           prev: page.prev,
           next: page.next,
           page: page.page,

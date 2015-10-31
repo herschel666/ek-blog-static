@@ -105,7 +105,7 @@ function writeAssetsToFiles(files, stats, metalsmith, finished) {
     var content = fs.readFileSync(baseFilePath);
     assets[asset.name] = {
       path: filePath,
-      content: content.toString()
+      content: content.toString('utf8')
     };
     realFs.writeFile(
       baseFilePath,
