@@ -11,7 +11,7 @@ categories:
 
 Hier habe ich ein kleines Tutorial, wie ihr in euren WordPress-Blog einen schicken Login-/Logout-Button einbaut. Dafür nutzen wir die WordPress-eigene Funktion `wp_loginout()`, die Abfrage `is_user_logged_in()` und die Text Replacement-Technik mithilfe von CSS.
 
-{% img /wp-content/uploads/2009/06/loginout-button_-_style-480x132.png loginout-button &mdash; style %}
+{% lazyImg /wp-content/uploads/2009/06/loginout-button_-_style-480x132.png loginout-button &mdash; style %}
 
 Vorweg eine kleine [Demo][demo].
 
@@ -65,7 +65,7 @@ Nun kommen die Styles hinzu, um den schicken Button, anstatt des schnöden Text-
 
 Per `text-indent: -9999px` wird der Text-Link nach links ins Abseits verschoben und zurück bleibt die Grafik. Diese sieht wie folgt aus:
 
-{% img /wp-content/uploads/2009/06/loginout.jpg loginout &mdash; grafik %}
+{% lazyImg /wp-content/uploads/2009/06/loginout.jpg loginout &mdash; grafik %}
 
 Per `background-position` wird je nach Zustand der richtige Button angezeigt. Ihr könnt die Grafik gerne übernehmen, oder einfach was eigenes entwerfen, was besser in euren Blog passt.
 

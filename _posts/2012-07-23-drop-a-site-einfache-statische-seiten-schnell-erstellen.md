@@ -8,7 +8,7 @@ categories:
   - PHP
 ---
 
-[{% img /wp-content/uploads/2012/07/github-_-herschel666-_-drop-a-site.jpg Github &mdash; herschel666 &mdash; Drop-a-Site %}][github]
+[{% lazyImg /wp-content/uploads/2012/07/github-_-herschel666-_-drop-a-site.jpg Github &mdash; herschel666 &mdash; Drop-a-Site %}][github]
 
 ["Drop-a-Site" auf GitHub][github] | [Download][download]
 

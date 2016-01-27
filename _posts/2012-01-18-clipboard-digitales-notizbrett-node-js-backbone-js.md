@@ -10,7 +10,7 @@ categories:
   - Neuigkeiten
 ---
 
-[{% img /wp-content/uploads/2012/01/clipboard-node-js.gif Clipboard &ndash; Digitales Notizbrett mit Node.js und Backbone.js %}][demo]
+[{% lazyImg /wp-content/uploads/2012/01/clipboard-node-js.gif Clipboard &ndash; Digitales Notizbrett mit Node.js und Backbone.js %}][demo]
 
 Um etwas Zerstreuung vom Uni-Lernstress zu bekommen, habe ich einen Ausflug in die bunte [Node.js][nodejs]-Welt unternommen. Als Mittel zum Zweck diente mir dabei [das digitale Notizbrett "Clipboard"][demo]. Serverseitig kommt das [Application-Framework Express][expressjs] zum Einsatz. Gespeichert werden die Daten in einer MongoDB-Datenbank mithilfe von [Mongoose][mongoosejs].
 

@@ -8,7 +8,7 @@ categories:
   - Überlegungen
 ---
 
-{% img /wp-content/uploads/2013/07/anarchy-480x357.png Anarchy %}  
+{% lazyImg /wp-content/uploads/2013/07/anarchy-480x357.png Anarchy %}  
 <small>*Photo by [Kim Yokota][flickr] ([CC][cc])*</small>
 
 Da ich mich gerade auf einem beliebten und nicht unumstrittenen Social Network über den [SpOn-Artikel "NSA-Spähprogramm: Friedrich fordert Deutsche zu mehr Datenschutz auf"][spon] aufgeregt habe und das zu einem relativ umfangreichen Kommentar geführt hat, möchte ich die Gelegenheit nutzen, mich auch noch einmal öffentlich zu echauffieren.

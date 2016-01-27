@@ -7,7 +7,7 @@ categories:
   - Off-Topic
 ---
 
-{% img /wp-content/uploads/2011/01/nerdcore-euroweb-480x299.png Nerdcore &mdash; Euroweb %}
+{% lazyImg /wp-content/uploads/2011/01/nerdcore-euroweb-480x299.png Nerdcore &mdash; Euroweb %}
 
 Dass René Walter seine Domain "Nerdcore.de" an Euroweb abgeben musste, ist nicht mehr neu und ich will hier auch niemanden mit dem hunderttausendsten Kommentar dazu langweilen, wie schlimm das alles ist. Als "Mann vom Fach" (klingt sehr hochtrabend, ich weiß :-) ), fallen mir bei der Interimsseite unter www.nerdcore.de aber zwei Details auf, die mich schon etwas wundern.
 

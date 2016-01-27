@@ -11,7 +11,7 @@ categories:
   - Musik
 ---
 
-{% img /wp-content/uploads/2009/07/weezer-8bit-480x230.jpg weezer &mdash; 8-bit-album %}
+{% lazyImg /wp-content/uploads/2009/07/weezer-8bit-480x230.jpg weezer &mdash; 8-bit-album %}
 
 Von [Pterodactyl Squad][ptesquad] gibt es jetzt ein <span lang="en">Weezer-8-Bit-Album</span> zum kostenlosen Download.
 

@@ -7,7 +7,7 @@ categories:
   - Überlegungen
 ---
 
-{% img /wp-content/uploads/2009/07/designenlassen.jpg designenlassen.de %}
+{% lazyImg /wp-content/uploads/2009/07/designenlassen.jpg designenlassen.de %}
 
 [Auf dem Fontblog wurde heute ein offener Brief von Stefan Maas an den Online-Dienst DesignenLassen.de veröffentlicht][fontblog]. ([Link zu DesignenLassen.de][designenlassen])
 

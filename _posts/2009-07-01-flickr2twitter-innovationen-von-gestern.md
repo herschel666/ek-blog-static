@@ -9,7 +9,7 @@ categories:
   - Überlegungen
 ---
 
-{% img /wp-content/uploads/2009/07/flickr2twitter-480x177.png flickr2twitter %}
+{% lazyImg /wp-content/uploads/2009/07/flickr2twitter-480x177.png flickr2twitter %}
 
 Endlich hat [Flickr][flickr] es geschafft, seinen Dienst mit Twitter zu verknüpfen. Man kann nun seinen Twitter-Account zur Liste seiner Blogs bei Flickr hinzufügen und hat dann über jedem seiner Fotos, sowie über den Fotos der User, die das erlauben, einen Button, um das Foto zu twittern.
 

@@ -14,25 +14,22 @@ paginate: 10
 paginate_path: "/page/:num/"
 lsi: false
 assets:
-  dirname: assets
-  baseurl: /assets/
   sources:
     - _assets/javascripts
     - _assets/styles
-  js_compressor: yui
-  css_compressor: sass
-  gzip: ['text/css']
+  compressor:
+    js: true
+    css: sass
+  features:
+    liquid: false
 
 gems:
   - jekyll-assets
   - jekyll-minifier
+  - jekyll-paginate
 
 jekyll-minifier:
   exclude: ['node_modules', '_assets']
-
-ftp_host: 'emanuel-kluge.de'
-ftp_dir: '/'
-ftp_passive: false
 
 include: ['.htaccess']
 exclude: [

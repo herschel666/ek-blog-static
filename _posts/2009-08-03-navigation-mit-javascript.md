@@ -9,7 +9,7 @@ categories:
   - Tutorial
 ---
 
-{% img /wp-content/uploads/2009/08/navigation-mit-javascript.jpg Navigation mit JavaScript %}
+{% lazyImg /wp-content/uploads/2009/08/navigation-mit-javascript.jpg Navigation mit JavaScript %}
 
 *[Demo][demo] | [Download][download]*
 

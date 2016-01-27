@@ -7,7 +7,7 @@ categories:
   - Off-Topic
 ---
 
-{% img /wp-content/uploads/2010/02/lost-abc-screenshot.gif Lost &mdash; ABC &mdash; Screenshot %}
+{% lazyImg /wp-content/uploads/2010/02/lost-abc-screenshot.gif Lost &mdash; ABC &mdash; Screenshot %}
 
 **Spoiler-Gefahr!**
 

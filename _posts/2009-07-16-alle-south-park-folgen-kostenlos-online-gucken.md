@@ -7,7 +7,7 @@ categories:
   - Neuigkeiten
 ---
 
-{% img /wp-content/uploads/2009/07/southpark.jpg Southpark kostenlos online gucken %}
+{% lazyImg /wp-content/uploads/2009/07/southpark.jpg Southpark kostenlos online gucken %}
 
 Jeder kennt sicherlich die Zeichentrick-Serie South Park, mit den vier juvenilen Protagonisten Eric Cartman, Kenny McCormick, Kyle Broflovski und Stan Marsh, die nicht nur unter physischen Gesichtspunkten betrachtet ein ziemlich großes Maul haben. Deren Abenteuer kann man ab jetzt kostenlos und in deutscher Sprache online unter [www.southpark.de][southpark] gucken. Das bedeutet 12 Staffeln spannender Abenteuer und derber Pöbeleien.
 

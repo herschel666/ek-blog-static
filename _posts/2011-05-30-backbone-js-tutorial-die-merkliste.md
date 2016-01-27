@@ -11,7 +11,7 @@ categories:
   - Tutorial
 ---
 
-{% img /wp-content/uploads/2011/05/backbone.png Backbone.js-Tutorial %}
+{% lazyImg /wp-content/uploads/2011/05/backbone.png Backbone.js-Tutorial %}
 
 *[Demo][demo] | [Download][download]*
 

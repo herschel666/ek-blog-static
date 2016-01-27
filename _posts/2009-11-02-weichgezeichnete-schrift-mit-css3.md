@@ -8,7 +8,7 @@ categories:
   - Tips und Tricks
 ---
 
-{% img /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg Weichgezeichnete Schrift mit CSS3 %}
+{% lazyImg /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg Weichgezeichnete Schrift mit CSS3 %}
 
 *[Demo][demo] | [Download][download]*
 

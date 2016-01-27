@@ -8,7 +8,7 @@ categories:
   - WordPress
 ---
 
-{% img /wp-content/uploads/2009/06/google-analytics-479x94.png google analytics-Screenshot %}
+{% lazyImg /wp-content/uploads/2009/06/google-analytics-479x94.png google analytics-Screenshot %}
 
 Gerade gucke ich meine Statistiken auf Google Analytics an und muss mit Erschrecken feststellen, dass jedes mal, wenn ich beim Schreiben eines neuen Artikels diesen in der Vorschau betrachtet habe, das ganze als Page Impression festgehalten wurde. Was für ein Blödsinn, ich gucke den ganzen Tag pausenlos bei meinem Blog vorbei, und verfälsche mir damit die Statistik.
 

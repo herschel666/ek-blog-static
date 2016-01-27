@@ -10,7 +10,7 @@ categories:
   - Tutorial
 ---
 
-{% img /wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg Social Icon-Bar mit jQuery %}
+{% lazyImg /wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg Social Icon-Bar mit jQuery %}
 
 *[Demo][demo] | [Download][download]*
 
@@ -18,7 +18,7 @@ Um meine Besucher auf meine diversen Profile in Social Communities aufmerksam zu
 
 Jetzt möchte ich kurz erläutern, wie das geht. Als erstes brauchen wir ein passendes Icon-Set. Ich habe für dieses Tutorial auf die [Matte Black Social Media Icons][webtreats] zurückgegriffen, da diese Sammlung u.a. auch ein Xing-Icon beinhaltet. Die Icons bringen wir nun in einem Grafik-Programm mithilfe des Crop-Tools auf die gewünschte Größe, in meinem Fall 40x40 Pixel.
 
-{% img /wp-content/uploads/2009/10/icon-crop-tool.jpg Icon mit dem Crop-Tool auf die richtige Groesse bringen %}
+{% lazyImg /wp-content/uploads/2009/10/icon-crop-tool.jpg Icon mit dem Crop-Tool auf die richtige Groesse bringen %}
 
 Das machen wir mit allen Icons, die wir benötigen. Danach widmen wir uns dem HTML-Teil:
 

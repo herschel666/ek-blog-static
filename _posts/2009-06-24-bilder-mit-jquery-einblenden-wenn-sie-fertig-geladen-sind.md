@@ -12,7 +12,7 @@ categories:
 
 Das hier ist zwar eher im Bereich "Spielerei" anzusiedeln, aber dennoch recht nützlich. Schließlich sieht es einfach eleganter aus, wenn die Bilder eingeblendet werden, wenn sie fertig geladen sind. Außerdem sehen die Besucher nicht den alternativen Text des Bildes, sondern das kleine, sich drehende Rädchen, bei dem heutzutage (fast) jeder weiß, dass gerade etwas in Arbeit ist.
 
-{% img /wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png Bilder mit jQuery einblenden, wenn sie fertig geladen sind %}
+{% lazyImg /wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png Bilder mit jQuery einblenden, wenn sie fertig geladen sind %}
 
 *[Demo][demo] | [Code auf GitHub][github]*
 

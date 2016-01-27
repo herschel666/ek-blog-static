@@ -10,7 +10,7 @@ categories:
   - Tutorial
 ---
 
-{% img /wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png Animierte Navigation mit jQuery %}
+{% lazyImg /wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png Animierte Navigation mit jQuery %}
 
 *[Demo][demo] | [Download][download]*
 

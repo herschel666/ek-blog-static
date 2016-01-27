@@ -7,7 +7,7 @@ categories:
   - WordPress
 ---
 
-{% img /wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png WordPress-Theme: "Blue and Grey" %}
+{% lazyImg /wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png WordPress-Theme: "Blue and Grey" %}
 
 *[Demo][demo] | [Download][download]*
 

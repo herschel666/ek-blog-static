@@ -11,7 +11,7 @@ categories:
   - Tips und Tricks
 ---
 
-{% img /wp-content/uploads/2010/01/aperture-screenshot.jpg Aperture &mdash; Screenshot %}
+{% lazyImg /wp-content/uploads/2010/01/aperture-screenshot.jpg Aperture &mdash; Screenshot %}
 
 [Aperture][aperture] ist eine Photo-Editing-Software von Apple&trade;, welche die Möglichkeit bietet, Galerien zu erstellen und im HTML-Format zu exportieren. Diese Funktion kann ich aufgrund des generierten Quelltextes nicht empfehlen, nichtsdestominder ist sie sehr praktisch für Leute, die schnell eine Galerie veröffentlichen wollen, jedoch kein HTML können.
 

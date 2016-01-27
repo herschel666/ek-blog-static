@@ -9,7 +9,7 @@ categories:
   - Neuigkeiten
 ---
 
-{% img /wp-content/uploads/2012/01/backbone-js.png Backbone.js &mdash; Logo %}
+{% lazyImg /wp-content/uploads/2012/01/backbone-js.png Backbone.js &mdash; Logo %}
 
 Wer hier gelegentlich mitliest, wird eventuell mitbekommen haben, dass ich mich gerne mit dem [JavaScript-MVC-Framework Backbone.js][backbone] beschäftige. Von daher war meine Freude recht groß, als ich gewahr wurde, dass [Addy Osmani][addyosmani] höchstselbst sich dran gemacht hat, eine unter CC-Lizenz stehende Wissenssammlung zum Thema unter dem Namen ["Backbone Fundamentals"][backbone_fundamentals] zu scheiben.
 

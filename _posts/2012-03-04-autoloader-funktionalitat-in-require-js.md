@@ -11,7 +11,7 @@ categories:
   - Tutorial
 ---
 
-{% img /wp-content/uploads/2012/03/requirejs-autoloader.jpg Require.js-Autoloader %}
+{% lazyImg /wp-content/uploads/2012/03/requirejs-autoloader.jpg Require.js-Autoloader %}
 
 *[Demo][demo] | [Download][zip]*
 

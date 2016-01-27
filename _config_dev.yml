@@ -23,6 +23,7 @@ assets:
 
 gems:
   - jekyll-assets
+  - jekyll-paginate
 
 exclude: [
   '.htaccess',

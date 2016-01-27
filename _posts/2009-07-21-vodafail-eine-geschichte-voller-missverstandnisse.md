@@ -7,7 +7,7 @@ categories:
   - Marketing
 ---
 
-{% img /wp-content/uploads/2009/07/vodafone_blog.jpg vodafone-blog %}
+{% lazyImg /wp-content/uploads/2009/07/vodafone_blog.jpg vodafone-blog %}
 
 Die ganze [#Vodafail/Twittermom-Geschichte][vodafone] ist eine Verkettung von Fehlern:
 
