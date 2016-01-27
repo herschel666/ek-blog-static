@@ -7,10 +7,9 @@ env:
     - secure: VdNHwuKY61muwPxwuPPwO/SUDXD369C2e/SogXusAZXqNNmgsrJFTNb8eMCG86MyQ2YU+RENy16VWYMLeW8JmQbOBrots+3Cs9Ym+YmIA8IAXID335bq7UZD4vwMUnWQBai7QheoueYm4sMMW4do/V6ZvnqockWQ+BuMKe+tg9w=
     - secure: EOcZNpisc6dUU0lKOZVgefFyfd8o/Y43V9tBHNPi1wkri4FhnVDj3IRzemoy4Ynda+GIl5PoyHbgmHBtv5rMJZaHm3Rs06L0bh7HLHdx/0QnUdYbgogu6QnSGH5h5EU2Tl3fOnRhy9uvFszIhUvFZAGXGz/oKm15tNFoIaEzDvg=
 before_script:
-  - npm install -g grunt-cli bower
   - npm install
-  - bower install
-  - grunt
+  - ./node_modules/.bin/bower install
+  - ./node_modules/.bin/grunt
 script: bundle exec jekyll build
 after_success: ./node_modules/.bin/surge --project ./_site
 branches:
