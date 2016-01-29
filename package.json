@@ -14,7 +14,9 @@
   },
   "scripts": {
     "serve": "JEKYLL_ENV=development bundle exec jekyll serve --watch --config ./_config_dev.yml",
-    "build": "grunt && JEKYLL_ENV=production bundle exec jekyll build"
+    "build": "grunt && JEKYLL_ENV=production bundle exec jekyll build",
+    "deploy": "surge --project ./_site",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
