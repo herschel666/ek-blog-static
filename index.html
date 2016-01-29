@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<section class="posts">
+<section class="ek-post-wrap">
 
   {% for post in paginator.posts %}
     <article class="ek-post" id="post-{{ post.id | md5 }}" itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <h1 itemprop="headline">
-          <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
+      <header class="ek-posts__header">
+        <h1 class="ek-post__headline" itemprop="headline">
+          <a class="ek-posts__heading-link"
+            href="{{ post.url | prepend: site.baseurl }}"
+            rel="bookmark"
+            itemprop="url">{{ post.title }}</a>
         </h1>
       </header>
       <div class="ek-post__content" itemprop="articleBody">

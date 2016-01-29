@@ -3,13 +3,8 @@
   // NanoJAX
   {% asset vendor/nanoajax/nanoajax.min.js %}
 
-  // LoadCSS
-  {% asset vendor/loadcss/loadCSS.js %}
-
   // Actually loading CSS async'ly
-  (function (stylesPath, loadCSS) {
-    {% asset load-styles.js %}
-  })('{% asset_path main.css %}', loadCSS);
+  {% asset load-styles.js %}
 
   // Load main.js
   (function (scriptPath, doc, elem) {

@@ -27,6 +27,7 @@
 @mixin content-width ($width, $margin: 0) {
   max-width: $width;
   margin: $margin auto;
+  box-sizing: border-box;
 }
 
 // Keyframes

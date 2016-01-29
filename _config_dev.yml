@@ -1,6 +1,4 @@
 
-production: false
-
 title: Emanuel Kluge
 description: Beiträge zum Thema JS, HTML, CSS & anderem Kram
 baseurl: ""
@@ -15,11 +13,12 @@ paginate_path: "/page/:num/"
 lsi: false
 
 assets:
-  dirname: assets
-  baseurl: /assets/
   sources:
     - _assets/javascripts
     - _assets/styles
+    - _assets/images
+  features:
+    liquid: false
 
 gems:
   - jekyll-assets

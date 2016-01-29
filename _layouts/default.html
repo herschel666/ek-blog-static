@@ -7,9 +7,12 @@
 
     {% include header.html %}
 
-    <div class="ek-content clearfix">
-      {{ content }}
-    </div>
+    <main class="ek-main">
+      <div class="ek-content clearfix">
+        {{ content }}
+      </div>
+      {% include aside.html %}
+    </main>
 
     {% include footer.html %}
     {% include scripts.html %}

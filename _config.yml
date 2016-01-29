@@ -1,6 +1,4 @@
 
-production: true
-
 title: Emanuel Kluge
 description: Beiträge zum Thema JS, HTML, CSS & anderem Kram
 baseurl: ""
@@ -17,9 +15,7 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/styles
-  compressor:
-    js: true
-    css: sass
+    - _assets/images
   features:
     liquid: false
 

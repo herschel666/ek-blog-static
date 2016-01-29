@@ -10,7 +10,7 @@ before_script:
   - npm install
   - ./node_modules/.bin/bower install
   - ./node_modules/.bin/grunt
-script: bundle exec jekyll build
+script: npm run build
 after_success: ./node_modules/.bin/surge --project ./_site
 branches:
   only:
