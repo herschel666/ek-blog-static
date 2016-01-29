@@ -1,14 +1,30 @@
 ---
 layout: default
 ---
-<div class="ek-post">
-  <article class="ek-post__content">
-    {{ content }}
-  </article>
-  <footer class="ek-post__footer ek-post__footer--detail">
-    <p class="ek-post__meta">Geschrieben am <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="published updated"><meta itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d.%-m.%Y" }}</time>
-  </footer>
-  <div class="ek-comments">
-    <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
+<section class="ek-post-wrap">
+  <div class="ek-post">
+    <article class="ek-post__content">
+      <header class="ek-posts__header">
+        <h1 class="ek-post__headline" itemprop="headline">
+          <a class="ek-posts__heading-link"
+            href="{{ page.url | prepend: site.baseurl }}"
+            rel="bookmark"
+            itemprop="url">
+            {{ page.title }}
+          </a>
+        </h1>
+      </header>
+      <div class="ek-post__content" itemprop="articleBody">
+        {{ page.content }}
+      </div>
+      <footer class="ek-post__footer ek-post__footer--detail">
+        <p class="ek-post__meta">
+          Geschrieben am <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="published updated"><meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d.%-m.%Y" }}</time>
+        </p>
+      </footer>
+    </article>
+    <div class="ek-comments">
+      <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
+    </div>
   </div>
-</div>
+</section>

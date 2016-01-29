@@ -3,9 +3,11 @@
         "project/functions",
         "project/mixins";
 
+@import "external/normalize.scss/normalize";
+@import "external/h5bp-pt1";
+
 body {
-  margin: 0;
-  background: rgb(238, 238, 238);
+  background: rgb(242, 242, 242);
   font: normal 100%/1.2 sans-serif;
   color: $dark-grey;
   }
@@ -15,17 +17,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .05em;
 }
 
-a:link,
-a:visited {
+a {
   color: $blue;
   text-decoration: none;
   @include transition(background-color .5s linear);
-}
-
-a:hover,
-a:focus {
-  color: lighten($blue, 10%);
-  text-decoration: underline;
+  &:hover,
+  &:focus {
+    color: lighten($blue, 10%);
+    text-decoration: underline;
+  }
 }
 
 a:active {
@@ -33,31 +33,20 @@ a:active {
 }
 
 .ek-main-header {
-  height: 100vh;
-  padding-top: 70vh;
-  margin-top: -70vh;
   overflow: hidden;
-  background-color: black;
-  border-bottom: 1px solid #222;
+  background-color: #444;
+  border-bottom: 1px solid black;
   text-align: center;
   text-shadow: 0 1px 1px black;
-  position: relative;
-  z-index: 100;
   @include box-sizing(border-box);
-  .js & {
-    @include transform (translateY(70vh) translateZ(0));
-  }
 }
 
 .ek-main-header__link {
   display: block;
-  padding-top: rem(16);
+  padding: rem(16) 0 rem(8) 0;
   text-align: center;
   font-size: rem(32);
   line-height: 1;
-  .js & {
-    @include transform (translateY(-40vh) translateZ(0));
-  }
 
   &:hover,
   &:focus {
@@ -79,32 +68,34 @@ a:active {
 
 }
 
-.ek-main-header__inner {
-  padding: rem(40) rem(8) 0 rem(8);
-  @include box-sizing(border-box);
-  @include content-width (rem($site-max-width));
-}
-
-.ek-main-header__headline {
-  margin: 0;
-  color: white;
-  font-size: rem(20);
-
-}
-
 .ek-content {
   min-height: 55vh;
   padding: rem(32) rem(10) 0 rem(10);
+  border-top: 1px solid white;
+  @include content-width (rem($content-max-width));
 }
 
-@media screen and (min-width: rem(460)) {
-  .ek-main-header__headline {
+.ek-post__headline {
+  font-size: rem(20);
+}
+
+.ek-main-aside {
+  overflow: hidden;
+  .js & {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+  }
+}
+
+@media screen and (min-width: rem($content-max-width)) {
+  .ek-post__headline {
     font-size: rem(24);
+    text-align: left;
   }
 }
 
 @media screen and (min-width: rem(768)) {
-  .ek-main-header__headline {
-    font-size: rem(32);
+  .ek-post__headline {
+    font-size: rem(28);
   }
 }

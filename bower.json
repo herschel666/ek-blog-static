@@ -18,7 +18,6 @@
     "tests"
   ],
   "devDependencies": {
-    "loadcss": "~0.1.6",
     "eventie": "~1.0.6",
     "nanoajax": "https://github.com/yanatan16/nanoajax.git#~0.2.4",
     "vanilla-pubsub": "https://github.com/drublic/PubSub.git#~1.1.0",
