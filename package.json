@@ -45,7 +45,6 @@
   "scripts": {
     "build": "node ./build",
     "serve": "npm run build -- --serve",
-    "deploy": "surge --project ./_site",
     "webpack": "webpack",
     "postinstall": "bower install"
   },
