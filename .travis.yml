@@ -13,7 +13,8 @@ script:
   - which surge || exit 1
 deploy:
   provider: script
-  script: surge --project ./_site
+  script: ls -lah && surge --project ./_site
+  skip_cleanup: true
   on:
     repo: herschel666/ek-blog-static
     branch: master
