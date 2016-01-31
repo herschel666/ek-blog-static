@@ -1,14 +1,14 @@
 ---
 title: Angular.js mit Sizzle.js als Selektor-Engine
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /javascript/angular-sizzle-selektor-engine/
 categories:
   - Angular
   - JavaScript
 ---
 
-{% lazyImg /wp-content/uploads/2013/06/sizzle-angular-480x95.gif Sizzle & Angular %}
+{% lazyImg "/wp-content/uploads/2013/06/sizzle-angular-480x95.gif" "Sizzle & Angular" %}
 
 Wie weithin bekannt ist, benutzt [Angular][angular] für DOM-Angelegenheiten intern eine abgespeckte [jQuery][jquery]-Variante namens [jqLite][ngElement], auf die über `angular.element` zugegriffen werden kann. Diese bietet ein paar Methoden aus dem Bereich DOM-Manipulation und -Traversing, hat jedoch keine Selektor-Engine. Bindet man parallel zu Angular die jQuery-Library ein, wird jqLite durch jQuery ersetzt.
 

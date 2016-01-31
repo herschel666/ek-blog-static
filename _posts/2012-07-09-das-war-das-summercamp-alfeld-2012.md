@@ -1,13 +1,13 @@
 ---
 title: Das war das Summercamp Alfeld 2012
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /off-topic/das-war-das-summercamp-alfeld-2012/
 categories:
   - Off-Topic
 ---
 
-{% lazyImg /wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg Summercamp Alfeld 2012 %}  
+{% lazyImg "/wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg" "Summercamp Alfeld 2012" %}  
 <small>*Foto von [Viktor Schanz][viktor_schanz]*</small>
 
 Letztes Wochenende fand zum zweiten mal das [Summercamp in Alfeld][summercamp_alfeld] statt. Dabei handelt es sich um ein Barcamp in kleinem, man möchte sagen familiären Rahmen. So wurden zum einen interessante Sessions geboten zu den Themen [Arduino][arduino] (von [@Handgemenge][handgemenge]), dem CMS [ProcessWire][processwire] (von [@MichaelvanLaar][michaelvanlaar]), Frontend-Performance-Optimierung (von [@nikolassv][nikolassv]), u.v.m.

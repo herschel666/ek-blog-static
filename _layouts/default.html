@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" lang="de" itemscope itemtype="http://schema.org/WebPage">
 
-  {% include head.html %}
+  {% include "../_includes/head.html" %}
 
   <body>
 
-    {% include header.html %}
+    {% include "../_includes/header.html" %}
 
     <main class="ek-main">
       <div class="ek-content clearfix">
-        {{ content }}
+        {% block content %}{% endblock %}
       </div>
-      {% include aside.html %}
+      {% include "../_includes/aside.html" %}
     </main>
 
-    {% include footer.html %}
-    {% include scripts.html %}
+    {% include "../_includes/footer.html" %}
+    {% include "../_includes/scripts.html" %}
 
   </body>
 

@@ -1,14 +1,14 @@
 ---
 title: 'Require.js: Umgebungsvariablen übers Script-Tag mitgeben'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tips-und-tricks/require-js-umgebungsvariablen-ubers-script-tag-mitgeben/
 categories:
   - JavaScript
   - Tips und Tricks
 ---
 
-{% lazyImg /wp-content/uploads/2012/11/requirejs.jpg Require.js %}
+{% lazyImg "/wp-content/uploads/2012/11/requirejs.jpg" "Require.js" %}
 
 Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js][requirejs], wobei man über das `data-main`-Attribut die Require.js-Konfiguration anspricht und innerhalb dieser mithilfe der `deps`-Eigenschaft die weiteren benötigten Dateien anmeldet. Hat man nun keine klassiche "Single-page App", sondern mehrere Unterseiten, auf welchen man unterschiedliche Funktionalitäten anbieten möchte, hat man drei Möglichkeiten:
 

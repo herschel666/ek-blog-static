@@ -1,14 +1,14 @@
 ---
 title: RIP Steve Jobs
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /apple/rip-steve-jobs/
 categories:
   - Apple
   - Neuigkeiten
 ---
 
-{% lazyImg /wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif Apple-Website: RIP Steve Jobs %}
+{% lazyImg "/wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif" "Apple-Website: RIP Steve Jobs" %}
 
 [Letzte Nacht verstarb Steve Jobs &mdash; Gründer von u.a. Apple Inc. &mdash; mit 56 Jahren an Krebs.][spon]
 

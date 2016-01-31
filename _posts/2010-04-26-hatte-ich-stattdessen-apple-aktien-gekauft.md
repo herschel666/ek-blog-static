@@ -1,13 +1,13 @@
 ---
-title: 'Hätte ich stattdessen Apple-Aktien gekauft&#8230;'
+title: Hätte ich stattdessen Apple-Aktien gekauft …
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /apple/hatte-ich-stattdessen-apple-aktien-gekauft/
 categories:
   - Apple
 ---
 
-{% lazyImg /wp-content/uploads/2010/04/green-apple-480x312.jpg Green Apple %}  
+{% lazyImg "/wp-content/uploads/2010/04/green-apple-480x312.jpg" "Green Apple" %}  
 <small>*[Green Apples][flickr] unter einer [CC][cc]-Lizenz*</small>
 
 Bei [Kyle Conroy][apple_stock] gibt es eine schöne Tabelle, die die theoretischen Gewinne anzeigt, die man hätte realisieren können, wenn man anstatt eines Apple-Produkts für das gleiche Geld Apple-Aktien gekauft hätte. Wer den Aktienkurs von Apple in den letzten Jahren im Blick hatte, kann sich vorstellen, dass da ganz ordentliche Wachstumsraten zu erzielen gewesen wären.

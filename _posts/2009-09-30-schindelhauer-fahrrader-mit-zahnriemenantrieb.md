@@ -1,13 +1,13 @@
 ---
-title: 'Schindelhauer &#8211; Fahrräder mit Zahnriemenantrieb'
+title: Schindelhauer — Fahrräder mit Zahnriemenantrieb
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /off-topic/schindelhauer-fahrrader-mit-zahnriemenantrieb/
 categories:
   - Off-Topic
 ---
 
-{% lazyImg /wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb_-_viktor-fixed-gear.jpg Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear %}
+{% lazyImg "/wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb\_-\_viktor-fixed-gear.jpg" "Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear" %}
 
 Aus meiner Heimatstadt Magdeburg kommt die kleine Fahrrad-Manufaktur [Schindelhauer][zahnriemenfahrrad], die sich auf den Bau von Fahrrädern mit Zahnriemenantrieb verlegt hat. Das ist grundsätzlich keine schlechte Idee, da Zahnriemen im Vergleich zu normalen Ketten effizienter, leichter und weniger pflegebedürftig sind.
 

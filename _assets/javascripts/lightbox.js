@@ -1,52 +1,49 @@
 
-(function () {
+'use strict';
 
-  "use strict";
+import eventie from './vendor/eventie/eventie';
+import { publish, subscribe } from './vendor/vanilla-pubsub/PubSub';
+import Lightbox from 'exports?Lightbox!./vendor/jsonlylightbox/js/lightbox';
 
-  var lightbox,
-      elems;
+let lightbox;
+let elems;
 
-  if ( !window.matchMedia || !matchMedia('screen and (min-width: 600px)').matches ) {
-    return;
+const getElems = () => {
+  const all = document.getElementsByTagName('a');
+  const len = all.length;
+  let i = 0;
+  elems.length = 0;
+  for ( ;  i< len; i += 1 ) {
+    if ( all[i].getAttribute('rel') === 'lightbox' ) {
+      elems.push(all[i]);
+    }
   }
+};
 
+/** @param  {Boolean} [doBind] Default: true */
+const toggleBinding = (doBind) => {
+  const methd = doBind === false ? 'unbind' : 'bind';
+  const len = elems.length;
+  let i = 0;
+  for ( ; i < len; i += 1 ) {
+    eventie[methd](elems[i], 'click', openLightbox);
+  }
+};
+
+function openLightbox(evnt) {
+  typeof evnt.preventDefault === 'function' && evnt.preventDefault();
+  lightbox.open(this.href);
+  return false;
+}
+
+if ( window.matchMedia && matchMedia('screen and (min-width: 600px)').matches ) {
   lightbox = new Lightbox();
   elems = [];
-
-  function getElems() {
-    var all = document.getElementsByTagName('a'),
-        len = all.length,
-        i = 0;
-    elems.length = 0;
-    for ( ;  i< len; i += 1 ) {
-      if ( all[i].getAttribute('rel') === 'lightbox' ) {
-        elems.push(all[i]);
-      }
-    }
-  }
-
-  /** @param  {Boolean} [doBind] Default: true */
-  function toggleBinding(doBind) {
-    var methd = doBind === false ? 'unbind' : 'bind',
-        i = 0,
-        len = elems.length;
-    for ( ; i < len; i += 1 ) {
-      eventie[methd](elems[i], 'click', openLightbox);
-    }
-  }
-
-  function openLightbox(evnt) {
-    evnt.preventDefault && evnt.preventDefault();
-    lightbox.open(this.href);
-    return false;
-  }
-
   lightbox.load();
   getElems();
   toggleBinding();
-  PubSub.publish('ek.ajaxify.triggered', function () {
+  publish('ek.ajaxify.triggered', function () {
     toggleBinding(false);
   });
-  PubSub.subscribe('ek.ajaxify.inserted', [getElems, toggleBinding]);
-
-})();
+  subscribe('ek.ajaxify.inserted', [getElems, toggleBinding]);
+}

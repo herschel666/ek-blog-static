@@ -26,23 +26,23 @@
       (function (s,w,a,g) {
         w[a] = w[a].replace(/\bno-js\b/, 'js');
         s[g] = s[g] = {};
-        s[g].isDev = {% if jekyll.environment == "production" %}false{% else %}true{% endif %};
-        s[g].build = '{% build_str %}';
-        s[g].mainCSS = '{% asset_path main.css %}';
+        s[g].isDev = {% if environment == "production" %}false{% else %}true{% endif %};
+        s[g].build = '{{ build_str }}';
+        s[g].mainCSS = '{{ assets["main.css"].url }}';
       })(window, document.documentElement, 'className', 'EK_FOO');
     </script>
     {% if site.description %}
       <meta name="description" content="{{ site.description }}">
     {% endif %}
 
-    <style>{% asset critical.css %}</style>
+    <style>{{ assets['critical.css'].contents | safe }}</style>
     <noscript>
-      {% stylesheet main.css %}
+      <link rel="stylesheet" href="{{ assets['main.css'].url }}">
     </noscript>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace('index.html', '') | prepend(site.baseurl) | prepend(site.url) }}">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "/feed.xml" | prepend(site.baseurl) }}">
     <link rel="author" href="https://plus.google.com/+{{ site.google_plus }}/posts">
-    {% if jekyll.environment == "production" %}
+    {% if environment == "production" %}
       <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

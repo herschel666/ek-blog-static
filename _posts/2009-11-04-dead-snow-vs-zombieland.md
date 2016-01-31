@@ -1,7 +1,7 @@
 ---
 title: Dead Snow vs. Zombieland
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /off-topic/dead-snow-vs-zombieland/
 categories:
   - Off-Topic
@@ -11,13 +11,13 @@ In letzter Zeit sind zwei interessante Zombiefilme rausgekommen und ich hatte da
 
 ### Inhalt &mdash; Dead Snow
 
-{% lazyImg /wp-content/uploads/2009/11/dead-snow.jpg Dead Snow &mdash; Screenshot %}
+{% lazyImg "/wp-content/uploads/2009/11/dead-snow.jpg" "Dead Snow &mdash; Screenshot" %}
 
 Eine Kompanie der Waffen-SS hat sich zusammen mit ihrem sadistischen Anführer am Ende des zweiten Weltkrieges in die schwedischen Berge zurückgezogen, wo sie verhungert sind. Über 60 Jahre später macht sich eine Gruppe Studierender auf in jene Berge, um dort ihren Winterurlaub in einer Berghütte zu verbringen. Es dauert nicht lange, bis sie Bekanntschaft mit den Nazi-Zombies machen, welche scheinbar wahllos einen nach dem anderen von ihnen abschlachten.
 
 ### Inhalt &mdash; Zombieland
 
-{% lazyImg /wp-content/uploads/2009/11/zombieland.jpg Zombieland %}
+{% lazyImg "/wp-content/uploads/2009/11/zombieland.jpg" "Zombieland" %}
 
 Nach einer Zombie-Apokalypse trifft der Eigenbrötler Columbus (links im Bild) auf den leicht verrückten Tallahassee und schließt sich ihm an. Beide treffen kurz darauf auf die Schwestern Wichita (mittig links im Bild) und Little Rock und lassen sich von den beiden übers Ohr hauen. Nach weiteren Zerwürfnissen schließen sich die beiden Duos jedoch zusammen und fahren gemeinsam nach L.A., wo es zum großen Showdown in einem Vergnügungspark kommt.
 

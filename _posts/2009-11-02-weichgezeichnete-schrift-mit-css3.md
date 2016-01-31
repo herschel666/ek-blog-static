@@ -1,14 +1,14 @@
 ---
 title: Weichgezeichnete Schrift mit CSS3
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/weichgezeichnete-schrift-mit-css3/
 categories:
   - HTML/CSS
   - Tips und Tricks
 ---
 
-{% lazyImg /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg Weichgezeichnete Schrift mit CSS3 %}
+{% lazyImg "/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" "Weichgezeichnete Schrift mit CSS3" %}
 
 *[Demo][demo] | [Download][download]*
 

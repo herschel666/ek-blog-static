@@ -1,7 +1,7 @@
 ---
-title: 'A Place To Ride &#8211; Doku über den DIY-Skatepark in Hannover'
+title: A Place To Ride — Doku über den DIY-Skatepark in Hannover
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/a-place-to-ride-doku-ueber-den-diy-skatepark-in-hannover/
 categories:
   - Hannover

@@ -1,7 +1,7 @@
 ---
 title: What is a Browser?
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/what-is-a-browser/
 categories:
   - Überlegungen

@@ -1,13 +1,13 @@
 ---
 title: Die tägliche Portion Apple-Freude
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /apple/die-tagliche-portion-apple-freude/
 categories:
   - Apple
 ---
 
-{% lazyImg /wp-content/uploads/2012/08/rotten-apple-480x295.jpg Rotten Apple %}  
+{% lazyImg "/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" "Rotten Apple" %}  
 <small>*[En mans rester; en annan flugas hem][image_src] von [krissen][credits] und [CC][cc]-Lizenz*</small>
 
 Angenommen, man begibt sich in den App Store. Man begibt sich direkt dort hin, geht nicht über Los. Man wählt ein Programm bzw. eine App, um hier mal dem Jargon treu zu bleiben, und beginnt den Download-Prozess. Nach einer Weile ist man dieses Prozesses überdrüssig &mdash; aus Gründen oder wegen Dingen &mdash; und bricht ihn daher ab.

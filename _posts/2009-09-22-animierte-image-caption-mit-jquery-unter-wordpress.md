@@ -1,7 +1,7 @@
 ---
 title: Animierte Image-Caption mit jQuery unter WordPress
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/animierte-image-caption-mit-jquery-unter-wordpress/
 categories:
   - HTML/CSS
@@ -11,7 +11,7 @@ categories:
   - WordPress
 ---
 
-{% lazyImg /wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg Animierte Image-Caption mit jQuery unter WordPress %}
+{% lazyImg "/wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg" "Animierte Image-Caption mit jQuery unter WordPress" %}
 
 *[Demo][demo] | [Code auf GitHub][github]*
 

@@ -1,7 +1,7 @@
 ---
-title: 'Nobody beats the Drum &#8211; Grindin&#8217;'
+title: Nobody beats the Drum — Grindin'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/nobody-beats-the-drum-grindin/
 categories:
   - Musik

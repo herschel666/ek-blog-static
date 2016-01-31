@@ -1,7 +1,7 @@
 ---
 title: Navigation mit JavaScript
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/navigation-mit-javascript/
 categories:
   - HTML/CSS
@@ -9,7 +9,7 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg /wp-content/uploads/2009/08/navigation-mit-javascript.jpg Navigation mit JavaScript %}
+{% lazyImg "/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" "Navigation mit JavaScript" %}
 
 *[Demo][demo] | [Download][download]*
 

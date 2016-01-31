@@ -1,13 +1,13 @@
 ---
 title: 'Brigitte.de: Anatomie eines Socialstorm'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /marketing/brigitte-anatomie-eines-socialstorm/
 categories:
   - Marketing
 ---
 
-{% lazyImg /wp-content/uploads/2012/11/brigitte-skateboard-artikel.png Brigitte.de &mdash; Skateboard-Artikel %}
+{% lazyImg "/wp-content/uploads/2012/11/brigitte-skateboard-artikel.png" "Brigitte.de &mdash; Skateboard-Artikel" %}
 
 Auf dem [ConventionCamp][conventioncamp] in der Session "We survived the Shitstorm" habe ich gelernt, dass man einen Shitstorm auch als Socialstorm bezeichnen kann. Das ist dann neutraler. Die Kollegen von Brigitte.de waren scheinbar nicht in besagter Session, in der zwei Vertreter von Continental und Jack Wolfskin ihre Erfahrungen mit Socialstorms teilten und darlegten, was damals falsch gemacht wurde.
 

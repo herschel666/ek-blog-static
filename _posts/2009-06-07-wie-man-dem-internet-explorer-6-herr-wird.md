@@ -1,7 +1,7 @@
 ---
 title: Wie man dem Internet Explorer 6 Herr wird
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/wie-man-dem-internet-explorer-6-herr-wird/
 categories:
   - HTML/CSS

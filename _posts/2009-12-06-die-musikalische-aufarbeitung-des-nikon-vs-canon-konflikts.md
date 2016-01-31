@@ -1,7 +1,7 @@
 ---
 title: Die musikalische Aufarbeitung des Nikon vs. Canon-Konflikts
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/die-musikalische-aufarbeitung-des-nikon-vs-canon-konflikts/
 categories:
   - Fotografie

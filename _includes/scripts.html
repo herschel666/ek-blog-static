@@ -1,15 +1,13 @@
 
 <script>
-  // NanoJAX
-  {% asset vendor/nanoajax/nanoajax.min.js %}
 
   // Actually loading CSS async'ly
-  {% asset load-styles.js %}
+  {{ assets["load-styles.js"].contents | safe }}
 
-  // Load main.js
+  // Load index.js
   (function (scriptPath, doc, elem) {
     var e = doc.createElement(elem), r = doc.getElementsByTagName(elem)[0];
     e.src = scriptPath; e.type = 'text/java' + elem; e.async = true;
     r.parentNode.insertBefore(e, r);
-  })('{% asset_path main.js %}', document, 'script');
+  })('{{ assets["index.js"].url }}', document, 'script');
 </script>

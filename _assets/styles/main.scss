@@ -3,9 +3,9 @@
         "project/functions",
         "project/mixins";
 
+@import "../javascripts/vendor/highlight/src/styles/darkula.css";
 @import "../javascripts/vendor/jsonlylightbox/css/lightbox";
 
-@import "syntax-highlighting";
 @import "project/all";
 @import "project/lightbox";
 

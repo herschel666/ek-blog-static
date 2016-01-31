@@ -1,7 +1,7 @@
 ---
-title: 'Sour &mdash; Hibi no Neiro'
+title: Sour — Hibi no Neiro
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/sour-hibi-no-neiro/
 categories:
   - Musik

@@ -1,14 +1,14 @@
 ---
 title: Ein paar Worte zu Jack Wolfskin
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/ein-paar-worte-zu-jack-wolfskin/
 categories:
   - Marketing
   - Überlegungen
 ---
 
-{% lazyImg /wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg Jack Wolfskin-Logo entfernen %}  
+{% lazyImg "/wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg" "Jack Wolfskin-Logo entfernen" %}  
 <small>*[Removing Jack Wolfskin Logo][intro_img_source] unter [Creative Commons][intro_img_license]-Lizenz*</small>
 
 Seit ein paar Tagen versucht mal wieder eine Firma ihre Marke zu schützen und reitet sich damit nach allen Regeln der Kunst in die Scheiße. Wer das mediale Echo verfolgt hat oder sich nicht zu schade war, den Titel dieses Beitrags zu lesen, weiß um welche Firma es geht: Jack Wolfskin. Dieses Unternehmen produziert Lifestyle-Outdoor-Klamotten größtenteils für Leute, die mit Wetter in Berührung kommen, wenn die Tiefgarage voll ist und sie vor dem Haus parken müssen.

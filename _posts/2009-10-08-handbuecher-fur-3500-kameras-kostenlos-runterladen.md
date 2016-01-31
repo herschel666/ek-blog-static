@@ -1,13 +1,13 @@
 ---
 title: Handbücher für 3500 Kameras kostenlos runterladen
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /fotografie/handbuecher-fur-3500-kameras-kostenlos-runterladen/
 categories:
   - Fotografie
 ---
 
-{% lazyImg /wp-content/uploads/2009/10/contaflex.jpg Contaflex &mdash; Kamera %}
+{% lazyImg "/wp-content/uploads/2009/10/contaflex.jpg" "Contaflex &mdash; Kamera" %}
 
 Das ist definitiv die Nachricht des Tages! Genau genommen sogar der Woche. Eigentlich des Monats, doch der Oktober ist noch jung, weshalb ich mich hier jetzt nicht aus dem Fenster lehnen möchte. Aber kommen wir zur eigentlichen Neuigkeit:
 

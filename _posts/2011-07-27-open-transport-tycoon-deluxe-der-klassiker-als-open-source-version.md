@@ -1,13 +1,13 @@
 ---
-title: 'Open Transport Tycoon Deluxe &#8211; Der Klassiker als Open-Source-Version'
+title: 'Open Transport Tycoon Deluxe — Der Klassiker als Open-Source-Version'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /off-topic/open-transport-tycoon-deluxe-der-klassiker-als-open-source-version/
 categories:
   - Off-Topic
 ---
 
-{% lazyImg /wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg Screenshot &mdash; Open Transport Tycoon Deluxe %}
+{% lazyImg "/wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg" "Screenshot &mdash; Open Transport Tycoon Deluxe" %}
 
 Ich weiß nicht, wie oft ich mich schon darüber beschwert habe, dass es den Klassiker "Transport Tycoon Deluxe" nicht mehr gibt und scheinbar vergleichbare Spiele heutzutage nicht mehr entwickelt habe. In meiner Jugend habe ich einen gewissen Teil meiner Zeit in dieses Spiel investiert und neben "Civilization", "Sim City 2000" und "Die Siedler" ist es definitiv einer meiner Alltime-Favorites. Auch wenn ich sonst kein großer Gamer bin.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Winch Madness: Das andere Waterboarding'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/winch-madness-das-andere-waterboarding/
 categories:
   - Video
