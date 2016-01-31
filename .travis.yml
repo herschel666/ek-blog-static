@@ -9,6 +9,7 @@ env:
 before_script: npm install -g surge
 script:
   - NODE_ENV=production npm run build
+  - test -d ./_site || exit 1
   - which surge || exit 1
 deploy:
   provider: script
