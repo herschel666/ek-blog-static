@@ -1,7 +1,7 @@
 ---
 title: Mein Senf zu Vodafones neuer Kampagne
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/mein-senf-zu-vodafones-neuer-kampagne/
 categories:
   - Marketing

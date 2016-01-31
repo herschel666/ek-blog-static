@@ -1,13 +1,13 @@
 ---
-title: 'Lost &#8211; Was passierte nach der Bombenexplosion?'
+title: Lost — Was passierte nach der Bombenexplosion?
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /off-topic/lost-was-passierte-nach-der-bombenexplosion/
 categories:
   - Off-Topic
 ---
 
-{% lazyImg /wp-content/uploads/2010/02/lost-abc-screenshot.gif Lost &mdash; ABC &mdash; Screenshot %}
+{% lazyImg "/wp-content/uploads/2010/02/lost-abc-screenshot.gif" "Lost &mdash; ABC &mdash; Screenshot" %}
 
 **Spoiler-Gefahr!**
 

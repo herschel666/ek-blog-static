@@ -1,13 +1,13 @@
 ---
 title: Plumpe Abschreckungswerbung von LEGO
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /marketing/plumpe-abschreckungswerbung-von-lego/
 categories:
   - Marketing
 ---
 
-{% lazyImg /wp-content/uploads/2009/10/abschreckende-lego-werbung-480x360.jpg Abschreckende LEGO-Werbung %}
+{% lazyImg "/wp-content/uploads/2009/10/abschreckende-lego-werbung-480x360.jpg" "Abschreckende LEGO-Werbung" %}
 
 Wenn man an LEGO denkt, denkt man automatisch an die sympathischen kleinen Plastik-Figuren mit den klobigen Köpfen, an bunte Steine und an ein Spielzeug, welches nicht nur Jung und Alt fasziniert, sondern das auch über einen langen Zeitraum Spaß macht und einfach nicht langweilig wird. Auf dieses bunte, fröhliche Image baut LEGO auf und wohl u.a. deshalb, standen sie noch 2007 auf Platz 1 der Liste der am meisten respektierten Unternehmen der Welt ([Link zum PDF der Studie][reputation_institute]).
 

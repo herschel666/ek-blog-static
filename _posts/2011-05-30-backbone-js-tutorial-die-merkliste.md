@@ -1,7 +1,7 @@
 ---
 title: 'Backbone.js-Tutorial: Die Merkliste'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/backbone-js-tutorial-die-merkliste/
 categories:
   - Backbone.js
@@ -11,7 +11,7 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg /wp-content/uploads/2011/05/backbone.png Backbone.js-Tutorial %}
+{% lazyImg "/wp-content/uploads/2011/05/backbone.png" "Backbone.js-Tutorial" %}
 
 *[Demo][demo] | [Download][download]*
 

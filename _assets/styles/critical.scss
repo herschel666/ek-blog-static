@@ -32,6 +32,13 @@ a:active {
   color: darken($blue, 10%);
 }
 
+.jslghtbx-close {
+  display: none;
+  .jslghtbx-active & {
+    display: block;
+  }
+}
+
 .ek-main-header {
   overflow: hidden;
   background-color: #444;

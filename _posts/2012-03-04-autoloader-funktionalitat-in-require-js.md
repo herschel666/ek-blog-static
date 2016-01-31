@@ -1,7 +1,7 @@
 ---
 title: Autoloader-Funktionalität in Require.js
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/autoloader-funktionalitat-in-require-js/
 categories:
   - Backbone.js
@@ -11,7 +11,7 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg /wp-content/uploads/2012/03/requirejs-autoloader.jpg Require.js-Autoloader %}
+{% lazyImg "/wp-content/uploads/2012/03/requirejs-autoloader.jpg" "Require.js-Autoloader" %}
 
 *[Demo][demo] | [Download][zip]*
 

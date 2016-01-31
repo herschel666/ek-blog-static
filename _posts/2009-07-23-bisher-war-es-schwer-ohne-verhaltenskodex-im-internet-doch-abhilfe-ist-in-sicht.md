@@ -1,7 +1,7 @@
 ---
-title: 'Bisher war es schwer ohne Verhaltenskodex im Internet. Doch Abhilfe ist in Sicht &hellip;'
+title: Bisher war es schwer ohne Verhaltenskodex im Internet. Doch Abhilfe ist in Sicht …
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/bisher-war-es-schwer-ohne-verhaltenskodex-im-internet-doch-abhilfe-ist-in-sicht/
 categories:
   - Überlegungen

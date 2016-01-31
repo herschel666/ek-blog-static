@@ -1,7 +1,7 @@
 ---
-title: 'Thom Yorke &ndash; The Hollow Earth'
+title: Thom Yorke — The Hollow Earth
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/thom-yorke-the-hollow-earth/
 categories:
   - Musik

@@ -1,13 +1,13 @@
 ---
-title: 'Free WordPress-Theme: &#8220;Blue and Grey&#8221;'
+title: 'Free WordPress-Theme: "Blue and Grey"'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /wordpress/free-wordpress-theme-blue-and-grey/
 categories:
   - WordPress
 ---
 
-{% lazyImg /wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png WordPress-Theme: "Blue and Grey" %}
+{% lazyImg "/wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png" "WordPress-Theme: “Blue and Grey”" %}
 
 *[Demo][demo] | [Download][download]*
 

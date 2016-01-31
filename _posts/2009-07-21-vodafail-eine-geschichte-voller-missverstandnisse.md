@@ -1,13 +1,13 @@
 ---
-title: '#Vodafail &#8211; Eine Geschichte voller Missverständnisse'
+title: #Vodafail — Eine Geschichte voller Missverständnisse
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /marketing/vodafail-eine-geschichte-voller-missverstandnisse/
 categories:
   - Marketing
 ---
 
-{% lazyImg /wp-content/uploads/2009/07/vodafone_blog.jpg vodafone-blog %}
+{% lazyImg "/wp-content/uploads/2009/07/vodafone_blog.jpg" "vodafone-blog" %}
 
 Die ganze [#Vodafail/Twittermom-Geschichte][vodafone] ist eine Verkettung von Fehlern:
 

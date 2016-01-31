@@ -1,7 +1,7 @@
 ---
 title: Zur gegenwärtigen Lage
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/zur-gegenwaertigen-lage/
 categories:
   - Überlegungen

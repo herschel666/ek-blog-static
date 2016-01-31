@@ -1,7 +1,7 @@
 ---
 title: Ressourcen-sparende Navigation in WordPress
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/ressourcen-sparende-navigation-in-wordpress/
 categories:
   - HTML/CSS

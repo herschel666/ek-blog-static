@@ -1,7 +1,7 @@
 ---
-title: 'Weezer &#8211; The 8-bit Album'
+title: Weezer — The 8-bit Album
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /musik/weezer-the-8-bit-album/
 syntaxhighlighter_encoded:
   - 1
@@ -11,7 +11,7 @@ categories:
   - Musik
 ---
 
-{% lazyImg /wp-content/uploads/2009/07/weezer-8bit-480x230.jpg weezer &mdash; 8-bit-album %}
+{% lazyImg "/wp-content/uploads/2009/07/weezer-8bit-480x230.jpg" "weezer &mdash; 8-bit-album" %}
 
 Von [Pterodactyl Squad][ptesquad] gibt es jetzt ein <span lang="en">Weezer-8-Bit-Album</span> zum kostenlosen Download.
 

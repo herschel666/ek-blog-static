@@ -1,7 +1,7 @@
 ---
 title: Barrierefreier Button mit Text Replacement
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/barrierefreier-button-mit-text-replacement/
 categories:
   - HTML/CSS
@@ -10,7 +10,7 @@ categories:
 
 Jeder kommt früher oder später beim Bauen einer Website in die Situation, dass er die Beschriftung eines Buttons loswerden möchte, um den Button mit einer schönen Grafik zu versehen. Das Auge surft schließlich mit.
 
-{% lazyImg /wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png Barrierefreier Button mit Text Replacement %}
+{% lazyImg "/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" "Barrierefreier Button mit Text Replacement" %}
 
 *[Demo][demo] | [Download][download]*
 

@@ -1,7 +1,7 @@
 ---
 title: 'Studie "Backboned": AJAX-powered WordPress-Theme mit Backbone.js'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/ajax-wordpress-theme-backbone-js/
 categories:
   - Backbone.js
@@ -12,7 +12,7 @@ categories:
   - WordPress
 ---
 
-{% lazyImg /wp-content/uploads/2011/07/backboned-screenshot.gif &quot;Backboned&quot; &middot; AJAX-powered WordPress-Theme &middot; Screenshot %}
+{% lazyImg "/wp-content/uploads/2011/07/backboned-screenshot.gif" "“Backboned” · AJAX-powered WordPress-Theme · Screenshot" %}
 
 [Download][download]
 
@@ -30,13 +30,13 @@ Darüber hinaus bleibt anzumerken, dass das Theme insgesamt eher rudimentär ist
   2. den Funktionsumfang erhöhen (Neueste Kommentare, Tags, Suchfunktion, Sidebar-Widgets(?), &hellip;)
   3. das JavaScript straffen (Performance, geschmeidigere GUI-Abläufe, &hellip;)
 
-&hellip; um ein paar Aspekte zu nennen.
+… um ein paar Aspekte zu nennen.
 
 Ansonsten freue ich mich wie immer über Anregungen und Verbesserungsvorschläge - gerade bei einem Vorhaben dieser Größenordnung hat man als Entwickler nicht wirklich einen umfassenden Überblick.
 
 <del datetime="2011-07-15T09:15:57+00:00">PS: Wahrscheinlich werde ich das Teil zeitnah bei GitHub reinladen. Muss mich da aber erst noch anschlauen.</del>
 
-<ins datetime="2011-07-15T09:15:57+00:00"><strong>Update:</strong> Okay, die Geschichte ist jetzt auch auf GitHub - <a href="https://github.com/herschel666/Backboned" title=""Backboned" auf GitHub">https://github.com/herschel666/Backboned</a>. Viel Spaß.</ins>
+<ins datetime="2011-07-15T09:15:57+00:00"><strong>Update:</strong> Okay, die Geschichte ist jetzt auch auf GitHub - <a href="https://github.com/herschel666/Backboned" title="”Backboned“ auf GitHub">https://github.com/herschel666/Backboned</a>. Viel Spaß.</ins>
 
 [download]: http://www.emanuel-kluge.de/wp-content/uploads/2011/07/backboned.zip
 [backboned_v2]: https://github.com/herschel666/Backboned-v2

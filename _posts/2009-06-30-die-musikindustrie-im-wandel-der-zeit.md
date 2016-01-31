@@ -1,7 +1,7 @@
 ---
 title: Die Musikindustrie im Wandel der Zeit
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/die-musikindustrie-im-wandel-der-zeit/
 categories:
   - Musik

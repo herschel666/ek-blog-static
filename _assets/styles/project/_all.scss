@@ -44,6 +44,7 @@
 
 .ek-post__content h2 {
   margin-bottom: rem(-14);
+  font-size: rem(20);
 }
 
 .ek-post__content a {
@@ -79,9 +80,13 @@
   word-spacing: 0;
 }
 
+.ek-post__content code {
+  font-size: rem(14);
+}
+
 .ek-post__footer {
   margin-bottom: rem(64);
-  border-top: 1px solid #AAA;
+  border-top: 1px solid #DDD;
   color: #999;
   &.ek-post__footer--detail {
     margin-bottom: rem(40);

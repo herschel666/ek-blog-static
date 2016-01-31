@@ -1,13 +1,13 @@
 ---
 title: Ursula von der Leyen an der Universität Hannover von Aktivisten überrascht
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /hannover/ursula-von-der-leyen-an-der-universitat-hannover-von-aktivisten-uberrascht/
 categories:
   - Hannover
 ---
 
-{% lazyImg /wp-content/uploads/2009/06/zensursula-protest-banner_-_www-zeichne-mit-de.png zensursula-protest-banner &mdash; www.zeichne-mit.de %}
+{% lazyImg "/wp-content/uploads/2009/06/zensursula-protest-banner\_-\_www-zeichne-mit-de.png" "zensursula-protest-banner &mdash; www.zeichne-mit.de" %}
 
 Vorgestern, am 12. Juni 2009, war Ursula von der Leyen aka Ursula von der Laien aka Zensursula aka Zensuschi an der Universität Hannover und hat anlässlich der Verleihung des Sozialpreises des deutschen Studentenwerks in Hannover eine Rede gehalten. Dabei wurde sie von Aktivisten überrascht, die an der Balustrade hinter ihr ein für alle Gäste gut sichtbares Transparent mit obigem Slogan gegen die geplanten Netzsperren aufhängten.
 

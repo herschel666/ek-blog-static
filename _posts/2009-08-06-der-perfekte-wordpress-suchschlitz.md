@@ -1,7 +1,7 @@
 ---
 title: 'Der &quot;perfekte&quot; WordPress-Suchschlitz'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/der-perfekte-wordpress-suchschlitz/
 categories:
   - HTML/CSS
@@ -10,7 +10,7 @@ categories:
   - WordPress
 ---
 
-{% lazyImg /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg Der &quot;perfekte&quot; WordPress-Suchschlitz %}
+{% lazyImg "/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" "Der &quot;perfekte&quot; WordPress-Suchschlitz" %}
 
 *[Demo][demo] | [Download][download]*
 

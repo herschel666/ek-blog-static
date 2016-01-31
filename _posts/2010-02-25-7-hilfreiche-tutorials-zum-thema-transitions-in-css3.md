@@ -1,7 +1,7 @@
 ---
 title: 7 hilfreiche Tutorials zum Thema Transitions in CSS3
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/7-hilfreiche-tutorials-zum-thema-transitions-in-css3/
 categories:
   - HTML/CSS
@@ -14,43 +14,43 @@ So entwickeln sich CSS-Transitions von der Spielerei zur ernsten Alternative zu 
 
 ### 1. [CSS: Transition Timing Functions][art_of_web]
 
-{% lazyImg /wp-content/uploads/2010/02/the-art-of-web.jpg The Art of Web %}
+{% lazyImg "/wp-content/uploads/2010/02/the-art-of-web.jpg" "The Art of Web" %}
 
 Der Artikel behandelt die Eigenschaften `transition-duration` und `transition-timing-function`, und beschreibt, wie man Dauer und Geschwindigkeit von Animationen beeinflusst.
 
 ### 2. [CSS Transforms and Transitions &mdash; The OSX Dock example][thechriswalker]
 
-{% lazyImg /wp-content/uploads/2010/02/mac-osx-dock-realized-with-css3-transition.jpg Mac OSX-Dock realized with- CSS3-Transition %}
+{% lazyImg "/wp-content/uploads/2010/02/mac-osx-dock-realized-with-css3-transition.jpg" "Mac OSX-Dock realized with- CSS3-Transition" %}
 
 Chris Walker zeigt, wie man den Mac OSX-Dock nur mithilfe von CSS3 nachbauen kann.
 
 ### 3. [Going Nuts with CSS Transitions][24ways]
 
-{% lazyImg /wp-content/uploads/2010/02/polaroid-gallery-with-css3.jpg Polaroid-Gallery with CSS3 %}
+{% lazyImg "/wp-content/uploads/2010/02/polaroid-gallery-with-css3.jpg" "Polaroid-Gallery with CSS3" %}
 
 Natalie Downe demonstriert, wie man eine Polaroid-Galerie mithilfe von CSS-Transitions baut.
 
 ### 4. [Nicer Navigation with CSS Transitions][newmediacampaigns]
 
-{% lazyImg /wp-content/uploads/2010/02/nicer-navigations-with-css-transitions.jpg Nicer Navigations with CSS Transitions %}
+{% lazyImg "/wp-content/uploads/2010/02/nicer-navigations-with-css-transitions.jpg" "Nicer Navigations with CSS Transitions" %}
 
 Schöne Anleitung, wie man Website-Navigationen schöner gestalten kann mit CSS3.
 
 ### 5. [Create the accordion effect using CSS3][thecssninja]
 
-{% lazyImg /wp-content/uploads/2010/02/css-ninja.jpg CSS Ninja %}
+{% lazyImg "/wp-content/uploads/2010/02/css-ninja.jpg" "CSS Ninja" %}
 
 Der Akkordeon-Effekt nur mit CSS3 und Transitions realisiert.
 
 ### 6. [CSS3 Hover-Tabs ohne JavaScript][dosonaro]
 
-{% lazyImg /wp-content/uploads/2010/02/dosonaro-blog.jpg Dosonaro &mdash; Blog %}
+{% lazyImg "/wp-content/uploads/2010/02/dosonaro-blog.jpg" "Dosonaro &mdash; Blog" %}
 
 Hover-Tabs ohne JavaScript. Über die Praxistauglichkeit dieser Lösung kann man streiten, aber nichtsdestotrotz veranschaulicht sie sehr schön die Möglichkeiten von CSS3.
 
 ### 7. [CSS Transitions 101][webdesignerdepot]
 
-{% lazyImg /wp-content/uploads/2010/02/css-transitions-on-webdesigner-depot.jpg CSS Transitions on Webdesigner Depot %}
+{% lazyImg "/wp-content/uploads/2010/02/css-transitions-on-webdesigner-depot.jpg" "CSS Transitions on Webdesigner Depot" %}
 
 Zum Abschluss eine schöne Gesamtübersicht zum Thema CSS-Transitions auf Webdesigner-Depot.
 

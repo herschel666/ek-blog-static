@@ -1,7 +1,7 @@
 ---
 title: 'Email Obfuscation: jQuery-PlugIn zur Verschleierung von Email-Adressen'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /jquery/email-obfuscation-jquery-plugin-zur-verschleierung-von-email-adressen/
 categories:
   - JavaScript

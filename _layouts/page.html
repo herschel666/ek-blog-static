@@ -1,24 +1,25 @@
----
-layout: default
----
-<section class="ek-post-wrap">
-  <div class="ek-post">
+{% extends "./default.html" %}
 
-    <article class="ek-post__content">
-      <header class="ek-posts__header">
-        <h1 class="ek-post__headline" itemprop="headline">
-          <a class="ek-posts__heading-link"
-            href="{{ page.url | prepend: site.baseurl }}"
-            rel="bookmark"
-            itemprop="url">
-            {{ page.title }}
-          </a>
-        </h1>
-      </header>
-      <div class="ek-post__content" itemprop="articleBody">
-        {{ page.content }}
-      </div>
-    </article>
+{% block content %}
+  <section class="ek-post-wrap">
+    <div class="ek-post">
 
-  </div>
-</section>
+      <article class="ek-post__content">
+        <header class="ek-posts__header">
+          <h1 class="ek-post__headline" itemprop="headline">
+            <a class="ek-posts__heading-link"
+              href="{{ url | prepend(site.baseurl) }}"
+              rel="bookmark"
+              itemprop="url">
+              {{ title }}
+            </a>
+          </h1>
+        </header>
+        <div class="ek-post__content" itemprop="articleBody">
+          {{ contents | safe }}
+        </div>
+      </article>
+
+    </div>
+  </section>
+{% endblock %}

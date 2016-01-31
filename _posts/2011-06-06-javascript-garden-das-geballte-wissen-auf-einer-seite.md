@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript Garden: Das geballte Wissen auf einer Seite'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /javascript/javascript-garden-das-geballte-wissen-auf-einer-seite/
 categories:
   - JavaScript

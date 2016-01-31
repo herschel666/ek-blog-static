@@ -1,7 +1,7 @@
 ---
 title: Das title-Attribut ist kein SEO-Spielzeug!
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/das-title-attribut-ist-kein-seo-spielzeug/
 categories:
   - HTML/CSS

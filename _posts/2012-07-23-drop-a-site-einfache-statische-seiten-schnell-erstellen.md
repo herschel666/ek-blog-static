@@ -1,14 +1,14 @@
 ---
 title: „Drop-a-Site“ – Einfache, statische Seiten schnell erstellen
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/drop-a-site-einfache-statische-seiten-schnell-erstellen/
 categories:
   - HTML/CSS
   - PHP
 ---
 
-[{% lazyImg /wp-content/uploads/2012/07/github-_-herschel666-_-drop-a-site.jpg Github &mdash; herschel666 &mdash; Drop-a-Site %}][github]
+[{% lazyImg "/wp-content/uploads/2012/07/github-\_-herschel666-\_-drop-a-site.jpg" "Github &mdash; herschel666 &mdash; Drop-a-Site" %}][github]
 
 ["Drop-a-Site" auf GitHub][github] | [Download][download]
 

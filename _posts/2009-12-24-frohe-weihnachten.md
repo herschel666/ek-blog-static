@@ -1,7 +1,7 @@
 ---
 title: Frohe Weihnachten
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/frohe-weihnachten/
 categories:
   - Video

@@ -1,7 +1,7 @@
 ---
 title: 404-Seiten-Hijacking durch 1und1
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /neuigkeiten/404-seiten-hijacking-durch-1und1/
 categories:
   - Neuigkeiten

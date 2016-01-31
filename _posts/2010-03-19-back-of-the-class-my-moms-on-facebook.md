@@ -1,7 +1,7 @@
 ---
-title: 'Back of the Class &#8211; My Mom&#8217;s on Facebook'
+title: Back of the Class — My Mom's on Facebook
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/back-of-the-class-my-moms-on-facebook/
 categories:
   - Lustig

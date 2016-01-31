@@ -1,30 +1,31 @@
----
-layout: default
----
-<section class="ek-post-wrap">
-  <div class="ek-post">
-    <article class="ek-post__content">
-      <header class="ek-posts__header">
-        <h1 class="ek-post__headline" itemprop="headline">
-          <a class="ek-posts__heading-link"
-            href="{{ page.url | prepend: site.baseurl }}"
-            rel="bookmark"
-            itemprop="url">
-            {{ page.title }}
-          </a>
-        </h1>
-      </header>
-      <div class="ek-post__content" itemprop="articleBody">
-        {{ page.content }}
+{% extends "./default.html" %}
+
+{% block content %}
+  <section class="ek-post-wrap">
+    <div class="ek-post">
+      <article class="ek-post__content">
+        <header class="ek-posts__header">
+          <h1 class="ek-post__headline" itemprop="headline">
+            <a class="ek-posts__heading-link"
+              href="{{ path | prepend(site.baseurl + "/") }}"
+              rel="bookmark"
+              itemprop="url">
+              {{ title }}
+            </a>
+          </h1>
+        </header>
+        <div class="ek-post__content" itemprop="articleBody">
+          {{ contents | safe }}
+        </div>
+        <footer class="ek-post__footer ek-post__footer--detail">
+          <p class="ek-post__meta">
+            Geschrieben am <time datetime="{{ date | date("Y-m-d") }}" class="published updated"><meta itemprop="datePublished" content="{{ date | date("Y-m-d") }}">{{ date | date("d. m. Y") }}</time>
+          </p>
+        </footer>
+      </article>
+      <div class="ek-comments">
+        <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
       </div>
-      <footer class="ek-post__footer ek-post__footer--detail">
-        <p class="ek-post__meta">
-          Geschrieben am <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="published updated"><meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d.%-m.%Y" }}</time>
-        </p>
-      </footer>
-    </article>
-    <div class="ek-comments">
-      <button type="button" class="ek-comments__trigger" id="ek-disqus-trigger">Disqus-Kommentare laden</button>
     </div>
-  </div>
-</section>
+  </section>
+{% endblock %}

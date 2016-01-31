@@ -1,7 +1,7 @@
 ---
 title: '&quot;Deadline&quot; · Feinste Pixel-Stop-Motion mit Post-its'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/deadline-feinste-pixel-stop-motion-mit-post-its/
 categories:
   - Video

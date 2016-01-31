@@ -1,17 +1,17 @@
 ---
-title: 'Punch-Camera &#8211; Gestanzte Bilder sind das neue Polaroid'
+title: Punch-Camera — Gestanzte Bilder sind das neue Polaroid
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /fotografie/punch-camera-gestanzte-bilder-sind-das-neue-polaroid/
 categories:
   - Fotografie
 ---
 
-{% lazyImg /wp-content/uploads/2009/10/punch-camera-480x370.jpg Punch-Camera %}
+{% lazyImg "/wp-content/uploads/2009/10/punch-camera-480x370.jpg" "Punch-Camera" %}
 
 Matty Martin, ein Design-Student aus San Francisco, hatte die Idee zur [Punch-Camera][punch_camera], der Polaroid des neuen Jahrtausend nur mit weniger Chemie. Und zwar funktioniert diese folgendermaßen:
 
-{% lazyImg /wp-content/uploads/2009/10/punch-camera_-_anleitung-480x370.jpg Punch-Camera &mdash; Anleitung %}
+{% lazyImg "/wp-content/uploads/2009/10/punch-camera\_-\_anleitung-480x370.jpg" "Punch-Camera &mdash; Anleitung" %}
 
 Man macht ein Foto, steckt ein Blatt Papier oder dünne Pappe zwischen die Punch-Camera, haut ordentlich drauf und schon ist das geschossene Foto als gerastertes Bild in das Papier gestanzt. Außerdem werden auch die Meta-Daten mit gedruckt, so dass man das Bild mit der Suchmaschine seiner Wahl im Internet suche kann, so es denn jemand hochgeladen hat.
 

@@ -1,7 +1,7 @@
 ---
 title: Stop/Motion-Tattoo einer Vintage-Kamera
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/stopmotion-tattoo-einer-vintage-kamera/
 categories:
   - Video

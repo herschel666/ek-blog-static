@@ -1,7 +1,7 @@
 ---
 title: Neurosonics Audiomedical Labs Inc.
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/neurosonics-audiomedical-labs-inc/
 categories:
   - Musik

@@ -1,13 +1,13 @@
 ---
 title: Macht DesignenLassen.de den Markt kaputt?
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /ueberlegungen/macht-designenlassen-de-den-markt-kaputt/
 categories:
   - Überlegungen
 ---
 
-{% lazyImg /wp-content/uploads/2009/07/designenlassen.jpg designenlassen.de %}
+{% lazyImg "/wp-content/uploads/2009/07/designenlassen.jpg" "designenlassen.de" %}
 
 [Auf dem Fontblog wurde heute ein offener Brief von Stefan Maas an den Online-Dienst DesignenLassen.de veröffentlicht][fontblog]. ([Link zu DesignenLassen.de][designenlassen])
 

@@ -1,7 +1,7 @@
 ---
-title: '&#8220;Rollstuhlsport&#8221; – Android-App für DRS ist fertig'
+title: “Rollstuhlsport” – Android-App für DRS ist fertig
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /html-css/rollstuhlsport-android-app-fur-drs-ist-fertig/
 categories:
   - HTML/CSS
@@ -9,7 +9,7 @@ categories:
   - Neuigkeiten
 ---
 
-{% lazyImg /wp-content/uploads/2011/12/rollstuhlsport-android-app.gif Rollstuhlsport &mdash; Android-App des DRS %}
+{% lazyImg "/wp-content/uploads/2011/12/rollstuhlsport-android-app.gif" "Rollstuhlsport &mdash; Android-App des DRS" %}
 
 Der [Deutsche Rollstuhl-Sportverband][drs] hat neuerdings eine [Android-App][drsapp], welche ich in meiner Rolle als Frontend-Developer bei [w3design.][w3design] entwickeln durfte. Die App wird zeitnah außerdem auch für das iPhone erscheinen.
 

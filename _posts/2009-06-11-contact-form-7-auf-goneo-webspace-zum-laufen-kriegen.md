@@ -1,7 +1,7 @@
 ---
 title: '&quot;Contact Form 7&quot; auf goneo-Webspace zum Laufen kriegen'
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /tutorial/contact-form-7-auf-goneo-webspace-zum-laufen-kriegen/
 categories:
   - Tips und Tricks
@@ -9,7 +9,7 @@ categories:
   - WordPress
 ---
 
-{% lazyImg /wp-content/uploads/2009/06/mail-210x140.jpg Mail %}  
+{% lazyImg "/wp-content/uploads/2009/06/mail-210x140.jpg Mail" %}  
 <small>*[The slot for the mail next to the front door also has the doorbell button on it.][flickr_img] von [Samuraijohnny][flickr_img] unter [CC][cc]-Lizenz*</small>
 
 Kontaktformulare sind eine gute Sache, wenn sie funktionieren. Funktionieren sie nicht, werden sie schnell zu einem Quell steten Ärgernis. Dies ist der Fall, wenn man seine WordPress-Installation auf **goneo-Webspace** liegen hat. goneo hat nämlich im März sein System dergestalt modifiziert, dass Mail-Skripte nur noch mit einer bei goneo angelegten Email-Adresse funktionieren. Dies ist eine Reaktion auf das erhöhte Spam-Aufkommen.

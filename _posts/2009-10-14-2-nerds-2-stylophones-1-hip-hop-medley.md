@@ -1,7 +1,7 @@
 ---
 title: 2 Nerds + 2 Stylophones = 1 Hip-Hop-Medley
 author: Emanuel Kluge
-layout: post
+layout: post.html
 permalink: /video/2-nerds-2-stylophones-1-hip-hop-medley/
 categories:
   - Musik
