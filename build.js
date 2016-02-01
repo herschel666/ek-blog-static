@@ -101,16 +101,16 @@ Metalsmith(__dirname)
   .use(metallic())
   .use(markdown())
   .use(permalinks(':folder/:permalink'))
-  .use(prepareFeedContents())
-  .use(feed({
-    collection: 'feed',
-    destination: 'feed.xml',
-    limit: 10
-  }))
-  .use((files, metalsmith, done) => {
-    files['feed.xml'].layout = 'feed.xml';
-    done();
-  })
+  // .use(prepareFeedContents())
+  // .use(feed({
+  //   collection: 'feed',
+  //   destination: 'feed.xml',
+  //   limit: 10
+  // }))
+  // .use((files, metalsmith, done) => {
+  //   files['feed.xml'].layout = 'feed.xml';
+  //   done();
+  // })
   .use(layouts({
     engine: 'swig',
     directory: LAYOUTS,
