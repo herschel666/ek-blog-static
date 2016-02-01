@@ -81,7 +81,7 @@ Metalsmith(__dirname)
       sortBy: 'date',
       reverse: true
     },
-    'feed': {
+    feed: {
       pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
       sortBy: 'date',
       reverse: true,
@@ -101,20 +101,15 @@ Metalsmith(__dirname)
   .use(metallic())
   .use(markdown())
   .use(permalinks(':folder/:permalink'))
-  // .use(prepareFeedContents())
-  // .use(feed({
-  //   collection: 'feed',
-  //   destination: 'feed.xml',
-  //   limit: 10
-  // }))
-  // .use((files, metalsmith, done) => {
-  //   files['feed.xml'].layout = 'feed.xml';
-  //   done();
-  // })
+  .use(prepareFeedContents())
+  .use(feed({
+    collection: 'feed',
+    destination: 'feed.xml',
+    limit: 10
+  }))
   .use(layouts({
     engine: 'swig',
-    directory: LAYOUTS,
-    default: 'default.html'
+    directory: LAYOUTS
   }))
   .use(inPlace({
     engine: 'swig',
@@ -188,15 +183,11 @@ function prepareFeedContents() {
   return function (files, metalsmith, done) {
     const metadata = metalsmith.metadata();
     const feedContents = metadata.feed.map(item => {
-      item.path = path.join(item.folder, item.permalink);
       item.excerpt = item.contents.toString('utf8')
         .replace(/\n/g, '')
         .replace(/\{\%[^%]+\%\}/g, '')
         .replace(/<[^>]+>/g, '')
         .trim().substring(0, 400) + ' …';
-      delete item.next;
-      delete item.previous;
-      delete item.layout;
       return item;
     });
     metalsmith.metadata(Object.assign({}, metadata, {
