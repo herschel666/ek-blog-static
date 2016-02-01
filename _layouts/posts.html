@@ -8,7 +8,7 @@
         <header class="ek-posts__header">
           <h1 class="ek-post__headline" itemprop="headline">
             <a class="ek-posts__heading-link"
-              href="{{ post.permalink | prepend(site.baseurl) }}"
+              href="{{ post.path | prepend(site.baseurl + '/') }}"
               rel="bookmark"
               itemprop="url">{{ post.title }}</a>
           </h1>
