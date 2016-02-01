@@ -13,7 +13,7 @@ script:
   - which surge || exit 1
 deploy:
   provider: script
-  script: ls -lah && surge --project ./_site
+  script: ls -lah ./_site && surge --project ./_site --domain $(cat CNAME)
   skip_cleanup: true
   on:
     repo: herschel666/ek-blog-static
