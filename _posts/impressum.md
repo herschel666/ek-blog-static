@@ -11,10 +11,10 @@ layout: page.html
         <span class="fn" itemprop="name">Emanuel Kluge</span>
       </li>
       <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span class="street-address" itemprop="streetAddress"><br /> Wandsbeker Chaussee 315<br /> </span>
+        <span class="street-address" itemprop="streetAddress"><br /> Bahrenfelder Chaussee 96b<br /> </span>
       </li>
       <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span class="adr"><br /> <span class="postal-code" itemprop="postalCode">22089</span> <span class="locality" itemprop="addressLocality">Hamburg</span><br /> </span>
+        <span class="adr"><br /> <span class="postal-code" itemprop="postalCode">22761</span> <span class="locality" itemprop="addressLocality">Hamburg</span><br /> </span>
       </li>
     </ul>
     
