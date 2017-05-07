@@ -28,7 +28,7 @@ const webpackConfig = require('./webpack.config');
 const PORT = 8083;
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const BASE_URL = IS_PRODUCTION ?
-  'http://emanuel-kluge.de' :
+  'https://emanuel-kluge.de' :
   'http://localhost:' + PORT;
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
