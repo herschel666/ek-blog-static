@@ -30,6 +30,7 @@ const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const BASE_URL = IS_PRODUCTION ?
   'https://emanuel-kluge.de' :
   'http://localhost:' + PORT;
+const CDN_URL = IS_PRODUCTION ? 'https://guard-tiger-28423.netlify.com/' : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
@@ -55,6 +56,7 @@ Metalsmith(__dirname)
       description: 'Beiträge zum Thema JS, HTML, CSS & anderem Kram',
       baseurl: BASE_URL,
       url: BASE_URL, // For Metalsmith-feed ...
+      cdnurl: CDN_URL,
       time: new Date()
     },
     build_str: process.env.TRAVIS_COMMIT || Date.now(),
@@ -229,7 +231,7 @@ function runWebpack() {
         fs.readFile(fullPath, 'utf8', (err, contents) => {
           if (err) return cb(err);
           assets[fileName] = {
-            url: url.resolve(BASE_URL, path.join('/assets', file)),
+            url: url.resolve(CDN_URL, path.join('/assets', file)),
             contents: new Buffer(contents, 'utf8')
           };
           cb();
@@ -244,7 +246,5 @@ function runWebpack() {
 }
 
 function noopPlugin() {
-  return function (files, metalsmith, done) {
-    done();
-  };
+  return (_, __, done)  => done();
 }

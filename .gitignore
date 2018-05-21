@@ -126,9 +126,8 @@ dist/
 .tmp/
 
 
-### Jekyll ###
-.ruby-version
 .asset-cache
+.vscode
 _site/
 .env
 wp-content

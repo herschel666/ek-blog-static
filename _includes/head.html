@@ -7,10 +7,6 @@
     <meta name="author" content="Emanuel Kluge">
     <meta name="MSSmartTagsPreventParsing" content="true">
     <meta name="verify-v1" content="pYcpJoNSdi6bVynT2dKuPoD+74fWR1PHO3mb3slZJns=">
-    <meta name="geo.region" content="DE-HH">
-    <meta name="geo.placename" content="Wandsbeker Chaussee 315, 22089 Hamburg, Deutschland">
-    <meta name="geo.position" content="53.570240,10.058907">
-    <meta name="ICBM" content="53.570240,10.058907">
 
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Emanuel Kluge">
@@ -39,7 +35,7 @@
     <noscript>
       <link rel="stylesheet" href="{{ assets['main.css'].url }}">
     </noscript>
-    <link rel="canonical" href="{{ page.url | replace('index.html', '') | prepend(site.baseurl) | prepend(site.url) }}">
+    <link rel="canonical" href="{{ path | replace('index.html', '') | prepend(site.baseurl + '/') }}">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "/feed.xml" | prepend(site.baseurl) }}">
     <link rel="author" href="https://plus.google.com/+{{ site.google_plus }}/posts">
     {% if environment == "production" %}
@@ -49,6 +45,7 @@
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           ga('create', 'UA-1579881-8', 'emanuel-kluge.de');
+          ga('set', 'anonymizeIp', true);
           ga('send', 'pageview');
       </script>
     {% endif %}
