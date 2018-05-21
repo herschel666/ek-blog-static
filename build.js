@@ -30,7 +30,10 @@ const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const BASE_URL = IS_PRODUCTION ?
   'https://emanuel-kluge.de' :
   'http://localhost:' + PORT;
-const CDN_URL = IS_PRODUCTION ? 'https://guard-tiger-28423.netlify.com/' : '/';
+const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
+  ? `deploy-preview-${process.env.REVIEW_ID}--`
+: '';
+const CDN_URL = IS_PRODUCTION ? `https://${SUBDOMAIN_PREFIX}guard-tiger-28423.netlify.com/` : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
