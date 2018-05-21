@@ -118,7 +118,7 @@ Metalsmith(__dirname)
     pattern: '**/*.html'
   }))
   .use(serveSite())
-  .use(minifyHtml())
+  // .use(minifyHtml())
   .build(err => {
     if (err) throw err;
     console.log('Successfully built the site!');
