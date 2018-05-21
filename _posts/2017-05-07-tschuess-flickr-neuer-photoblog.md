@@ -7,7 +7,7 @@ categories:
   - Neuigkeiten
 ---
 
-<a href="/wp-content/uploads/2017/05/nepal-shrine.jpg" rel="lightbox">
+<a href="{{ site.cdnurl }}wp-content/uploads/2017/05/nepal-shrine.jpg" rel="lightbox">
   {% lazyImg "/wp-content/uploads/2017/05/nepal-shrine-480.jpg" "Hinduistischer Schrein im Licht der Abendsonne" %}
 </a>
 

@@ -30,6 +30,10 @@ const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const BASE_URL = IS_PRODUCTION ?
   'https://emanuel-kluge.de' :
   'http://localhost:' + PORT;
+const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
+  ? `deploy-preview-${process.env.REVIEW_ID}--`
+: '';
+const CDN_URL = IS_PRODUCTION ? `https://${SUBDOMAIN_PREFIX}guard-tiger-28423.netlify.com/` : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
@@ -55,6 +59,7 @@ Metalsmith(__dirname)
       description: 'Beiträge zum Thema JS, HTML, CSS & anderem Kram',
       baseurl: BASE_URL,
       url: BASE_URL, // For Metalsmith-feed ...
+      cdnurl: CDN_URL,
       time: new Date()
     },
     build_str: process.env.TRAVIS_COMMIT || Date.now(),
@@ -116,7 +121,7 @@ Metalsmith(__dirname)
     pattern: '**/*.html'
   }))
   .use(serveSite())
-  .use(minifyHtml())
+  // .use(minifyHtml())
   .build(err => {
     if (err) throw err;
     console.log('Successfully built the site!');
@@ -144,8 +149,11 @@ swig.setTag('lazyImg',
   },
   (compiler, args, content, parents, options, blockName) => {
     const attrs = args.shift();
-    content.push(`<noscript data-src="${attrs.src}" data-alt="${attrs.alt}">
-      <img src="${attrs.src}" alt="${attrs.alt}">
+    const src = attrs.src.indexOf('/wp-content/') === 0
+      ? `${CDN_URL}${attrs.src.substring(1)}`
+      : attrs.src
+    content.push(`<noscript data-src="${src}" data-alt="${attrs.alt}">
+      <img src="${src}" alt="${attrs.alt}">
     </noscript>`);
     return compiler(content, parents, options, blockName);
   }, false, true);
@@ -229,7 +237,7 @@ function runWebpack() {
         fs.readFile(fullPath, 'utf8', (err, contents) => {
           if (err) return cb(err);
           assets[fileName] = {
-            url: url.resolve(BASE_URL, path.join('/assets', file)),
+            url: url.resolve(CDN_URL, path.join('/assets', file)),
             contents: new Buffer(contents, 'utf8')
           };
           cb();
@@ -244,7 +252,5 @@ function runWebpack() {
 }
 
 function noopPlugin() {
-  return function (files, metalsmith, done) {
-    done();
-  };
+  return (_, __, done)  => done();
 }

@@ -5,4 +5,3 @@ import './vendor/vanilla-pubsub/PubSub';
 import './vendor/jsonlylightbox/js/lightbox';
 import './lazy-load';
 import './lightbox';
-import './comments';
