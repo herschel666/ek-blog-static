@@ -13,7 +13,7 @@ categories:
 
 Wer Googlemail benutzt, kennt sicherlich die Buttons mit dem Grauverlauf und den abgerundeten Ecken, die jedoch ohne eine Grafik auskommen. So etwas kann man relativ schnell selber machen, man muss nur genug HTML-Tags "in den Topf werfen". In diesem Tutorial zeige ich euch, wie ihr das mithilfe von jQuery bewerkstelligen könnt. jQuery deshalb, weil man einfach HTML-Tags hinzufügen kann und der eigentliche Quelltext schön sauber bleibt.
 
-{% lazyImg "/wp-content/uploads/2009/06/googlemail-style-button-480x126.png" "navigation im googlemail-style" %}
+{% lazyImg "/wp-contentbutton-480x126.png" "navigation im googlemail-style" %}
 
 *[Demo][demo] | [Download][download]*
 

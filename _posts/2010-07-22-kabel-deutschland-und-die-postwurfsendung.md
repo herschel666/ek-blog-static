@@ -9,7 +9,7 @@ categories:
 
 Postwurfsendungen gehören zum festen Marketing-Kanon von Kabel Deutschland. Die dafür nötigen Adressen werden (u.a.?!) von der AZ Direct GmbH aus Gütersloh gekauft, die sich auf das Handeln mit Adressen verlegt hat. Grundsätzlich kann man sich darüber streiten, welchen betriebswirtschaftlichen Nutzen das Belästigen unbescholtener Bürger mit Briefwerbung hat, aber das würde den Rahmen sprengen.
 
-{% lazyImg "/wp-content/uploads/2010/07/kabel-deutschland.gif" "Kabel Deutschland" %}
+{% lazyImg "/wp-contentkabel-deutschland.gif" "Kabel Deutschland" %}
 
 Interessanter ist, dass meine Daten bei der AZ Direct GmbH vorliegen (scheinbar habe ich irgendwann im Netz ein Häkchen zu wenig weg gemacht &hellip;) und ich deshalb in den Genuss regelmäßiger Postwurfsendungen durch Kabel Deutschland gekommen bin. Kuriose Angelegenheit, dachte ich bei mir. Wenn sie sicherstellen wollen, dass ich niemals Kunde bei ihnen werden, können sie sich wohl damit rühmen, die nötigen Schritte unternommen zu haben.
 

@@ -149,8 +149,11 @@ swig.setTag('lazyImg',
   },
   (compiler, args, content, parents, options, blockName) => {
     const attrs = args.shift();
-    content.push(`<noscript data-src="${attrs.src}" data-alt="${attrs.alt}">
-      <img src="${attrs.src}" alt="${attrs.alt}">
+    const src = attrs.src.indexOf('/wp-content/') === 0
+      ? `${CDN_URL}${attrs.src.substring(1)}`
+      : attrs.src
+    content.push(`<noscript data-src="${src}" data-alt="${attrs.alt}">
+      <img src="${src}" alt="${attrs.alt}">
     </noscript>`);
     return compiler(content, parents, options, blockName);
   }, false, true);

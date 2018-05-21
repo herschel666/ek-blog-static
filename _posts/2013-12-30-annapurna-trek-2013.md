@@ -7,7 +7,7 @@ categories:
   - Fotografie
 ---
 
-<a href="/wp-content/uploads/2013/12/chorten.jpg" rel="lightbox">
+<a href="{{ site.cdnurl }}wp-content/uploads/2013/12/chorten.jpg" rel="lightbox">
   {% lazyImg "/wp-content/uploads/2013/12/chorten-480x318.jpg" "Chorten" %}
 </a>
 

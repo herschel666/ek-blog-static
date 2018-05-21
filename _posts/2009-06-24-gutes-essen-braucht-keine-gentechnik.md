@@ -7,8 +7,8 @@ categories:
   - Off-Topic
 ---
 
-<a href="/wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik-162x210.jpg" "Gutes Essen braucht keine Gentechnik" %}
+<a href="{{ site.cdnurl }}wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik.jpg" rel="lightbox">
+  {% lazyImg "/wp-contentgutes-essen-braucht-keine-gentechnik-162x210.jpg" "Gutes Essen braucht keine Gentechnik" %}
 </a>
 
 Dieses Statement vom "[Informationsdienst Gentechnik][gentechnik]" ist wirklich seit langer, langer, langer Zeit das dämlichste, was mir unter gekommen ist. Ein paar Wohlstandskinder, die sich mit populistischen Mitteln gegen Gentechnik einsetzen, weil die Supermärkte ja auch ohne gut gefüllt sind. Jedenfalls in unseren Breiten, und das ist ja erstmal das wichtigste.
