@@ -32,5 +32,5 @@ function fetchFreshStyles(code, resp) {
 if (localStorage[STORAGE_PROP] && !EK_FOO.isDev) {
   insertStyles(localStorage[STORAGE_PROP]);
 } else {
-  ajax(EK_FOO.mainCSS + '?' + EK_FOO.build, fetchFreshStyles);
+  ajax(EK_FOO.mainCSS, fetchFreshStyles);
 }

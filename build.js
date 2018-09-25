@@ -78,6 +78,10 @@ Metalsmith(__dirname)
     src: 'favicon.ico',
     dest: 'favicon.ico'
   }))
+  .use(msStatic({
+    src: '_headers',
+    dest: '_headers'
+  }))
   .use(postDate())
   .use(categoryFolder())
   .use(collections({
