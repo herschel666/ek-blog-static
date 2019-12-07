@@ -232,7 +232,7 @@ function runWebpack() {
     const metadata = metalsmith.metadata();
     const compiler = webpack(webpackConfig);
     compiler.run((err, stats) => {
-      if (err) throw err;
+      if (err || stats.hasErrors()) throw err;
       const assets = {};
       async.each(fs.readdirSync(webpackConfig.output.path), (file, cb) => {
         const fileNameParts = file.split('.');

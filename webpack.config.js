@@ -1,22 +1,19 @@
-
-'use strict';
-
 const webpack = require('webpack');
 
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 const isProdEnv = process.env.NODE_ENV === 'production';
+const mode = isProdEnv ? 'production' : 'development';
 
 const SOURCE_ASSETS_PATH = path.join(__dirname, '_assets');
 const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'assets');
 
 const plugins = [
-  new webpack.optimize.DedupePlugin(),
-  new ExtractTextPlugin('[name].[hash].css', {
-    sourceMap: false,
-    allChunks: true,
-    relaxInvalidOrder: true
-  })
+  new MiniCssExtractPlugin({
+    filename: '[name].[hash].css',
+    chunkFilename: '[id].css',
+    ignoreOrder: false, // Enable to remove warnings about conflicting order
+  }),
 ];
 
 if ( isProdEnv ) {
@@ -33,7 +30,7 @@ module.exports = {
     'index': './javascripts/index.js',
     'load-styles': './javascripts/load-styles.js',
     'critical': './styles/critical.scss',
-    'main': './styles/main.scss'
+    'main': './styles/main.scss',
   },
   output: {
     path: OUTPUT_ASSETS_PATH,
@@ -41,28 +38,61 @@ module.exports = {
     filename: '[name].[hash].js'
   },
   module: {
-    loaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: 'babel?presets[]=es2015'
-    }, {
-      test: /\.scss$/,
-      loader: ExtractTextPlugin.extract(
-        'css?root=~&-url' + (isProdEnv ? '&minify' : '') + '!' +
-        'autoprefixer!' +
-        'sass'
-      )
-    }, {
-      test: /\.(jpe?g|png|gif|svg)$/,
-      loader: 'url?limit=' + (5 * 1024) + '&name=--img--/[sha512:hash:base64:24].[ext]' +
-        (isProdEnv ? '!image-webpack?optimizationLevel=7&interlaced=true' : '')
-    }]
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread'],
+            },
+          },
+        ]
+      }, {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: !isProdEnv,
+            },
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 2,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: [require('autoprefixer')],
+            },
+          },
+          'sass-loader',
+        ],
+      }, {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 5 * 1024,
+            },
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              disable: !isProdEnv,
+            },
+          },
+        ],
+      },
+    ],
   },
-  resolve: {
-    modulesDirectories: ['node_modules']
-  },
-  resolveLoader: {
-    root: [path.join(__dirname, 'node_modules')]
-  },
-  plugins: plugins
+  plugins,
+  mode,
 };
