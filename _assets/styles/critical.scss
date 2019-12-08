@@ -3,7 +3,7 @@
         "project/functions",
         "project/mixins";
 
-@import "external/normalize.scss/normalize";
+@import "~modern-normalize/modern-normalize.css";
 @import "external/h5bp-pt1";
 
 body {
