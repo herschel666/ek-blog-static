@@ -47,10 +47,18 @@ const XML_CHAR_MAP = {
   "'": '&apos;'
 };
 
+const watchModeActive = process.argv.includes('--serve');
+const webpackWatchOptions = {
+  ignored: ['_site/**/*', 'node_modules'],
+};
+
+let webpackCompiler;
+let lastWebpackBuildHash;
+
 rimraf.sync(DESTINATION);
 mkdirp.sync(DESTINATION);
 
-Metalsmith(__dirname)
+const metalSmithInstance = Metalsmith(__dirname)
   .source(SOURCE)
   .destination(DESTINATION)
   .metadata({
@@ -124,12 +132,8 @@ Metalsmith(__dirname)
     engine: 'swig',
     pattern: '**/*.html'
   }))
-  .use(serveSite())
-  // .use(minifyHtml())
-  .build(err => {
-    if (err) throw err;
-    console.log('Successfully built the site!');
-  });
+  .use(serveSite());
+  // .use(minifyHtml());
 
 swig.setFilter('prepend', (str, prefix) => prefix.trim() + str);
 swig.setFilter('md5', str => md5(str));
@@ -210,7 +214,7 @@ function prepareFeedContents() {
 }
 
 function serveSite() {
-  if (process.argv.indexOf('--serve') > -1) {
+  if (watchModeActive) {
     return serve({
       port: PORT
     });
@@ -227,34 +231,108 @@ function minifyHtml() {
   return noopPlugin();
 }
 
-function runWebpack() {
-  return function (files, metalsmith, done) {
-    const metadata = metalsmith.metadata();
-    const compiler = webpack(webpackConfig);
-    compiler.run((err, stats) => {
-      if (err || stats.hasErrors()) throw err;
-      const assets = {};
-      async.each(fs.readdirSync(webpackConfig.output.path), (file, cb) => {
-        const fileNameParts = file.split('.');
-        const fileName = fileNameParts.shift() + '.' + fileNameParts.pop();
-        const fullPath = path.join(DESTINATION, 'assets', file);
-        fs.readFile(fullPath, 'utf8', (err, contents) => {
-          if (err) return cb(err);
-          assets[fileName] = {
-            url: url.resolve(CDN_URL, path.join('/assets', file)),
-            contents: new Buffer(contents, 'utf8')
-          };
-          cb();
-        })
-      }, err => {
-        if (err) throw err;
-        metalsmith.metadata(Object.assign({}, metadata, {assets}));
-        done();
-      });
+function metalsmithBuildCallback(err) {
+  if (err) throw err;
+  console.log('Successfully built the site!');
+}
+
+const handleWebpackIssues = (done) => (err, stats) => {
+  if (err || stats.hasErrors()) {
+    done(err || stats.toJson({ all: false, errors: true }).errors.shift());
+    return;
+  };
+
+  if (stats.hasWarnings()) {
+    console.warn(info.warnings);
+  }
+};
+
+const saveWebpackCompilerResult = (metalsmith, done) => {
+  const assets = {};
+  async.each(fs.readdirSync(webpackConfig.output.path), (file, cb) => {
+    const stats = fs.statSync(path.join(webpackConfig.output.path, file));
+
+    if (stats.isDirectory()) {
+      cb();
+      return;
+    }
+
+    const fileNameParts = file.split('.');
+    const fileName = fileNameParts.shift() + '.' + fileNameParts.pop();
+    const fullPath = path.join(DESTINATION, 'assets', file);
+    fs.readFile(fullPath, 'utf8', (err, contents) => {
+      if (err) return cb(err);
+      assets[fileName] = {
+        url: url.resolve(CDN_URL, path.join('/assets', file)),
+        contents: Buffer.from(contents, 'utf8')
+      };
+      cb();
     });
+  }, err => {
+    if (err) {
+      throw err;
+    }
+    metalsmith.metadata({
+      ...metalsmith.metadata(),
+      assets,
+    });
+    done();
+  });
+};
+
+function runWebpack() {
+  return function (_, metalsmith, done) {
+    if (webpackCompiler) {
+      return;
+    }
+
+    webpackCompiler = webpack(webpackConfig);
+
+    if (watchModeActive) {
+      console.log('Starting Webpack in "watch"-mode...');
+      webpackCompiler.watch(
+        webpackWatchOptions,
+        handleWebpackIssues(done)
+      );
+      webpackCompiler.hooks.afterEmit.tap('MetalsmithBuild', (compilation) =>
+        saveWebpackCompilerResult(
+          metalsmith,
+          (err) => {
+            if (err) {
+              done(new Error(err.message));
+              return;
+            }
+            const stats = compilation.getStats().toJson();
+
+            if (Boolean(lastWebpackBuildHash) && stats.hash !== lastWebpackBuildHash) {
+              console.log('Re-build Metalsmith...');
+              metalSmithInstance.build();
+            }
+
+            lastWebpackBuildHash = stats.hash;
+            done();
+          }
+        )
+      );
+    } else {
+      webpackCompiler.run((err, stats) => {
+        let compilerError = null;
+        handleWebpackIssues((compilerErrorArg) => {
+          compilerError = compilerErrorArg;
+        })(err, stats);
+
+        if (!compilerError) {
+          saveWebpackCompilerResult(metalsmith, done);
+        } else {
+          done(compilerError);
+        }
+      });
+    }
   };
 }
 
 function noopPlugin() {
   return (_, __, done)  => done();
 }
+
+metalSmithInstance.build(metalsmithBuildCallback);
