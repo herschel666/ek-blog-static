@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Blawg",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
     "@babel/preset-env": "^7.7.5",
@@ -56,6 +56,5 @@
   "bugs": {
     "url": "https://github.com/herschel666/ek-blog-static/issues"
   },
-  "homepage": "https://github.com/herschel666/ek-blog-static",
-  "devDependencies": {}
+  "homepage": "https://github.com/herschel666/ek-blog-static"
 }
