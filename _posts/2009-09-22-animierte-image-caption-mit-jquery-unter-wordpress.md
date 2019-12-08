@@ -11,7 +11,9 @@ categories:
   - WordPress
 ---
 
-{% lazyImg "/wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg" "Animierte Image-Caption mit jQuery unter WordPress" %}
+<noscript data-src="/wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg" data-alt="Animierte Image-Caption mit jQuery unter WordPress">
+<img src="/wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg" alt="Animierte Image-Caption mit jQuery unter WordPress">
+</noscript>
 
 *[Demo][demo] | [Code auf GitHub][github]*
 

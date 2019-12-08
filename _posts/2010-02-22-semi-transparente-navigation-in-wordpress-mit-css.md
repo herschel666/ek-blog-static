@@ -10,7 +10,9 @@ categories:
   - WordPress
 ---
 
-{% lazyImg "/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" "Semi-transparente Navigation in WordPress mit CSS" %}
+<noscript data-src="/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" data-alt="Semi-transparente Navigation in WordPress mit CSS">
+<img src="/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" alt="Semi-transparente Navigation in WordPress mit CSS">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 

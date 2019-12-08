@@ -8,7 +8,9 @@ categories:
   - Überlegungen
 ---
 
-{% lazyImg "/wp-content/uploads/2009/06/apple_sky-157x210.jpg" "apple in front of sky" %}  
+<noscript data-src="/wp-content/uploads/2009/06/apple_sky-157x210.jpg" data-alt="apple in front of sky">
+<img src="/wp-content/uploads/2009/06/apple_sky-157x210.jpg" alt="apple in front of sky">
+</noscript>  
 <small>*[Autumn harvest][flickr_img] von [tanakawho][flickr_user] unter [CC]-[cc]Lizenz*</small>
 
 Gestern haben wir zu zweit auf einen Bekannten, der nebenbei erwähnte, dass er einen neuen Laptop gebrauchen könnte, eingeredet und ihn mit allen Mittel davon zu überzeugen versucht, dass er etwas aus dem Hause Apple&trade; bräuchte. Zwischendurch habe ich mich zwar gefragt, was ich da mache, aber vom Missionieren habe ich trotzdem nicht abgelassen. Schlussendlich konnten wir ihn davon überzeugen, mal das MacBook Air zu testen, woraufhin mich ein Gefühl tiefer Zufriedenheit durchströmte.

@@ -7,7 +7,9 @@ categories:
   - JavaScript
 ---
 
-[{% lazyImg "/wp-content/uploads/2013/03/burp-js-screenshot.png" "Burp.js &mdash; Screenshot" %}][github]
+[<noscript data-src="/wp-content/uploads/2013/03/burp-js-screenshot.png" data-alt="Burp.js &mdash; Screenshot">
+<img src="/wp-content/uploads/2013/03/burp-js-screenshot.png" alt="Burp.js &mdash; Screenshot">
+</noscript>][github]
 
 Seit kurzer Zeit gibt es ein JavaScript-API, mit welchem man Vibrationen von mobilen Geräten im Browser steuern kann. Um den Umgang mit dem API intuitiver zu gestalten, habe ich [einen Navigator.Vibrate-Wrapper namens Burp.js][repo] geschrieben. Dieser funktioniert folgendermaßen:
 

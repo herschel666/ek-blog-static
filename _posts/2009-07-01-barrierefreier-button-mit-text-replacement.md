@@ -10,7 +10,9 @@ categories:
 
 Jeder kommt früher oder später beim Bauen einer Website in die Situation, dass er die Beschriftung eines Buttons loswerden möchte, um den Button mit einer schönen Grafik zu versehen. Das Auge surft schließlich mit.
 
-{% lazyImg "/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" "Barrierefreier Button mit Text Replacement" %}
+<noscript data-src="/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" data-alt="Barrierefreier Button mit Text Replacement">
+<img src="/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" alt="Barrierefreier Button mit Text Replacement">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 

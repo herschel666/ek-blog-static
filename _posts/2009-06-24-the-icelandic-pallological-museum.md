@@ -7,7 +7,9 @@ categories:
   - Lustig
 ---
 
-{% lazyImg "/wp-content/uploads/2009/06/icelandic-phallological-museum-480x195.png" "The Icelandic Phallological Museum" %}
+<noscript data-src="/wp-content/uploads/2009/06/icelandic-phallological-museum-480x195.png" data-alt="The Icelandic Phallological Museum">
+<img src="/wp-content/uploads/2009/06/icelandic-phallological-museum-480x195.png" alt="The Icelandic Phallological Museum">
+</noscript>
 
 Über einen Freund ist die Kunde zu mir gelangt, dass es auf Island ein [Phallologisches Museum][ismennt] gibt &mdash; auf deutsch: Ein Penis-Museum. Dort hängen die Peniden diverser Säugetiere, u.a. auch von Buckel- und Killerwalen.
 

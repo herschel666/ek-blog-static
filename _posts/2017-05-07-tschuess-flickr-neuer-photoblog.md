@@ -8,7 +8,9 @@ categories:
 ---
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2017/05/nepal-shrine.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2017/05/nepal-shrine-480.jpg" "Hinduistischer Schrein im Licht der Abendsonne" %}
+  <noscript data-src="/wp-content/uploads/2017/05/nepal-shrine-480.jpg" data-alt="Hinduistischer Schrein im Licht der Abendsonne">
+<img src="/wp-content/uploads/2017/05/nepal-shrine-480.jpg" alt="Hinduistischer Schrein im Licht der Abendsonne">
+</noscript>
 </a>
 
 Es ist endlich geschafft: ich habe einen selbst gehosteten [Photoblog](https://photos.klg.bz/).

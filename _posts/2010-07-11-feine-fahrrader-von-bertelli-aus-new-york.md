@@ -10,19 +10,27 @@ categories:
 [Bertelli][bertellibici] kommt aus New York City und hat sich auf das Herstellen von Fahrrädern verlegt. Er produziert ausschließlich Track Bikes und Fixed Gear, außerdem sind seine Räder Einzelstücke.
 
 <a href="http://www.bertellibici.com/product.php?works_id=119">
-  {% lazyImg "/wp-content/uploads/2010/07/bertelli-MOCCIOSA-480x319.jpg" "Bertelli &mdash; MOCCIOSA" %}
+  <noscript data-src="/wp-content/uploads/2010/07/bertelli-MOCCIOSA-480x319.jpg" data-alt="Bertelli &mdash; MOCCIOSA">
+<img src="/wp-content/uploads/2010/07/bertelli-MOCCIOSA-480x319.jpg" alt="Bertelli &mdash; MOCCIOSA">
+</noscript>
 </a>
 
 <a href="http://www.bertellibici.com/product.php?works_id=116">
-  {% lazyImg "/wp-content/uploads/2010/07/bertelli-DOMENICA-SPORT-480x319.jpg" "Bertelli &mdash; DOMENICA SPORT" %}
+  <noscript data-src="/wp-content/uploads/2010/07/bertelli-DOMENICA-SPORT-480x319.jpg" data-alt="Bertelli &mdash; DOMENICA SPORT">
+<img src="/wp-content/uploads/2010/07/bertelli-DOMENICA-SPORT-480x319.jpg" alt="Bertelli &mdash; DOMENICA SPORT">
+</noscript>
 </a>
 
 <a href="http://www.bertellibici.com/product.php?works_id=117">
-  {% lazyImg "/wp-content/uploads/2010/07/bertelli-PERFORMA-BRAKELESS-480x319.jpg" "Bertelli &mdash; PERFORMA BRAKELESS" %}
+  <noscript data-src="/wp-content/uploads/2010/07/bertelli-PERFORMA-BRAKELESS-480x319.jpg" data-alt="Bertelli &mdash; PERFORMA BRAKELESS">
+<img src="/wp-content/uploads/2010/07/bertelli-PERFORMA-BRAKELESS-480x319.jpg" alt="Bertelli &mdash; PERFORMA BRAKELESS">
+</noscript>
 </a>
 
 <a href="http://www.bertellibici.com/product.php?works_id=115">
-  {% lazyImg "/wp-content/uploads/2010/07/bertelli-STOICA-480x319.jpg" "Bertelli &mdash; STOICA" %}
+  <noscript data-src="/wp-content/uploads/2010/07/bertelli-STOICA-480x319.jpg" data-alt="Bertelli &mdash; STOICA">
+<img src="/wp-content/uploads/2010/07/bertelli-STOICA-480x319.jpg" alt="Bertelli &mdash; STOICA">
+</noscript>
 </a>
 
 Gefunden bei [Minimalissimo][minimalissimo]

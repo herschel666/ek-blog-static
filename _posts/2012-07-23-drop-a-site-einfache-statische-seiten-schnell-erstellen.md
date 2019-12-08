@@ -8,7 +8,9 @@ categories:
   - PHP
 ---
 
-[{% lazyImg "/wp-content/uploads/2012/07/github-\_-herschel666-\_-drop-a-site.jpg" "Github &mdash; herschel666 &mdash; Drop-a-Site" %}][github]
+[<noscript data-src="/wp-content/uploads/2012/07/github-\_-herschel666-\_-drop-a-site.jpg" data-alt="Github &mdash; herschel666 &mdash; Drop-a-Site">
+<img src="/wp-content/uploads/2012/07/github-\_-herschel666-\_-drop-a-site.jpg" alt="Github &mdash; herschel666 &mdash; Drop-a-Site">
+</noscript>][github]
 
 ["Drop-a-Site" auf GitHub][github] | [Download][download]
 

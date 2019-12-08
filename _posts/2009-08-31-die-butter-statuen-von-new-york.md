@@ -7,7 +7,9 @@ categories:
   - Fotografie
 ---
 
-{% lazyImg "/wp-content/uploads/2009/08/butter-statuen-new-york.jpg" "Butter-Statuen auf dem New York State Fair" %}
+<noscript data-src="/wp-content/uploads/2009/08/butter-statuen-new-york.jpg" data-alt="Butter-Statuen auf dem New York State Fair">
+<img src="/wp-content/uploads/2009/08/butter-statuen-new-york.jpg" alt="Butter-Statuen auf dem New York State Fair">
+</noscript>
 
 Schon im letzten Jahr wurden auf der New York State Fair Skulpturen aus tausenden Pfund Butter ausgestellt. Menschen, Kühe, Kühlschränke und vieles mehr geformt aus dem leckeren Streichfett. Dagegen stinkt Margarine mal sowas von ab!
 

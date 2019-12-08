@@ -10,7 +10,9 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg "/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.jpg" "”Rising Curtain“-Effekt bei Input-Feldern mit jQuery" %}
+<noscript data-src="/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.jpg" data-alt="”Rising Curtain“-Effekt bei Input-Feldern mit jQuery">
+<img src="/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.jpg" alt="”Rising Curtain“-Effekt bei Input-Feldern mit jQuery">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 
