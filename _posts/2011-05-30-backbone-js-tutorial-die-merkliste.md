@@ -11,7 +11,9 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg "/wp-content/uploads/2011/05/backbone.png" "Backbone.js-Tutorial" %}
+<noscript data-src="/wp-content/uploads/2011/05/backbone.png" data-alt="Backbone.js-Tutorial">
+<img src="/wp-content/uploads/2011/05/backbone.png" alt="Backbone.js-Tutorial">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 

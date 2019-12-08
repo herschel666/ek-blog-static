@@ -7,7 +7,9 @@ categories:
   - Off-Topic
 ---
 
-{% lazyImg "/wp-content/uploads/2009/08/ist-das-internet-ein-rechtsfreier-raum.jpg" "Ist das Internet ein rechtsfreier Raum?" %}
+<noscript data-src="/wp-content/uploads/2009/08/ist-das-internet-ein-rechtsfreier-raum.jpg" data-alt="Ist das Internet ein rechtsfreier Raum?">
+<img src="/wp-content/uploads/2009/08/ist-das-internet-ein-rechtsfreier-raum.jpg" alt="Ist das Internet ein rechtsfreier Raum?">
+</noscript>
 
 <del datetime="2012-03-25T13:48:07+00:00">www.istdasinterneteinrechtsfreierraum.de</del>
 

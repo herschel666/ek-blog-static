@@ -9,7 +9,9 @@ categories:
   - Neuigkeiten
 ---
 
-{% lazyImg "/wp-content/uploads/2011/12/rollstuhlsport-android-app.gif" "Rollstuhlsport &mdash; Android-App des DRS" %}
+<noscript data-src="/wp-content/uploads/2011/12/rollstuhlsport-android-app.gif" data-alt="Rollstuhlsport &mdash; Android-App des DRS">
+<img src="/wp-content/uploads/2011/12/rollstuhlsport-android-app.gif" alt="Rollstuhlsport &mdash; Android-App des DRS">
+</noscript>
 
 Der [Deutsche Rollstuhl-Sportverband][drs] hat neuerdings eine [Android-App][drsapp], welche ich in meiner Rolle als Frontend-Developer bei [w3design.][w3design] entwickeln durfte. Die App wird zeitnah außerdem auch für das iPhone erscheinen.
 

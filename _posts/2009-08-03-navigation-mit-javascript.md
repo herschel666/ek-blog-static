@@ -9,7 +9,9 @@ categories:
   - Tutorial
 ---
 
-{% lazyImg "/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" "Navigation mit JavaScript" %}
+<noscript data-src="/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" data-alt="Navigation mit JavaScript">
+<img src="/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" alt="Navigation mit JavaScript">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 

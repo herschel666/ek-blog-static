@@ -7,7 +7,9 @@ categories:
   - Apple
 ---
 
-{% lazyImg "/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" "Rotten Apple" %}  
+<noscript data-src="/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" data-alt="Rotten Apple">
+<img src="/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" alt="Rotten Apple">
+</noscript>  
 <small>*[En mans rester; en annan flugas hem][image_src] von [krissen][credits] und [CC][cc]-Lizenz*</small>
 
 Angenommen, man begibt sich in den App Store. Man begibt sich direkt dort hin, geht nicht über Los. Man wählt ein Programm bzw. eine App, um hier mal dem Jargon treu zu bleiben, und beginnt den Download-Prozess. Nach einer Weile ist man dieses Prozesses überdrüssig &mdash; aus Gründen oder wegen Dingen &mdash; und bricht ihn daher ab.

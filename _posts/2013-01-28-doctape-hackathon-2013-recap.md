@@ -10,14 +10,18 @@ categories:
 
 Das Wochenende um den 19./20. Januar 2013 hatten die Kollegen von [Doctape][doctape] zum Hackathon geladen. Anlass der Veranstaltung &mdash; falls es zum Hacken einen Anlass braucht &mdash; war der [Launch des Doctape-API][doctape_blogpost], welche von den anwesenden Codern auf Herz und Nieren getestet werden sollte. Als Veranstaltungsort wurde das [Co-Working-Space EDELSTALL][edelstall] gewählt, da es zum einen die nötige Infrastruktur für den Anlass bot und zum anderen die Doctape-Büros beherbergt.
 
-{% lazyImg "/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" "doctape-Hackathon | Hannover 2013" %}  
+<noscript data-src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" data-alt="doctape-Hackathon | Hannover 2013">
+<img src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" alt="doctape-Hackathon | Hannover 2013">
+</noscript>  
 <small>*Photo by [Nicolas Hafele][img_copyright]*</small>
 
 Los ging es Freitag abend mit einer Präsentation des Unternehmens und der Veranstaltung, sowie einer Vorstellungsrunde der Teilnehmenden. Einige hatten auch direkt schon eine Idee, was sie bauen wollten, andere waren noch in der Findungsphase. Ungeachtet dessen machte sich eigentlich jeder sofort daran, einen ersten Zugang zum API per oAuth2 zu bekommen. Fürs leibliche Wohl wurde eine ansehnliche Pizza-Bestellung abgeschickt.
 
 Ich selbst ließ es am Freitag bei der erfolgreichen Authentifizierung bewenden und trat um 00:30 Uhr den Heimweg an. Einige waren jedoch schon im Flow und blieben teilweise bis 04:00 Uhr morgens.
 
-{% lazyImg "/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" "Doctape-Hackathon | Hannover 2013" %}  
+<noscript data-src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" data-alt="Doctape-Hackathon | Hannover 2013">
+<img src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" alt="Doctape-Hackathon | Hannover 2013">
+</noscript>  
 <small>*Photo by [Nicolas Hafele][img_copyright]*</small>
 
 Am Samstag ging es um 10:00 Uhr ganz entspannt weiter. Ein gemeinsames Frühstück verschaffte die nötige Stärkung für einen langen Tag des Codens. Nach und nach trudelten auch die Nachtaktiven ein, so dass man ab dem frühen Nachmittag wieder vollzählig an den Rechnern saß und das API strapazierte. Ich hatte nun auch die Muße, mich meiner geplanten App zu widmen. Fürs leibliche Wohl traf mittags ein dicker Topf feinsten Chili con Carnes ein. Standesgemäß und vom Chili beflügelt wurde auch Samstags wieder bis tief in die Nacht hinein gehackt.

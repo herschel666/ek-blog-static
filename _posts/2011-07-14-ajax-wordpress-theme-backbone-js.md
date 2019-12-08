@@ -12,7 +12,9 @@ categories:
   - WordPress
 ---
 
-{% lazyImg "/wp-content/uploads/2011/07/backboned-screenshot.gif" "“Backboned” · AJAX-powered WordPress-Theme · Screenshot" %}
+<noscript data-src="/wp-content/uploads/2011/07/backboned-screenshot.gif" data-alt="“Backboned” · AJAX-powered WordPress-Theme · Screenshot">
+<img src="/wp-content/uploads/2011/07/backboned-screenshot.gif" alt="“Backboned” · AJAX-powered WordPress-Theme · Screenshot">
+</noscript>
 
 [Download][download]
 

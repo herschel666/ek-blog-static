@@ -10,7 +10,9 @@ categories:
   - WordPress
 ---
 
-{% lazyImg "/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" "Der &quot;perfekte&quot; WordPress-Suchschlitz" %}
+<noscript data-src="/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" data-alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
+<img src="/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
+</noscript>
 
 *[Demo][demo] | [Download][download]*
 

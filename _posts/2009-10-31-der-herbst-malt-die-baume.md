@@ -13,28 +13,42 @@ Da das Wetter heute ganz passabel war, habe ich die Gelegenheit genutzt und bin 
 Die Ergebnisse werde ich euch natürlich nicht vorenthalten:
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/platanen-im-sonnenlicht.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/platanen-im-sonnenlicht-480x319.jpg" "Platanen im Sonnenlicht" %}
+  <noscript data-src="/wp-content/uploads/2009/10/platanen-im-sonnenlicht-480x319.jpg" data-alt="Platanen im Sonnenlicht">
+<img src="/wp-content/uploads/2009/10/platanen-im-sonnenlicht-480x319.jpg" alt="Platanen im Sonnenlicht">
+</noscript>
 </a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/begrenzungsschilder-an-einer-baustelle.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/begrenzungsschilder-an-einer-baustelle-480x319.jpg" "Begrenzungsschilder an einer Baustelle" %}
+  <noscript data-src="/wp-content/uploads/2009/10/begrenzungsschilder-an-einer-baustelle-480x319.jpg" data-alt="Begrenzungsschilder an einer Baustelle">
+<img src="/wp-content/uploads/2009/10/begrenzungsschilder-an-einer-baustelle-480x319.jpg" alt="Begrenzungsschilder an einer Baustelle">
+</noscript>
 </a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/gingkobaum-vor-haeuserwand.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/gingkobaum-vor-haeuserwand-480x319.jpg" "Gingkobaum vor Häuserwand" %}
+  <noscript data-src="/wp-content/uploads/2009/10/gingkobaum-vor-haeuserwand-480x319.jpg" data-alt="Gingkobaum vor Häuserwand">
+<img src="/wp-content/uploads/2009/10/gingkobaum-vor-haeuserwand-480x319.jpg" alt="Gingkobaum vor Häuserwand">
+</noscript>
 </a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/parkbank-im-laub.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/parkbank-im-laub-480x319.jpg" "Parkbank im Laub" %}
+  <noscript data-src="/wp-content/uploads/2009/10/parkbank-im-laub-480x319.jpg" data-alt="Parkbank im Laub">
+<img src="/wp-content/uploads/2009/10/parkbank-im-laub-480x319.jpg" alt="Parkbank im Laub">
+</noscript>
 </a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/wiese-voller-laub.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/wiese-voller-laub-480x319.jpg" "Wiese voller Laub" %}</a>
+  <noscript data-src="/wp-content/uploads/2009/10/wiese-voller-laub-480x319.jpg" data-alt="Wiese voller Laub">
+<img src="/wp-content/uploads/2009/10/wiese-voller-laub-480x319.jpg" alt="Wiese voller Laub">
+</noscript></a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/kette-ueber-laub.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/kette-ueber-laub-480x319.jpg" "Kette über Laub" %}</a>
+  <noscript data-src="/wp-content/uploads/2009/10/kette-ueber-laub-480x319.jpg" data-alt="Kette über Laub">
+<img src="/wp-content/uploads/2009/10/kette-ueber-laub-480x319.jpg" alt="Kette über Laub">
+</noscript></a>
 
 <a href="{{ site.cdnurl }}wp-content/uploads/2009/10/baum-vor-haeuserwand-mit-fenstern.jpg" rel="lightbox">
-  {% lazyImg "/wp-content/uploads/2009/10/baum-vor-haeuserwand-mit-fenstern-480x330.jpg" "Baum vor Häuserwand mit Fenstern" %}</a>
+  <noscript data-src="/wp-content/uploads/2009/10/baum-vor-haeuserwand-mit-fenstern-480x330.jpg" data-alt="Baum vor Häuserwand mit Fenstern">
+<img src="/wp-content/uploads/2009/10/baum-vor-haeuserwand-mit-fenstern-480x330.jpg" alt="Baum vor Häuserwand mit Fenstern">
+</noscript></a>
 
 Wie immer öffnet sich die Lightbox, wenn ihr auf die Fotos klickt, und offenbart die Fotos in größerer Auflösung.

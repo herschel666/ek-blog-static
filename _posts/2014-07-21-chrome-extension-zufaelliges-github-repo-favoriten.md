@@ -8,7 +8,9 @@ categories:
   - Neuigkeiten
 ---
 
-{% lazyImg "/wp-content/uploads/2014/07/icon-128.png" "GitHub Random Favorite" %}
+<noscript data-src="/wp-content/uploads/2014/07/icon-128.png" data-alt="GitHub Random Favorite">
+<img src="/wp-content/uploads/2014/07/icon-128.png" alt="GitHub Random Favorite">
+</noscript>
 
 &rarr; [&raquo;GH Random Favorite&laquo; im Google Chrome Store][store]
 

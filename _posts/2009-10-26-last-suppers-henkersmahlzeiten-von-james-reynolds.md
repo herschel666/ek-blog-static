@@ -9,13 +9,21 @@ categories:
 
 ["Last Suppers" ist eine Foto-Serie von James Reynolds][jwgreynolds], welche die Henkersmahlzeiten von Todeskandidaten dokumentiert.
 
-{% lazyImg "/wp-content/uploads/2009/10/last-supper-_-chicken-wings-mit-pommes-frites.jpg" "Last Supper &mdash; Chicken Wings mit Pommes-Frites" %}
+<noscript data-src="/wp-content/uploads/2009/10/last-supper-_-chicken-wings-mit-pommes-frites.jpg" data-alt="Last Supper &mdash; Chicken Wings mit Pommes-Frites">
+<img src="/wp-content/uploads/2009/10/last-supper-_-chicken-wings-mit-pommes-frites.jpg" alt="Last Supper &mdash; Chicken Wings mit Pommes-Frites">
+</noscript>
 
-{% lazyImg "/wp-content/uploads/2009/10/last-supper-_-haeagen-dasz.jpg" "Last Supper &mdash; Häagen-Dasz" %}
+<noscript data-src="/wp-content/uploads/2009/10/last-supper-_-haeagen-dasz.jpg" data-alt="Last Supper &mdash; Häagen-Dasz">
+<img src="/wp-content/uploads/2009/10/last-supper-_-haeagen-dasz.jpg" alt="Last Supper &mdash; Häagen-Dasz">
+</noscript>
 
-{% lazyImg "/wp-content/uploads/2009/10/last-supper-_-olive.jpg" "Last Supper &mdash; Olive" %}
+<noscript data-src="/wp-content/uploads/2009/10/last-supper-_-olive.jpg" data-alt="Last Supper &mdash; Olive">
+<img src="/wp-content/uploads/2009/10/last-supper-_-olive.jpg" alt="Last Supper &mdash; Olive">
+</noscript>
 
-{% lazyImg "/wp-content/uploads/2009/10/last-supper-_-zigaretten.jpg" "Last Supper &mdash; Zigaretten" %}
+<noscript data-src="/wp-content/uploads/2009/10/last-supper-_-zigaretten.jpg" data-alt="Last Supper &mdash; Zigaretten">
+<img src="/wp-content/uploads/2009/10/last-supper-_-zigaretten.jpg" alt="Last Supper &mdash; Zigaretten">
+</noscript>
 
 Skurrile Sammlung. Nun weiß man zwar nicht, wie James Reynolds die Auswahl getroffen hat, es fällt jedoch auf, dass opulente Mahlzeiten, wie man es sich beim Stichwort Henkersmahlzeit immer in Gedanken ausmalt, nicht dabei sind.
 
