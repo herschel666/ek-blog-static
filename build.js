@@ -28,7 +28,7 @@ const webpackConfig = require('./webpack.config');
 const PORT = 8083;
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const BASE_URL = IS_PRODUCTION ?
-  'https://emanuel-kluge.de' :
+  'https://ekblog.de' :
   'http://localhost:' + PORT;
 const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
   ? `deploy-preview-${process.env.REVIEW_ID}--`
