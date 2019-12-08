@@ -18,8 +18,6 @@
     "tests"
   ],
   "devDependencies": {
-    "eventie": "~1.0.6",
-    "vanilla-pubsub": "https://github.com/drublic/PubSub.git#~1.1.0",
     "highlight": "^9.1.0"
   }
 }
