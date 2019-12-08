@@ -3,7 +3,7 @@
         "project/functions",
         "project/mixins";
 
-@import "../javascripts/vendor/highlight/src/styles/darkula.css";
+@import "~highlight.js/scss/a11y-dark";
 @import "~basiclightbox/src/styles/main";
 
 @import "project/all";
