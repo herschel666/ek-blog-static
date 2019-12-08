@@ -4,9 +4,8 @@
         "project/mixins";
 
 @import "../javascripts/vendor/highlight/src/styles/darkula.css";
-@import "../javascripts/vendor/jsonlylightbox/css/lightbox";
+@import "~basiclightbox/src/styles/main";
 
 @import "project/all";
-@import "project/lightbox";
 
 @import "external/h5bp-pt2";
