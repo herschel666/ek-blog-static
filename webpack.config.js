@@ -19,14 +19,6 @@ const plugins = [
   }),
 ];
 
-if ( isProdEnv ) {
-  plugins.push(new webpack.optimize.UglifyJsPlugin({
-    sourceMap: false,
-    preserveComments: false,
-    exclude: /(critical|main)\.css/i
-  }));
-}
-
 module.exports = {
   watch: watchModeActive,
   context: SOURCE_ASSETS_PATH,
@@ -97,6 +89,9 @@ module.exports = {
         ],
       },
     ],
+  },
+  optimization: {
+    minimize: isProdEnv,
   },
   plugins,
   mode,
