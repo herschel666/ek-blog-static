@@ -1,8 +1,12 @@
-
 <script>
-
-  // Actually loading CSS async'ly
-  {{ assets["load-styles.js"].contents | safe }}
+  (
+    (rel ,href) => document.head.appendChild(
+      Object.assign(
+        document.createElement('link'),
+        { rel, href }
+      )
+    )
+  )('stylesheet', '{{ assets["main.css"].url }}');
 
   // Load index.js
   (function (scriptPath, doc, elem) {
