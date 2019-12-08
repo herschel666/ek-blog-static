@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "basiclightbox": "^5.0.2",
-    "highlight.js": "^9.16.2"
+    "highlight.js": "^9.16.2",
+    "modern-normalize": "^0.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
