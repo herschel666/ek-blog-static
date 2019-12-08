@@ -27,7 +27,6 @@
         s[g] = s[g] = {};
         s[g].isDev = {% if environment == "production" %}false{% else %}true{% endif %};
         s[g].build = '{{ build_str }}';
-        s[g].mainCSS = '{{ assets["main.css"].url }}';
       })(window, document.documentElement, 'className', 'EK_FOO');
     </script>
     {% if site.description %}

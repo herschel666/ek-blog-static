@@ -32,7 +32,6 @@ module.exports = {
   context: SOURCE_ASSETS_PATH,
   entry: {
     'index': './javascripts/index.js',
-    'load-styles': './javascripts/load-styles.js',
     'critical': './styles/critical.scss',
     'main': './styles/main.scss',
   },
