@@ -1,4 +1,4 @@
-{% extends "./default.html" %}
+{% extends "./default.swig" %}
 
 {% block content %}
   <section class="ek-post-wrap">
