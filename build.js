@@ -12,7 +12,6 @@ const Metalsmith = require('metalsmith');
 const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
 const layouts = require('metalsmith-layouts');
-const inPlace = require('metalsmith-in-place');
 const collections = require('metalsmith-collections');
 const pagination = require('metalsmith-pagination');
 const serve = require('metalsmith-serve');
@@ -20,7 +19,6 @@ const msStatic = require('metalsmith-static');
 const metallic = require('metalsmith-metallic');
 const htmlMinifier = require('metalsmith-html-minifier');
 const feed = require('metalsmith-feed');
-const swig = require('swig');
 const md5 = require('md5');
 
 const webpackConfig = require('./webpack.config');
@@ -110,7 +108,7 @@ const metalSmithInstance = Metalsmith(__dirname)
     'collections.posts': {
       perPage: 10,
       noPageOne: true,
-      layout: 'posts.html',
+      layout: 'posts.swig',
       first: 'index.html',
       path: 'page/:num/index.html'
     }
@@ -125,46 +123,16 @@ const metalSmithInstance = Metalsmith(__dirname)
     limit: 10
   }))
   .use(layouts({
-    engine: 'swig',
-    directory: LAYOUTS
-  }))
-  .use(inPlace({
-    engine: 'swig',
-    pattern: '**/*.html'
+    engineOptions: {
+      filters: {
+        prepend: (str, prefix) => prefix.trim() + str,
+        md5: str => md5(str),
+      },
+    },
+    directory: LAYOUTS,
   }))
   .use(serveSite());
   // .use(minifyHtml());
-
-swig.setFilter('prepend', (str, prefix) => prefix.trim() + str);
-swig.setFilter('md5', str => md5(str));
-swig.setTag('lazyImg',
-  (str, line, parser, types) => {
-    const args = { alt: '' };
-    parser.on(types.UNKNOWN, function (token) {
-      const attrs = token.match.replace(/&quot;/g, '').trim();
-      const ws = attrs.indexOf(' ');
-      if (ws === -1) {
-        args.src = attrs;
-        return;
-      }
-      args.src = attrs.substring(0, ws);
-      args.alt = attrs.substring(ws + 1);
-    });
-    parser.on('end', function () {
-      this.out.push(args);
-    });
-    return true;
-  },
-  (compiler, args, content, parents, options, blockName) => {
-    const attrs = args.shift();
-    const src = attrs.src.indexOf('/wp-content/') === 0
-      ? `${CDN_URL}${attrs.src.substring(1)}`
-      : attrs.src
-    content.push(`<noscript data-src="${src}" data-alt="${attrs.alt}">
-      <img src="${src}" alt="${attrs.alt}">
-    </noscript>`);
-    return compiler(content, parents, options, blockName);
-  }, false, true);
 
 function postDate() {
   return function (files, metalsmith, done) {
