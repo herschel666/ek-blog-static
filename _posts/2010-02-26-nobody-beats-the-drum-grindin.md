@@ -21,5 +21,5 @@ Gefunden bei [Nerdcore][nerdcore].
 
 [video]: http://vimeo.com/9625370
 [nobodybeatsthedrum]: http://www.nobodybeatsthedrum.com/
-[making_of]: http://www.youtube.com/watch?v=XBqxjvDAAWE&#038;feature=channel
+[making_of]: http://www.youtube.com/watch?v=XBqxjvDAAWE&feature=channel
 [nerdcore]: http://www.nerdcore.de/wp/2010/02/26/nobody-beats-the-drum-grindin/

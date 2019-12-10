@@ -21,7 +21,7 @@ Vielen Dank für eure Aufmerksamkeit.
 
 **Weiterführende Links:**
 
- * [Aufstand der Netzbürger][spiegel]
+- [Aufstand der Netzbürger][spiegel]
 
 [lawblog]: http://www.lawblog.de/index.php/archives/2009/08/02/die-meinungsfreiheit-als-sondermull/
 [spiegel]: http://www.spiegel.de/spiegel/0,1518,639993,00.html

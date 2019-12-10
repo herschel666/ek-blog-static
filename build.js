@@ -1,4 +1,3 @@
-
 'use strict';
 
 const fs = require('fs');
@@ -26,13 +25,15 @@ const webpackConfig = require('./webpack.config');
 const PORT = 8083;
 const WATCH_MODE_ACTIVE = process.argv.includes('--serve');
 const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
-const BASE_URL = IS_PRODUCTION ?
-  'https://ekblog.de' :
-  'http://localhost:' + PORT;
+const BASE_URL = IS_PRODUCTION
+  ? 'https://ekblog.de'
+  : 'http://localhost:' + PORT;
 const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
   ? `deploy-preview-${process.env.REVIEW_ID}--`
-: '';
-const CDN_URL = IS_PRODUCTION ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/` : '/';
+  : '';
+const CDN_URL = IS_PRODUCTION
+  ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/`
+  : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
@@ -43,7 +44,7 @@ const XML_CHAR_MAP = {
   '>': '&gt;',
   '&': '&amp;',
   '"': '&quot;',
-  "'": '&apos;'
+  "'": '&apos;',
 };
 
 process.env.NODE_ENV = IS_PRODUCTION ? 'production' : 'development';
@@ -68,79 +69,95 @@ const metalSmithInstance = Metalsmith(__dirname)
       baseurl: BASE_URL,
       url: BASE_URL, // For Metalsmith-feed ...
       cdnurl: CDN_URL,
-      time: new Date()
+      time: new Date(),
     },
     build_str: process.env.TRAVIS_COMMIT || Date.now(),
-    environment: process.env.NODE_ENV
+    environment: process.env.NODE_ENV,
   })
   .use(runWebpack())
-  .use(msStatic({
-    src: '_assets/images',
-    dest: 'assets/img'
-  }))
-  .use(msStatic({
-    src: 'userfiles',
-    dest: 'wp-content'
-  }))
-  .use(msStatic({
-    src: 'favicon.ico',
-    dest: 'favicon.ico'
-  }))
-  .use(msStatic({
-    src: '_headers',
-    dest: '_headers'
-  }))
+  .use(
+    msStatic({
+      src: '_assets/images',
+      dest: 'assets/img',
+    })
+  )
+  .use(
+    msStatic({
+      src: 'userfiles',
+      dest: 'wp-content',
+    })
+  )
+  .use(
+    msStatic({
+      src: 'favicon.ico',
+      dest: 'favicon.ico',
+    })
+  )
+  .use(
+    msStatic({
+      src: '_headers',
+      dest: '_headers',
+    })
+  )
   .use(postDate())
-  .use(collections({
-    posts: {
-      pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
-      sortBy: 'date',
-      reverse: true
-    },
-    feed: {
-      pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
-      sortBy: 'date',
-      reverse: true,
-      limit: 10,
-      refer: false
-    }
-  }))
-  .use(pagination({
-    'collections.posts': {
-      perPage: 10,
-      noPageOne: true,
-      layout: 'posts.swig',
-      first: 'index.html',
-      path: 'page/:num/index.html'
-    }
-  }))
+  .use(
+    collections({
+      posts: {
+        pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
+        sortBy: 'date',
+        reverse: true,
+      },
+      feed: {
+        pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
+        sortBy: 'date',
+        reverse: true,
+        limit: 10,
+        refer: false,
+      },
+    })
+  )
+  .use(
+    pagination({
+      'collections.posts': {
+        perPage: 10,
+        noPageOne: true,
+        layout: 'posts.swig',
+        first: 'index.html',
+        path: 'page/:num/index.html',
+      },
+    })
+  )
   .use(metallic())
   .use(markdown())
   .use(permalinks())
   .use(prepareFeedContents())
-  .use(feed({
-    collection: 'feed',
-    destination: 'feed.xml',
-    limit: 10
-  }))
-  .use(layouts({
-    engineOptions: {
-      filters: {
-        prepend: (str, prefix) => prefix.trim() + str,
-        md5: str => md5(str),
+  .use(
+    feed({
+      collection: 'feed',
+      destination: 'feed.xml',
+      limit: 10,
+    })
+  )
+  .use(
+    layouts({
+      engineOptions: {
+        filters: {
+          prepend: (str, prefix) => prefix.trim() + str,
+          md5: (str) => md5(str),
+        },
       },
-    },
-    directory: LAYOUTS,
-  }))
+      directory: LAYOUTS,
+    })
+  )
   .use(serveSite());
-  // .use(minifyHtml());
+// .use(minifyHtml());
 
 function postDate() {
-  return function (files, metalsmith, done) {
-    Object.keys(files).forEach(file => {
+  return function(files, metalsmith, done) {
+    Object.keys(files).forEach((file) => {
       if (FILE_NAME_DATE_RE.test(file)) {
         const date = new Date(FILE_NAME_DATE_RE.exec(file)[0]);
-        files[file] = Object.assign({}, files[file], {date});
+        files[file] = Object.assign({}, files[file], { date });
       }
     });
     setImmediate(done);
@@ -148,19 +165,24 @@ function postDate() {
 }
 
 function prepareFeedContents() {
-  return function (files, metalsmith, done) {
+  return function(files, metalsmith, done) {
     const metadata = metalsmith.metadata();
-    const feedContents = metadata.feed.map(item => {
-      item.excerpt = item.contents.toString('utf8')
-        .replace(/\n/g, '')
-        .replace(/\{\%[^%]+\%\}/g, '')
-        .replace(/<[^>]+>/g, '')
-        .trim().substring(0, 400) + ' …';
+    const feedContents = metadata.feed.map((item) => {
+      item.excerpt =
+        item.contents
+          .toString('utf8')
+          .replace(/\n/g, '')
+          .replace(/\{\%[^%]+\%\}/g, '')
+          .replace(/<[^>]+>/g, '')
+          .trim()
+          .substring(0, 400) + ' …';
       return item;
     });
-    metalsmith.metadata(Object.assign({}, metadata, {
-      feed: feedContents
-    }));
+    metalsmith.metadata(
+      Object.assign({}, metadata, {
+        feed: feedContents,
+      })
+    );
     setImmediate(done);
   };
 }
@@ -168,7 +190,7 @@ function prepareFeedContents() {
 function serveSite() {
   if (WATCH_MODE_ACTIVE) {
     return serve({
-      port: PORT
+      port: PORT,
     });
   }
   return noopPlugin();
@@ -177,7 +199,7 @@ function serveSite() {
 function minifyHtml() {
   if (IS_PRODUCTION) {
     return htmlMinifier({
-      minifyJS: true
+      minifyJS: true,
     });
   }
   return noopPlugin();
@@ -192,7 +214,7 @@ const handleWebpackIssues = (done) => (err, stats) => {
   if (err || stats.hasErrors()) {
     done(err || stats.toJson({ all: false, errors: true }).errors.shift());
     return;
-  };
+  }
 
   if (stats.hasWarnings()) {
     console.warn(info.warnings);
@@ -201,39 +223,43 @@ const handleWebpackIssues = (done) => (err, stats) => {
 
 const saveWebpackCompilerResult = (metalsmith, done) => {
   const assets = {};
-  async.each(fs.readdirSync(webpackConfig.output.path), (file, cb) => {
-    const stats = fs.statSync(path.join(webpackConfig.output.path, file));
+  async.each(
+    fs.readdirSync(webpackConfig.output.path),
+    (file, cb) => {
+      const stats = fs.statSync(path.join(webpackConfig.output.path, file));
 
-    if (stats.isDirectory()) {
-      cb();
-      return;
-    }
+      if (stats.isDirectory()) {
+        cb();
+        return;
+      }
 
-    const fileNameParts = file.split('.');
-    const fileName = fileNameParts.shift() + '.' + fileNameParts.pop();
-    const fullPath = path.join(DESTINATION, 'assets', file);
-    fs.readFile(fullPath, 'utf8', (err, contents) => {
-      if (err) return cb(err);
-      assets[fileName] = {
-        url: url.resolve(CDN_URL, path.join('/assets', file)),
-        contents: Buffer.from(contents, 'utf8')
-      };
-      cb();
-    });
-  }, err => {
-    if (err) {
-      throw err;
+      const fileNameParts = file.split('.');
+      const fileName = fileNameParts.shift() + '.' + fileNameParts.pop();
+      const fullPath = path.join(DESTINATION, 'assets', file);
+      fs.readFile(fullPath, 'utf8', (err, contents) => {
+        if (err) return cb(err);
+        assets[fileName] = {
+          url: url.resolve(CDN_URL, path.join('/assets', file)),
+          contents: Buffer.from(contents, 'utf8'),
+        };
+        cb();
+      });
+    },
+    (err) => {
+      if (err) {
+        throw err;
+      }
+      metalsmith.metadata({
+        ...metalsmith.metadata(),
+        assets,
+      });
+      done();
     }
-    metalsmith.metadata({
-      ...metalsmith.metadata(),
-      assets,
-    });
-    done();
-  });
+  );
 };
 
 function runWebpack() {
-  return function (_, metalsmith, done) {
+  return function(_, metalsmith, done) {
     if (webpackCompiler) {
       return;
     }
@@ -242,29 +268,26 @@ function runWebpack() {
 
     if (WATCH_MODE_ACTIVE) {
       console.log('Starting Webpack in "watch"-mode...');
-      webpackCompiler.watch(
-        webpackWatchOptions,
-        handleWebpackIssues(done)
-      );
+      webpackCompiler.watch(webpackWatchOptions, handleWebpackIssues(done));
       webpackCompiler.hooks.afterEmit.tap('MetalsmithBuild', (compilation) =>
-        saveWebpackCompilerResult(
-          metalsmith,
-          (err) => {
-            if (err) {
-              done(new Error(err.message));
-              return;
-            }
-            const stats = compilation.getStats().toJson();
-
-            if (Boolean(lastWebpackBuildHash) && stats.hash !== lastWebpackBuildHash) {
-              console.log('Re-build Metalsmith...');
-              metalSmithInstance.build();
-            }
-
-            lastWebpackBuildHash = stats.hash;
-            done();
+        saveWebpackCompilerResult(metalsmith, (err) => {
+          if (err) {
+            done(new Error(err.message));
+            return;
           }
-        )
+          const stats = compilation.getStats().toJson();
+
+          if (
+            Boolean(lastWebpackBuildHash) &&
+            stats.hash !== lastWebpackBuildHash
+          ) {
+            console.log('Re-build Metalsmith...');
+            metalSmithInstance.build();
+          }
+
+          lastWebpackBuildHash = stats.hash;
+          done();
+        })
       );
     } else {
       webpackCompiler.run((err, stats) => {
@@ -284,7 +307,7 @@ function runWebpack() {
 }
 
 function noopPlugin() {
-  return (_, __, done)  => done();
+  return (_, __, done) => done();
 }
 
 metalSmithInstance.build(metalsmithBuildCallback);

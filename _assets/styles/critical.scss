@@ -1,26 +1,28 @@
+@import 'project/variables', 'project/functions', 'project/mixins';
 
-@import "project/variables",
-        "project/functions",
-        "project/mixins";
-
-@import "~modern-normalize/modern-normalize.css";
-@import "external/h5bp-pt1";
+@import '~modern-normalize/modern-normalize.css';
+@import 'external/h5bp-pt1';
 
 body {
   background: rgb(242, 242, 242);
   font: normal 100%/1.2 sans-serif;
   color: $dark-grey;
-  }
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 a {
   color: $blue;
   text-decoration: none;
-  @include transition(background-color .5s linear);
+  @include transition(background-color 0.5s linear);
   &:hover,
   &:focus {
     color: lighten($blue, 10%);
@@ -66,20 +68,19 @@ a:active {
   }
 
   &:before {
-    content: "- "
+    content: '- ';
   }
 
   &:after {
-    content: " -"
+    content: ' -';
   }
-
 }
 
 .ek-content {
   min-height: 55vh;
   padding: rem(32) rem(10) 0 rem(10);
   border-top: 1px solid white;
-  @include content-width (rem($content-max-width));
+  @include content-width(rem($content-max-width));
 }
 
 .ek-post__headline {
@@ -90,7 +91,7 @@ a:active {
   overflow: hidden;
   .js & {
     opacity: 0;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
 }
 

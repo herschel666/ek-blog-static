@@ -12,13 +12,11 @@ categories:
 <img src="/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" alt="Weichgezeichnete Schrift mit CSS3">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Hier ein kleiner Trick, wie man mithilfe von **CSS3** "Blurred Typo", also weichgezeichnete Schrift, machen kann. Das ganze funktioniert durch den Umweg über die `text-shadow`-Funktion in CSS3.
 
 Um das Beispiel zu verdeutlichen habe ich eine unspektakuläre Navigation gewählt. Hier der HTML-Teil:
-
-
 
 ```html
 <ul id="nav">
@@ -36,7 +34,7 @@ Eine ungeordnete Liste, wie es sich für eine anständige Navigation gehört. Al
   width: auto;
   clear: left;
   overflow: hidden;
-  border-left: 1px solid #EEE;
+  border-left: 1px solid #eee;
   list-style: none;
 }
 
@@ -45,15 +43,15 @@ Eine ungeordnete Liste, wie es sich für eine anständige Navigation gehört. Al
   height: 30px;
   padding: 0 20px 20px 20px;
   float: left;
-  border-right: 1px solid #EEE;
+  border-right: 1px solid #eee;
   line-height: 30px;
 }
 
 #nav li a:link,
 #nav li a:visited {
   text-decoration: none;
-  color: #CCC;
-  text-shadow: 0 0 3px #CCC;
+  color: #ccc;
+  text-shadow: 0 0 3px #ccc;
 }
 
 #nav li a:hover,

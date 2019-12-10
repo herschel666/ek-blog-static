@@ -20,7 +20,7 @@ Diese Menschen, die sicherlich die Mehrheit stellen, nehmen das Internet ganz an
 
 Für diesen Teil der Bevölkerung hat das Internet einen ganz anderen Stellenwert, als z.B. für die über 134.000 Unterzeichner der [Online-Petition][epetitionen] gegen das Gesetz zur Zugangserschwerung zu Kinderpornografie im Internet. Sie werden Artikel zu diesem Thema überblättern/wegklicken, weil es nicht ihr Interessengebiet ist. Das ist bei einem allgegenwärtigen Medium wie dem Internet natürlich höchst bedenklich, aber andererseits auch verständlich: Jede/r hat nun einmal unterschiedliche Interessengebiete.
 
-Diese Menschen trotzdem zu erreichen und Themen wie Zensur auf einer verständlichen Ebene abseits des *Nerd- und Geektums* zu kommunizieren, wird die große Herausforderung, der sich bspw. die [Piraten][piratenpartei] stellen müssen.
+Diese Menschen trotzdem zu erreichen und Themen wie Zensur auf einer verständlichen Ebene abseits des _Nerd- und Geektums_ zu kommunizieren, wird die große Herausforderung, der sich bspw. die [Piraten][piratenpartei] stellen müssen.
 
 (Vielen Dank an Christoph für den Hinweis auf das Video.)
 

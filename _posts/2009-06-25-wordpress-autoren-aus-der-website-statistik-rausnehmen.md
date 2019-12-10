@@ -16,8 +16,6 @@ Gerade gucke ich meine Statistiken auf Google Analytics an und muss mit Erschrec
 
 Unangenehmer wird das ganze noch, wenn man einen Blog mit mehreren Autoren betreibt. Schön, wenn die regelmäßig vorbei gucken und was schreiben, aber in der Besucherstatistik haben die nicht wirklich was verloren. Deshalb bietet es sich an, einfach alle eingeloggten User aus der Besucherzählung rauszunehmen. Und dafür fragen wir den Status ab:
 
-
-
 ```php
 <?php if (!is_user_logged_in()) : ?>
   <!-- Hier den Statistik-Code-Schnippel einf&uuml;gen -->

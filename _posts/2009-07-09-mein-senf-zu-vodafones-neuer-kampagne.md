@@ -22,8 +22,8 @@ Warum also so ein Wind?!
 
 **Weiterführende Links:**
 
- * [Es ist Beine breit][blogbar]
- * [Wie Vodafone jetzt auch B sagen muss][netzwertig]
+- [Es ist Beine breit][blogbar]
+- [Wie Vodafone jetzt auch B sagen muss][netzwertig]
 
 [vodafone]: http://blog.vodafone.de/2009/07/08/wer-ist-die-generation-upload/
 [stylespion]: http://stylespion.de/empowered-social-generation-upload/4404#comment-110710

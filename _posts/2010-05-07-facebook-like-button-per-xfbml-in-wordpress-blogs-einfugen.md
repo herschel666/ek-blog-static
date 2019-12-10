@@ -15,7 +15,7 @@ Der Like-Button von Facebook zum Einbinden auf externen Websites ist ja nach wie
 
 Als erstes braucht ihr eure User-ID und eine Application-ID für die Seite, auf der ihr den Like-Button einbauen möchtet. Die User-ID bekommt ihr, indem ihr folgendes in die Adress-Zeile eures Browsers eingebt:
 
-*graph.facebook.com/euer.name*
+_graph.facebook.com/euer.name_
 
 Vereinfacht gesagt: Geht auf euer Facebook-Profil und ersetzt das "www" in der Adresse durch "graph". Auf der dann erscheinenden Seite, findet ihr eure User-ID.
 
@@ -37,28 +37,39 @@ Fangen wir mit dem Kopfbereich an:
 <? endif; ?>
 ```
 
-Diese fünf speziellen Facebook-Meta-Angaben müssen in der header.php innerhalb der `head`-Tags gesetzt werden. Sie verraten Facebook wem der Blog gehört, um welchen Blog es sich handelt, wie er heißt, welchen Titel die aktuelle Seite hat und um welchen Inhaltstyp es sich handelt. Natürlich müsst ihr *eure\_user\_id* und *eure\_app\_id* durch die entsprechende ID ersetzen.
+Diese fünf speziellen Facebook-Meta-Angaben müssen in der header.php innerhalb der `head`-Tags gesetzt werden. Sie verraten Facebook wem der Blog gehört, um welchen Blog es sich handelt, wie er heißt, welchen Titel die aktuelle Seite hat und um welchen Inhaltstyp es sich handelt. Natürlich müsst ihr _eure_user_id_ und _eure_app_id_ durch die entsprechende ID ersetzen.
 
 Als nächstes binden wir den nötigen JavaScript-Kram im Fußbereich ein:
 
 ```html
 <?php if ( is_single() ) : ?>
-  <div id="fb-root"></div>
-  <script src="http://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    window.fbAsyncInit = function () {
-      FB.init({appId: 'eure_app_id', status: true, cookie: true, xfbml: true});
-    }
-  </script>
+<div id="fb-root"></div>
+<script
+  src="http://connect.facebook.net/en_US/all.js"
+  type="text/javascript"
+></script>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({ appId: 'eure_app_id', status: true, cookie: true, xfbml: true });
+  };
+</script>
 <?php endif; ?>
 ```
 
-Das wird in die footer.php direkt über dem abschließenden `body`-Tag eingefügt. *eure\_app\_id* ist auch hier entpsrechend zu ersetzen.
+Das wird in die footer.php direkt über dem abschließenden `body`-Tag eingefügt. _eure_app_id_ ist auch hier entpsrechend zu ersetzen.
 
 Nun muss der Button selbst noch auf der Artikelseite eingebunden werden:
 
 ```html
-<fb:like href="<?php the_permalink() ?>" layout="standard" show_faces="false" width="xyz" action="like" colorscheme="light" font="trebuchet ms"></fb:like>
+<fb:like
+  href="<?php the_permalink() ?>"
+  layout="standard"
+  show_faces="false"
+  width="xyz"
+  action="like"
+  colorscheme="light"
+  font="trebuchet ms"
+></fb:like>
 ```
 
 Dies tragt ihr in der "single.php" da ein, wo der Button hin soll. Die Attribute könnt ihr in gewissem Maße euren Präferenzen anpassen. [Hier erfahrt ihr, was möglich ist][like].

@@ -22,7 +22,7 @@ Dies kann man einerseits sicherlich im PlugIn selbst machen, was kompliziert ist
 
 Also dann: Nehmen wir an, unser Kontaktformular ist über den URL "http://www.meine-homepage.tld/kontaktformular/" im WordPress-System erreichbar. Dann müssen wir kurz gesagt nur eine Kopie der php.ini mit den entsprechenden Anpassungen in das Verzeichnis "/kontaktformular/" laden und schon funktioniert alles.
 
-Dafür brauchen wir als erstes das Verzeichnis "/kontaktformular/". Da wir *mod_rewrite* benutzen, existiert dieses Verzeichnis nicht. Wir legen es aber einfach an, indem wir auf der root-Ebene unserer WordPress-Installation (dort, wo die Ordner wp-admin, wp-content und wp-includes liegen) einen Ordner erstellen und "kontaktformular" nennen. In diesen kopieren wir die "index.php"-Datei von der root-Ebene und modifizieren sie im Text-Editor der Wahl folgendermaßen:
+Dafür brauchen wir als erstes das Verzeichnis "/kontaktformular/". Da wir _mod_rewrite_ benutzen, existiert dieses Verzeichnis nicht. Wir legen es aber einfach an, indem wir auf der root-Ebene unserer WordPress-Installation (dort, wo die Ordner wp-admin, wp-content und wp-includes liegen) einen Ordner erstellen und "kontaktformular" nennen. In diesen kopieren wir die "index.php"-Datei von der root-Ebene und modifizieren sie im Text-Editor der Wahl folgendermaßen:
 
 Aus Zeile 17 &hellip;
 
@@ -36,11 +36,9 @@ wird &hellip;
 require('../wp-blog-header.php');
 ```
 
-Nicht wundern, es wurde wirklich nur ein Punkt hinzugefügt. 
+Nicht wundern, es wurde wirklich nur ein Punkt hinzugefügt.
 
 Als nächstes brauchen wir eine Kopie der php.ini, um "Contact Form 7" unsere Email-Adresse mitteilen zu können. Um diese in den Ordner "kontaktformular" zu kopieren, legen wir im Ordner eine PHP-Datei an und nenne sie "copyini.php". In diese fügen wir folgenden Code-Schnippel ein:
-
-
 
 ```php
 <?php
@@ -83,9 +81,9 @@ Der Sicherheit halber solltet ihr zum Schluss noch den Zugriff auf auf die php.i
 
 Weiterführende Links:
 
- * [Mailversand über den goneo Webserver mit PHP][mailversand_php]
- * [Eigene php.ini Datei][php_ini]
- * [Ein Kontaktformular für WordPress - Contact Form 7][pingalerie]
+- [Mailversand über den goneo Webserver mit PHP][mailversand_php]
+- [Eigene php.ini Datei][php_ini]
+- [Ein Kontaktformular für WordPress - Contact Form 7][pingalerie]
 
 [flickr_img]: http://www.flickr.com/photos/samuraislice/3317585107/
 [flickr_user]: http://www.flickr.com/photos/samuraislice/

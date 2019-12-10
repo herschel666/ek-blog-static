@@ -17,15 +17,14 @@ Verschleiert man seine Email-Adresse, indem man bspw. das @-Zeichen durch "(at)"
 Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse im Quelltext und ein Re-Build der Adresse per Javascript mithilfe eines jQuery-Plugins:
 
 ```javascript
-(function ($) {
-  $.fn.obfuscateEmail = function (at, point, addClass) {
-
+(function($) {
+  $.fn.obfuscateEmail = function(at, point, addClass) {
     /**
      * Regular Expressions fuer @ und . definieren
      * falls die Argumente gesetzt sind
      */
-    var at = at && new RegExp(at, 'g') || false,
-        point = point && new RegExp(point, 'g') || false;
+    var at = (at && new RegExp(at, 'g')) || false,
+      point = (point && new RegExp(point, 'g')) || false;
 
     /**
      * Plugin-Funktion ausfuehren, falls
@@ -33,45 +32,51 @@ Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse i
      * sind.
      * Ansonsten nur 'this' zurueck geben.
      */
-    return at && point && this.each(function () {
+    return (
+      (at &&
+        point &&
+        this.each(function() {
+          /**
+           * Wenn 'addClass' auf 'true' gesetzt ist,
+           * dem Element die Klasse 'js' anhaengen
+           */
+          this.className = this.className + ((addClass && ' js') || '');
 
-      /**
-       * Wenn 'addClass' auf 'true' gesetzt ist,
-       * dem Element die Klasse 'js' anhaengen
-       */
-       this.className = this.className + (addClass && ' js' || '');
+          /**
+           * Verschleierte Adresse anhand der Leer-
+           * zeichen in Array aufsplitten
+           */
+          var mailTo = this.innerHTML.split(' '),
+            mailToLen = mailTo.length,
+            address = [],
+            i;
 
-      /**
-       * Verschleierte Adresse anhand der Leer-
-       * zeichen in Array aufsplitten
-       */
-      var mailTo = this.innerHTML.split(' '),
-          mailToLen = mailTo.length,
-          address = [],
-          i;
+          /**
+           * Anhand der uebergebene @- und .-Werte
+           * jedes Element des mailTo-Arrays pruefen
+           * und ggf. Zeichen ersetzen.
+           * mailTo-Elemente in address-Array speichern.
+           */
+          for (i = 0; i < mailToLen; i += 1) {
+            address.push(
+              point.test(mailTo[i]) ? '.' : at.test(mailTo[i]) ? '@' : mailTo[i]
+            );
+          }
 
-      /**
-       * Anhand der uebergebene @- und .-Werte
-       * jedes Element des mailTo-Arrays pruefen
-       * und ggf. Zeichen ersetzen.
-       * mailTo-Elemente in address-Array speichern.
-       */
-      for ( i = 0; i < mailToLen; i += 1 ) {
-        address.push(point.test(mailTo[i])
-          ? '.'
-          : at.test(mailTo[i])
-          ? '@'
-          : mailTo[i]);
-      }
-
-      /**
-       * Inhalt des Elements mit mailto-Link
-       * und der unverschleieerten Adresse aus
-       * dem address-Array befuellen
-       */
-      this.innerHTML = '<a href="mailto:' + address.join('') + '">' + address.join('') + '</a>';
-
-    }) || this;
+          /**
+           * Inhalt des Elements mit mailto-Link
+           * und der unverschleieerten Adresse aus
+           * dem address-Array befuellen
+           */
+          this.innerHTML =
+            '<a href="mailto:' +
+            address.join('') +
+            '">' +
+            address.join('') +
+            '</a>';
+        })) ||
+      this
+    );
   };
 })(jQuery);
 ```
@@ -79,7 +84,7 @@ Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse i
 Angewendet wird das PlugIn folgendermaßen:
 
 ```javascript
-$(document).ready(function () {
+$(document).ready(function() {
   $('span.email').obfuscateEmail('(at)', '(punkt)', true);
 });
 ```
@@ -90,7 +95,9 @@ Die Adressen können folgendermaßen aussehen:
 
 ```html
 <span class="email">hansmustermann (at) domain (punkt) com</span>
-<p class="email">foo <em>(punkt)</em> bar <em>(at)</em> domain <em>(punkt)</em> com</p>
+<p class="email">
+  foo <em>(punkt)</em> bar <em>(at)</em> domain <em>(punkt)</em> com
+</p>
 ```
 
 Wichtig bei den Adressen ist, dass die einzelnen Elemente durch ein Leerzeichen getrennt sind, sonst funktioniert es nicht. Wie man in der zweiten Zeile sieht, können die verschleierten Symbole beliebig in HTML gefasst werden, um die Adresse für Besucher ohne JavaScript besser lesbar zu machen. Der Funktionalität des PlugIns tut dies kein Abbruch, solange die Leerzeichen vorhanden sind.

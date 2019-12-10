@@ -18,9 +18,9 @@ Andererseits muss man dazu sagen, dass jemand, der etwas bei Apple kauft, ganz s
 
 Trotzdem sind die Zahlen in der Tabelle von Kyle Conroy durchaus interessant, da sie verdeutlichen, welch rapides Wachstum Apple in den letzten Jahren hingelegt hat.
 
-via [@NathanMilford][NathanMilford]
+via [@NathanMilford][nathanmilford]
 
 [apple_stock]: http://www.kyleconroy.com/apple-stock.php
-[NathanMilford]: http://twitter.com/NathanMilford/status/12848463259
+[nathanmilford]: http://twitter.com/NathanMilford/status/12848463259
 [flickr]: http://www.flickr.com/photos/xeophin/203863178/
 [cc]: http://creativecommons.org/licenses/by-nc/2.0/deed.en

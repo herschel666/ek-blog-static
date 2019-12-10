@@ -23,10 +23,13 @@ Als erstes benötigen wir das PlugIn [jQuery lightBox][leandrovieira]. Wir entpa
 
 Nun muss das PlugIn eingebunden werden und zwar innerhalb der `<head>`-Tags der index.html der Galerie. Als erstes die beiden JavaScript-Dateien und das Stylesheet:
 
-
-
 ```html
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="css/jquery.lightbox-0.5.css"
+  media="screen"
+/>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
 ```
@@ -34,7 +37,7 @@ Nun muss das PlugIn eingebunden werden und zwar innerhalb der `<head>`-Tags der 
 Mit folgendem JavaScript-Code aktivieren wir die Lightbox:
 
 ```javascript
-$(function () {
+$(function() {
   $('dd.imagecell a').lightBox();
 });
 ```
@@ -42,9 +45,9 @@ $(function () {
 Nun ergibt sich allerdings das Problem, dass das Lightbox-PlugIn darauf angewiesen ist, dass die Links um die Thumbnails der Fotos auf die große Version der selben verweisen. Dies tun sie in der Aperture-Galerie allerdings nicht. Vielmehr verweist der Link auf die Unterseite, auf der die große Version des Fotos eingebunden ist. Die Links müssen also erst noch manipuliert werden, bevor die Lightbox funktioniert:
 
 ```javascript
-$(document).ready( function() {
+$(document).ready(function() {
   var link = $('dd.imagecell a');
-  link.each(function (i) {
+  link.each(function(i) {
     i += 1;
     $(this).attr('href', 'pictures/picture-' + i + '.jpg');
   });
@@ -54,13 +57,18 @@ $(document).ready( function() {
 Mit diesem JavaScript-Code werden die Verweise auf den Thumbnails auf die großen Versionen der jeweiligen Fotos umgelenkt. Alles in allem muss man also folgendes in den `<head>`-Bereich der index.html schreiben:
 
 ```html
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="css/jquery.lightbox-0.5.css"
+  media="screen"
+/>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
 <script type="text/javascript">
-  $(function () {
+  $(function() {
     var link = $('dd.imagecell a');
-    link.each(function (i) {
+    link.each(function(i) {
       i += 1;
       $(this).attr('href', 'pictures/picture-' + i + '.jpg');
     });
@@ -77,8 +85,8 @@ Ansonsten gilt wie immer: Wenn es Fragen gibt, nutzt die Kommentar-Funktion!
 
 Weiterführende Links:
 
-  * [jQuery lightBox][leandrovieira]
-  * [Offizielle jQuery-Seite][jquery]
+- [jQuery lightBox][leandrovieira]
+- [Offizielle jQuery-Seite][jquery]
 
 [aperture]: http://www.apple.com/aperture/
 [leandrovieira]: http://leandrovieira.com/projects/jquery/lightbox/

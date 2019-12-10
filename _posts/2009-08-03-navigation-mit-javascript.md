@@ -13,13 +13,11 @@ categories:
 <img src="/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" alt="Navigation mit JavaScript">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Dieses mal geht es um eine Navigation, bei der zu jedem Item eine kurze Info erscheint, wenn man mit dem Cursor rüberfährt. Dies wird regelmäßig von Usability-Experten empfohlen und kann durchaus Sinn machen. Meine Lösung baut wie gewohnt auf **HTML** und **CSS**, sowie **JavaScript** für den Hover-Effekt.
 
 Beginnen wir mit dem HTML-Teil:
-
-
 
 ```html
 <ul id="nav">
@@ -55,7 +53,7 @@ li {
   height: 80px;
   padding: 20px 10px 0 10px;
   float: left;
-  border-left: 2px solid #FFF;
+  border-left: 2px solid #fff;
   cursor: pointer;
 }
 
@@ -70,14 +68,14 @@ li span {
 .active span {
   display: block;
   line-height: 15px;
-  color: #EEE;
+  color: #eee;
 }
 
 a {
   display: block;
   margin-bottom: 5px;
   font: bold 24px Helvetica, Arial;
-  color: #FFF;
+  color: #fff;
   line-height: 30px;
 }
 ```
@@ -87,25 +85,25 @@ Die Liste weist vom Styling her keine Abnormalitäten auf, außer, dass durch di
 Nun zum JavaScript-Teil:
 
 ```javascript
-window.onload = function () {
+window.onload = function() {
   var lis = document.getElementById('nav').getElementsByTagName('li');
   mOver = function() {
     this.className = 'active';
-  }
+  };
   mOut = function() {
     this.className = '';
-  }
+  };
   mClick = function() {
     location.href = this.getElementsByTagName('a')[0].href;
-  }
-  for ( i=0; i < lis.length; i++ ) {
-    with ( lis[i] ) {
+  };
+  for (i = 0; i < lis.length; i++) {
+    with (lis[i]) {
       onmouseover = mOver;
       onmouseout = mOut;
       onclick = mClick;
     }
   }
-}
+};
 ```
 
 Innerhalb einer `window.onload`-Funktion definieren wir als erstes den Selektor für die `<li>`-Elemente der ungeordneten Liste. Danach werden die Funktionen für die Maus-Events aufgestellt. Fährt man mit der Maus über ein `<li>`-Elemente, wird diesem die Klasse `active` angehängt. Geht man mit dem Cursor wieder vom `<li>`-Element runter, wird die Klasse wieder entfernt. Klickt man auf ein `<li>`-Element, wird man zu dem im jeweiligen Link spezifizierten URL weitergeleitet.

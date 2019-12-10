@@ -36,7 +36,7 @@ Das Projekt wird weiter entwickelt und freut sich über Contributors!
 
 ## [TapeBooth][tapebooth]
 
-TapeBooth ist eine iOS-App, die es ermöglicht, Bilder zu machen, diese mit Filtern zu versehen und anschließend zu teilen. Nebenbei findet automatisch eine Synchronisierung mit dem eigenen Doctape-Account statt, so dass die Fotos automatisch in Doctape verwaltet werden können. *Instagram for Doctapers* könnte man &mdash; etwas einfallslos &mdash; sagen.
+TapeBooth ist eine iOS-App, die es ermöglicht, Bilder zu machen, diese mit Filtern zu versehen und anschließend zu teilen. Nebenbei findet automatisch eine Synchronisierung mit dem eigenen Doctape-Account statt, so dass die Fotos automatisch in Doctape verwaltet werden können. _Instagram for Doctapers_ könnte man &mdash; etwas einfallslos &mdash; sagen.
 
 ## [Doctape-Gallery][doctape_gallery]
 

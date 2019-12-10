@@ -37,12 +37,19 @@ Die Breite und Höhe des `<div>`-Elements entsprechen der Breite und Höhe eures
 Nun zum jQuery-Teil:
 
 ```javascript
-$(function () {
-  $('#image img').hover(function () {
-    $(this).stop().fadeTo('slow', 0);
-  }, function() {
-    $(this).stop().fadeTo('slow', 1);
-  });
+$(function() {
+  $('#image img').hover(
+    function() {
+      $(this)
+        .stop()
+        .fadeTo('slow', 0);
+    },
+    function() {
+      $(this)
+        .stop()
+        .fadeTo('slow', 1);
+    }
+  );
 });
 ```
 

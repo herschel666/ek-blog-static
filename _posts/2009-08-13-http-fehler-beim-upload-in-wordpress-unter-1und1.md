@@ -12,9 +12,7 @@ Momentan richte ich einen **WordPress**-Blog auf **1und1**-Webspace ein und wurd
 
 Den "HTTP Fehler" gab es vor einiger Zeit schon einmal, beim Update auf die WordPress-Version 2.7. Damals lag es am Flash-Uploader, den man per PlugIn deaktivieren und das Problem somit lösen konnte.
 
-In diesem Fall aber liegt es nicht am Flash-Uploader, sondern an dem Umstand, dass 1und1 die WordPress-Skripte als PHP4-Skripte *parst*. Richtigerweise werden diese jedoch als PHP5-Skripte *geparst*, was man durch folgenden Eintrag in die .htaccess-Datei erreichen kann:
-
-
+In diesem Fall aber liegt es nicht am Flash-Uploader, sondern an dem Umstand, dass 1und1 die WordPress-Skripte als PHP4-Skripte _parst_. Richtigerweise werden diese jedoch als PHP5-Skripte _geparst_, was man durch folgenden Eintrag in die .htaccess-Datei erreichen kann:
 
 ```ini
 AddType x-mapp-php5 .php

@@ -21,10 +21,10 @@ Gefunden bei den [Blog-Rebellen][mitternachtssnack]
 
 **Weiterführende Wurstlinks:**
 
-  * [Das Wurstplakat von Christoph Hänsli][wurstplakat]
-  * [Wurst-Wallpaper auf Phase 5][wallpaper]
-  * [Die Plüschwürste von aufschnitt.net][aufschnitt]
-  * [Der Dauerbrenner: Wurstteppich][wurstteppich]
+- [Das Wurstplakat von Christoph Hänsli][wurstplakat]
+- [Wurst-Wallpaper auf Phase 5][wallpaper]
+- [Die Plüschwürste von aufschnitt.net][aufschnitt]
+- [Der Dauerbrenner: Wurstteppich][wurstteppich]
 
 [mortadella]: http://www.christophhänsli.ch/arbeiten/mortadella/mortadella.html
 [amazon]: http://www.amazon.de/gp/product/3905509717?ie=UTF8&camp=3206&creative=21426&creativeASIN=3905509717&linkCode=shr&tag=pha5-21&linkId=VDXNMGOTXORI5H77

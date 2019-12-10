@@ -13,8 +13,6 @@ Ein Freund kam neulich auf mich zu fragte mich, wie er die Beiträge seines Blog
 
 Man kann den Namen des Autors aber ganz schnell mit folgendem PHP-Code hinzufügen:
 
-
-
 ```php
 <?php $curauth = get_userdata(intval($post->post_author)); ?>
 

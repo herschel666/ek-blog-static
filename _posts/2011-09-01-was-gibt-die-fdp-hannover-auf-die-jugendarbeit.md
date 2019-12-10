@@ -12,17 +12,17 @@ Gestern, am 31. August 2011, hat der [Stadtjugendring Hannover e.V.][sjr] eine I
 
 Die Fragen bezogen sich auf das Thema Jugendarbeit und gestalteten sich wie folgt:
 
-  1. Wie wollt ihr in den nächsten Jahren Jugendverbandsarbeit unterstützen?
+1. Wie wollt ihr in den nächsten Jahren Jugendverbandsarbeit unterstützen?
 
-  2. Erhöhung der Pauschalmittel, wenn Jugendorganisationen mit Migrationshintergrund in den Ring aufgenommen würden?
+2. Erhöhung der Pauschalmittel, wenn Jugendorganisationen mit Migrationshintergrund in den Ring aufgenommen würden?
 
-  3. Ein besonderes Projekt?
+3. Ein besonderes Projekt?
 
-  4. Gleichberechtigte Förderung der Hauptamtlichenstellen?
+4. Gleichberechtigte Förderung der Hauptamtlichenstellen?
 
-  5. Einbeziehung von Menschen mit besonderem Förderungsbedarf?
+5. Einbeziehung von Menschen mit besonderem Förderungsbedarf?
 
-  6. Einbeziehung von Eltern in die Förderung?
+6. Einbeziehung von Eltern in die Förderung?
 
 Zusätzlich gab es zu jeder Frage einen erläuternden Satz.
 
@@ -31,15 +31,15 @@ Das Feedback der Aktion war denn auch recht ansehnlich; die jugendpolitischen Sp
 Einzig die FDP wollte nicht so recht "mitspielen". Ihr jugendpolitischer Sprecher Dr. Nils Tilsen hat sich &mdash; aus welchen Gründen auch immer &mdash; nicht mit der Beantwortung der Fragen belastet, sondern kurzerhand folgendes Schreiben aufgesetzt:
 
 > "&hellip; ich teile Ihnen mit, dass ich mich außerstande sehe, Ihren Fragenkatalog abzuarbeiten.
-> 
+>
 > Die Fragen sind teilweise so ins Detail gehend, dass es für mich einen erheblichen Zeitaufwand bedeuten würde, diese fachgerecht zu beantworten.
-> 
+>
 > Ich finde es zwar von Ihnen taktisch geschickt, hier Kommunalpolitiker für die nächste Wahlperiode auf Ihre Probleme hinzuweisen und jetzt schon Unterstützung schriftlich einzufordern, aber auf einen solchen Deal lasse ich mich nicht ein.
-> 
+>
 > Ich möchte Sie auf die Position der FDP-Ratsfraktion zu den letzten Haushaltsberatungen hinweisen, dass wir die freiwilligen sozialen Leistungen der Stadt, aufgrund der prekären Haushaltslage, pauschal kürzen wollen. Daher gehen Sie bitte davon aus, dass auch die Vertreter der FDP in der nächsten Wahlperiode einen möglichst ausgeglichenen Haushalt als die beste Lösung besonders für die jungen Menschen unserer Stadt als Prämisse ansehen.
-> 
+>
 > Daher kann ich Ihnen nur anraten, dass Sie selber, durch Umschichtung in Ihren eigenen Strukturen, die von Ihnen selbst gesteckten Ziele erreichen müssen.
-> 
+>
 > Ich bitte um Ihr Verständnis.  
 > Mit freundlichen Grüßen! Dr. med. Nils Tilsen"
 

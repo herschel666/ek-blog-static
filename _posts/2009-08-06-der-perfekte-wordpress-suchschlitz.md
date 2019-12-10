@@ -14,15 +14,13 @@ categories:
 <img src="/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Heute zeige ich, wie man mit etwas **JavaScript** und **PHP** einen benutzerfreundlichen Suchschlitz in WordPress baut. Das "perfekt" steht deshalb in Anführungszeichen, weil ich mir nicht anmaßen möchte, den wirklich perfekten Suchschlitz zu präsentieren. Möglicherweise würde es "advanced" eher treffen, aber wie klingt das denn bitte?!
 
 Also los: Wir wollen einen Suchschlitz, in dem "Suchen &hellip;" steht, was wiederum verschwinden soll, wenn der Nutzer auf das Eingabefeld klickt und wieder erscheinen soll, wenn der Nutzer außerhalb des Eingabefeldes klickt. Des weiteren soll auf der Suchergebnis-Seite im Suchschlitz der Suchbegriff stehen, welcher ebenfalls verschwinden und erscheinen soll, je nachdem, wohin der Nutzer klickt.
 
 Das klingt extrem kompliziert, ich weiß, aber bei Verständnisproblemen einfach die Demo anschauen. Ansonsten lege ich mal los. Und zwar brauchen wir folgenden HTML-Teil in der WordPress-Theme-Datei "searchform.php":
-
-
 
 ```html
 <form method="get" id="search" action="<?php bloginfo('url'); ?>/">
@@ -51,25 +49,25 @@ window.onload = function() {
   var value = document.getElementById('s').value;
   var submit = document.getElementsByName('submit')[0];
 
-  mFocus = function () {
-    if ( this.value == value ) {
+  mFocus = function() {
+    if (this.value == value) {
       this.value = '';
     }
     submit.className = 'submit_active';
-  }
+  };
 
-  mBlur = function () {
-    if ( this.value == '' ) {
+  mBlur = function() {
+    if (this.value == '') {
       this.value = value;
     }
     submit.className = '';
-  }
+  };
 
-  with ( input ) {
+  with (input) {
     onfocus = mFocus;
     onblur = mBlur;
   }
-}
+};
 ```
 
 Als erstes werden die Selektoren für das Eingabefeld, für dessen Value und den Submit-Button in Variablen gespeichert. Danach die Funktionen definiert, die den Value wechseln und die Klasse `submit_active` anhängen bzw. entfernen. Zum Schluss werden diese den Events `onfocus` und `onblur` zugewiesen.
@@ -103,7 +101,6 @@ Zum Schluss muss der ganze Spaß nur noch gestylet werden:
   background-image: url('images/sprite.jpg');
   background-repeat: no-repeat;
 }
-
 
 #s {
   width: 231px;

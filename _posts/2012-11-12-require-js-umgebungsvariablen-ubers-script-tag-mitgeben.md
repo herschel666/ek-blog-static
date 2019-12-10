@@ -14,21 +14,25 @@ categories:
 
 Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js][requirejs], wobei man über das `data-main`-Attribut die Require.js-Konfiguration anspricht und innerhalb dieser mithilfe der `deps`-Eigenschaft die weiteren benötigten Dateien anmeldet. Hat man nun keine klassiche "Single-page App", sondern mehrere Unterseiten, auf welchen man unterschiedliche Funktionalitäten anbieten möchte, hat man drei Möglichkeiten:
 
-  1. **Man verpackt alles in eine JavaScript-Datei und lädt diese auf allen Unterseiten**  
-    Das ist ziemlich unelegant und läuft der Idee von Require.js, JavaScript zu modularisieren, zuwider. 
-  2. **Man legt für jeden Unterseite eine Config-Datei an, die das gewünschte, zur Unterseite gehörige Script lädt**  
-    Auch dies ist unelegant, da es Redundanz und unnötigen Overhead erzeugt. 
-  3. **Man definiert am Script-Tag, welches die Require.js-Library einbindet, seitenspezifische Umgebungsvariablen**  
-    Dazu im folgenden mehr &hellip;
+1. **Man verpackt alles in eine JavaScript-Datei und lädt diese auf allen Unterseiten**  
+   Das ist ziemlich unelegant und läuft der Idee von Require.js, JavaScript zu modularisieren, zuwider.
+2. **Man legt für jeden Unterseite eine Config-Datei an, die das gewünschte, zur Unterseite gehörige Script lädt**  
+   Auch dies ist unelegant, da es Redundanz und unnötigen Overhead erzeugt.
+3. **Man definiert am Script-Tag, welches die Require.js-Library einbindet, seitenspezifische Umgebungsvariablen**  
+   Dazu im folgenden mehr &hellip;
 
 Der Trick bei letzterer Herangehensweise ist, mithilfe des HTML5-`data`-Attributs weitere Informationen zu übergeben und dem Script-Tag eine ID zu verpassen, so dass es einfach angesprochen werden kann. Dadurch hat man die Möglichkeit, mit einer Konfigurationsdatei flexibel auf die jeweilige Unterseite zu reagieren.
 
 Folgendermaßen sieht das Einbinden von Require.js aus:
 
-
-
 ```html
-<script src="path/to/require.js" id="requirejs" data-main="path/to/config" data-env="about" data-devmode="1"></script>
+<script
+  src="path/to/require.js"
+  id="requirejs"
+  data-main="path/to/config"
+  data-env="about"
+  data-devmode="1"
+></script>
 ```
 
 require.js und die config.js werden geladen. Soweit, so normal. Außerdem wird mithilfe von `data-env` definiert, dass es sich bei der aktuellen Seite um die "About"-Seite handelt, und mithilfe von `data-devmode` weiterhin festgelegt, dass der Entwicklungsmodus aktiv ist. Bei letzterem muss man auf "0" und "1" zurückgreifen, da die Attributwerte immer als `String` ausgelesen werden. "true" und "false" wären als nicht-leere `Strings` also beide in der Abfrage `true`.
@@ -36,7 +40,7 @@ require.js und die config.js werden geladen. Soweit, so normal. Außerdem wird m
 "0" und "1" jedoch kann man über den Umweg `Integer` in `Boolean` umwandeln. Dies geht mithilfe von [Bitwise-Operatoren][mdn] folgendermaßen:
 
 ```javascript
-typeof ('1337' | 0) // => "number"
+typeof ('1337' | 0); // => "number"
 ```
 
 Die zu ladene config.js sieht dann folgendermaßen aus:
@@ -45,21 +49,19 @@ Die zu ladene config.js sieht dann folgendermaßen aus:
 var requirejsElem = document.getElementById('requirejs');
 
 require.config({
+  deps: (function() {
+    return [requirejsElem.getAttribute('data-env') + '.main'];
+  })(),
 
-    deps : (function () {
-        return [requirejsElem.getAttribute('data-env') + '.main']
-    })(),
+  urlArgs: (function() {
+    return !!(requirejsElem.getAttribute('data-devmode') | 0)
+      ? 'bust=' + Date.now()
+      : '';
+  })(),
 
-    urlArgs : (function () {
-        return !!(requirejsElem.getAttribute('data-devmode')|0)
-            ? 'bust=' + Date.now()
-            : '';
-    })(),
-
-    paths : {
-        jquery : 'libs/jquery-1.8.2.min'
-    }
-
+  paths: {
+    jquery: 'libs/jquery-1.8.2.min',
+  },
 });
 ```
 

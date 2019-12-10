@@ -25,7 +25,7 @@ Trotzdem danke, Frau von der Leyen, für ihr hohles "Ich nehme die Herausforderu
 
 **Weiterführende Links:**
 
- * [Beitrag auf Heise][heise]
+- [Beitrag auf Heise][heise]
 
 [spiegel]: http://www.spiegel.de/politik/deutschland/0,1518,637710,00.html
 [heise]: http://www.heise.de/newsticker/Ursula-von-der-Leyen-fordert-Verhaltenskodex-fuers-Internet--/meldung/142457/

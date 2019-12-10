@@ -14,7 +14,7 @@ categories:
 <img src="/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png" alt="Animierte Navigation mit jQuery">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Dies ist eine Reiter-Navigation, bei der der aktive Reiter am Inhaltsbereich andockt und die inaktiven Reiter darüber schweben. Sozusagen ein Wink mit dem Zaunpfahl für den User. Damit die Benutzung noch ein bißchen geschmeidiger ist, docken die inaktiven Reiter am Inhaltsbereich an, wenn man mit dem Cursor über sie fährt. Für den Effekt nutze ich die JavaScript-Library.
 
@@ -66,27 +66,27 @@ a {
 a:link,
 a:visited {
   color: #333;
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 a:hover {
   color: #333;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 a:active {
   color: #666;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .active a:link,
 .active a:visited {
   margin-top: 11px;
-  border-bottom-color: #FFF;
-  background-color: #FFF;
+  border-bottom-color: #fff;
+  background-color: #fff;
 }
 
-.active a:hover{
+.active a:hover {
   color: #666;
 }
 
@@ -102,18 +102,27 @@ Des weiter befindet sich beim Teil für das `<li>`-Element die Angabe `_width: 9
 Als nächstes kommen wir zum JavaScript-Teil:
 
 ```javascript
-if ( navigator.appName != 'Microsoft Internet Explorer' ) {
-  $(function () {
-    $('li').filter('[class=]').hover(function() {
-      $('a', this).animate({ marginTop: '11px', color: '#CFF' }, 200).animate({ borderBottom: '1px solid #FFF' }, 1);
-    }, function () {
-      $('a', this).animate({ borderBottom: '1px solid #333' }, 1).animate({ marginTop: '0', color: '#EEE' }, 200);
-    });
+if (navigator.appName != 'Microsoft Internet Explorer') {
+  $(function() {
+    $('li')
+      .filter('[class=]')
+      .hover(
+        function() {
+          $('a', this)
+            .animate({ marginTop: '11px', color: '#CFF' }, 200)
+            .animate({ borderBottom: '1px solid #FFF' }, 1);
+        },
+        function() {
+          $('a', this)
+            .animate({ borderBottom: '1px solid #333' }, 1)
+            .animate({ marginTop: '0', color: '#EEE' }, 200);
+        }
+      );
   });
 }
 ```
 
-Direkt am Anfang kommt eine Abfrage, ob es sich beim Browser des Nutzers um den Internet Explorer handelt. Dieser spuckt beim vorliegenden JavaScript-Code einen *Script Error* aus, was meinen Recherchen zufolge an der jQuery-Methode `animate()` liegt. Leider konnte ich keine Lösung des Fehlers finden, weshalb die Navigation im Internet Explorer ohne jQuery mit reinem CSS auskommen muss.
+Direkt am Anfang kommt eine Abfrage, ob es sich beim Browser des Nutzers um den Internet Explorer handelt. Dieser spuckt beim vorliegenden JavaScript-Code einen _Script Error_ aus, was meinen Recherchen zufolge an der jQuery-Methode `animate()` liegt. Leider konnte ich keine Lösung des Fehlers finden, weshalb die Navigation im Internet Explorer ohne jQuery mit reinem CSS auskommen muss.
 
 Ansonsten ist der jQuery-Code-Schnippel schnell erklärt. Fährt man mit dem Cursor über ein in nichtaktives `<li>`-Element, wird das darin liegende `<a>`-Element animiert, fährt runter und bekommt einen weißen unteren Rand. Beim Verlassen des `<li>`-Elements mit dem Cursor, wiederholt sich das Spiel in umgekehrter Reigenfolge.
 
@@ -125,7 +134,7 @@ Zum Schluss bauen wir noch die entsprechenden Style-Angaben ein, um die Navigati
     a:hover,
     a:focus {
       margin-top: 11px;
-      border-bottom: 1px solid #FFF;
+      border-bottom: 1px solid #fff;
     }
   </style>
 <![endif]-->
@@ -134,7 +143,7 @@ Zum Schluss bauen wir noch die entsprechenden Style-Angaben ein, um die Navigati
     a:hover,
     a:focus {
       margin-top: 11px;
-      border-bottom: 1px solid #FFF;
+      border-bottom: 1px solid #fff;
     }
   </style>
 </noscript>

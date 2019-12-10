@@ -31,8 +31,6 @@ Glücklicherweise gibt es in modernen Browsern einen Weg, mit diesem Problem umz
 
 Um dieses Verhalten zu implementieren, benötigen wir als erstes einen Breakpoint, ab dem die Skalierung wirksam wird. Den Breakpoint kann man sehr leicht ermitteln, indem man das Browser-Fenster verkleinert. Sobald am iFrame ein horizontaler Scroll-Balken auftaucht, hat man den Breakpoint erreicht.
 
-
-
 ```javascript
 var BREAKPOINT = 1060; // (Willkuerlich gewaehlter Wert!)
 ```

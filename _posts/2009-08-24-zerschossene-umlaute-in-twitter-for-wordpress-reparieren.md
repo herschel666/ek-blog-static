@@ -15,8 +15,6 @@ Und zwar mithilfe des [Plug-Ins "WP-RSS Import" von Frank Bueltge][bueltge]. Die
 
 Die Lösung besteht nun aus zwei Arrays aus Franks Plug-In:
 
-
-
 ```php
 $umlaute = array('&#8211;', '&#8212;', &hellip;);
 $htmlcode = array('&ndash;', '&mdash;', &hellip;);
@@ -33,7 +31,6 @@ $msg = str_replace($umlaute, $htmlcode, $msg);
 Das tragt ihr in Zeile 76 der twitter.php ein und schon seid ihr fertig. Von nun an werden alle mit "Twitter for WordPress" eigebundenen Tweets sauber dargestellt.
 
 An dieser Stelle noch einmal ein Dank an Frank Bueltge für das Erstellen dieser beiden monströsen Arrays. Wer genauso wie ich nach langer, erfolgloser Suche darin endlich die Lösung für das Umlaute-Problem gefunden hat, dem möchte ich den [Spenden-Button][bueltge] auf seiner Seite nahelegen. Einen Euro oder mehr für gute Programmier-Arbeit zu spenden ist eine schöne Geste und sorgt dafür, dass die Entwicklung im Open-Source-Bereich weiter geht.
-
 
 [twitter]: http://twitter.com/Herschel_R
 [twitter_for_wordpress]: http://wordpress.org/extend/plugins/twitter-for-wordpress/
