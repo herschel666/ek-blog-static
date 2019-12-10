@@ -5,4 +5,4 @@ cache:
     directories:
         - node_modules
 
-script: NODE_ENV=production npm run build
+script: npm run build
