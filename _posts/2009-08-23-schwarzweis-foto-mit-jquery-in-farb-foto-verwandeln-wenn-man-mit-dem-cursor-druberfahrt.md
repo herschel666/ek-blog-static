@@ -1,8 +1,8 @@
 ---
 title: Schwarzweiß-Foto mit jQuery in Farb-Foto verwandeln, wenn man mit dem Cursor drüberfährt
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/schwarzweis-foto-mit-jquery-in-farb-foto-verwandeln-wenn-man-mit-dem-cursor-druberfahrt/
+layout: post.swig
+permalink: schwarzweis-foto-mit-jquery-in-farb-foto-verwandeln-wenn-man-mit-dem-cursor-druberfahrt/
 categories:
   - HTML/CSS
   - JavaScript

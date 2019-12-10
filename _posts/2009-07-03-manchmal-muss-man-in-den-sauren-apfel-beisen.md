@@ -1,8 +1,8 @@
 ---
 title: Manchmal muss man in den sauren Apfel beißen
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/manchmal-muss-man-in-den-sauren-apfel-beisen/
+layout: post.swig
+permalink: manchmal-muss-man-in-den-sauren-apfel-beisen/
 categories:
   - Überlegungen
 ---

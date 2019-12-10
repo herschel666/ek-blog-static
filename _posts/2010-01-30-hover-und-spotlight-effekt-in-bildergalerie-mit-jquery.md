@@ -1,8 +1,8 @@
 ---
 title: 'Hover- und Spotlight-Effekt in Bildergalerie mit jQuery'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/hover-und-spotlight-effekt-in-bildergalerie-mit-jquery/
+layout: post.swig
+permalink: hover-und-spotlight-effekt-in-bildergalerie-mit-jquery/
 categories:
   - HTML/CSS
   - JavaScript

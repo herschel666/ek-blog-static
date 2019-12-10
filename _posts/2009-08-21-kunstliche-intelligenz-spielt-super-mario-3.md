@@ -1,8 +1,8 @@
 ---
 title: Künstliche Intelligenz spielt Super Mario 3
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/kunstliche-intelligenz-spielt-super-mario-3/
+layout: post.swig
+permalink: kunstliche-intelligenz-spielt-super-mario-3/
 categories:
   - Off-Topic
   - Video

@@ -1,8 +1,8 @@
 ---
 title: Burp.js — Wrapper für das Navigator.Vibrate-API
 author: Emanuel Kluge
-layout: post.html
-permalink: /javascript/burp-js-wrapper-navigator-vibrate-api/
+layout: post.swig
+permalink: burp-js-wrapper-navigator-vibrate-api/
 categories:
   - JavaScript
 ---

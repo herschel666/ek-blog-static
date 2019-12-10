@@ -1,8 +1,8 @@
 ---
 title: Was gibt die FDP Hannover auf die Jugendarbeit?
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/was-gibt-die-fdp-hannover-auf-die-jugendarbeit/
+layout: post.swig
+permalink: was-gibt-die-fdp-hannover-auf-die-jugendarbeit/
 categories:
   - Hannover
   - Off-Topic

@@ -1,8 +1,8 @@
 ---
 title: Semi-transparente Navigation in WordPress mit CSS
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/semi-transparente-navigation-in-wordpress-mit-css/
+layout: post.swig
+permalink: semi-transparente-navigation-in-wordpress-mit-css/
 categories:
   - HTML/CSS
   - PHP

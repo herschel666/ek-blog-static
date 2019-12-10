@@ -1,8 +1,8 @@
 ---
 title: Autoloader-Funktionalität in Require.js
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/autoloader-funktionalitat-in-require-js/
+layout: post.swig
+permalink: autoloader-funktionalitat-in-require-js/
 categories:
   - Backbone.js
   - HTML/CSS

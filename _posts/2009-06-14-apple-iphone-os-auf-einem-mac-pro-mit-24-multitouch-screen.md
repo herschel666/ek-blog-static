@@ -1,8 +1,8 @@
 ---
 title: 'Apple iPhone OS auf einem Mac Pro mit 24&quot;-Multitouch Screen'
 author: Emanuel Kluge
-layout: post.html
-permalink: /video/apple-iphone-os-auf-einem-mac-pro-mit-24-multitouch-screen/
+layout: post.swig
+permalink: apple-iphone-os-auf-einem-mac-pro-mit-24-multitouch-screen/
 categories:
   - Apple
   - Video

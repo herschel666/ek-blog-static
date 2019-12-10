@@ -1,8 +1,8 @@
 ---
 title: Dead Snow vs. Zombieland
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/dead-snow-vs-zombieland/
+layout: post.swig
+permalink: dead-snow-vs-zombieland/
 categories:
   - Off-Topic
 ---

@@ -91,7 +91,6 @@ const metalSmithInstance = Metalsmith(__dirname)
     dest: '_headers'
   }))
   .use(postDate())
-  .use(categoryFolder())
   .use(collections({
     posts: {
       pattern: '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md',
@@ -117,7 +116,7 @@ const metalSmithInstance = Metalsmith(__dirname)
   }))
   .use(metallic())
   .use(markdown())
-  .use(permalinks(':folder/:permalink'))
+  .use(permalinks())
   .use(prepareFeedContents())
   .use(feed({
     collection: 'feed',
@@ -143,23 +142,6 @@ function postDate() {
         const date = new Date(FILE_NAME_DATE_RE.exec(file)[0]);
         files[file] = Object.assign({}, files[file], {date});
       }
-    });
-    setImmediate(done);
-  };
-}
-
-function categoryFolder() {
-  return function (files, metalsmith, done) {
-    Object.keys(files).forEach(file => {
-      if (typeof files[file].permalink !== 'string') {
-        return;
-      }
-      const parts = files[file].permalink.replace(/^\/|\/$/g, '').split('/');
-      const folder = parts[0];
-      const permalink = parts[1];
-      files[file] = Object.assign({}, files[file], {
-        folder, permalink
-      });
     });
     setImmediate(done);
   };

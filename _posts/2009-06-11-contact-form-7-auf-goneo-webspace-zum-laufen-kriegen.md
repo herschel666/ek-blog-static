@@ -1,8 +1,8 @@
 ---
 title: '&quot;Contact Form 7&quot; auf goneo-Webspace zum Laufen kriegen'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/contact-form-7-auf-goneo-webspace-zum-laufen-kriegen/
+layout: post.swig
+permalink: contact-form-7-auf-goneo-webspace-zum-laufen-kriegen/
 categories:
   - Tips und Tricks
   - Tutorial

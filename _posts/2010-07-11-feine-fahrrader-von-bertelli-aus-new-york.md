@@ -1,8 +1,8 @@
 ---
 title: Feine Fahrräder von Bertelli aus New York
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/feine-fahrrader-von-bertelli-aus-new-york/
+layout: post.swig
+permalink: feine-fahrrader-von-bertelli-aus-new-york/
 categories:
   - Off-Topic
 ---

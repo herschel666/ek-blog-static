@@ -1,8 +1,8 @@
 ---
 title: Netzwahlkampf — Wunsch und Wirklichkeit
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/netzwahlkampf-wunsch-und-wirklichkeit/
+layout: post.swig
+permalink: netzwahlkampf-wunsch-und-wirklichkeit/
 categories:
   - Überlegungen
 ---

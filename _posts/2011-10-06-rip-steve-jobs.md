@@ -1,8 +1,8 @@
 ---
 title: RIP Steve Jobs
 author: Emanuel Kluge
-layout: post.html
-permalink: /apple/rip-steve-jobs/
+layout: post.swig
+permalink: rip-steve-jobs/
 categories:
   - Apple
   - Neuigkeiten

@@ -1,8 +1,8 @@
 ---
 title: 'Studie "Backboned": AJAX-powered WordPress-Theme mit Backbone.js'
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/ajax-wordpress-theme-backbone-js/
+layout: post.swig
+permalink: ajax-wordpress-theme-backbone-js/
 categories:
   - Backbone.js
   - HTML/CSS

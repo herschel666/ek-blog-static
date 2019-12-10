@@ -1,8 +1,8 @@
 ---
 title: “Rollstuhlsport” – Android-App für DRS ist fertig
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/rollstuhlsport-android-app-fur-drs-ist-fertig/
+layout: post.swig
+permalink: rollstuhlsport-android-app-fur-drs-ist-fertig/
 categories:
   - HTML/CSS
   - JavaScript

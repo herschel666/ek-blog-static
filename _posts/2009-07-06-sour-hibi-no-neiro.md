@@ -1,8 +1,8 @@
 ---
 title: Sour — Hibi no Neiro
 author: Emanuel Kluge
-layout: post.html
-permalink: /video/sour-hibi-no-neiro/
+layout: post.swig
+permalink: sour-hibi-no-neiro/
 categories:
   - Musik
   - Video

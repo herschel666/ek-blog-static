@@ -1,8 +1,8 @@
 ---
 title: Ist das Internet ein rechtsfreier Raum?
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/ist-das-internet-ein-rechtsfreier-raum/
+layout: post.swig
+permalink: ist-das-internet-ein-rechtsfreier-raum/
 categories:
   - Off-Topic
 ---

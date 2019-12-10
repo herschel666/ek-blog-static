@@ -1,8 +1,8 @@
 ---
 title: 'Free WordPress-Theme: "Blue and Grey"'
 author: Emanuel Kluge
-layout: post.html
-permalink: /wordpress/free-wordpress-theme-blue-and-grey/
+layout: post.swig
+permalink: free-wordpress-theme-blue-and-grey/
 categories:
   - WordPress
 ---

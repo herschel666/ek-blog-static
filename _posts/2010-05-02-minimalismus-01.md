@@ -1,8 +1,8 @@
 ---
 title: 'minimalismus #01'
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/minimalismus-01/
+layout: post.swig
+permalink: minimalismus-01/
 categories:
   - Fotografie
   - Hannover

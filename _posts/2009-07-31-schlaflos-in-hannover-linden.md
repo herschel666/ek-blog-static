@@ -1,8 +1,8 @@
 ---
 title: Schlaflos in Hannover-Linden
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/schlaflos-in-hannover-linden/
+layout: post.swig
+permalink: schlaflos-in-hannover-linden/
 categories:
   - Fotografie
   - Hannover

@@ -1,8 +1,8 @@
 ---
 title: Was ist Responsive Webdesign?
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/was-ist-responsive-webdesign/
+layout: post.swig
+permalink: was-ist-responsive-webdesign/
 categories:
   - HTML/CSS
 ---

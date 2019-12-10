@@ -1,8 +1,8 @@
 ---
 title: „Backbone Fundamentals“ – Ein fundierter Einstieg in das Thema Backbone.js
 author: Emanuel Kluge
-layout: post.html
-permalink: /neuigkeiten/backbone-fundamentals-ein-fundierter-einstieg-in-das-thema-backbone-js/
+layout: post.swig
+permalink: backbone-fundamentals-ein-fundierter-einstieg-in-das-thema-backbone-js/
 categories:
   - Backbone.js
   - JavaScript

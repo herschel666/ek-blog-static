@@ -1,8 +1,8 @@
 ---
 title: iFrame-Elemente mit CSS-Transforms skalieren
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/iframe-elemente-css-transforms-skalieren/
+layout: post.swig
+permalink: iframe-elemente-css-transforms-skalieren/
 categories:
   - HTML/CSS
   - JavaScript

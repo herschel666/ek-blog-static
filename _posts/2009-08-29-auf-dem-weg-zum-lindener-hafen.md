@@ -1,8 +1,8 @@
 ---
 title: Auf dem Weg zum Lindener Hafen
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/auf-dem-weg-zum-lindener-hafen/
+layout: post.swig
+permalink: auf-dem-weg-zum-lindener-hafen/
 categories:
   - Fotografie
   - Hannover

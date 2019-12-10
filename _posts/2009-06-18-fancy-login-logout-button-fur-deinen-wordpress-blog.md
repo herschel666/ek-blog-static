@@ -1,8 +1,8 @@
 ---
 title: Fancy Login-/Logout-Button für deinen WordPress-Blog
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/fancy-login-logout-button-fur-deinen-wordpress-blog/
+layout: post.swig
+permalink: fancy-login-logout-button-fur-deinen-wordpress-blog/
 categories:
   - HTML/CSS
   - Tutorial

@@ -1,8 +1,8 @@
 ---
 title: 'Fotografie: New York City 2010'
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/fotografie-new-york-city-2010/
+layout: post.swig
+permalink: fotografie-new-york-city-2010/
 categories:
   - Fotografie
 ---

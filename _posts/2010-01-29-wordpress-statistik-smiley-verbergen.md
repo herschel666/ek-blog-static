@@ -1,8 +1,8 @@
 ---
 title: WordPress-Statistik-Smiley verbergen
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/wordpress-statistik-smiley-verbergen/
+layout: post.swig
+permalink: wordpress-statistik-smiley-verbergen/
 categories:
   - HTML/CSS
   - Tips und Tricks

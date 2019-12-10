@@ -1,8 +1,8 @@
 ---
 title: Barrierefreier Button mit Text Replacement
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/barrierefreier-button-mit-text-replacement/
+layout: post.swig
+permalink: barrierefreier-button-mit-text-replacement/
 categories:
   - HTML/CSS
   - Tips und Tricks

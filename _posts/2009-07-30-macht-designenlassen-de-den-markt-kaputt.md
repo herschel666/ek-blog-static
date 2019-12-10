@@ -1,8 +1,8 @@
 ---
 title: Macht DesignenLassen.de den Markt kaputt?
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/macht-designenlassen-de-den-markt-kaputt/
+layout: post.swig
+permalink: macht-designenlassen-de-den-markt-kaputt/
 categories:
   - Überlegungen
 ---

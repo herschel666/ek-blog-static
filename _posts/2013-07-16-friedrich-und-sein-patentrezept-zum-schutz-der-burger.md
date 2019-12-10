@@ -1,8 +1,8 @@
 ---
 title: Friedrich und sein Patentrezept zum Schutz der Bürger
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/friedrich-und-sein-patentrezept-zum-schutz-der-burger/
+layout: post.swig
+permalink: friedrich-und-sein-patentrezept-zum-schutz-der-burger/
 categories:
   - Neuigkeiten
   - Überlegungen

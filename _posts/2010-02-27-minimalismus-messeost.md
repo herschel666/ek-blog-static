@@ -1,8 +1,8 @@
 ---
 title: Minimalismus — Messe/Ost
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/minimalismus-messeost/
+layout: post.swig
+permalink: minimalismus-messeost/
 categories:
   - Fotografie
   - Hannover

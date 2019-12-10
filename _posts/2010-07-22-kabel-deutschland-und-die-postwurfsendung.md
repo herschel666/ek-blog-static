@@ -1,8 +1,8 @@
 ---
 title: Kabel Deutschland und die Postwurfsendung
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/kabel-deutschland-und-die-postwurfsendung/
+layout: post.swig
+permalink: kabel-deutschland-und-die-postwurfsendung/
 categories:
   - Off-Topic
 ---

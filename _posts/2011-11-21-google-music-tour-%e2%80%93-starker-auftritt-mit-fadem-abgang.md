@@ -1,8 +1,8 @@
 ---
 title: Google Music Tour – Starker Auftritt mit fadem Abgang
 author: Emanuel Kluge
-layout: post.html
-permalink: /musik/google-music-tour-%e2%80%93-starker-auftritt-mit-fadem-abgang/
+layout: post.swig
+permalink: google-music-tour-%e2%80%93-starker-auftritt-mit-fadem-abgang/
 categories:
   - Marketing
   - Musik

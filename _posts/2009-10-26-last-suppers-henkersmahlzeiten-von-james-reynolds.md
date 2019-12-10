@@ -1,8 +1,8 @@
 ---
 title: 'Last Suppers: Henkersmahlzeiten von James Reynolds'
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/last-suppers-henkersmahlzeiten-von-james-reynolds/
+layout: post.swig
+permalink: last-suppers-henkersmahlzeiten-von-james-reynolds/
 categories:
   - Fotografie
 ---

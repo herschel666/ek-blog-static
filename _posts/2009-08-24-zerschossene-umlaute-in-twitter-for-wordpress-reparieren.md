@@ -1,8 +1,8 @@
 ---
 title: Zerschossene Umlaute in “Twitter for WordPress” reparieren
 author: Emanuel Kluge
-layout: post.html
-permalink: /tips-und-tricks/zerschossene-umlaute-in-twitter-for-wordpress-reparieren/
+layout: post.swig
+permalink: zerschossene-umlaute-in-twitter-for-wordpress-reparieren/
 categories:
   - PHP
   - Tips und Tricks

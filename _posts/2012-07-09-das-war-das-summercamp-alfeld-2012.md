@@ -1,8 +1,8 @@
 ---
 title: Das war das Summercamp Alfeld 2012
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/das-war-das-summercamp-alfeld-2012/
+layout: post.swig
+permalink: das-war-das-summercamp-alfeld-2012/
 categories:
   - Off-Topic
 ---

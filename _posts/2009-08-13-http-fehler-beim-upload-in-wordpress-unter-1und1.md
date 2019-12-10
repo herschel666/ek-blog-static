@@ -1,8 +1,8 @@
 ---
 title: HTTP Fehler beim Upload in WordPress unter 1und1
 author: Emanuel Kluge
-layout: post.html
-permalink: /tips-und-tricks/http-fehler-beim-upload-in-wordpress-unter-1und1/
+layout: post.swig
+permalink: http-fehler-beim-upload-in-wordpress-unter-1und1/
 categories:
   - Tips und Tricks
   - WordPress

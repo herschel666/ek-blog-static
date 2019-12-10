@@ -1,8 +1,8 @@
 ---
 title: #Vodafail — Eine Geschichte voller Missverständnisse
 author: Emanuel Kluge
-layout: post.html
-permalink: /marketing/vodafail-eine-geschichte-voller-missverstandnisse/
+layout: post.swig
+permalink: vodafail-eine-geschichte-voller-missverstandnisse/
 categories:
   - Marketing
 ---

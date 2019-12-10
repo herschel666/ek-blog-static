@@ -1,8 +1,8 @@
 ---
 title: Gutes Essen braucht keine Gentechnik!??
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/gutes-essen-braucht-keine-gentechnik/
+layout: post.swig
+permalink: gutes-essen-braucht-keine-gentechnik/
 categories:
   - Off-Topic
 ---

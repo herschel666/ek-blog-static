@@ -1,8 +1,8 @@
 ---
 title: Alle South Park-Folgen kostenlos online gucken
 author: Emanuel Kluge
-layout: post.html
-permalink: /neuigkeiten/alle-south-park-folgen-kostenlos-online-gucken/
+layout: post.swig
+permalink: alle-south-park-folgen-kostenlos-online-gucken/
 categories:
   - Neuigkeiten
 ---

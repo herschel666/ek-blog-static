@@ -1,8 +1,8 @@
 ---
 title: 'Open Transport Tycoon Deluxe — Der Klassiker als Open-Source-Version'
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/open-transport-tycoon-deluxe-der-klassiker-als-open-source-version/
+layout: post.swig
+permalink: open-transport-tycoon-deluxe-der-klassiker-als-open-source-version/
 categories:
   - Off-Topic
 ---

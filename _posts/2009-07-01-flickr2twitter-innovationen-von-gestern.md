@@ -1,8 +1,8 @@
 ---
 title: Flickr2Twitter — Innovationen von gestern
 author: Emanuel Kluge
-layout: post.html
-permalink: /twitter/flickr2twitter-innovationen-von-gestern/
+layout: post.swig
+permalink: flickr2twitter-innovationen-von-gestern/
 categories:
   - Fotografie
   - Twitter

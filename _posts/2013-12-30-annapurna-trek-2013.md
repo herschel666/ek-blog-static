@@ -1,8 +1,8 @@
 ---
 title: Annapurna Trek 2013
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/annapurna-trek-2013/
+layout: post.swig
+permalink: annapurna-trek-2013/
 categories:
   - Fotografie
 ---

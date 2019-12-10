@@ -1,8 +1,8 @@
 ---
 title: Punch-Camera — Gestanzte Bilder sind das neue Polaroid
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/punch-camera-gestanzte-bilder-sind-das-neue-polaroid/
+layout: post.swig
+permalink: punch-camera-gestanzte-bilder-sind-das-neue-polaroid/
 categories:
   - Fotografie
 ---

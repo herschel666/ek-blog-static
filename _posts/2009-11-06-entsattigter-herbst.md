@@ -1,8 +1,8 @@
 ---
 title: Entsättigter Herbst
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/entsattigter-herbst/
+layout: post.swig
+permalink: entsattigter-herbst/
 categories:
   - Fotografie
   - Hannover

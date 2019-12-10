@@ -1,8 +1,8 @@
 ---
 title: Trailer des AK-Madagaskar-Film
 author: Emanuel Kluge
-layout: post.html
-permalink: /video/trailer-des-ak-madagaskar-film/
+layout: post.swig
+permalink: trailer-des-ak-madagaskar-film/
 categories:
   - Neuigkeiten
   - Video

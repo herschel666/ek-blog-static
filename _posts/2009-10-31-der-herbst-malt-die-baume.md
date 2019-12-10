@@ -1,8 +1,8 @@
 ---
 title: Der Herbst malt die Bäume an
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/der-herbst-malt-die-baume/
+layout: post.swig
+permalink: der-herbst-malt-die-baume/
 categories:
   - Fotografie
   - Hannover

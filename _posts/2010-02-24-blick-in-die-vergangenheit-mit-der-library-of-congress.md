@@ -1,8 +1,8 @@
 ---
 title: Blick in die Vergangenheit mit der Library of Congress
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/blick-in-die-vergangenheit-mit-der-library-of-congress/
+layout: post.swig
+permalink: blick-in-die-vergangenheit-mit-der-library-of-congress/
 categories:
   - Fotografie
 ---

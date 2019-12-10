@@ -1,8 +1,8 @@
 ---
 title: Schindelhauer — Fahrräder mit Zahnriemenantrieb
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/schindelhauer-fahrrader-mit-zahnriemenantrieb/
+layout: post.swig
+permalink: schindelhauer-fahrrader-mit-zahnriemenantrieb/
 categories:
   - Off-Topic
 ---

@@ -1,8 +1,8 @@
 ---
 title: Hätte ich stattdessen Apple-Aktien gekauft …
 author: Emanuel Kluge
-layout: post.html
-permalink: /apple/hatte-ich-stattdessen-apple-aktien-gekauft/
+layout: post.swig
+permalink: hatte-ich-stattdessen-apple-aktien-gekauft/
 categories:
   - Apple
 ---

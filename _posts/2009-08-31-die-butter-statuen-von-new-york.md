@@ -1,8 +1,8 @@
 ---
 title: Die Butter-Statuen von New York
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/die-butter-statuen-von-new-york/
+layout: post.swig
+permalink: die-butter-statuen-von-new-york/
 categories:
   - Fotografie
 ---

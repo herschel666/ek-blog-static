@@ -1,8 +1,8 @@
 ---
 title: 'Backbone.js-Tutorial: Die Merkliste'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/backbone-js-tutorial-die-merkliste/
+layout: post.swig
+permalink: backbone-js-tutorial-die-merkliste/
 categories:
   - Backbone.js
   - HTML/CSS

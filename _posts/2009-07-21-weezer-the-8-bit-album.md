@@ -1,8 +1,8 @@
 ---
 title: Weezer — The 8-bit Album
 author: Emanuel Kluge
-layout: post.html
-permalink: /musik/weezer-the-8-bit-album/
+layout: post.swig
+permalink: weezer-the-8-bit-album/
 syntaxhighlighter_encoded:
   - 1
 description:

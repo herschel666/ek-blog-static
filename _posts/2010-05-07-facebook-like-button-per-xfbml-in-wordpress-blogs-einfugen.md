@@ -1,8 +1,8 @@
 ---
 title: Facebook-Like-Button per XFBML in WordPress-Blogs einfügen
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/facebook-like-button-per-xfbml-in-wordpress-blogs-einfugen/
+layout: post.swig
+permalink: facebook-like-button-per-xfbml-in-wordpress-blogs-einfugen/
 categories:
   - HTML/CSS
   - JavaScript

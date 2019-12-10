@@ -1,8 +1,8 @@
 ---
 title: De Vetpan Studios — Herrliche Fotografie mit geringer Schärfentiefe
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/de-vetpan-studios-herrliche-fotografie-mit-geringer-schaerfentiefe/
+layout: post.swig
+permalink: de-vetpan-studios-herrliche-fotografie-mit-geringer-schaerfentiefe/
 categories:
   - Fotografie
 ---

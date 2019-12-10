@@ -1,8 +1,8 @@
 ---
 title: „Drop-a-Site“ – Einfache, statische Seiten schnell erstellen
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/drop-a-site-einfache-statische-seiten-schnell-erstellen/
+layout: post.swig
+permalink: drop-a-site-einfache-statische-seiten-schnell-erstellen/
 categories:
   - HTML/CSS
   - PHP

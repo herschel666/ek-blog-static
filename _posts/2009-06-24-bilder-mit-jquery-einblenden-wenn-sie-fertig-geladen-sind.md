@@ -1,8 +1,8 @@
 ---
 title: Bilder mit jQuery einblenden, wenn sie fertig geladen sind
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/bilder-mit-jquery-einblenden-wenn-sie-fertig-geladen-sind/
+layout: post.swig
+permalink: bilder-mit-jquery-einblenden-wenn-sie-fertig-geladen-sind/
 categories:
   - HTML/CSS
   - JavaScript

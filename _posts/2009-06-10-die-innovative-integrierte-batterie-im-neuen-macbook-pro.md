@@ -1,8 +1,8 @@
 ---
 title: Die “innovative integrierte Batterie” im neuen MacBook Pro
 author: Emanuel Kluge
-layout: post.html
-permalink: /apple/die-innovative-integrierte-batterie-im-neuen-macbook-pro/
+layout: post.swig
+permalink: die-innovative-integrierte-batterie-im-neuen-macbook-pro/
 categories:
   - Apple
 ---

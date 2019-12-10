@@ -1,8 +1,8 @@
 ---
 title: The Icelandic Phallological Museum
 author: Emanuel Kluge
-layout: post.html
-permalink: /lustig/the-icelandic-pallological-museum/
+layout: post.swig
+permalink: the-icelandic-pallological-museum/
 categories:
   - Lustig
 ---

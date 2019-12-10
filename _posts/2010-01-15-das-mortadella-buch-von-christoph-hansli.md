@@ -1,8 +1,8 @@
 ---
 title: Das Mortadella-Buch von Christoph Hänsli
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/das-mortadella-buch-von-christoph-hansli/
+layout: post.swig
+permalink: das-mortadella-buch-von-christoph-hansli/
 categories:
   - Off-Topic
 ---

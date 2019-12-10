@@ -1,8 +1,8 @@
 ---
 title: Freie Informationen um jeden Preis?
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/freie-informationen-um-jeden-preis/
+layout: post.swig
+permalink: freie-informationen-um-jeden-preis/
 categories:
   - Überlegungen
 ---

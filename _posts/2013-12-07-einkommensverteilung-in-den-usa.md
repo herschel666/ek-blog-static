@@ -1,8 +1,8 @@
 ---
 title: Einkommensverteilung in den USA
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/einkommensverteilung-in-den-usa/
+layout: post.swig
+permalink: einkommensverteilung-in-den-usa/
 categories:
   - Off-Topic
 ---

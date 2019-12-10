@@ -1,8 +1,8 @@
 ---
 title: Schnee in Hannover
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/schnee-in-hannover/
+layout: post.swig
+permalink: schnee-in-hannover/
 categories:
   - Fotografie
   - Hannover

@@ -1,8 +1,8 @@
 ---
 title: Handbücher für 3500 Kameras kostenlos runterladen
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/handbuecher-fur-3500-kameras-kostenlos-runterladen/
+layout: post.swig
+permalink: handbuecher-fur-3500-kameras-kostenlos-runterladen/
 categories:
   - Fotografie
 ---

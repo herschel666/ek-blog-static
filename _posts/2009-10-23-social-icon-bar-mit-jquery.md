@@ -1,8 +1,8 @@
 ---
 title: '&quot;Social Icon Bar&quot; mit jQuery'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/social-icon-bar-mit-jquery/
+layout: post.swig
+permalink: social-icon-bar-mit-jquery/
 categories:
   - HTML/CSS
   - JavaScript

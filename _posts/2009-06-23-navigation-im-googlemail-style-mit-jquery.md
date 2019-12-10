@@ -1,8 +1,8 @@
 ---
 title: Navigation im Googlemail-Style mit jQuery
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/navigation-im-googlemail-style-mit-jquery/
+layout: post.swig
+permalink: navigation-im-googlemail-style-mit-jquery/
 categories:
   - HTML/CSS
   - JavaScript

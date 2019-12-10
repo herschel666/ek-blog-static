@@ -1,8 +1,8 @@
 ---
 title: Animierte Navigation mit jQuery
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/animierte-navigation-mit-jquery/
+layout: post.swig
+permalink: animierte-navigation-mit-jquery/
 categories:
   - HTML/CSS
   - JavaScript

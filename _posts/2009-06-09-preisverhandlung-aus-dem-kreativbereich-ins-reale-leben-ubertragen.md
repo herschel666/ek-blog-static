@@ -1,8 +1,8 @@
 ---
 title: Preisverhandlung aus dem Kreativbereich ins reale Leben übertragen
 author: Emanuel Kluge
-layout: post.html
-permalink: /video/preisverhandlung-aus-dem-kreativbereich-ins-reale-leben-ubertragen/
+layout: post.swig
+permalink: preisverhandlung-aus-dem-kreativbereich-ins-reale-leben-ubertragen/
 categories:
   - Lustig
   - Video

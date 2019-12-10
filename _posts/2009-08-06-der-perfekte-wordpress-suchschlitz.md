@@ -1,8 +1,8 @@
 ---
 title: 'Der &quot;perfekte&quot; WordPress-Suchschlitz'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/der-perfekte-wordpress-suchschlitz/
+layout: post.swig
+permalink: der-perfekte-wordpress-suchschlitz/
 categories:
   - HTML/CSS
   - JavaScript

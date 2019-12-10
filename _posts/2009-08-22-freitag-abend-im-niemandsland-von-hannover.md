@@ -1,8 +1,8 @@
 ---
 title: Freitag abend im Niemandsland von Hannover
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/freitag-abend-im-niemandsland-von-hannover/
+layout: post.swig
+permalink: freitag-abend-im-niemandsland-von-hannover/
 categories:
   - Fotografie
   - Hannover

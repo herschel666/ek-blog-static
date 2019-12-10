@@ -1,8 +1,8 @@
 ---
 title: Tschüß, Flickr — mein neuer Photoblog ist am Start
 author: Emanuel Kluge
-layout: post.html
-permalink: /neuigkeiten/tschuess-flickr-neuer-photoblog-am-start/
+layout: post.swig
+permalink: tschuess-flickr-neuer-photoblog-am-start/
 categories:
   - Neuigkeiten
 ---

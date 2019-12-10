@@ -1,8 +1,8 @@
 ---
 title: Ursula von der Leyen an der Universität Hannover von Aktivisten überrascht
 author: Emanuel Kluge
-layout: post.html
-permalink: /hannover/ursula-von-der-leyen-an-der-universitat-hannover-von-aktivisten-uberrascht/
+layout: post.swig
+permalink: ursula-von-der-leyen-an-der-universitat-hannover-von-aktivisten-uberrascht/
 categories:
   - Hannover
 ---

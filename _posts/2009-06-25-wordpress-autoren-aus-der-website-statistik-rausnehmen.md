@@ -1,8 +1,8 @@
 ---
 title: WordPress-Autoren aus der Website-Statistik rausnehmen
 author: Emanuel Kluge
-layout: post.html
-permalink: /tips-und-tricks/wordpress-autoren-aus-der-website-statistik-rausnehmen/
+layout: post.swig
+permalink: wordpress-autoren-aus-der-website-statistik-rausnehmen/
 categories:
   - Tips und Tricks
   - WordPress

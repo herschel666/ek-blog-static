@@ -1,8 +1,8 @@
 ---
 title: Die Apple-Religion und ihre Missionare
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/die-apple-religion-und-ihre-missionare/
+layout: post.swig
+permalink: die-apple-religion-und-ihre-missionare/
 categories:
   - Apple
   - Überlegungen

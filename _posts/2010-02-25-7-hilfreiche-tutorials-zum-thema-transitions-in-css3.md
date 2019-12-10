@@ -1,8 +1,8 @@
 ---
 title: 7 hilfreiche Tutorials zum Thema Transitions in CSS3
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/7-hilfreiche-tutorials-zum-thema-transitions-in-css3/
+layout: post.swig
+permalink: 7-hilfreiche-tutorials-zum-thema-transitions-in-css3/
 categories:
   - HTML/CSS
   - Tutorial

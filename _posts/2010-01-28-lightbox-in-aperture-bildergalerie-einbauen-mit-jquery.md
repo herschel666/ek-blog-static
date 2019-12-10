@@ -1,8 +1,8 @@
 ---
 title: Lightbox in Aperture-Bildergalerie einbauen mit jQuery
 author: Emanuel Kluge
-layout: post.html
-permalink: /tips-und-tricks/lightbox-in-aperture-bildergalerie-einbauen-mit-jquery/
+layout: post.swig
+permalink: lightbox-in-aperture-bildergalerie-einbauen-mit-jquery/
 categories:
   - Apple
   - Fotografie

@@ -1,8 +1,8 @@
 ---
 title: Fotos von Norderney
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/fotos-von-norderney/
+layout: post.swig
+permalink: fotos-von-norderney/
 categories:
   - Fotografie
 ---

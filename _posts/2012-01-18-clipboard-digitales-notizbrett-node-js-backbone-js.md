@@ -1,8 +1,8 @@
 ---
 title: „Clipboard“ – Digitales Notizbrett mit Node.js und Backbone.js
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/clipboard-digitales-notizbrett-node-js-backbone-js/
+layout: post.swig
+permalink: clipboard-digitales-notizbrett-node-js-backbone-js/
 categories:
   - Backbone.js
   - HTML/CSS

@@ -1,8 +1,8 @@
 ---
 title: 'Brigitte.de: Anatomie eines Socialstorm'
 author: Emanuel Kluge
-layout: post.html
-permalink: /marketing/brigitte-anatomie-eines-socialstorm/
+layout: post.swig
+permalink: brigitte-anatomie-eines-socialstorm/
 categories:
   - Marketing
 ---

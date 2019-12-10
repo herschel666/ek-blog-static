@@ -1,8 +1,8 @@
 ---
 title: 'Doctape Hackathon 2013: A Recap'
 author: Emanuel Kluge
-layout: post.html
-permalink: /hannover/doctape-hackathon-2013-recap/
+layout: post.swig
+permalink: doctape-hackathon-2013-recap/
 categories:
   - Hannover
   - Neuigkeiten

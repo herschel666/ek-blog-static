@@ -1,8 +1,8 @@
 ---
 title: Name des Autors zu post_class() in WordPress hinzufügen
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/name-des-autors-zu-post_class-in-wordpress-hinzufugen/
+layout: post.swig
+permalink: name-des-autors-zu-post_class-in-wordpress-hinzufugen/
 categories:
   - HTML/CSS
   - Tips und Tricks

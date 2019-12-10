@@ -1,8 +1,8 @@
 ---
 title: Ein paar Worte zur Causa “Nerdcore | Euroweb”
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/ein-paar-worte-zur-causa-nerdcore-euroweb/
+layout: post.swig
+permalink: ein-paar-worte-zur-causa-nerdcore-euroweb/
 categories:
   - Off-Topic
 ---

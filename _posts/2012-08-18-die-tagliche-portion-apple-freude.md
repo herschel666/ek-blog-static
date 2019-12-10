@@ -1,8 +1,8 @@
 ---
 title: Die tägliche Portion Apple-Freude
 author: Emanuel Kluge
-layout: post.html
-permalink: /apple/die-tagliche-portion-apple-freude/
+layout: post.swig
+permalink: die-tagliche-portion-apple-freude/
 categories:
   - Apple
 ---

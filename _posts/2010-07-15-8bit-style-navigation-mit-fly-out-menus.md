@@ -1,8 +1,8 @@
 ---
 title: 8Bit-Style-Navigation mit Fly-Out-Menus
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/8bit-style-navigation-mit-fly-out-menus/
+layout: post.swig
+permalink: 8bit-style-navigation-mit-fly-out-menus/
 categories:
   - HTML/CSS
   - JavaScript

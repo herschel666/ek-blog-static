@@ -1,8 +1,8 @@
 ---
 title: Plumpe Abschreckungswerbung von LEGO
 author: Emanuel Kluge
-layout: post.html
-permalink: /marketing/plumpe-abschreckungswerbung-von-lego/
+layout: post.swig
+permalink: plumpe-abschreckungswerbung-von-lego/
 categories:
   - Marketing
 ---

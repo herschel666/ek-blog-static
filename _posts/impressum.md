@@ -1,8 +1,8 @@
 ---
 title: Impressum
 author: Emanuel Kluge
-permalink: /impressum/
-layout: page.html
+permalink: impressum/
+layout: page.swig
 ---
 <div id="hcard-Emanuel-Kluge" class="vcard">
   <div id="hcard-Emanuel-Kluge" class="vcard">

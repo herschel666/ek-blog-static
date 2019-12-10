@@ -1,8 +1,8 @@
 ---
 title: 'Require.js: Umgebungsvariablen übers Script-Tag mitgeben'
 author: Emanuel Kluge
-layout: post.html
-permalink: /tips-und-tricks/require-js-umgebungsvariablen-ubers-script-tag-mitgeben/
+layout: post.swig
+permalink: require-js-umgebungsvariablen-ubers-script-tag-mitgeben/
 categories:
   - JavaScript
   - Tips und Tricks

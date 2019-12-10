@@ -1,8 +1,8 @@
 ---
 title: Ein paar Worte zu Jack Wolfskin
 author: Emanuel Kluge
-layout: post.html
-permalink: /ueberlegungen/ein-paar-worte-zu-jack-wolfskin/
+layout: post.swig
+permalink: ein-paar-worte-zu-jack-wolfskin/
 categories:
   - Marketing
   - Überlegungen

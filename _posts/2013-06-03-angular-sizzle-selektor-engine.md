@@ -1,8 +1,8 @@
 ---
 title: Angular.js mit Sizzle.js als Selektor-Engine
 author: Emanuel Kluge
-layout: post.html
-permalink: /javascript/angular-sizzle-selektor-engine/
+layout: post.swig
+permalink: angular-sizzle-selektor-engine/
 categories:
   - Angular
   - JavaScript

@@ -1,8 +1,8 @@
 ---
 title: Animierte Image-Caption mit jQuery unter WordPress
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/animierte-image-caption-mit-jquery-unter-wordpress/
+layout: post.swig
+permalink: animierte-image-caption-mit-jquery-unter-wordpress/
 categories:
   - HTML/CSS
   - JavaScript

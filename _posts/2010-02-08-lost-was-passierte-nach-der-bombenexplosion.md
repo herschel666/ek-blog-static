@@ -1,8 +1,8 @@
 ---
 title: Lost — Was passierte nach der Bombenexplosion?
 author: Emanuel Kluge
-layout: post.html
-permalink: /off-topic/lost-was-passierte-nach-der-bombenexplosion/
+layout: post.swig
+permalink: lost-was-passierte-nach-der-bombenexplosion/
 categories:
   - Off-Topic
 ---

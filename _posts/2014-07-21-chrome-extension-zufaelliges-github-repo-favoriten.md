@@ -1,8 +1,8 @@
 ---
 title: 'Chrome-Extension: zufälliges GitHub-Repo aus der Favoritenliste'
 author: Emanuel Kluge
-layout: post.html
-permalink: /neuigkeiten/chrome-extension-zufaelliges-github-repo-favoriten/
+layout: post.swig
+permalink: chrome-extension-zufaelliges-github-repo-favoriten/
 categories:
   - JavaScript
   - Neuigkeiten

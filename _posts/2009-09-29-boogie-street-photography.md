@@ -1,8 +1,8 @@
 ---
 title: Boogie — Street Photography
 author: Emanuel Kluge
-layout: post.html
-permalink: /fotografie/boogie-street-photography/
+layout: post.swig
+permalink: boogie-street-photography/
 categories:
   - Fotografie
 ---

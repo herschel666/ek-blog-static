@@ -1,8 +1,8 @@
 ---
 title: Daten sukzessive, asynchron laden mit dem Pub-Sub-Pattern
 author: Emanuel Kluge
-layout: post.html
-permalink: /html-css/daten-sukzessive-asynchron-laden-mit-dem-pub-sub-pattern/
+layout: post.swig
+permalink: daten-sukzessive-asynchron-laden-mit-dem-pub-sub-pattern/
 categories:
   - HTML/CSS
   - JavaScript

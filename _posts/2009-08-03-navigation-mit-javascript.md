@@ -1,8 +1,8 @@
 ---
 title: Navigation mit JavaScript
 author: Emanuel Kluge
-layout: post.html
-permalink: /tutorial/navigation-mit-javascript/
+layout: post.swig
+permalink: navigation-mit-javascript/
 categories:
   - HTML/CSS
   - JavaScript
