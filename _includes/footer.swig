@@ -5,6 +5,6 @@
     <a href="/impressum/">Impressum</a> |
     <a href="/datenschutzerklaerung/">Datenschutzerklärung</a> |
     <abbr title="Really Simple Syndication"><a href="{{ "/feed.xml" | prepend(site.baseurl) }}" title="RSS-Feed abonnieren">RSS</a></abbr> |
-    Powered by <a href="http://www.metalsmith.io/" rel="nofollow">Metalsmith</a>
+    Powered by <a href="https://www.metalsmith.io/" rel="nofollow">Metalsmith</a>
   </div>
 </footer>

@@ -31,7 +31,7 @@ Und warum habe ich diesen Artikel geschrieben? Ganz einfach, um Missverständnis
 
 Und für diejenigen, die selbst entwickeln und beim Thema *Responsive Webdesign* bisher als erste Assoziation *Media Queries* hatten, die Bitte, sich des Themas umfassender anzunehmen. RWD ist ein neuer Ansatz abseits fixer Layouts. *Media Queries* sind dabei nur ein Teilaspekt. Folgende zwei Bücher sind ein großartiger Einstieg in das Thema:
 
-  1. [Responsive Webdesign: Reaktionsfähige Websites gestalten und umsetzen][rwd_book_1]<img src="http://www.assoc-amazon.de/e/ir?t=pha5-21&#038;l=as2&#038;o=3&#038;a=3446430156" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> | neu, umfassend und auf deutsch
+  1. [Responsive Webdesign: Reaktionsfähige Websites gestalten und umsetzen][rwd_book_1]<img src="https://www.assoc-amazon.de/e/ir?t=pha5-21&#038;l=as2&#038;o=3&#038;a=3446430156" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> | neu, umfassend und auf deutsch
   2. [Responsive Web Design][rwd_book_2] | der Klassiker von Ethan Marcotte
 
 So, das musste ich einfach mal loswerden. Fragen, Anregungen, Ergänzungen sind hoch willkommen. Scheib einfach einen Kommentar.
