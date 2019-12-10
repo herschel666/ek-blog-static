@@ -7,7 +7,7 @@ categories:
   - Off-Topic
 ---
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik-162x210.jpg" data-alt="Gutes Essen braucht keine Gentechnik">
 <img src="/wp-content/uploads/2009/06/gutes-essen-braucht-keine-gentechnik-162x210.jpg" alt="Gutes Essen braucht keine Gentechnik">
 </noscript>

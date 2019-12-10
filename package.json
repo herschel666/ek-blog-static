@@ -42,6 +42,7 @@
     "webpack": "^4.41.2"
   },
   "scripts": {
+    "prebuild": "rm -rf ./_site",
     "build": "node ./build",
     "serve": "npm run build -- --serve"
   },
