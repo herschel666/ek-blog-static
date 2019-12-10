@@ -23,5 +23,5 @@ Diese Kamera ist genial. Die Sache mit den Meta-Daten kann man sich meiner Meinu
 
 (Gefunden bei [diskursdisko][diskursdisko])
 
-[punch_camera]: http://www.coroflot.com/public/individual_set.asp?from_url=true&#038;individual_id=258968&#038;set_id=327969&#038;
+[punch_camera]: http://www.coroflot.com/public/individual_set.asp?from_url=true&individual_id=258968&set_id=327969&
 [diskursdisko]: http://www.diskursdisko.de/2009/10/punch/

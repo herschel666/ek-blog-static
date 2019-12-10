@@ -25,8 +25,8 @@ Zum Schluss noch ein paar Worte zur obigen Abbildung: Es handelt sich dabei um e
 
 Weiterführende Links:
 
- * [Risiken der Gentechnik][argumente]
- * [Pflanzenzucht und Frömmigkeit][maxeiner_miersch]
+- [Risiken der Gentechnik][argumente]
+- [Pflanzenzucht und Frömmigkeit][maxeiner_miersch]
 
 [wikipedia]: http://en.wikipedia.org/wiki/Terminator_seeds
 [gentechnik]: http://www.keine-gentechnik.de/

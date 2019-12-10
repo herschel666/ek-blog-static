@@ -25,10 +25,12 @@ Der Code sieht folgendermaßen aus:
 
 ```html
 <?php if ( is_user_logged_in() ) : ?>
-  <p class="logout">
-<?php else : ?>
-  <p class="login">
-<?php endif; wp_loginout(); ?>
+<p class="logout">
+  <?php else : ?>
+</p>
+
+<p class="login">
+  <?php endif; wp_loginout(); ?>
 </p>
 ```
 
@@ -55,14 +57,26 @@ Nun kommen die Styles hinzu, um den schicken Button, anstatt des schnöden Text-
 }
 
 .login a:link,
-.login a:visited { background-position: 0 0 }
-.login a:hover { background-position: 0 -60px }
-.login a:active { background-position: 0 -120px }
+.login a:visited {
+  background-position: 0 0;
+}
+.login a:hover {
+  background-position: 0 -60px;
+}
+.login a:active {
+  background-position: 0 -120px;
+}
 
 .logout a:link,
-.logout a:visited { background-position: -100px 0 }
-.logout a:hover { background-position: -100px -60px }
-.logout a:active { background-position: -100px -120px }
+.logout a:visited {
+  background-position: -100px 0;
+}
+.logout a:hover {
+  background-position: -100px -60px;
+}
+.logout a:active {
+  background-position: -100px -120px;
+}
 ```
 
 Per `text-indent: -9999px` wird der Text-Link nach links ins Abseits verschoben und zurück bleibt die Grafik. Diese sieht wie folgt aus:
@@ -79,8 +93,8 @@ Vielen Dank.
 
 Weiterführende Links:
 
- * [Function Reference/wp loginout][wp_loginout]
- * [Function Reference/is user logged in][is_user_logged_in]
+- [Function Reference/wp loginout][wp_loginout]
+- [Function Reference/is user logged in][is_user_logged_in]
 
 [demo]: http://www.emanuel-kluge.de/demo/loginout-button/
 [wp_loginout]: http://codex.wordpress.org/Function_Reference/wp_loginout

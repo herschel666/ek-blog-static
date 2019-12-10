@@ -15,7 +15,7 @@ categories:
 <img src="/wp-content/uploads/2009/09/animierte-image-caption-mit-jquery-unter-wordpress.jpg" alt="Animierte Image-Caption mit jQuery unter WordPress">
 </noscript>
 
-*[Demo][demo] | [Code auf GitHub][github]*
+_[Demo][demo] | [Code auf GitHub][github]_
 
 <p><ins datetime="2013-10-15T20:31:38+00:00"><strong>Update 15.10.2013</strong></ins></p>
 <p><ins datetime="2013-10-15T20:31:38+00:00">Da der Code schon etwas in die Jahre gekommen ist, habe ich mir mal die Mühe gemacht, ihn zu aktualisieren. Hauptsächlich geändert ist die Art der Animation. Diese läuft nun über CSS-Transitions. Ältere Browser, wie bspw. der IE8, stellen also keine Animation dar. Die Grundfunktionalität ist jedoch auch ohne Animation gegeben.</ins></p>
@@ -26,7 +26,14 @@ Wie gehabt als erstes der HTML-Teil:
 
 ```html
 <div class="wp-caption" style="width: ???px">
-  <img src="/path/to/img.jpg" alt="Dies ist eine Beschreibung" title="Dies ist eine Beschreibung" width="???" height="???" class="size-full wp-image-3402" />
+  <img
+    src="/path/to/img.jpg"
+    alt="Dies ist eine Beschreibung"
+    title="Dies ist eine Beschreibung"
+    width="???"
+    height="???"
+    class="size-full wp-image-3402"
+  />
   <p class="wp-caption-text">Dies ist eine Beschreibung</p>
 </div>
 ```
@@ -48,16 +55,16 @@ Als nächstes ein bißchen CSS für das entsprechende Aussehen:
   display: block;
   width: 100%;
   height: auto;
-  -webkit-transition: margin .3s ease-in-out;
-  -moz-transition: margin .3s ease-in-out;
-  transition: margin .3s ease-in-out;
+  -webkit-transition: margin 0.3s ease-in-out;
+  -moz-transition: margin 0.3s ease-in-out;
+  transition: margin 0.3s ease-in-out;
 }
 
 .wp-caption-text {
-  padding: .357143em .714286em;
+  padding: 0.357143em 0.714286em;
   margin: 0;
   background-color: #333;
-  color: #F3F3F3;
+  color: #f3f3f3;
   border-top: 1px solid #666;
 }
 ```
@@ -67,48 +74,46 @@ Wichtig hierbei ist die Angabe `overflow: hidden`, da der Caption-Text sonst nic
 Zum Schluss den nötigen JavaScript- bzw. jQuery-Teil, ohne den hier gar nichts läuft:
 
 ```javascript
-(function (win, $) {
-
+(function(win, $) {
   /*
    * init!
-  **/
+   **/
   function init() {
-
     // no animated Image Captions on touch devices
-    if ( 'ontouchstart' in document.documentElement || win.navigator.msMaxTouchPoints ) {
-        return;
+    if (
+      'ontouchstart' in document.documentElement ||
+      win.navigator.msMaxTouchPoints
+    ) {
+      return;
     }
 
     // animated captions 4 all.
     $('.wp-caption').each(captionThis);
-
   }
 
   /*
    * Enabling the animated captions.
-  **/
+   **/
   function captionThis() {
-
     var $this = $(this),
-        $img = $this.find('img'),
-        imgHeight = $img.attr('height'),
-        captionHeight = $this.find('p').outerHeight();
+      $img = $this.find('img'),
+      imgHeight = $img.attr('height'),
+      captionHeight = $this.find('p').outerHeight();
 
-    $this
-      .height(imgHeight)
-      .hover(function () {
+    $this.height(imgHeight).hover(
+      function() {
         $img.css('margin-top', -captionHeight);
-      }, function () {
+      },
+      function() {
         $img.css('margin-top', 0);
-      });
-
+      }
+    );
   }
 
   /*
    * Starting on DOMLoad
-  **/
+   **/
   $(init);
-
 })(window, jQuery);
 ```
 

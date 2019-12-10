@@ -18,8 +18,8 @@ Blöderweise muss man dabei auf das von `wp_list_pages()` zur Verfügung gestell
 Hier kommt jedoch die neue WordPress-Funktion `body_class()` ins Spiel. Diese fügt dem `<body>`-Tag u.a. den Name der aktuellen Seite als Klasse hinzu. Der HTML-Teil einer Navigation kann dann bspw. so aussehen:
 
 ```html
-<body <?php body_class() ?>>
-  …
+<body <?php body_class() ?>
+  > …
   <ul class="navigation">
     <li class="home_nav"><a href="#">Home</a></li>
     <li class="leistungen_nav"><a href="#">Leistungen</a></li>
@@ -38,7 +38,7 @@ Den Pfad zur Seite müsst ihr natürlich ins `href`-Attribut des `<a>`-Tags eint
 .leistungen li.leistungen_nav a:visited,
 .referenzen li.referenzen_nav a:link,
 .referenzen li.referenzen_nav a:visited {
-  color: #FFF;
+  color: #fff;
   background-color: #369;
   text-decoration: underline;
 }
@@ -46,7 +46,7 @@ Den Pfad zur Seite müsst ihr natürlich ins `href`-Attribut des `<a>`-Tags eint
 .home li.home_nav a:hover,
 .leistungen li.leistungen_nav a:hover,
 .referenzen li.referenzen_nav a:hover {
-  color: #FFF;
+  color: #fff;
   background-color: #666;
   text-decoration: underline;
 }
@@ -56,7 +56,7 @@ Natürlich muss man noch den Normalzustand der Navigation definieren, aber anson
 
 **Weiterführende Links:**
 
- * [WordPress 2.8 and the `body_class()` Function][nathanrice]
+- [WordPress 2.8 and the `body_class()` Function][nathanrice]
 
 [template_tags]: http://codex.wordpress.org/Template_Tags/wp_list_pages
 [nathanrice]: http://www.nathanrice.net/blog/wordpress-2-8-and-the-body_class-function/

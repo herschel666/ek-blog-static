@@ -17,7 +17,7 @@ Wer Googlemail benutzt, kennt sicherlich die Buttons mit dem Grauverlauf und den
 <img src="/wp-content/uploads/2009/06/googlemail-style-button-480x126.png" alt="navigation im googlemail-style">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Und wenn wir schon beim Thema sind, fangen wir am besten mit dem Quelltext an. Dieser sieht so aus:
 
@@ -38,17 +38,18 @@ Hier nun die benötigten JavaScript-Angaben:
 
 ```javascript
 $(document).ready(function() {
-   var start = "<span class=\"layer_1\"><span class=\"layer_2\"></span><span class=\"layer_3\"></span><span class=\"layer_4\">";
-   var middle = "</span><span class=\"layer_5\">";
-   var end = "</span></span>";
+  var start =
+    '<span class="layer_1"><span class="layer_2"></span><span class="layer_3"></span><span class="layer_4">';
+  var middle = '</span><span class="layer_5">';
+  var end = '</span></span>';
 
-   var item = new Array();
-   $('.navigation li a').each( function() {
-      item.push(this.innerHTML);
-      for ( i = 0; i < item.length; i++ ) {
-        $(this).html(start + item[i] + middle + item[i] + end);
-      }
-   });
+  var item = new Array();
+  $('.navigation li a').each(function() {
+    item.push(this.innerHTML);
+    for (i = 0; i < item.length; i++) {
+      $(this).html(start + item[i] + middle + item[i] + end);
+    }
+  });
 });
 ```
 
@@ -59,7 +60,7 @@ body {
   padding: 100px;
   font: normal 12px Helvetica;
   font-weight: bold;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .navigation {
@@ -78,7 +79,8 @@ body {
   display: inline;
 }
 
-a, span {
+a,
+span {
   display: block;
   text-decoration: none;
 }
@@ -87,11 +89,12 @@ a:focus {
   outline: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   width: 82px;
   height: 20px;
   position: relative;
-  background-color: #DDD;
+  background-color: #ddd;
   text-align: center;
   line-height: 20px;
   color: #333;
@@ -102,7 +105,6 @@ a:link, a:visited {
 a:hover {
   background-color: #999;
   color: #000;
-
 }
 
 .layer_1 {
@@ -112,10 +114,10 @@ a:hover {
   top: -1px;
   left: 1px;
   border: 0;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-left: 0;
   border-right: 0;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   overflow: hidden;
   z-index: 200;
 }
@@ -131,7 +133,7 @@ a:hover .layer_1 {
   position: absolute;
   top: 10px;
   left: 0;
-  background-color: #EEE;
+  background-color: #eee;
   z-index: 300;
 }
 
@@ -146,7 +148,7 @@ a:active .layer_2 {
   position: absolute;
   top: 12px;
   left: 0;
-  background-color: #E3E3E3;
+  background-color: #e3e3e3;
   z-index: 300;
 }
 
@@ -162,7 +164,7 @@ a:active .layer_3 {
   top: 5px;
   left: 0;
   line-height: 12px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   z-index: 400;
 }

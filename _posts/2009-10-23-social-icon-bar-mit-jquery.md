@@ -14,7 +14,7 @@ categories:
 <img src="/wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg" alt="Social Icon-Bar mit jQuery">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Um meine Besucher auf meine diversen Profile in Social Communities aufmerksam zu machen, habe ich rechts in der Sidebar eine Social Icon Bar installiert, deren Icons bspw. auf Flickr und Xing verweisen. Und damit das nicht so langweilig ist, habe ich den Spaß noch ein wenig mit [jQuery][jquery] befeuert.
 
@@ -34,7 +34,13 @@ Das machen wir mit allen Icons, die wir benötigen. Danach widmen wir uns dem HT
     <span class="s3"></span>
     <span class="s4"></span>
     <a href="http://name.tld/feed/" title="Den RSS-Feed abonnieren">
-      <img src="images/rss.png" alt="Den RSS-Feed abonnieren" width="40" height="40" title="Den RSS-Feed abonnieren" />
+      <img
+        src="images/rss.png"
+        alt="Den RSS-Feed abonnieren"
+        width="40"
+        height="40"
+        title="Den RSS-Feed abonnieren"
+      />
     </a>
   </li>
 </ul>
@@ -45,20 +51,43 @@ Basis ist eine ungeordnete Liste. Der Übersichtlichkeit halber habe ich nur ein
 Als nächstes kommt der jQuery-Teil:
 
 ```javascript
-jQuery(function ($) {
+jQuery(function($) {
   $('body').addClass('js_active');
   $('#iconbar li').each(function(i) {
-    $(this).hover(function() {
-      $('span.s1', this).stop().animate({'left' : '-20px'}, {queue:false,duration:500});
-      $('span.s2', this).stop().animate({'top' : '-20px'}, {queue:false,duration:500});
-      $('span.s3', this).stop().animate({'right' : '-20px'}, {queue:false,duration:500});
-      $('span.s4', this).stop().animate({'bottom' : '-20px'}, {queue:false,duration:500});
-    }, function() {
-      $('span.s1', this).animate({'left' : '0'}, {queue:false,duration:500});
-      $('span.s2', this).animate({'top' : '0'}, {queue:false,duration:500});
-      $('span.s3', this).animate({'right' : '0'}, {queue:false,duration:500});
-      $('span.s4', this).animate({'bottom' : '0'}, {queue:false,duration:500});
-    });
+    $(this).hover(
+      function() {
+        $('span.s1', this)
+          .stop()
+          .animate({ left: '-20px' }, { queue: false, duration: 500 });
+        $('span.s2', this)
+          .stop()
+          .animate({ top: '-20px' }, { queue: false, duration: 500 });
+        $('span.s3', this)
+          .stop()
+          .animate({ right: '-20px' }, { queue: false, duration: 500 });
+        $('span.s4', this)
+          .stop()
+          .animate({ bottom: '-20px' }, { queue: false, duration: 500 });
+      },
+      function() {
+        $('span.s1', this).animate(
+          { left: '0' },
+          { queue: false, duration: 500 }
+        );
+        $('span.s2', this).animate(
+          { top: '0' },
+          { queue: false, duration: 500 }
+        );
+        $('span.s3', this).animate(
+          { right: '0' },
+          { queue: false, duration: 500 }
+        );
+        $('span.s4', this).animate(
+          { bottom: '0' },
+          { queue: false, duration: 500 }
+        );
+      }
+    );
   });
 });
 ```
@@ -94,7 +123,7 @@ body.js_active #iconbar li span {
   width: 20px;
   height: 20px;
   position: absolute;
-  background-color: #FFF;
+  background-color: #fff;
   opacity: 0.7;
   cursor: pointer;
 }

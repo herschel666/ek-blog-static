@@ -6,6 +6,7 @@ permalink: deadline-feinste-pixel-stop-motion-mit-post-its/
 categories:
   - Video
 ---
+
 <div style="position: relative; max-width: 640px; padding-top: 72.727273%; margin: 1em 0; overflow: hidden">
   <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/BpWM0FNPZSs?rel=0" frameborder="0" allowfullscreen style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%"></iframe>
 </div>

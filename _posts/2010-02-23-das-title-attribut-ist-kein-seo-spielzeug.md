@@ -18,10 +18,16 @@ Links sind immer in ihrer Wortzahl begrenzt, da nur in den wenigsten Fällen ein
 
 Angenommen, man möchte auf eine Unterseite der Website des deutschen Dackel-Clubs verweisen, die sich mit dem Thema Aufzucht befasst. Erste Möglichkeit ist es, den Link im Text unterzubringen:
 
-
-
 ```html
-<p>&hellip; bei der <a href="dackel-club.tld/path/to/aufzucht/" title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln">Aufzucht</a> von Dackeln &hellip;</p>
+<p>
+  &hellip; bei der
+  <a
+    href="dackel-club.tld/path/to/aufzucht/"
+    title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln"
+    >Aufzucht</a
+  >
+  von Dackeln &hellip;
+</p>
 ```
 
 Ohne das title-Attribut weiß man nicht, wohin der Begriff "Aufzucht" führt. Durch Setzen des title-Attributs kann der Leser es jedoch herausfinden, indem er den Cursor etwas länger über dem Link ruhen lässt.
@@ -29,7 +35,11 @@ Ohne das title-Attribut weiß man nicht, wohin der Begriff "Aufzucht" führt. Du
 Eine weitere Möglichkeit ist es, den Link unterhalb des Textabschnitts zu setzen:
 
 ```html
-<a href="dackel-club.tld/path/to/aufzucht/" title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln">Deutscher Dackel-Club</a>
+<a
+  href="dackel-club.tld/path/to/aufzucht/"
+  title="Deutscher Dackel-Club - Informationen zur Aufzucht von Dackeln"
+  >Deutscher Dackel-Club</a
+>
 ```
 
 Der Leser sieht, dass es weitergehende Informationen beim deutschen Dackel-Club gibt, doch worum es sich genau handelt, kann er aus der Link-Beschriftung "Deutscher Dackel-Club" nicht herauslesen. Das title-Attribut gibt hier mehr Aufschluss.
@@ -40,8 +50,8 @@ Nun wird der eine oder die andere vielleicht einwerfen, dass man den Inhalt des 
 
 Als erstes zwei Beispiele, die mich überhaupt dazu bewogen haben, diesen Text zu schreiben:
 
-  1. [Thinking for a Living][thinkingforaliving]
-  2. [Interview with Tom Hoops][photointerview]
+1. [Thinking for a Living][thinkingforaliving]
+2. [Interview with Tom Hoops][photointerview]
 
 Bei beiden Seiten tauchen links und rechts des Inhalts zwei große Pfeile auf, die einen mehr oder weniger verfolgen und geklickt werden wollen, jedoch nicht preisgeben, welchen Zweck sie haben. Das ist äußerst irritierend und sollte auf jeden Fall vermieden werden. Das gleiche ist es mit Icons und Piktogrammen. Klar weiß ich, wenn ich ein kleines Stift-Symbol auf einer Seite sehe, dass da was bearbeitet werden kann. Doch was genau, sagt mir die Grafik nicht.
 

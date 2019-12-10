@@ -21,8 +21,8 @@ Dies soll natürlich nicht heißen, dass ich professionelle, redaktionelle Inhal
 
 Weiterführende Links:
 
- * [Der Schweigepakt][spon]
- * [Wiki][wikipedia]
+- [Der Schweigepakt][spon]
+- [Wiki][wikipedia]
 
 [spon]: http://www.spiegel.de/netzwelt/web/0,1518,633181,00.html
 [wikipedia]: http://de.wikipedia.org/wiki/Wiki

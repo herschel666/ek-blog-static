@@ -8,15 +8,16 @@ const closeOnEsc = ({ key }) => {
   if (typeof closeLightbox === 'function' && key === 'Escape') {
     closeLightbox();
   }
-}
+};
 
 const bindCloseOnEsc = () => document.addEventListener('keyup', closeOnEsc);
 
-const unbindCloseOnEsc = () => document.removeEventListener('keyup', closeOnEsc);
+const unbindCloseOnEsc = () =>
+  document.removeEventListener('keyup', closeOnEsc);
 
 if (window.matchMedia && matchMedia('screen and (min-width: 600px)').matches) {
-  elems.forEach(
-    (elem) => elem.addEventListener('click', (evnt) => {
+  elems.forEach((elem) =>
+    elem.addEventListener('click', (evnt) => {
       evnt.preventDefault();
       const { href: src } = evnt.currentTarget;
       const { alt } = evnt.currentTarget.querySelector('img');

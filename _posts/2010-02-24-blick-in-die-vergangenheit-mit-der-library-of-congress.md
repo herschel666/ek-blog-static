@@ -7,7 +7,7 @@ categories:
   - Fotografie
 ---
 
-Die [Library of Congress][library_of_congress] scannt seit Januar 2008 historische Fotografien ein und lädt diese in der Foto-Community Flickr hoch. Das ist grundsätzlich schon einmal eine tolle Sache. Seitdem habe ich überlegt, was man tolles mit den Bildern anstellen könnte. Einen genialen Geistesblitz hatte ich allerdings nicht. Im Gegensatz zu [Jason Powell][jasonepowell], der Fotos von alten Gebäuden, Plätzen und Fassaden ausdruckt, an den Ort geht, wo das jeweilige Bild entstanden ist und ein Foto mit der historischen Version im Vordergrund schießt. Das ganze nennt er *Looking into the past*. Tolle Idee!
+Die [Library of Congress][library_of_congress] scannt seit Januar 2008 historische Fotografien ein und lädt diese in der Foto-Community Flickr hoch. Das ist grundsätzlich schon einmal eine tolle Sache. Seitdem habe ich überlegt, was man tolles mit den Bildern anstellen könnte. Einen genialen Geistesblitz hatte ich allerdings nicht. Im Gegensatz zu [Jason Powell][jasonepowell], der Fotos von alten Gebäuden, Plätzen und Fassaden ausdruckt, an den Ort geht, wo das jeweilige Bild entstanden ist und ein Foto mit der historischen Version im Vordergrund schießt. Das ganze nennt er _Looking into the past_. Tolle Idee!
 
 <a href="http://www.flickr.com/photos/jasonepowell/3728849099/in/set-72157613841045343">
   <noscript data-src="/wp-content/uploads/2010/02/looking-into-the-past-inlet-bridge-washington-dc.jpg" data-alt="Looking into the Past, Inlet Bridge, Washington, DC">
@@ -32,8 +32,8 @@ Die [Library of Congress][library_of_congress] scannt seit Januar 2008 historisc
 
 Weiterführende Links:
 
-  * [Looking into the past-Set on Flickr][flickr_set]
-  * [Gefunden beim ignant-Blog][ignant]
+- [Looking into the past-Set on Flickr][flickr_set]
+- [Gefunden beim ignant-Blog][ignant]
 
 [library_of_congress]: http://www.flickr.com/photos/library_of_congress/
 [jasonepowell]: http://www.flickr.com/photos/jasonepowell/

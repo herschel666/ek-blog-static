@@ -10,9 +10,7 @@ const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'assets');
 
 const plugins = [
   new MiniCssExtractPlugin({
-    filename: watchModeActive
-      ? '[name].css'
-      : '[name].[hash].css',
+    filename: watchModeActive ? '[name].css' : '[name].[hash].css',
     chunkFilename: '[id].css',
     ignoreOrder: false, // Enable to remove warnings about conflicting order
   }),
@@ -22,16 +20,14 @@ module.exports = {
   watch: watchModeActive,
   context: SOURCE_ASSETS_PATH,
   entry: {
-    'index': './javascripts/index.js',
-    'critical': './styles/critical.scss',
-    'main': './styles/main.scss',
+    index: './javascripts/index.js',
+    critical: './styles/critical.scss',
+    main: './styles/main.scss',
   },
   output: {
     path: OUTPUT_ASSETS_PATH,
     publicPath: './',
-    filename: watchModeActive
-      ? '[name].js'
-      : '[name].[hash].js'
+    filename: watchModeActive ? '[name].js' : '[name].[hash].js',
   },
   module: {
     rules: [
@@ -46,8 +42,9 @@ module.exports = {
               plugins: ['@babel/plugin-proposal-object-rest-spread'],
             },
           },
-        ]
-      }, {
+        ],
+      },
+      {
         test: /\.scss$/,
         use: [
           {
@@ -70,7 +67,8 @@ module.exports = {
           },
           'sass-loader',
         ],
-      }, {
+      },
+      {
         test: /\.(jpe?g|png|gif|svg)$/,
         use: [
           {

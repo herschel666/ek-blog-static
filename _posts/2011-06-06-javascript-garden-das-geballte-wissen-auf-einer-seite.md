@@ -15,7 +15,7 @@ Ich habe den Garten bisher lediglich kurz überflogen, daher gibt es die Empfehl
 
 Gefunden bei [bb-applications][bb_applications]
 
-[amazon]: http://www.amazon.de/gp/product/0596517742?ie=UTF8&#038;camp=3206&#038;creative=21426&#038;creativeASIN=0596517742&#038;linkCode=shr&#038;tag=pha5-21&#038;linkId=QMWXFQG6PB3IVU7W
+[amazon]: http://www.amazon.de/gp/product/0596517742?ie=UTF8&camp=3206&creative=21426&creativeASIN=0596517742&linkCode=shr&tag=pha5-21&linkId=QMWXFQG6PB3IVU7W
 [bonsaiden]: http://bonsaiden.github.com/JavaScript-Garden/
 [stackoverflow]: http://stackoverflow.com/users/170224/ivo-wetzel
 [bb_applications]: http://bb-applications.tumblr.com/post/5642526143/javascript-garden

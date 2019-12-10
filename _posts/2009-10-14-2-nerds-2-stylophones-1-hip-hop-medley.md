@@ -20,8 +20,8 @@ Die Teile, auf denen sie rumtippen, heißen Stylophones und wurden in den 60ern 
 
 Auf jeden Fall ist das ganze eine feine Sache und ich bin drauf und dran, mir selbst so ein Stylophone zu kaufen. Einfach nur, um mich an der Anwesenheit dieses exotischen Instruments zu erfreuen und es dann im irgend einem Schrank verstauben zu lassen.
 
-  * [Mehr zum Stylophone auf Wikipedia][wikipedia]
-  * [Gefunden auf Spreeblick][spreeblick]
+- [Mehr zum Stylophone auf Wikipedia][wikipedia]
+- [Gefunden auf Spreeblick][spreeblick]
 
 [youtube]: http://www.youtube.com/watch?v=hELTtsBRie4
 [brettdomino]: http://brettdomino.com/

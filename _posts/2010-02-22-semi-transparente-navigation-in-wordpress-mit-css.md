@@ -14,11 +14,9 @@ categories:
 <img src="/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" alt="Semi-transparente Navigation in WordPress mit CSS">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Heute geht es um eine horizontale Reiternavigation in **WordPress**, deren inaktive Reiter dank **CSS** Browser-übergreifend semi-transparent sind. Dafür muss als erstes ein `<span>`-Element innerhalb der Listen-Elemente der Navigation eingefügt werden. Dies geschieht über folgenden PHP-Code-Schnipsel:
-
-
 
 ```html
 <div id="header">
@@ -41,82 +39,104 @@ Kommen wir nun zum CSS:
 
 ```css
 #header ul {
-   height: 60px;
-   position: relative;
-   clear: left;
+  height: 60px;
+  position: relative;
+  clear: left;
 }
 
-  #header ul li {
-    width: auto;
-    height: 60px;
-    margin-left: 20px;
-    float: left;
-    display: inline;
-    position: relative;
-  }
+#header ul li {
+  width: auto;
+  height: 60px;
+  margin-left: 20px;
+  float: left;
+  display: inline;
+  position: relative;
+}
 
-    #header ul li span {
-      display: block;
-      width: 100%;
-      height: 60px;
-      position: absolute;
-      top: 10px;
-      left: 0;
-      z-index: 1000;
-      background-color: #FFF;
-      background: -moz-linear-gradient( top, #c7e0ed, #fff );
-      background: -webkit-gradient( linear, left top, left bottom, from(#c7e0ed), to(#fff) );
-      opacity: .7;
-    }
+#header ul li span {
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  background: -moz-linear-gradient(top, #c7e0ed, #fff);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c7e0ed),
+    to(#fff)
+  );
+  opacity: 0.7;
+}
 
-      #header ul li a:link,
-      #header ul li a:visited {
-        display: block;
-        width: auto;
-        height: 24px;
-        padding: 13px 20px 23px 20px;
-        line-height: 24px;
-        position: relative;
-        bottom: -10px;
-        z-index: 2000;
-        color: #0660cf;
-        text-decoration: none;
-        text-shadow: #FFF 0 1px 2px;
-      }
+#header ul li a:link,
+#header ul li a:visited {
+  display: block;
+  width: auto;
+  height: 24px;
+  padding: 13px 20px 23px 20px;
+  line-height: 24px;
+  position: relative;
+  bottom: -10px;
+  z-index: 2000;
+  color: #0660cf;
+  text-decoration: none;
+  text-shadow: #fff 0 1px 2px;
+}
 
-      #header ul li a:hover,
-      #header ul li a:focus,
-      #header ul li.current_page_item a {
-        background-color: #FFF;
-        background: -moz-linear-gradient( top, #c7e0ed, #fff ); /* gradient for firefox */
-        background: -webkit-gradient( linear, left top, left bottom, from(#c7e0ed), to(#fff) ); /* gradient for chrome and safari */
-        position: relative;
-        bottom: 0;
-      }
+#header ul li a:hover,
+#header ul li a:focus,
+#header ul li.current_page_item a {
+  background-color: #fff;
+  background: -moz-linear-gradient(
+    top,
+    #c7e0ed,
+    #fff
+  ); /* gradient for firefox */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c7e0ed),
+    to(#fff)
+  ); /* gradient for chrome and safari */
+  position: relative;
+  bottom: 0;
+}
 
-      #header ul li a:hover,
-      #header ul li a:focus {
-        color: #c41604;
-      }
+#header ul li a:hover,
+#header ul li a:focus {
+  color: #c41604;
+}
 
-      #header ul li a:active {
-        color: #0059ce;
-        position: relative;
-        bottom: -1px;
-      }
+#header ul li a:active {
+  color: #0059ce;
+  position: relative;
+  bottom: -1px;
+}
 
 .hr {
   height: 30px;
   background-color: #333;
-  background: -moz-linear-gradient( top, #333, #555 ); /* gradient for firefox */
-  background: -webkit-gradient( linear, left top, left bottom, from(#333), to(#555) ); /* gradient for chrome and safari */
+  background: -moz-linear-gradient(top, #333, #555); /* gradient for firefox */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#333),
+    to(#555)
+  ); /* gradient for chrome and safari */
   position: relative;
   z-index: 3000;
 }
 
-  .hr hr {
-    display: none; /* hiding hr because of the IE. quel surprise! */
-  }
+.hr hr {
+  display: none; /* hiding hr because of the IE. quel surprise! */
+}
 ```
 
 Am meisten Platz nehmen hier die Angaben für die Transparenz ein. Das liegt daran, dass alle Eventualitäten &mdash; sprich "Browser" &mdash; berücksichtigt werden müssen. Dafür lässt sich diese Navigation aber auch mit reinem CSS und ohne PNG-Grafiken umsetzen, die ja im IE6 für Ärger sorgen würden.

@@ -15,7 +15,7 @@ Aus meiner Heimatstadt Magdeburg kommt die kleine Fahrrad-Manufaktur [Schindelha
 
 Obendrein sehen die Räder, die Schindelhauer entwickelt und welche auf so lustige Namen wie Viktor, Siegfried und Ludwig hören, ziemlich gut aus. Die Namensgebung ist wahrscheinlich ein Versuch, auf dem internationalen Markt Assoziationen mit der "guten, alten, deutschen Wertarbeit" zu wecken. Aber sei es drum &mdash; hätte ich einen Tausender zu viel auf dem Konto, würde ich mir so ein Schindelhauer-Fahrrad holen.
 
-Und bis es soweit ist, düse ich weiter mit meinem klapprigen Damenrad durch *good ol'* Hannover.
+Und bis es soweit ist, düse ich weiter mit meinem klapprigen Damenrad durch _good ol'_ Hannover.
 
 (via [Stilsucht][stilsucht])
 

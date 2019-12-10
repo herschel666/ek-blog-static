@@ -14,18 +14,16 @@ categories:
 <img src="/wp-content/uploads/2010/03/rising-curtain-effekt-bei-input-feldern-mit-jquery.jpg" alt="”Rising Curtain“-Effekt bei Input-Feldern mit jQuery">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Heute möchte ich zeigen, wie man `<input>`-Felder in Formularen mithilfe des "Rising Curtain"-Effekts und jQuery interessanter gestalten kann, wenn der Fokus auf ihnen liegt. Alles was man dafür braucht, ist eine kleine Hintergrundgrafik mit einem Farbverlauf und ein paar Zeilen jQuery. Als erstes aber wenden wir uns dem HTML-Teil zu:
 
-
-
 ```html
 <div>
-   <span>
-      <input type="text" id="input1" />
-   </span>
-   <label for="input1">Input 1</label>
+  <span>
+    <input type="text" id="input1" />
+  </span>
+  <label for="input1">Input 1</label>
 </div>
 ```
 
@@ -35,9 +33,9 @@ Als nächstes der CSS-Teil:
 
 ```css
 div {
-   height: 24px;
-   margin-bottom: 10px;
-   clear: left;
+  height: 24px;
+  margin-bottom: 10px;
+  clear: left;
 }
 
 span {
@@ -58,8 +56,8 @@ input {
   height: 18px;
   padding: 2px 4px;
   line-height: 18px;
-  background: #FFF url('img/gradient.jpg') 0 0 repeat-x;
-  border: 1px solid #FFF;
+  background: #fff url('img/gradient.jpg') 0 0 repeat-x;
+  border: 1px solid #fff;
   color: #063050;
 }
 
@@ -77,23 +75,27 @@ label {
 Kommen wir nun zum jQuery-Teil:
 
 ```javascript
-jQuery(function ($) {
-   $('input').focus( function () {
-      $(this).parent().addClass('active');
-      if ( jQuery.browser.webkit || jQuery.browser.msie ) {
-         $(this).animate({'background-position-y' : '-28px'}, 500, 'linear');
-      } else {
-         $(this).animate({'background-position' : '0 -28px'}, 0, 'linear');
-      }
-   });
-   $('input').blur( function () {
-      $(this).parent().removeClass('active');
-      if ( jQuery.browser.webkit || jQuery.browser.msie ) {
-         $(this).animate({'background-position-y' : '0'}, 500, 'linear');
-      } else {
-         $(this).animate({'background-position' : '0 0'}, 0, 'linear');
-      }
-   });
+jQuery(function($) {
+  $('input').focus(function() {
+    $(this)
+      .parent()
+      .addClass('active');
+    if (jQuery.browser.webkit || jQuery.browser.msie) {
+      $(this).animate({ 'background-position-y': '-28px' }, 500, 'linear');
+    } else {
+      $(this).animate({ 'background-position': '0 -28px' }, 0, 'linear');
+    }
+  });
+  $('input').blur(function() {
+    $(this)
+      .parent()
+      .removeClass('active');
+    if (jQuery.browser.webkit || jQuery.browser.msie) {
+      $(this).animate({ 'background-position-y': '0' }, 500, 'linear');
+    } else {
+      $(this).animate({ 'background-position': '0 0' }, 0, 'linear');
+    }
+  });
 });
 ```
 

@@ -14,13 +14,11 @@ Jeder kommt früher oder später beim Bauen einer Website in die Situation, dass
 <img src="/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" alt="Barrierefreier Button mit Text Replacement">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Oftmals sieht man in diesen Fällen, dass das `value`-Attribut einfach leer gelassen wird. Dies ist allerdings eine wenig elegante Lösung, da Besucher mit Screenreader raten müssen, wofür der Button gedacht ist. Alternativ könnte man auf die Standard-Text-Replacement-Methode über `text-indent: -9999px;` zurückgreifen. Dies funktioniert auch ganz passabel in mordernen Browsern. IE6 und IE7 schieben dabei allerdings den kompletten Button nach links ins Abseits.
 
 Es muss also eine andere Methode her. Und die sieht so aus, dass man einfach ein `<div>`-Element um den Button packt und ihm die gleiche Größe wie dem Button gibt. Dann verschiebt man selbigen noch mittels `padding-top` ins Abseits und schon ist der Text weg und man kann seine Grafik einbauen. Der Quelltext dafür sieht folgendermaßen aus:
-
-
 
 ```html
 <div class="button">
@@ -62,11 +60,11 @@ Allerdings hat der Internet Explorer wie oben beschrieben seine Schwierigkeiten 
 
 ```html
 <!--[if !IE]>
-<style type="text/css">
-  input {
-    text-indent: -9999px;
-  }
-</style>
+  <style type="text/css">
+    input {
+      text-indent: -9999px;
+    }
+  </style>
 <![endif]-->
 ```
 

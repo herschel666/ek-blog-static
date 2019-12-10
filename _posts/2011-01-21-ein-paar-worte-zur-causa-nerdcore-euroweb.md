@@ -21,10 +21,10 @@ Sei es, dass man eine entsprechende Erklärung auf der 404-Seite anzeigt oder di
 
 Wer übrigens nicht weiß, worum es bei der Causa "Nerdcore | Euroweb" genau geht, hat im folgenden ein paar Links mit weiterführenden Informationen:
 
-  * [Umfassender Artikel auf netzpolitik.org][netzpolitik]
-  * [Die juritische Sicht auf lawblog.de][lawblog]
-  * [Ein Kommentar zu den Reaktionen der Netzgemeinde bei off-the-record.de][record]
-  * [Der Vollständigkeit halber das neue "Interweb-Domizil" von René Walter][crackajack]
+- [Umfassender Artikel auf netzpolitik.org][netzpolitik]
+- [Die juritische Sicht auf lawblog.de][lawblog]
+- [Ein Kommentar zu den Reaktionen der Netzgemeinde bei off-the-record.de][record]
+- [Der Vollständigkeit halber das neue "Interweb-Domizil" von René Walter][crackajack]
 
 [netzpolitik]: http://www.netzpolitik.org/2011/euroweb-vs-nerdcore/
 [lawblog]: http://www.lawblog.de/index.php/archives/2011/01/18/der-glaubiger-darf-er-muss-aber-nicht/

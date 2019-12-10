@@ -15,7 +15,7 @@ categories:
 <img src="/wp-content/uploads/2012/03/requirejs-autoloader.jpg" alt="Require.js-Autoloader">
 </noscript>
 
-*[Demo][demo] | [Download][zip]*
+_[Demo][demo] | [Download][zip]_
 
 Wenn aus dem "One-Pager" ein "Multi-One-Pager" wird, kann sich ein gewisser Overhead bezüglich der geladenen Skripte einstellen. Angenommen man baut eine Web-App, die aus vielen Einzelseiten besteht, und jede Einzelseite stellt für sich einen "One-Pager" dar, welcher nicht zwingend beim Besuch eines Nutzers aufgerufen wird. Dann werden &mdash; benutzt man Require.js zum Laden der Skripte &mdash; beim initialen Aufruf der Web-App alle Skripte geladen, auch wenn sie letztlich gar nicht benötigt werden.
 
@@ -23,36 +23,35 @@ In diesem Fall wäre es praktischer, mehrere Require.js-Instanzen anzulegen und 
 
 Dafür wird beim Aufruf der Seite lediglich eine fundamentale Require.js-Instanz aufgerufen, die die global benötigten Skripte &mdash; jQuery, Underscore, Backbone, den jQuery-UI-Core und einen Observer &mdash; laden und einen Backbone-Router initialisieren, der die Autoloader-Funktionalität zur Verfügung stellt.
 
-
-
 ```javascript
-require(['jQuery', 'Underscore', 'Backbone', 'Observer'], function ($, _, Backbone, Observer) {
-
+require(['jQuery', 'Underscore', 'Backbone', 'Observer'], function(
+  $,
+  _,
+  Backbone,
+  Observer
+) {
   var Router = Backbone.Router.extend({
+      routes: {
+        ':site/*sub': 'autoLoad',
+      },
 
-    routes : {
-      ':site/*sub' : 'autoLoad'
-    },
+      initialize: function() {
+        location.hash = location.hash || 'index/';
 
-    initialize : function () {
-      location.hash = location.hash || 'index/';
+        Backbone.history.start();
+      },
 
-      Backbone.history.start();
-    },
+      autoLoad: function(site, sub) {
+        var path = 'sites/' + site + '/app';
 
-    autoLoad : function (site, sub) {
-      var path = 'sites/' + site + '/app';
-
-      require([path], function (App) {
-        App.init({
-          subPages : sub
+        require([path], function(App) {
+          App.init({
+            subPages: sub,
+          });
         });
-      });
-    }
-  }),
-
-  router = new Router();
-
+      },
+    }),
+    router = new Router();
 });
 ```
 
@@ -61,22 +60,22 @@ Der Router prüft als erstes, ob ein Location-Hash gesetzt ist. Ist dies nicht d
 Das vom Autoloader geladene Skript übergibt eine `init`-Funktion &mdash; dabei kann es sich, je nachdem ob die Seite lediglich statischen Inhalt hat oder tiefergreifende Funktionalität besitzt, entweder um eine Backbone-View- oder eine Backbone-Router-Instanz handeln.
 
 ```javascript
-var init = function () {
-    return new View();
-  };
+var init = function() {
+  return new View();
+};
 
 return {
-  init : init
+  init: init,
 };
 ```
 
 ```javascript
-var init = function (args) {
-    return new Router(args);
-  };
+var init = function(args) {
+  return new Router(args);
+};
 
 return {
-  init : init
+  init: init,
 };
 ```
 

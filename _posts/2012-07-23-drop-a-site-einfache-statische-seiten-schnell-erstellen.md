@@ -34,8 +34,6 @@ Liegt deine Seite in der Wurzelebene, kannst du diesen Punkt getrost überspinge
 
 Liegt die zu erstellende Seite jedoch in einem Unterordner, muss die Deklaration der `$req`-Variable angepasst werden. Genauer gesagt, muss der Pfad zur Unterseite aus dem Request-String entfernt werden. Ist die Seite bspw. über die Adresse http://example.com/foo/bar/ erreichbar, muss die Deklaration der `$req`-Variablen folgendermaßen aussehen:
 
-
-
 ```php
 $req = trim(str_replace('/foo/bar/', '', $_SERVER['REQUEST_URI']), '/');
 ```
@@ -56,7 +54,7 @@ Schlussendlich müssen nur noch die Inhalte eingetütet werden. Diese werden im 
 
 Zusätzlich gibt es innerhalb von "inc" den "components"-Ordner - in diesem können Template-Parts wie Header, Footer, Navigation, etc. ablegt werden.
 
-* * *
+---
 
 Das ist auch schon alles, was es zu tun gibt, um "Drop-a-Site" in Betrieb zu nehmen. Natürlich kann das System nach Belieben erweitert und ausgebaut werden. Allerdings muss man dabei abwägen, ob es den Aufwand wert ist.
 

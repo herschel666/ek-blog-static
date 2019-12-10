@@ -16,10 +16,9 @@ Heute möchte ich kurz zeigen, wie man mit etwas **HTML**, **CSS** und ein paar 
 <img src="/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif" alt="8Bit-Style-Navigation mit Fly-Out-Menus">
 </noscript>
 
-*[Demo][demo] | [Download][download]*
+_[Demo][demo] | [Download][download]_
 
 Beginnen wir wie gewohnt mit dem HTML-Teil:
-
 
 ```html
 <div id="nav">
@@ -87,7 +86,9 @@ Als nächstes kommen wir zum CSS:
 @font-face {
   font-family: 'SilkscreenNormal';
   src: url('slkscr-webfont.eot');
-  src: local('☺'), url('slkscr-webfont.woff') format('woff'), url('slkscr-webfont.ttf') format('truetype'), url('slkscr-webfont.svg#webfontUx1SMfhe') format('svg');
+  src: local('☺'), url('slkscr-webfont.woff') format('woff'), url('slkscr-webfont.ttf')
+      format('truetype'),
+    url('slkscr-webfont.svg#webfontUx1SMfhe') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -97,7 +98,7 @@ ul {
 }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   color: #333;
   font: normal 13px SilkscreenNormal, sans-serif;
 }
@@ -131,7 +132,8 @@ body {
   border-width: 0 2px;
   border-style: solid;
   border-color: #666;
-  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///73n/yH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=') 0 0 repeat;
+  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///73n/yH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=')
+    0 0 repeat;
 }
 
 #nav > ul > li {
@@ -147,14 +149,15 @@ body {
   border-width: 2px 0;
   border-style: solid;
   border-color: #999;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 #nav > ul > li > a:link,
 #nav > ul > li > a:visited {
   color: #999;
   text-decoration: none;
-  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP/////fvSH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=') 0 0 repeat;
+  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP/////fvSH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=')
+    0 0 repeat;
 }
 
 #nav > ul > li > a:hover,
@@ -180,7 +183,8 @@ body {
 
 #nav > ul > li.top > a > strong {
   padding-left: 21px;
-  background: url('data:image/gif;base64,R0lGODlhBgAEAIABAJmZmf///yH5BAEAAAEALAAAAAAGAAQAAAIHhI8WocuwCgA7') 5px center no-repeat;
+  background: url('data:image/gif;base64,R0lGODlhBgAEAIABAJmZmf///yH5BAEAAAEALAAAAAAGAAQAAAIHhI8WocuwCgA7')
+    5px center no-repeat;
 }
 
 #nav > ul > li > a:hover,
@@ -220,11 +224,12 @@ body {
   margin-right: -4px;
   border-left: 2px solid #666;
   border-right: 2px solid #666;
-  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///+7u7iH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=') 0 0 repeat;
+  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///+7u7iH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=')
+    0 0 repeat;
 }
 
 .sub div ul li {
- border-top: 2px solid #666;
+  border-top: 2px solid #666;
 }
 
 .sub div ul li:first-child {
@@ -246,11 +251,13 @@ body {
 
 .sub div ul li a:hover,
 .sub div ul li a:focus {
-  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///93d3SH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=') 0 0 repeat;
+  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///93d3SH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=')
+    0 0 repeat;
 }
 
 .sub div ul li a:active {
-  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///8zMzCH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=') 0 0 repeat;
+  background: url('data:image/gif;base64,R0lGODlhBAAEAIAAAP///8zMzCH5BAAAAAAALAAAAAAEAAQAAAIGTACGqBkFADs=')
+    0 0 repeat;
 }
 ```
 
