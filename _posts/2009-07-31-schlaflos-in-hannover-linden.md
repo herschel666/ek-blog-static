@@ -14,49 +14,49 @@ Dafür musste natürlich das 50mm/f1.4 auf die Knipse. Im manuellen Modus habe i
 
 Übrigens habe ich die Bilder schwarz-weiß gemacht, da das Bildrauschen sonst nicht zu ertragen wäre. In s/w kommen sie allerdings ganz gut. Und hier sind einige Resultate (für Großansicht draufklicken):
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/fahrraeder-und-mini-cooper-in-hannover-linden.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/fahrraeder-und-mini-cooper-in-hannover-linden.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/fahrraeder-und-mini-cooper-in-hannover-linden-480x319.jpg" data-alt="Fahrräder und Mini Cooper in Hannover-Linden">
 <img src="/wp-content/uploads/2009/07/fahrraeder-und-mini-cooper-in-hannover-linden-480x319.jpg" alt="Fahrräder und Mini Cooper in Hannover-Linden">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/fussgaengerueberweg-in-hannover-linden.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/fussgaengerueberweg-in-hannover-linden.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/fussgaengerueberweg-in-hannover-linden-480x319.jpg" data-alt="Fußgängerüberweg in Hannover-Linden">
 <img src="/wp-content/uploads/2009/07/fussgaengerueberweg-in-hannover-linden-480x319.jpg" alt="Fußgängerüberweg in Hannover-Linden">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/stopschild-an-kreuzung-in-hannover-linden.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/stopschild-an-kreuzung-in-hannover-linden.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/stopschild-an-kreuzung-in-hannover-linden-480x319.jpg" data-alt="Stopschild an Kreuzung in Hannover-Linden">
 <img src="/wp-content/uploads/2009/07/stopschild-an-kreuzung-in-hannover-linden-480x319.jpg" alt="Stopschild an Kreuzung in Hannover-Linden">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/wikinger-statue-an-haeuserwand.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/wikinger-statue-an-haeuserwand.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/wikinger-statue-an-haeuserwand-480x319.jpg" data-alt="Wikinger-Statue an Häuserwand">
 <img src="/wp-content/uploads/2009/07/wikinger-statue-an-haeuserwand-480x319.jpg" alt="Wikinger-Statue an Häuserwand">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/zick-zack-linie-auf-asphalt.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/zick-zack-linie-auf-asphalt.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/zick-zack-linie-auf-asphalt-480x319.jpg" data-alt="Zick-Zack-Linie auf Asphalt">
 <img src="/wp-content/uploads/2009/07/zick-zack-linie-auf-asphalt-480x319.jpg" alt="Zick-Zack-Linie auf Asphalt">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/briefkaesten-vor-der-lindener-post.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/briefkaesten-vor-der-lindener-post.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/briefkaesten-vor-der-lindener-post-480x319.jpg" data-alt="Briefkästen vor der Lindener Post">
 <img src="/wp-content/uploads/2009/07/briefkaesten-vor-der-lindener-post-480x319.jpg" alt="Briefkästen vor der Lindener Post">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/muell-auf-der-falkenstrasse-in-hannover-linden.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/muell-auf-der-falkenstrasse-in-hannover-linden.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/muell-auf-der-falkenstrasse-in-hannover-linden-480x319.jpg" data-alt="Müll auf der Falkenstraße in Hannover-Linden">
 <img src="/wp-content/uploads/2009/07/muell-auf-der-falkenstrasse-in-hannover-linden-480x319.jpg" alt="Müll auf der Falkenstraße in Hannover-Linden">
 </noscript>
 </a>
 
-<a href="{{ site.cdnurl }}wp-content/uploads/2009/07/motorroller-vor-der-kneipe-falkeneck-in-hannover-linden.jpg" rel="lightbox">
+<a href="/wp-content/uploads/2009/07/motorroller-vor-der-kneipe-falkeneck-in-hannover-linden.jpg" rel="lightbox">
   <noscript data-src="/wp-content/uploads/2009/07/motorroller-vor-der-kneipe-falkeneck-in-hannover-linden-480x319.jpg" data-alt="Motorroller vor der Kneipe Falkeneck in Hannover-Linden">
 <img src="/wp-content/uploads/2009/07/motorroller-vor-der-kneipe-falkeneck-in-hannover-linden-480x319.jpg" alt="Motorroller vor der Kneipe Falkeneck in Hannover-Linden">
 </noscript>
