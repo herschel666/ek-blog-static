@@ -1,10 +1,9 @@
 const webpack = require('webpack');
-
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
-const isProdEnv = process.env.NODE_ENV === 'production';
-const mode = isProdEnv ? 'production' : 'development';
+
 const watchModeActive = process.argv.includes('--serve');
+const mode = watchModeActive ? 'development' : 'production';
 
 const SOURCE_ASSETS_PATH = path.join(__dirname, '_assets');
 const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'assets');
@@ -54,7 +53,7 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: !isProdEnv,
+              hmr: watchModeActive,
             },
           },
           {
@@ -83,7 +82,7 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              disable: !isProdEnv,
+              disable: watchModeActive,
             },
           },
         ],
@@ -91,7 +90,7 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: isProdEnv,
+    minimize: !watchModeActive,
   },
   plugins,
   mode,

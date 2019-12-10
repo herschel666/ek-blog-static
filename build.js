@@ -24,14 +24,15 @@ const md5 = require('md5');
 const webpackConfig = require('./webpack.config');
 
 const PORT = 8083;
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const WATCH_MODE_ACTIVE = process.argv.includes('--serve');
+const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
 const BASE_URL = IS_PRODUCTION ?
   'https://ekblog.de' :
   'http://localhost:' + PORT;
 const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
   ? `deploy-preview-${process.env.REVIEW_ID}--`
 : '';
-const CDN_URL = IS_PRODUCTION ? `https://${SUBDOMAIN_PREFIX}guard-tiger-28423.netlify.com/` : '/';
+const CDN_URL = IS_PRODUCTION ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/` : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
@@ -45,7 +46,8 @@ const XML_CHAR_MAP = {
   "'": '&apos;'
 };
 
-const watchModeActive = process.argv.includes('--serve');
+process.env.NODE_ENV = IS_PRODUCTION ? 'production' : 'development';
+
 const webpackWatchOptions = {
   ignored: ['_site/**/*', 'node_modules'],
 };
@@ -182,7 +184,7 @@ function prepareFeedContents() {
 }
 
 function serveSite() {
-  if (watchModeActive) {
+  if (WATCH_MODE_ACTIVE) {
     return serve({
       port: PORT
     });
@@ -256,7 +258,7 @@ function runWebpack() {
 
     webpackCompiler = webpack(webpackConfig);
 
-    if (watchModeActive) {
+    if (WATCH_MODE_ACTIVE) {
       console.log('Starting Webpack in "watch"-mode...');
       webpackCompiler.watch(
         webpackWatchOptions,
