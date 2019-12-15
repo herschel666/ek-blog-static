@@ -40,15 +40,4 @@
     <link rel="canonical" href="{{ path | replace('index.html', '') | prepend(site.baseurl + '/') }}">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "/feed.xml" | prepend(site.baseurl) }}">
     <link rel="author" href="https://plus.google.com/+{{ site.google_plus }}/posts">
-    {% if environment == "production" %}
-      <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-1579881-8', 'emanuel-kluge.de');
-          ga('set', 'anonymizeIp', true);
-          ga('send', 'pageview');
-      </script>
-    {% endif %}
 </head>
