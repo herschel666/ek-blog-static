@@ -20,7 +20,7 @@
     "eslint": "6.7.2",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-prettier": "3.1.2",
-    "file-loader": "5.0.2",
+    "file-loader": "5.1.0",
     "image-webpack-loader": "6.0.0",
     "jstransformer-swig": "1.0.0",
     "md5": "2.2.1",
