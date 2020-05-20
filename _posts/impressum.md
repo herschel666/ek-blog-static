@@ -12,7 +12,7 @@ layout: page.swig
         <span class="fn" itemprop="name">Emanuel Kluge</span>
       </li>
       <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span class="street-address" itemprop="streetAddress"><br /> Holländische Reihe 50<br /> </span>
+        <span class="street-address" itemprop="streetAddress"><br /> Eduard-Duckesz-Straße 1a<br /> </span>
       </li>
       <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <span class="adr"><br /> <span class="postal-code" itemprop="postalCode">22765</span> <span class="locality" itemprop="addressLocality">Hamburg</span><br /> </span>
