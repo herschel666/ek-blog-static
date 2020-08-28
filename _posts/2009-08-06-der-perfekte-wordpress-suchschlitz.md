@@ -44,19 +44,19 @@ Ansonsten handelt es sich um ein simples Formular mit einem Eingabefeld und eine
 Als nächstes kommt der JavaScript-Teil, der dafür sorgt, dass das Eingabefeld beim Draufklicken geleert wird und zusätzlich dem Submit-Button die Klasse `submit_active` anhängt, wodurch der Farbwechsel im Schein um den Suchschlitz realisiert wird.
 
 ```javascript
-window.onload = function() {
+window.onload = function () {
   var input = document.getElementById('s');
   var value = document.getElementById('s').value;
   var submit = document.getElementsByName('submit')[0];
 
-  mFocus = function() {
+  mFocus = function () {
     if (this.value == value) {
       this.value = '';
     }
     submit.className = 'submit_active';
   };
 
-  mBlur = function() {
+  mBlur = function () {
     if (this.value == '') {
       this.value = value;
     }

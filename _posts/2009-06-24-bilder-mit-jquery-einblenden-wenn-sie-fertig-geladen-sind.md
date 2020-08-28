@@ -38,9 +38,7 @@ Los geht es mit dem HTML-Teil:
       alt=""
     />
   </a>
-  <a href="…" class="image-frame">
-    …
-  </a>
+  <a href="…" class="image-frame"> … </a>
   …
 </div>
 ```
@@ -51,7 +49,7 @@ Im `<head>`-Bereich der Demo ist außerdem folgender, spannender Schnipsel zu fi
 
 ```html
 <script>
-  (function(e, c) {
+  (function (e, c) {
     e[c] = e[c] + ' js';
   })(document.documentElement, 'className');
 </script>
@@ -62,7 +60,7 @@ Auf diese Weise ist gewährleistet, dass, wenn wir im Stylesheet die Klasse `.js
 Kommen wir nun zum JavaScript-/jQuery-Teil:
 
 ```javascript
-(function(win, $, spinner) {
+(function (win, $, spinner) {
   /*
    * Anmelden der Variable fuer spaetere Nutzung.
    **/
@@ -88,7 +86,7 @@ Kommen wir nun zum JavaScript-/jQuery-Teil:
    * CSS-Transition geregelt.
    **/
   function showImages() {
-    $elems.each(function() {
+    $elems.each(function () {
       var $this = $(this);
 
       $this.find('.spinner').remove();

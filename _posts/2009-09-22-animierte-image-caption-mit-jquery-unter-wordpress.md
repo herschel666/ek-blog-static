@@ -74,7 +74,7 @@ Wichtig hierbei ist die Angabe `overflow: hidden`, da der Caption-Text sonst nic
 Zum Schluss den nötigen JavaScript- bzw. jQuery-Teil, ohne den hier gar nichts läuft:
 
 ```javascript
-(function(win, $) {
+(function (win, $) {
   /*
    * init!
    **/
@@ -101,10 +101,10 @@ Zum Schluss den nötigen JavaScript- bzw. jQuery-Teil, ohne den hier gar nichts 
       captionHeight = $this.find('p').outerHeight();
 
     $this.height(imgHeight).hover(
-      function() {
+      function () {
         $img.css('margin-top', -captionHeight);
       },
-      function() {
+      function () {
         $img.css('margin-top', 0);
       }
     );

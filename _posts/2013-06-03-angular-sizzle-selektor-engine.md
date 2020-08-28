@@ -23,7 +23,7 @@ Das wiederum ist schnell erledigt.
 angular._element = angular.element;
 
 // Ueberschreiben der angular.element-Methode
-angular.element = function(selector) {
+angular.element = function (selector) {
   // ist das uebergebene Argument bereits eine
   // Instanz von angular._element, wird es ohne
   // Umschweife zurueck gegeben.

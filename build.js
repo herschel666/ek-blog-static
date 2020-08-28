@@ -153,7 +153,7 @@ const metalSmithInstance = Metalsmith(__dirname)
 // .use(minifyHtml());
 
 function postDate() {
-  return function(files, metalsmith, done) {
+  return function (files, metalsmith, done) {
     Object.keys(files).forEach((file) => {
       if (FILE_NAME_DATE_RE.test(file)) {
         const date = new Date(FILE_NAME_DATE_RE.exec(file)[0]);
@@ -165,7 +165,7 @@ function postDate() {
 }
 
 function prepareFeedContents() {
-  return function(files, metalsmith, done) {
+  return function (files, metalsmith, done) {
     const metadata = metalsmith.metadata();
     const feedContents = metadata.feed.map((item) => {
       item.excerpt =
@@ -259,7 +259,7 @@ const saveWebpackCompilerResult = (metalsmith, done) => {
 };
 
 function runWebpack() {
-  return function(_, metalsmith, done) {
+  return function (_, metalsmith, done) {
     if (webpackCompiler) {
       return;
     }

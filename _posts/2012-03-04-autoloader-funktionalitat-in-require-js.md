@@ -24,7 +24,7 @@ In diesem Fall wäre es praktischer, mehrere Require.js-Instanzen anzulegen und 
 Dafür wird beim Aufruf der Seite lediglich eine fundamentale Require.js-Instanz aufgerufen, die die global benötigten Skripte &mdash; jQuery, Underscore, Backbone, den jQuery-UI-Core und einen Observer &mdash; laden und einen Backbone-Router initialisieren, der die Autoloader-Funktionalität zur Verfügung stellt.
 
 ```javascript
-require(['jQuery', 'Underscore', 'Backbone', 'Observer'], function(
+require(['jQuery', 'Underscore', 'Backbone', 'Observer'], function (
   $,
   _,
   Backbone,
@@ -35,16 +35,16 @@ require(['jQuery', 'Underscore', 'Backbone', 'Observer'], function(
         ':site/*sub': 'autoLoad',
       },
 
-      initialize: function() {
+      initialize: function () {
         location.hash = location.hash || 'index/';
 
         Backbone.history.start();
       },
 
-      autoLoad: function(site, sub) {
+      autoLoad: function (site, sub) {
         var path = 'sites/' + site + '/app';
 
-        require([path], function(App) {
+        require([path], function (App) {
           App.init({
             subPages: sub,
           });
@@ -60,7 +60,7 @@ Der Router prüft als erstes, ob ein Location-Hash gesetzt ist. Ist dies nicht d
 Das vom Autoloader geladene Skript übergibt eine `init`-Funktion &mdash; dabei kann es sich, je nachdem ob die Seite lediglich statischen Inhalt hat oder tiefergreifende Funktionalität besitzt, entweder um eine Backbone-View- oder eine Backbone-Router-Instanz handeln.
 
 ```javascript
-var init = function() {
+var init = function () {
   return new View();
 };
 
@@ -70,7 +70,7 @@ return {
 ```
 
 ```javascript
-var init = function(args) {
+var init = function (args) {
   return new Router(args);
 };
 
