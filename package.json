@@ -19,7 +19,7 @@
     "css-loader": "3.6.0",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-prettier": "3.1.4",
     "file-loader": "6.0.0",
     "image-webpack-loader": "6.0.0",
     "jstransformer-swig": "1.0.0",
