@@ -49,11 +49,11 @@ Die zu ladene config.js sieht dann folgendermaßen aus:
 var requirejsElem = document.getElementById('requirejs');
 
 require.config({
-  deps: (function() {
+  deps: (function () {
     return [requirejsElem.getAttribute('data-env') + '.main'];
   })(),
 
-  urlArgs: (function() {
+  urlArgs: (function () {
     return !!(requirejsElem.getAttribute('data-devmode') | 0)
       ? 'bust=' + Date.now()
       : '';

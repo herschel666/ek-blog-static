@@ -17,8 +17,8 @@ Verschleiert man seine Email-Adresse, indem man bspw. das @-Zeichen durch "(at)"
 Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse im Quelltext und ein Re-Build der Adresse per Javascript mithilfe eines jQuery-Plugins:
 
 ```javascript
-(function($) {
-  $.fn.obfuscateEmail = function(at, point, addClass) {
+(function ($) {
+  $.fn.obfuscateEmail = function (at, point, addClass) {
     /**
      * Regular Expressions fuer @ und . definieren
      * falls die Argumente gesetzt sind
@@ -35,7 +35,7 @@ Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse i
     return (
       (at &&
         point &&
-        this.each(function() {
+        this.each(function () {
           /**
            * Wenn 'addClass' auf 'true' gesetzt ist,
            * dem Element die Klasse 'js' anhaengen
@@ -84,7 +84,7 @@ Meine Lösung des Problems ist eine Kombination aus Verschleierung der Adresse i
 Angewendet wird das PlugIn folgendermaßen:
 
 ```javascript
-$(document).ready(function() {
+$(document).ready(function () {
   $('span.email').obfuscateEmail('(at)', '(punkt)', true);
 });
 ```

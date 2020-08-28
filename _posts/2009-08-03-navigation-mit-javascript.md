@@ -85,15 +85,15 @@ Die Liste weist vom Styling her keine Abnormalitäten auf, außer, dass durch di
 Nun zum JavaScript-Teil:
 
 ```javascript
-window.onload = function() {
+window.onload = function () {
   var lis = document.getElementById('nav').getElementsByTagName('li');
-  mOver = function() {
+  mOver = function () {
     this.className = 'active';
   };
-  mOut = function() {
+  mOut = function () {
     this.className = '';
   };
-  mClick = function() {
+  mClick = function () {
     location.href = this.getElementsByTagName('a')[0].href;
   };
   for (i = 0; i < lis.length; i++) {

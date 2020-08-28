@@ -51,11 +51,11 @@ Basis ist eine ungeordnete Liste. Der Übersichtlichkeit halber habe ich nur ein
 Als nächstes kommt der jQuery-Teil:
 
 ```javascript
-jQuery(function($) {
+jQuery(function ($) {
   $('body').addClass('js_active');
-  $('#iconbar li').each(function(i) {
+  $('#iconbar li').each(function (i) {
     $(this).hover(
-      function() {
+      function () {
         $('span.s1', this)
           .stop()
           .animate({ left: '-20px' }, { queue: false, duration: 500 });
@@ -69,7 +69,7 @@ jQuery(function($) {
           .stop()
           .animate({ bottom: '-20px' }, { queue: false, duration: 500 });
       },
-      function() {
+      function () {
         $('span.s1', this).animate(
           { left: '0' },
           { queue: false, duration: 500 }

@@ -75,21 +75,17 @@ label {
 Kommen wir nun zum jQuery-Teil:
 
 ```javascript
-jQuery(function($) {
-  $('input').focus(function() {
-    $(this)
-      .parent()
-      .addClass('active');
+jQuery(function ($) {
+  $('input').focus(function () {
+    $(this).parent().addClass('active');
     if (jQuery.browser.webkit || jQuery.browser.msie) {
       $(this).animate({ 'background-position-y': '-28px' }, 500, 'linear');
     } else {
       $(this).animate({ 'background-position': '0 -28px' }, 0, 'linear');
     }
   });
-  $('input').blur(function() {
-    $(this)
-      .parent()
-      .removeClass('active');
+  $('input').blur(function () {
+    $(this).parent().removeClass('active');
     if (jQuery.browser.webkit || jQuery.browser.msie) {
       $(this).animate({ 'background-position-y': '0' }, 500, 'linear');
     } else {

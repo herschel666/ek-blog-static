@@ -19,7 +19,7 @@ Es wird ersichtlich, dass es nicht damit getan ist, die AJAX-Calls hintereinande
 Im folgenden das Pub-Sub-Pattern:
 
 ```javascript
-var mediator = (function() {
+var mediator = (function () {
   function subscribe(channel, fn) {
     if (!mediator.channels[channel]) {
       mediator.channels[channel] = [];
@@ -58,7 +58,7 @@ var mediator = (function() {
     channels: {},
     publish: publish,
     subscribe: subscribe,
-    installTo: function(obj) {
+    installTo: function (obj) {
       obj.subscribe = subscribe;
       obj.publish = publish;
     },
@@ -71,14 +71,14 @@ Auf das Pub-Sub-Pattern möchte ich gar nicht weiter eingehen. Lediglich der Hin
 Kommen wir als nächstes zur _InitialDataloader_-Funktion:
 
 ```javascript
-var InitialDataloader = function(args) {
+var InitialDataloader = function (args) {
   this.args = args;
   this.result = [];
 
   this.init();
 };
 
-InitialDataloader.prototype.init = function() {
+InitialDataloader.prototype.init = function () {
   var i = 0,
     len = this.args.length;
 
@@ -93,15 +93,15 @@ InitialDataloader.prototype.init = function() {
   mediator.publish(this.args[0], this, { path: this.args[0], next: 1 });
 };
 
-InitialDataloader.prototype.load = function(obj) {
+InitialDataloader.prototype.load = function (obj) {
   var that = this,
     deferred = $.ajax({ url: obj.path });
 
-  deferred.success(function(resp) {
+  deferred.success(function (resp) {
     that.result.push('Data' + obj.next + ' loaded');
   });
 
-  deferred.then(function(resp) {
+  deferred.then(function (resp) {
     if (obj.next === that.args.length) {
       console.log(that.result);
     } else {

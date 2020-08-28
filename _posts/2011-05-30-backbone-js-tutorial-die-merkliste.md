@@ -83,8 +83,8 @@ window.ListCollection = Backbone.Collection.extend({
 
   localStorage: new Store('List'),
 
-  getByCategory: function(category) {
-    return this.filter(function(item) {
+  getByCategory: function (category) {
+    return this.filter(function (item) {
       return item.get('category') == category;
     });
   },
@@ -111,8 +111,8 @@ window.ListController = Backbone.Controller.extend({
     '/category/:category': 'getItems',
   },
 
-  initialize: function() {
-    this._navModel.each(function(item, i) {
+  initialize: function () {
+    this._navModel.each(function (item, i) {
       this._navViews[i] = new NavigationView({
         model: item,
       });
@@ -121,11 +121,11 @@ window.ListController = Backbone.Controller.extend({
     Backbone.history.start();
   },
 
-  init: function() {
+  init: function () {
     window.location.hash = '/category/Filme';
   },
 
-  getItems: function(category) {
+  getItems: function (category) {
     for (view in this._navViews) {
       this._navViews[view].render().setClass();
     }
@@ -218,15 +218,15 @@ window.ListItemView = Backbone.View.extend({
     'click .delete_item': 'removeItem',
   },
 
-  render: function() {
+  render: function () {
     $(this.el).html(this.tmpl(this.model.toJSON()));
 
     return this;
   },
 
-  removeItem: function() {
+  removeItem: function () {
     this.model.destroy();
-    $(this.el).fadeOut(function() {
+    $(this.el).fadeOut(function () {
       $(this).remove();
     });
   },
@@ -243,26 +243,20 @@ window.NavigationView = Backbone.View.extend({
 
   tmpl: _.template($('#nav-template').html()),
 
-  hash: function() {
+  hash: function () {
     return window.location.hash.replace('#/category/', '');
   },
 
-  render: function() {
+  render: function () {
     $('#nav').append($(this.el).html(this.tmpl(this.model.toJSON())));
 
     return this;
   },
 
-  setClass: function() {
+  setClass: function () {
     var curHash = this.hash();
 
-    this.el.className =
-      curHash ==
-      $(this.el)
-        .find('a')
-        .text()
-        ? 'current'
-        : '';
+    this.el.className = curHash == $(this.el).find('a').text() ? 'current' : '';
   },
 });
 ```

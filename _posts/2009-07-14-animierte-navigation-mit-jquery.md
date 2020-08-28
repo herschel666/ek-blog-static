@@ -103,16 +103,16 @@ Als nächstes kommen wir zum JavaScript-Teil:
 
 ```javascript
 if (navigator.appName != 'Microsoft Internet Explorer') {
-  $(function() {
+  $(function () {
     $('li')
       .filter('[class=]')
       .hover(
-        function() {
+        function () {
           $('a', this)
             .animate({ marginTop: '11px', color: '#CFF' }, 200)
             .animate({ borderBottom: '1px solid #FFF' }, 1);
         },
-        function() {
+        function () {
           $('a', this)
             .animate({ borderBottom: '1px solid #333' }, 1)
             .animate({ marginTop: '0', color: '#EEE' }, 200);

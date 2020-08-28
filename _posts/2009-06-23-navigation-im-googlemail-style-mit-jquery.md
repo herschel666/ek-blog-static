@@ -37,14 +37,14 @@ Summa sumarum müssen also 5 Tags hinzugefügt werden, um den grafischen Effekt 
 Hier nun die benötigten JavaScript-Angaben:
 
 ```javascript
-$(document).ready(function() {
+$(document).ready(function () {
   var start =
     '<span class="layer_1"><span class="layer_2"></span><span class="layer_3"></span><span class="layer_4">';
   var middle = '</span><span class="layer_5">';
   var end = '</span></span>';
 
   var item = new Array();
-  $('.navigation li a').each(function() {
+  $('.navigation li a').each(function () {
     item.push(this.innerHTML);
     for (i = 0; i < item.length; i++) {
       $(this).html(start + item[i] + middle + item[i] + end);

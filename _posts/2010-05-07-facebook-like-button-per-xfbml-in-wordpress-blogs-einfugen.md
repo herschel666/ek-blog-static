@@ -49,7 +49,7 @@ Als nächstes binden wir den nötigen JavaScript-Kram im Fußbereich ein:
   type="text/javascript"
 ></script>
 <script type="text/javascript">
-  window.fbAsyncInit = function() {
+  window.fbAsyncInit = function () {
     FB.init({ appId: 'eure_app_id', status: true, cookie: true, xfbml: true });
   };
 </script>

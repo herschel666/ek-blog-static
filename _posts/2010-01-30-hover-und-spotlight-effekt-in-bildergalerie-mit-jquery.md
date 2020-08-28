@@ -102,35 +102,20 @@ Kleine Anmerkung dazu: Wenn JavaScript im Browser aktiviert ist, wird die Klasse
 Schlussendlich der jQuery-Teil:
 
 ```javascript
-jQuery(function($) {
+jQuery(function ($) {
   $('body').removeClass('no-js');
   var image = $('a.image');
   var html = '<span class="layer1"></span><span class="layer2"></span>';
-  image
-    .append(html)
-    .find('span')
-    .css('opacity', '0');
-  image.each(function() {
+  image.append(html).find('span').css('opacity', '0');
+  image.each(function () {
     $(this).hover(
-      function() {
-        $('span.layer1', this)
-          .stop()
-          .fadeTo(800, 1);
-        $(this)
-          .siblings()
-          .find('span.layer2')
-          .stop()
-          .fadeTo(800, 0.5);
+      function () {
+        $('span.layer1', this).stop().fadeTo(800, 1);
+        $(this).siblings().find('span.layer2').stop().fadeTo(800, 0.5);
       },
-      function() {
-        $('span.layer1', this)
-          .stop()
-          .fadeTo(800, 0);
-        $(this)
-          .siblings()
-          .find('span.layer2')
-          .stop()
-          .fadeTo(800, 0);
+      function () {
+        $('span.layer1', this).stop().fadeTo(800, 0);
+        $(this).siblings().find('span.layer2').stop().fadeTo(800, 0);
       }
     );
   });
