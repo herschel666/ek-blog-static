@@ -48,7 +48,7 @@
     "webpack": "4.44.1"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint --fix --ignore-path .gitignore .",
     "prebuild": "rm -rf ./_site",
     "build": "node ./build",
     "serve": "npm run build -- --serve",
