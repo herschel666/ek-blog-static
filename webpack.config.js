@@ -10,7 +10,7 @@ const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'assets');
 
 const plugins = [
   new MiniCssExtractPlugin({
-    filename: watchModeActive ? '[name].css' : '[name].[hash].css',
+    filename: watchModeActive ? '[name].css' : '[name].[chunkhash].css',
     chunkFilename: '[id].css',
     ignoreOrder: false, // Enable to remove warnings about conflicting order
   }),
@@ -27,7 +27,7 @@ module.exports = {
   output: {
     path: OUTPUT_ASSETS_PATH,
     publicPath: './',
-    filename: watchModeActive ? '[name].js' : '[name].[hash].js',
+    filename: watchModeActive ? '[name].js' : '[name].[chunkhash].js',
   },
   module: {
     rules: [
