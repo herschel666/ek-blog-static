@@ -217,7 +217,7 @@ const handleWebpackIssues = (done) => (err, stats) => {
   }
 
   if (stats.hasWarnings()) {
-    console.warn(info.warnings);
+    console.warn(stats.toString());
   }
 };
 
