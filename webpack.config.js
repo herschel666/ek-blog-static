@@ -49,9 +49,7 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: watchModeActive,
-            },
+            options: {},
           },
           {
             loader: 'css-loader',
