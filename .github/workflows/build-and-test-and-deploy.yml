@@ -25,5 +25,5 @@ jobs:
       - name: Build & test the application
         run: |
           npm ci
-          npm run lint
+          npm run test
           npm run build

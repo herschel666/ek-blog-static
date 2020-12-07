@@ -48,11 +48,15 @@
     "webpack": "5.10.1"
   },
   "scripts": {
-    "lint": "eslint --fix --ignore-path .gitignore .",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
     "prebuild": "rm -rf ./_site",
     "build": "node ./build",
     "serve": "npm run build -- --serve",
-    "fmt": "prettier --config ./.prettierrc --ignore-path ./.prettierignore --write \"**/**.{js,md,scss}\""
+    "fmt": "prettier --config ./.prettierrc --ignore-path ./.prettierignore \"**/**.{js,md,scss}\"",
+    "fmt:check": "npm run fmt -- --check",
+    "fmt:write": "npm run fmt -- --write",
+    "test": "npm run fmt:check && npm run lint"
   },
   "repository": {
     "type": "git",
