@@ -45,7 +45,7 @@
     "sass-loader": "10.1.0",
     "style-loader": "2.0.0",
     "url-loader": "4.1.1",
-    "webpack": "5.12.2"
+    "webpack": "5.12.3"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
