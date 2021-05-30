@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/archive/assets/*.(js|css|map)"
+
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=31536000,
+    immutable'''
+
+[[headers]]
+  for = "/assets/*"
+
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
