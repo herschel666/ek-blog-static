@@ -40,7 +40,7 @@ const FILE_NAME_DATE_RE = /^(\d{4}-\d{2}-\d{2})/;
 process.env.NODE_ENV = IS_PRODUCTION ? 'production' : 'development';
 
 const webpackWatchOptions = {
-  ignored: ['_site/**/*', 'node_modules'],
+  ignored: ['_site/**/*', 'node_modules', '.github'],
 };
 
 let webpackCompiler;
