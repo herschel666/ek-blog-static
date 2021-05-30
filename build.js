@@ -28,9 +28,7 @@ const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
 const BASE_URL = IS_PRODUCTION
   ? 'https://ekblog.de'
   : 'http://localhost:' + PORT;
-const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
-  ? `deploy-preview-${process.env.REVIEW_ID}--`
-  : '';
+const SUBDOMAIN_PREFIX = process.env.GITHUB_REF || '';
 const CDN_URL = IS_PRODUCTION
   ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/`
   : '/';
