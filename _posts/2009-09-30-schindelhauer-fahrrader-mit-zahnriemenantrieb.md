@@ -7,8 +7,8 @@ categories:
   - Off-Topic
 ---
 
-<noscript data-src="/wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb\_-\_viktor-fixed-gear.jpg" data-alt="Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear">
-<img src="/wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb\_-\_viktor-fixed-gear.jpg" alt="Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear">
+<noscript data-src="/archive/wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb\_-\_viktor-fixed-gear.jpg" data-alt="Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear">
+<img src="/archive/wp-content/uploads/2009/09/schindelhauer-fahrrad-mit-zahnriemenantrieb\_-\_viktor-fixed-gear.jpg" alt="Schindelhauer &mdash; Fahrrad mit Zahnriemenantrieb &mdash; Viktor &mdash; Fixed-Gear">
 </noscript>
 
 Aus meiner Heimatstadt Magdeburg kommt die kleine Fahrrad-Manufaktur [Schindelhauer][zahnriemenfahrrad], die sich auf den Bau von Fahrrädern mit Zahnriemenantrieb verlegt hat. Das ist grundsätzlich keine schlechte Idee, da Zahnriemen im Vergleich zu normalen Ketten effizienter, leichter und weniger pflegebedürftig sind.

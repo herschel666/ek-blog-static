@@ -11,8 +11,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/wp-content/uploads/2012/03/requirejs-autoloader.jpg" data-alt="Require.js-Autoloader">
-<img src="/wp-content/uploads/2012/03/requirejs-autoloader.jpg" alt="Require.js-Autoloader">
+<noscript data-src="/archive/wp-content/uploads/2012/03/requirejs-autoloader.jpg" data-alt="Require.js-Autoloader">
+<img src="/archive/wp-content/uploads/2012/03/requirejs-autoloader.jpg" alt="Require.js-Autoloader">
 </noscript>
 
 _[Demo][demo] | [Download][zip]_

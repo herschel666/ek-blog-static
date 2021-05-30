@@ -8,8 +8,8 @@ categories:
   - Tips und Tricks
 ---
 
-<noscript data-src="/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" data-alt="Weichgezeichnete Schrift mit CSS3">
-<img src="/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" alt="Weichgezeichnete Schrift mit CSS3">
+<noscript data-src="/archive/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" data-alt="Weichgezeichnete Schrift mit CSS3">
+<img src="/archive/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.jpg" alt="Weichgezeichnete Schrift mit CSS3">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -71,4 +71,4 @@ Indem man die X- und Y-Offset-Werte bei `text-shadow` gleich Null setzt, entsteh
 Da es sich um eine CSS3-Spielerei handelt, braucht man zur Darstellung einen modernen Browser, wie Safari 4, Firefox 3.5, Opera 10 oder Chrome. Im Internet Explorer geht das ganze wie erwartet nicht, was aber kein Weltuntergang ist, da die Funktion der Seite ansich dadurch nicht beeinträchtigt wird.
 
 [demo]: http://www.emanuel-kluge.de/demo/weichgezeichnete-schrift-mit-css3/
-[download]: /wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip
+[download]: /archive/wp-content/uploads/2009/11/weichgezeichnete-schrift-mit-css3.zip

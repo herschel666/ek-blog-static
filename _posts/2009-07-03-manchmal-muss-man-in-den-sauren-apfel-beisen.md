@@ -7,8 +7,8 @@ categories:
   - Überlegungen
 ---
 
-<noscript data-src="/wp-content/uploads/2009/07/apple-computer-210x157.jpg" data-alt="apple — computer">
-<img src="/wp-content/uploads/2009/07/apple-computer-210x157.jpg" alt="apple — computer">
+<noscript data-src="/archive/wp-content/uploads/2009/07/apple-computer-210x157.jpg" data-alt="apple — computer">
+<img src="/archive/wp-content/uploads/2009/07/apple-computer-210x157.jpg" alt="apple — computer">
 </noscript>  
 <small>*[Apple II][flickr] unter [CC][cc]-Lizenz*</small>
 

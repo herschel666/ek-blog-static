@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
@@ -6,7 +5,7 @@ const watchModeActive = process.argv.includes('--serve');
 const mode = watchModeActive ? 'development' : 'production';
 
 const SOURCE_ASSETS_PATH = path.join(__dirname, '_assets');
-const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'assets');
+const OUTPUT_ASSETS_PATH = path.join(__dirname, '_site', 'archive', 'assets');
 
 const plugins = [
   new MiniCssExtractPlugin({

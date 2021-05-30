@@ -10,8 +10,8 @@ categories:
   - WordPress
 ---
 
-<noscript data-src="/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" data-alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
-<img src="/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
+<noscript data-src="/archive/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" data-alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
+<img src="/archive/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.jpg" alt="Der &quot;perfekte&quot; WordPress-Suchschlitz">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -160,6 +160,6 @@ In diesem Sinne viel Spaß damit und bei Fragen immer ran an die Kommentar-Funkt
 Ich habe im JavaScript-Teil zwei Ergänzungen bei der `mFocus`- und der `mBlur`-Funktion vorgenommen. Bevor der Inhalt des Eingabefeldes automatisch gelöscht oder mit dem Wert "Suche …" aufgefüllt wird, findet eine Abfrage statt. So wird verhindert, dass das vom Nutzer eingegebene Suchwort nach dem Klicken außerhalb des Eingabefeldes verschwindet.
 
 [demo]: http://www.emanuel-kluge.de/demo/der-perfekte-wordpress-suchschlitz/
-[download]: /wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.zip
+[download]: /archive/wp-content/uploads/2009/08/der-perfekte-wordpress-suchschlitz.zip
 [barrierefreier]: /html-css/barrierefreier-button-mit-text-replacement/
 [explorer]: /html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen
