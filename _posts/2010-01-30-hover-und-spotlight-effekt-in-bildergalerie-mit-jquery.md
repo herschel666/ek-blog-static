@@ -10,8 +10,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/wp-content/uploads/2010/01/hover-und-spotlight-effekt.jpg" data-alt="Hover-und-Spotlight-Effekt in Bildergalerie mit jQuery">
-<img src="/wp-content/uploads/2010/01/hover-und-spotlight-effekt.jpg" alt="Hover-und-Spotlight-Effekt in Bildergalerie mit jQuery">
+<noscript data-src="/archive/wp-content/uploads/2010/01/hover-und-spotlight-effekt.jpg" data-alt="Hover-und-Spotlight-Effekt in Bildergalerie mit jQuery">
+<img src="/archive/wp-content/uploads/2010/01/hover-und-spotlight-effekt.jpg" alt="Hover-und-Spotlight-Effekt in Bildergalerie mit jQuery">
 </noscript>
 
 _[Demo][demo] | [Download][download]_

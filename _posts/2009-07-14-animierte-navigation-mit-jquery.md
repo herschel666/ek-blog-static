@@ -10,8 +10,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png" data-alt="Animierte Navigation mit jQuery">
-<img src="/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png" alt="Animierte Navigation mit jQuery">
+<noscript data-src="/archive/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png" data-alt="Animierte Navigation mit jQuery">
+<img src="/archive/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.png" alt="Animierte Navigation mit jQuery">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -152,4 +152,4 @@ Zum Schluss bauen wir noch die entsprechenden Style-Angaben ein, um die Navigati
 Fertig ist die animierte Navigation mit jQuery. Oben findet ihr den Link zu den Dateien. Bei Fragen oder Anregungen freue ich mich wie immer über einen Kommentar.
 
 [demo]: http://www.emanuel-kluge.de/demo/animierte-navigation-mit-jquery/
-[download]: /wp-content/uploads/2009/07/animierte-navigation-mit-jquery.zip
+[download]: /archive/wp-content/uploads/2009/07/animierte-navigation-mit-jquery.zip

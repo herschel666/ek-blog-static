@@ -2,8 +2,8 @@
   <div class="ek-main-footer__inner">
     &copy; {{ site.time | date('Y') }} |
     Emanuel Kluge |
-    <a href="/impressum/">Impressum</a> |
-    <a href="/datenschutzerklaerung/">Datenschutzerklärung</a> |
+    <a href="/archive/impressum/">Impressum</a> |
+    <a href="/archive/datenschutzerklaerung/">Datenschutzerklärung</a> |
     <abbr title="Really Simple Syndication"><a href="{{ "/feed.xml" | prepend(site.baseurl) }}" title="RSS-Feed abonnieren">RSS</a></abbr> |
     Powered by <a href="https://www.metalsmith.io/" rel="nofollow">Metalsmith</a>
   </div>

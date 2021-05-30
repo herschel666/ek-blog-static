@@ -7,8 +7,8 @@ categories:
   - Marketing
 ---
 
-<noscript data-src="/wp-content/uploads/2012/11/brigitte-skateboard-artikel.png" data-alt="Brigitte.de &mdash; Skateboard-Artikel">
-<img src="/wp-content/uploads/2012/11/brigitte-skateboard-artikel.png" alt="Brigitte.de &mdash; Skateboard-Artikel">
+<noscript data-src="/archive/wp-content/uploads/2012/11/brigitte-skateboard-artikel.png" data-alt="Brigitte.de &mdash; Skateboard-Artikel">
+<img src="/archive/wp-content/uploads/2012/11/brigitte-skateboard-artikel.png" alt="Brigitte.de &mdash; Skateboard-Artikel">
 </noscript>
 
 Auf dem [ConventionCamp][conventioncamp] in der Session "We survived the Shitstorm" habe ich gelernt, dass man einen Shitstorm auch als Socialstorm bezeichnen kann. Das ist dann neutraler. Die Kollegen von Brigitte.de waren scheinbar nicht in besagter Session, in der zwei Vertreter von Continental und Jack Wolfskin ihre Erfahrungen mit Socialstorms teilten und darlegten, was damals falsch gemacht wurde.

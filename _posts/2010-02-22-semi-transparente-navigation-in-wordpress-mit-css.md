@@ -10,8 +10,8 @@ categories:
   - WordPress
 ---
 
-<noscript data-src="/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" data-alt="Semi-transparente Navigation in WordPress mit CSS">
-<img src="/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" alt="Semi-transparente Navigation in WordPress mit CSS">
+<noscript data-src="/archive/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" data-alt="Semi-transparente Navigation in WordPress mit CSS">
+<img src="/archive/wp-content/uploads/2010/02/semi-transparente-navigation-in-wordpress-mit-css.jpg" alt="Semi-transparente Navigation in WordPress mit CSS">
 </noscript>
 
 _[Demo][demo] | [Download][download]_

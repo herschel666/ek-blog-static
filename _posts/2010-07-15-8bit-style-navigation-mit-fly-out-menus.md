@@ -12,8 +12,8 @@ categories:
 
 Heute möchte ich kurz zeigen, wie man mit etwas **HTML**, **CSS** und ein paar kleinen GIF-Grafiken eine pixelige Seiten-Navigation im 8Bit-Stil baut. Außerdem benutzen wir etwas jQuery-Magic, um der Navigation noch Fly-Out-Menus zu spendieren.
 
-<noscript data-src="/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif" data-alt="8Bit-Style-Navigation mit Fly-Out-Menus">
-<img src="/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif" alt="8Bit-Style-Navigation mit Fly-Out-Menus">
+<noscript data-src="/archive/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif" data-alt="8Bit-Style-Navigation mit Fly-Out-Menus">
+<img src="/archive/wp-content/uploads/2010/07/8bit-style-navigation-mit-fly-out-menus.gif" alt="8Bit-Style-Navigation mit Fly-Out-Menus">
 </noscript>
 
 _[Demo][demo] | [Download][download]_

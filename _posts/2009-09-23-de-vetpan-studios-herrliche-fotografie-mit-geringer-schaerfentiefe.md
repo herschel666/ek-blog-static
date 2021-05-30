@@ -10,22 +10,22 @@ categories:
 Hinter [De Vetpan Studios][devetpan] steckt Siebe Warmoeskerken, ein 21-jähriger Möbelbauer aus den Niederlanden. Seine Seite wurde neulich schon vom [Stylespion][stylespion] und auf dem [ignant-blog][ignant] erwähnt, doch sind die Fotos so gut, dass ich selbst auch darüber berichten muss.
 
 <a href="http://www.flickr.com/photos/swarmoeskerken/3643252591/">
-  <noscript data-src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_new-york.jpg" data-alt="De Vetpan Studios &mdash; New York">
-<img src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_new-york.jpg" alt="De Vetpan Studios &mdash; New York">
+  <noscript data-src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_new-york.jpg" data-alt="De Vetpan Studios &mdash; New York">
+<img src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_new-york.jpg" alt="De Vetpan Studios &mdash; New York">
 </noscript>
 </a>
 
 Siebe Warmoeskerken scheint es zu lieben, die Blende so weit wie möglich aufzureißen. Folglich zeichnen sich seine Bilder durch butterweiche Bokehs und geringe Schärfentiefe aus. Doch auch die Farben sind ganz ausgezeichnet.
 
 <a href="http://www.flickr.com/photos/swarmoeskerken/3395274990/">
-  <noscript data-src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_kaffee-und-kekse.jpg" data-alt="De Vetpan Studios &mdash; Kaffee und Kekse">
-<img src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_kaffee-und-kekse.jpg" alt="De Vetpan Studios &mdash; Kaffee und Kekse">
+  <noscript data-src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_kaffee-und-kekse.jpg" data-alt="De Vetpan Studios &mdash; Kaffee und Kekse">
+<img src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_kaffee-und-kekse.jpg" alt="De Vetpan Studios &mdash; Kaffee und Kekse">
 </noscript>
 </a>
 
 <a href="http://www.flickr.com/photos/swarmoeskerken/3933280471/">
-  <noscript data-src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_motorrad.jpg" data-alt="De Vetpan Studios &mdash; Motorrad">
-<img src="/wp-content/uploads/2009/09/de-vetpan-studios\_-\_motorrad.jpg" alt="De Vetpan Studios &mdash; Motorrad">
+  <noscript data-src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_motorrad.jpg" data-alt="De Vetpan Studios &mdash; Motorrad">
+<img src="/archive/wp-content/uploads/2009/09/de-vetpan-studios\_-\_motorrad.jpg" alt="De Vetpan Studios &mdash; Motorrad">
 </noscript>
 </a>
 

@@ -10,8 +10,8 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 ## Verantwortlicher
 
 Emanuel Kluge  
-Bahrenfelder Chaussee 96b  
-22761 Hamburg  
+Eduard-Duckesz-Straße 1a  
+22765 Hamburg  
 mail@emanuel-kluge.de
 
 ## Arten der verarbeiteten Daten:

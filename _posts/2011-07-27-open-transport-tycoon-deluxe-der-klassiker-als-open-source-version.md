@@ -7,8 +7,8 @@ categories:
   - Off-Topic
 ---
 
-<noscript data-src="/wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg" data-alt="Screenshot &mdash; Open Transport Tycoon Deluxe">
-<img src="/wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg" alt="Screenshot &mdash; Open Transport Tycoon Deluxe">
+<noscript data-src="/archive/wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg" data-alt="Screenshot &mdash; Open Transport Tycoon Deluxe">
+<img src="/archive/wp-content/uploads/2011/07/open-transport-tycoon-deluxe-480x280.jpg" alt="Screenshot &mdash; Open Transport Tycoon Deluxe">
 </noscript>
 
 Ich weiß nicht, wie oft ich mich schon darüber beschwert habe, dass es den Klassiker "Transport Tycoon Deluxe" nicht mehr gibt und scheinbar vergleichbare Spiele heutzutage nicht mehr entwickelt habe. In meiner Jugend habe ich einen gewissen Teil meiner Zeit in dieses Spiel investiert und neben "Civilization", "Sim City 2000" und "Die Siedler" ist es definitiv einer meiner Alltime-Favorites. Auch wenn ich sonst kein großer Gamer bin.

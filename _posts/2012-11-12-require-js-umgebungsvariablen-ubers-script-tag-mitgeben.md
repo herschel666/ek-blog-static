@@ -8,8 +8,8 @@ categories:
   - Tips und Tricks
 ---
 
-<noscript data-src="/wp-content/uploads/2012/11/requirejs.jpg" data-alt="Require.js">
-<img src="/wp-content/uploads/2012/11/requirejs.jpg" alt="Require.js">
+<noscript data-src="/archive/wp-content/uploads/2012/11/requirejs.jpg" data-alt="Require.js">
+<img src="/archive/wp-content/uploads/2012/11/requirejs.jpg" alt="Require.js">
 </noscript>
 
 Angenommen man lädt mit seine JavaScript-Dateien mit [Require.js][requirejs], wobei man über das `data-main`-Attribut die Require.js-Konfiguration anspricht und innerhalb dieser mithilfe der `deps`-Eigenschaft die weiteren benötigten Dateien anmeldet. Hat man nun keine klassiche "Single-page App", sondern mehrere Unterseiten, auf welchen man unterschiedliche Funktionalitäten anbieten möchte, hat man drei Möglichkeiten:

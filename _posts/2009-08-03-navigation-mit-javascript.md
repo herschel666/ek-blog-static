@@ -9,8 +9,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" data-alt="Navigation mit JavaScript">
-<img src="/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" alt="Navigation mit JavaScript">
+<noscript data-src="/archive/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" data-alt="Navigation mit JavaScript">
+<img src="/archive/wp-content/uploads/2009/08/navigation-mit-javascript.jpg" alt="Navigation mit JavaScript">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -113,4 +113,4 @@ Dadurch erklärt sich auch die Angabe `cursor: pointer;` für `<li>`-Elemente im
 Nachdem die Funktionen für die Maus-Events aufgestellt sind, werden sie in einer `for`-Schleife zugewiesen. Fertig ist die Navigation mit eingeblendeter Info. Wie immer könnt ihr euch die nötigen Dateien runterladen. Viel Spaß!
 
 [demo]: http://www.emanuel-kluge.de/demo/navigation-mit-javascript/
-[download]: /wp-content/uploads/2009/08/navigation-mit-javascript.zip
+[download]: /archive/wp-content/uploads/2009/08/navigation-mit-javascript.zip

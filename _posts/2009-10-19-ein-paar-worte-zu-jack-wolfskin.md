@@ -8,8 +8,8 @@ categories:
   - Überlegungen
 ---
 
-<noscript data-src="/wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg" data-alt="Jack Wolfskin-Logo entfernen">
-<img src="/wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg" alt="Jack Wolfskin-Logo entfernen">
+<noscript data-src="/archive/wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg" data-alt="Jack Wolfskin-Logo entfernen">
+<img src="/archive/wp-content/uploads/2009/10/jack-wolfskin-logo-entfernen.jpg" alt="Jack Wolfskin-Logo entfernen">
 </noscript>  
 <small>*[Removing Jack Wolfskin Logo][intro_img_source] unter [Creative Commons][intro_img_license]-Lizenz*</small>
 

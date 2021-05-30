@@ -7,8 +7,8 @@ categories:
   - Apple
 ---
 
-<noscript data-src="/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" data-alt="Rotten Apple">
-<img src="/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" alt="Rotten Apple">
+<noscript data-src="/archive/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" data-alt="Rotten Apple">
+<img src="/archive/wp-content/uploads/2012/08/rotten-apple-480x295.jpg" alt="Rotten Apple">
 </noscript>  
 <small>*[En mans rester; en annan flugas hem][image_src] von [krissen][credits] und [CC][cc]-Lizenz*</small>
 
