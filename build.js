@@ -28,29 +28,19 @@ const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
 const BASE_URL = IS_PRODUCTION
   ? 'https://ekblog.de'
   : 'http://localhost:' + PORT;
-const SUBDOMAIN_PREFIX = process.env.REVIEW_ID
-  ? `deploy-preview-${process.env.REVIEW_ID}--`
-  : '';
+const SUBDOMAIN_PREFIX = process.env.BRANCH ? `${process.env.BRANCH}--` : '';
 const CDN_URL = IS_PRODUCTION
-  ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/`
+  ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.app/`
   : '/';
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
-const SOURCE_ASSETS = path.join(__dirname, '_assets');
 const FILE_NAME_DATE_RE = /^(\d{4}-\d{2}-\d{2})/;
-const XML_CHAR_MAP = {
-  '<': '&lt;',
-  '>': '&gt;',
-  '&': '&amp;',
-  '"': '&quot;',
-  "'": '&apos;',
-};
 
 process.env.NODE_ENV = IS_PRODUCTION ? 'production' : 'development';
 
 const webpackWatchOptions = {
-  ignored: ['_site/**/*', 'node_modules'],
+  ignored: ['_site/**/*', 'node_modules', '.github'],
 };
 
 let webpackCompiler;
@@ -71,7 +61,7 @@ const metalSmithInstance = Metalsmith(__dirname)
       cdnurl: CDN_URL,
       time: new Date(),
     },
-    build_str: process.env.TRAVIS_COMMIT || Date.now(),
+    build_str: process.env.GITHUB_SHA || Date.now(),
     environment: process.env.NODE_ENV,
   })
   .use(runWebpack())
@@ -150,10 +140,9 @@ const metalSmithInstance = Metalsmith(__dirname)
     })
   )
   .use(serveSite());
-// .use(minifyHtml());
 
 function postDate() {
-  return function (files, metalsmith, done) {
+  return function (files, _, done) {
     Object.keys(files).forEach((file) => {
       if (FILE_NAME_DATE_RE.test(file)) {
         const date = new Date(FILE_NAME_DATE_RE.exec(file)[0]);
@@ -165,7 +154,7 @@ function postDate() {
 }
 
 function prepareFeedContents() {
-  return function (files, metalsmith, done) {
+  return function (_, metalsmith, done) {
     const metadata = metalsmith.metadata();
     const feedContents = metadata.feed.map((item) => {
       item.excerpt =
@@ -191,15 +180,6 @@ function serveSite() {
   if (WATCH_MODE_ACTIVE) {
     return serve({
       port: PORT,
-    });
-  }
-  return noopPlugin();
-}
-
-function minifyHtml() {
-  if (IS_PRODUCTION) {
-    return htmlMinifier({
-      minifyJS: true,
     });
   }
   return noopPlugin();
