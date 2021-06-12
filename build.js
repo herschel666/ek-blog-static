@@ -35,7 +35,15 @@ const CDN_URL = IS_PRODUCTION
 const SOURCE = path.join(__dirname, '_posts');
 const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
+const SOURCE_ASSETS = path.join(__dirname, '_assets');
 const FILE_NAME_DATE_RE = /^(\d{4}-\d{2}-\d{2})/;
+const XML_CHAR_MAP = {
+  '<': '&lt;',
+  '>': '&gt;',
+  '&': '&amp;',
+  '"': '&quot;',
+  "'": '&apos;',
+};
 
 process.env.NODE_ENV = IS_PRODUCTION ? 'production' : 'development';
 
