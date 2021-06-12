@@ -26,7 +26,7 @@ const PORT = 8083;
 const WATCH_MODE_ACTIVE = process.argv.includes('--serve');
 const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
 const BASE_URL = IS_PRODUCTION
-  ? 'https://ekblog.de'
+  ? 'https://archive.ekblog.de'
   : 'http://localhost:' + PORT;
 const SUBDOMAIN_PREFIX = process.env.BRANCH ? `${process.env.BRANCH}--` : '';
 const CDN_URL = IS_PRODUCTION
