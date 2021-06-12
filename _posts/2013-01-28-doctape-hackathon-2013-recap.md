@@ -10,8 +10,8 @@ categories:
 
 Das Wochenende um den 19./20. Januar 2013 hatten die Kollegen von [Doctape][doctape] zum Hackathon geladen. Anlass der Veranstaltung &mdash; falls es zum Hacken einen Anlass braucht &mdash; war der [Launch des Doctape-API][doctape_blogpost], welche von den anwesenden Codern auf Herz und Nieren getestet werden sollte. Als Veranstaltungsort wurde das [Co-Working-Space EDELSTALL][edelstall] gewählt, da es zum einen die nötige Infrastruktur für den Anlass bot und zum anderen die Doctape-Büros beherbergt.
 
-<noscript data-src="/archive/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" data-alt="doctape-Hackathon | Hannover 2013">
-<img src="/archive/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" alt="doctape-Hackathon | Hannover 2013">
+<noscript data-src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" data-alt="doctape-Hackathon | Hannover 2013">
+<img src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-01-480x320.jpg" alt="doctape-Hackathon | Hannover 2013">
 </noscript>  
 <small>*Photo by [Nicolas Hafele][img_copyright]*</small>
 
@@ -19,8 +19,8 @@ Los ging es Freitag abend mit einer Präsentation des Unternehmens und der Veran
 
 Ich selbst ließ es am Freitag bei der erfolgreichen Authentifizierung bewenden und trat um 00:30 Uhr den Heimweg an. Einige waren jedoch schon im Flow und blieben teilweise bis 04:00 Uhr morgens.
 
-<noscript data-src="/archive/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" data-alt="Doctape-Hackathon | Hannover 2013">
-<img src="/archive/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" alt="Doctape-Hackathon | Hannover 2013">
+<noscript data-src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" data-alt="Doctape-Hackathon | Hannover 2013">
+<img src="/wp-content/uploads/2013/01/doctape-hackathon-hannover-02-480x320.jpg" alt="Doctape-Hackathon | Hannover 2013">
 </noscript>  
 <small>*Photo by [Nicolas Hafele][img_copyright]*</small>
 

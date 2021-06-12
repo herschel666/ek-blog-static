@@ -29,8 +29,6 @@ jobs:
             ${{ runner.os }}-
 
       - name: Build & test the application
-        env:
-          BRANCH: ${{ github.head_ref }}
         run: |
           npm ci
           npm run test
@@ -45,8 +43,6 @@ jobs:
           deploy-message: 'Deploy from herschel666/ek-blog-static'
           enable-pull-request-comment: false
           enable-commit-comment: false
-          netlify-config-path: ./netlify.toml
-          alias: ${{ github.head_ref }}
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

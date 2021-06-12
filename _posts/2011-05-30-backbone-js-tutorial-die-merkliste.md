@@ -11,8 +11,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2011/05/backbone.png" data-alt="Backbone.js-Tutorial">
-<img src="/archive/wp-content/uploads/2011/05/backbone.png" alt="Backbone.js-Tutorial">
+<noscript data-src="/wp-content/uploads/2011/05/backbone.png" data-alt="Backbone.js-Tutorial">
+<img src="/wp-content/uploads/2011/05/backbone.png" alt="Backbone.js-Tutorial">
 </noscript>
 
 _[Demo][demo] | [Download][download]_

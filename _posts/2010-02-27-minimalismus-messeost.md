@@ -12,30 +12,30 @@ Heute hat es mich zur Messe/Ost in Hannover verschlagen und zwar genau genommen 
 
 Auf jeden Fall ist ein Ausflug zur Messe/Ost immer lohnenswert, da die paar Pavillons, die die letzten 10 Jahre seit der Expo 2000 überlebt haben, von der Substanz her zwar das Allerletzte sind, von der Architektur her aber trotzdem zu gefallen wissen. So hat man als Fotograf in Hannovers Norden die Möglichkeit Urban Decay und geschmackvolle Baukunst auf engstem Raum zu erleben. Ich selbst habe die Möglichkeit genutzt, dem visuellen Minimalismus zu frönen.
 
-<a href="/archive/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke-480x318.jpg" data-alt="Glas trifft auf Holz an einer Hausecke">
-<img src="/archive/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke-480x318.jpg" alt="Glas trifft auf Holz an einer Hausecke">
+<a href="/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke-480x318.jpg" data-alt="Glas trifft auf Holz an einer Hausecke">
+<img src="/wp-content/uploads/2010/02/glas-trifft-holz-an-hausecke-480x318.jpg" alt="Glas trifft auf Holz an einer Hausecke">
 </noscript>
 </a>  
 <small>*Glas trifft auf Holz an einer Hausecke*</small>
 
-<a href="/archive/wp-content/uploads/2010/02/holzfassade-vor-wiese.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2010/02/holzfassade-vor-wiese-480x318.jpg" data-alt="Holzfassade vor einer Wiese">
-<img src="/archive/wp-content/uploads/2010/02/holzfassade-vor-wiese-480x318.jpg" alt="Holzfassade vor einer Wiese">
+<a href="/wp-content/uploads/2010/02/holzfassade-vor-wiese.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2010/02/holzfassade-vor-wiese-480x318.jpg" data-alt="Holzfassade vor einer Wiese">
+<img src="/wp-content/uploads/2010/02/holzfassade-vor-wiese-480x318.jpg" alt="Holzfassade vor einer Wiese">
 </noscript>
 </a>  
 <small>*Holzfassade vor einer Wiese*</small>
 
-<a href="/archive/wp-content/uploads/2010/02/treppengelaender-vor-betonwand.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2010/02/treppengelaender-vor-betonwand-480x318.jpg" data-alt="Treppengeländer vor einer Betonwand beim BMW-Autohaus">
-<img src="/archive/wp-content/uploads/2010/02/treppengelaender-vor-betonwand-480x318.jpg" alt="Treppengeländer vor einer Betonwand beim BMW-Autohaus">
+<a href="/wp-content/uploads/2010/02/treppengelaender-vor-betonwand.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2010/02/treppengelaender-vor-betonwand-480x318.jpg" data-alt="Treppengeländer vor einer Betonwand beim BMW-Autohaus">
+<img src="/wp-content/uploads/2010/02/treppengelaender-vor-betonwand-480x318.jpg" alt="Treppengeländer vor einer Betonwand beim BMW-Autohaus">
 </noscript>
 </a>  
 <small>*Treppengeländer vor einer Betonwand beim BMW-Autohaus*</small>
 
-<a href="/archive/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon-480x318.jpg" data-alt="Verwinkeltes Fenster am spanischen Pavillon">
-<img src="/archive/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon-480x318.jpg" alt="Verwinkeltes Fenster am spanischen Pavillon">
+<a href="/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon-480x318.jpg" data-alt="Verwinkeltes Fenster am spanischen Pavillon">
+<img src="/wp-content/uploads/2010/02/verwinkeltes-fenster-am-spanischen-pavillon-480x318.jpg" alt="Verwinkeltes Fenster am spanischen Pavillon">
 </noscript>
 </a>  
 <small>*Verwinkeltes Fenster am spanischen Pavillon*</small>

@@ -7,14 +7,14 @@ categories:
   - Fotografie
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/10/punch-camera-480x370.jpg" data-alt="Punch-Camera">
-<img src="/archive/wp-content/uploads/2009/10/punch-camera-480x370.jpg" alt="Punch-Camera">
+<noscript data-src="/wp-content/uploads/2009/10/punch-camera-480x370.jpg" data-alt="Punch-Camera">
+<img src="/wp-content/uploads/2009/10/punch-camera-480x370.jpg" alt="Punch-Camera">
 </noscript>
 
 Matty Martin, ein Design-Student aus San Francisco, hatte die Idee zur [Punch-Camera][punch_camera], der Polaroid des neuen Jahrtausend nur mit weniger Chemie. Und zwar funktioniert diese folgendermaßen:
 
-<noscript data-src="/archive/wp-content/uploads/2009/10/punch-camera\_-\_anleitung-480x370.jpg" data-alt="Punch-Camera &mdash; Anleitung">
-<img src="/archive/wp-content/uploads/2009/10/punch-camera\_-\_anleitung-480x370.jpg" alt="Punch-Camera &mdash; Anleitung">
+<noscript data-src="/wp-content/uploads/2009/10/punch-camera\_-\_anleitung-480x370.jpg" data-alt="Punch-Camera &mdash; Anleitung">
+<img src="/wp-content/uploads/2009/10/punch-camera\_-\_anleitung-480x370.jpg" alt="Punch-Camera &mdash; Anleitung">
 </noscript>
 
 Man macht ein Foto, steckt ein Blatt Papier oder dünne Pappe zwischen die Punch-Camera, haut ordentlich drauf und schon ist das geschossene Foto als gerastertes Bild in das Papier gestanzt. Außerdem werden auch die Meta-Daten mit gedruckt, so dass man das Bild mit der Suchmaschine seiner Wahl im Internet suche kann, so es denn jemand hochgeladen hat.

@@ -7,9 +7,9 @@ categories:
   - Fotografie
 ---
 
-<a href="/archive/wp-content/uploads/2013/12/chorten.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2013/12/chorten-480x318.jpg" data-alt="Chorten">
-<img src="/archive/wp-content/uploads/2013/12/chorten-480x318.jpg" alt="Chorten">
+<a href="/wp-content/uploads/2013/12/chorten.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2013/12/chorten-480x318.jpg" data-alt="Chorten">
+<img src="/wp-content/uploads/2013/12/chorten-480x318.jpg" alt="Chorten">
 </noscript>
 </a>
 
