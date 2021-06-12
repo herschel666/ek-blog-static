@@ -10,8 +10,8 @@ categories:
 
 Jeder kommt früher oder später beim Bauen einer Website in die Situation, dass er die Beschriftung eines Buttons loswerden möchte, um den Button mit einer schönen Grafik zu versehen. Das Auge surft schließlich mit.
 
-<noscript data-src="/archive/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" data-alt="Barrierefreier Button mit Text Replacement">
-<img src="/archive/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" alt="Barrierefreier Button mit Text Replacement">
+<noscript data-src="/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" data-alt="Barrierefreier Button mit Text Replacement">
+<img src="/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement-480x107.png" alt="Barrierefreier Button mit Text Replacement">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -85,5 +85,5 @@ Ergänzt man das `type`-Attribut des `<style>`-Elements um die mit Apostroph abg
 Welche Lösung ihr wählt, sei euch überlassen. Eine Empfehlung, welche besser ist, kann ich nicht abgeben.
 
 [demo]: http://www.emanuel-kluge.de/demo/barrierefreier-button-mit-text-replacement/
-[download]: /archive/wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement.zip
+[download]: /wp-content/uploads/2009/07/barrierefreier-button-mit-text-replacement.zip
 [explorer]: /html-css/wie-man-dem-internet-explorer-6-herr-wird/#die-hover-klasse-fuer-alle-elemente-verfuegbar-machen

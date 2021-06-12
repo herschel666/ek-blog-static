@@ -9,8 +9,8 @@ categories:
   - WordPress
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/mail-210x140.jpg" data-alt="Mail">
-<img src="/archive/wp-content/uploads/2009/06/mail-210x140.jpg" alt="Mail">
+<noscript data-src="/wp-content/uploads/2009/06/mail-210x140.jpg" data-alt="Mail">
+<img src="/wp-content/uploads/2009/06/mail-210x140.jpg" alt="Mail">
 </noscript>  
 <small>*[The slot for the mail next to the front door also has the doorbell button on it.][flickr_img] von [Samuraijohnny][flickr_img] unter [CC][cc]-Lizenz*</small>
 

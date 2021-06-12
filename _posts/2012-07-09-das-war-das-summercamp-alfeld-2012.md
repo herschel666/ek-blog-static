@@ -7,8 +7,8 @@ categories:
   - Off-Topic
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg" data-alt="Summercamp Alfeld 2012">
-<img src="/archive/wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg" alt="Summercamp Alfeld 2012">
+<noscript data-src="/wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg" data-alt="Summercamp Alfeld 2012">
+<img src="/wp-content/uploads/2012/07/summercamp-alfeld-2012-480x319.jpg" alt="Summercamp Alfeld 2012">
 </noscript>  
 <small>*Foto von [Viktor Schanz][viktor_schanz]*</small>
 

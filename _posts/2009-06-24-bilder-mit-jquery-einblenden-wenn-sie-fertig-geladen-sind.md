@@ -12,8 +12,8 @@ categories:
 
 Das hier ist zwar eher im Bereich "Spielerei" anzusiedeln, aber dennoch recht nützlich. Schließlich sieht es einfach eleganter aus, wenn die Bilder eingeblendet werden, wenn sie fertig geladen sind. Außerdem sehen die Besucher nicht den alternativen Text des Bildes, sondern das kleine, sich drehende Rädchen, bei dem heutzutage (fast) jeder weiß, dass gerade etwas in Arbeit ist.
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png" data-alt="Bilder mit jQuery einblenden, wenn sie fertig geladen sind">
-<img src="/archive/wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png" alt="Bilder mit jQuery einblenden, wenn sie fertig geladen sind">
+<noscript data-src="/wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png" data-alt="Bilder mit jQuery einblenden, wenn sie fertig geladen sind">
+<img src="/wp-content/uploads/2009/06/bilder-mit-jquery-einblenden.png" alt="Bilder mit jQuery einblenden, wenn sie fertig geladen sind">
 </noscript>
 
 _[Demo][demo] | [Code auf GitHub][github]_

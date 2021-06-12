@@ -10,8 +10,8 @@ categories:
   - Tutorial
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg" data-alt="Social Icon-Bar mit jQuery">
-<img src="/archive/wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg" alt="Social Icon-Bar mit jQuery">
+<noscript data-src="/wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg" data-alt="Social Icon-Bar mit jQuery">
+<img src="/wp-content/uploads/2009/10/social-icon-bar-mit-jquery.jpg" alt="Social Icon-Bar mit jQuery">
 </noscript>
 
 _[Demo][demo] | [Download][download]_
@@ -20,8 +20,8 @@ Um meine Besucher auf meine diversen Profile in Social Communities aufmerksam zu
 
 Jetzt möchte ich kurz erläutern, wie das geht. Als erstes brauchen wir ein passendes Icon-Set. Ich habe für dieses Tutorial auf die [Matte Black Social Media Icons][webtreats] zurückgegriffen, da diese Sammlung u.a. auch ein Xing-Icon beinhaltet. Die Icons bringen wir nun in einem Grafik-Programm mithilfe des Crop-Tools auf die gewünschte Größe, in meinem Fall 40x40 Pixel.
 
-<noscript data-src="/archive/wp-content/uploads/2009/10/icon-crop-tool.jpg" data-alt="Icon mit dem Crop-Tool auf die richtige Groesse bringen">
-<img src="/archive/wp-content/uploads/2009/10/icon-crop-tool.jpg" alt="Icon mit dem Crop-Tool auf die richtige Groesse bringen">
+<noscript data-src="/wp-content/uploads/2009/10/icon-crop-tool.jpg" data-alt="Icon mit dem Crop-Tool auf die richtige Groesse bringen">
+<img src="/wp-content/uploads/2009/10/icon-crop-tool.jpg" alt="Icon mit dem Crop-Tool auf die richtige Groesse bringen">
 </noscript>
 
 Das machen wir mit allen Icons, die wir benötigen. Danach widmen wir uns dem HTML-Teil:
@@ -158,6 +158,6 @@ Zum Schluss werden die einzelnen `<span>`-Elemente noch positioniert und schon i
 Solltet ihr noch Fragen haben oder Probleme auftreten, nutzt die Kommentar-Funktion und scheut euch nicht, mir Fragen zu stellen. Ansonsten danke ich für eure Aufmerksamkeit und &mdash; falls euch der Artikel gefallen hat &mdash; würde mich freuen, wenn ihr ihn einschlägigen Bookmark-Diensten zuführt.
 
 [demo]: http://www.emanuel-kluge.de/demo/social-icon-bar-mit-jquery/
-[download]: /archive/wp-content/uploads/2009/09/social-icon-bar-mit-jquery.zip
+[download]: /wp-content/uploads/2009/09/social-icon-bar-mit-jquery.zip
 [jquery]: http://jquery.com/
 [webtreats]: http://webtreats.mysitemyway.com/154-matte-black-social-media-icons/

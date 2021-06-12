@@ -7,8 +7,8 @@ categories:
   - Apple
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/macbook-pro\_-\_innovative-integrierte-batterie.png" data-alt="macbook pro mit innovativer integrierter batterie">
-<img src="/archive/wp-content/uploads/2009/06/macbook-pro\_-\_innovative-integrierte-batterie.png" alt="macbook pro mit innovativer integrierter batterie">
+<noscript data-src="/wp-content/uploads/2009/06/macbook-pro\_-\_innovative-integrierte-batterie.png" data-alt="macbook pro mit innovativer integrierter batterie">
+<img src="/wp-content/uploads/2009/06/macbook-pro\_-\_innovative-integrierte-batterie.png" alt="macbook pro mit innovativer integrierter batterie">
 </noscript>
 
 Willkommen in der lustigen Welt der [Euphemismen][wikipedia]. Apple&trade; verbaut die Batterie in den neuen MacBook Pros so, dass sie nicht mehr vom Endkunden ausgewechselt werden kann. Das ganze nennen sie auf ihrer [Hompage][apple] dann &hellip;

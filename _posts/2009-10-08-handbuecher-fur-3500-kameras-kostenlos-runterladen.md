@@ -7,8 +7,8 @@ categories:
   - Fotografie
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/10/contaflex.jpg" data-alt="Contaflex &mdash; Kamera">
-<img src="/archive/wp-content/uploads/2009/10/contaflex.jpg" alt="Contaflex &mdash; Kamera">
+<noscript data-src="/wp-content/uploads/2009/10/contaflex.jpg" data-alt="Contaflex &mdash; Kamera">
+<img src="/wp-content/uploads/2009/10/contaflex.jpg" alt="Contaflex &mdash; Kamera">
 </noscript>
 
 Das ist definitiv die Nachricht des Tages! Genau genommen sogar der Woche. Eigentlich des Monats, doch der Oktober ist noch jung, weshalb ich mich hier jetzt nicht aus dem Fenster lehnen möchte. Aber kommen wir zur eigentlichen Neuigkeit:

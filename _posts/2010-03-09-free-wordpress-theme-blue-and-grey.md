@@ -7,8 +7,8 @@ categories:
   - WordPress
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png" data-alt="WordPress-Theme: “Blue and Grey”">
-<img src="/archive/wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png" alt="WordPress-Theme: “Blue and Grey”">
+<noscript data-src="/wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png" data-alt="WordPress-Theme: “Blue and Grey”">
+<img src="/wp-content/uploads/2010/03/wordpress-theme-blue-and-grey.png" alt="WordPress-Theme: “Blue and Grey”">
 </noscript>
 
 _[Demo][demo] | [Download][download]_

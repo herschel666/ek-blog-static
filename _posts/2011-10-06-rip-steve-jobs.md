@@ -8,8 +8,8 @@ categories:
   - Neuigkeiten
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif" data-alt="Apple-Website: RIP Steve Jobs">
-<img src="/archive/wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif" alt="Apple-Website: RIP Steve Jobs">
+<noscript data-src="/wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif" data-alt="Apple-Website: RIP Steve Jobs">
+<img src="/wp-content/uploads/2011/10/apple-website-rip-steve-jobs-480x248.gif" alt="Apple-Website: RIP Steve Jobs">
 </noscript>
 
 [Letzte Nacht verstarb Steve Jobs &mdash; Gründer von u.a. Apple Inc. &mdash; mit 56 Jahren an Krebs.][spon]

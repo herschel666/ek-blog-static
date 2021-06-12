@@ -1,7 +1,11 @@
 <aside class="ek-main-aside">
   <div class="ek-main-aside__inner">
+    <img src="{{ cdnurl }}/assets/img/ek.jpg"
+      srcset="{{ cdnurl }}/assets/img/ek.jpg 1x, {{ cdnurl }}/assets/img/ek@2.jpg 2x"
+      class="ek-main-aside__thumb"
+      alt="Emanuel Kluge">
     <p class="ek-main-aside__desc">
-      Emanuel ist Software-Entwickler. Wenn er mal nicht den Text-Editor malträtiert, widmet er sich mit Hingabe der Fotografie und dem Gitarrenspiel.
+      Emanuel ist Javascript-Developer bei Jimdo. Wenn er mal nicht den Text-Editor malträtiert, widmet er sich mit Hingabe der Fotografie und dem Gitarrenspiel.
     </p>
     <div class="ek-main-aside__social">
       {% include "../_assets/images/twitter.svg" %}

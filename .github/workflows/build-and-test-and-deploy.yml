@@ -30,7 +30,7 @@ jobs:
 
       - name: Build & test the application
         env:
-          BRANCH: ${{ github.head_ref }}
+          GITHUB_REF: ${{ github.head_ref }}
         run: |
           npm ci
           npm run test

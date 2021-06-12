@@ -8,8 +8,8 @@ categories:
   - Überlegungen
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2013/07/anarchy-480x357.png" data-alt="Anarchy">
-<img src="/archive/wp-content/uploads/2013/07/anarchy-480x357.png" alt="Anarchy">
+<noscript data-src="/wp-content/uploads/2013/07/anarchy-480x357.png" data-alt="Anarchy">
+<img src="/wp-content/uploads/2013/07/anarchy-480x357.png" alt="Anarchy">
 </noscript>  
 <small>*Photo by [Kim Yokota][flickr] ([CC][cc])*</small>
 

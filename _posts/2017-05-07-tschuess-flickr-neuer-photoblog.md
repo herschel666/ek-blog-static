@@ -7,9 +7,9 @@ categories:
   - Neuigkeiten
 ---
 
-<a href="/archive/wp-content/uploads/2017/05/nepal-shrine.jpg" rel="lightbox">
-  <noscript data-src="/archive/wp-content/uploads/2017/05/nepal-shrine-480.jpg" data-alt="Hinduistischer Schrein im Licht der Abendsonne">
-<img src="/archive/wp-content/uploads/2017/05/nepal-shrine-480.jpg" alt="Hinduistischer Schrein im Licht der Abendsonne">
+<a href="/wp-content/uploads/2017/05/nepal-shrine.jpg" rel="lightbox">
+  <noscript data-src="/wp-content/uploads/2017/05/nepal-shrine-480.jpg" data-alt="Hinduistischer Schrein im Licht der Abendsonne">
+<img src="/wp-content/uploads/2017/05/nepal-shrine-480.jpg" alt="Hinduistischer Schrein im Licht der Abendsonne">
 </noscript>
 </a>
 

@@ -28,12 +28,12 @@ const IS_PRODUCTION = !WATCH_MODE_ACTIVE;
 const BASE_URL = IS_PRODUCTION
   ? 'https://ekblog.de'
   : 'http://localhost:' + PORT;
-const SUBDOMAIN_PREFIX = process.env.BRANCH ? `${process.env.BRANCH}--` : '';
+const SUBDOMAIN_PREFIX = process.env.GITHUB_REF || '';
 const CDN_URL = IS_PRODUCTION
-  ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.app/`
+  ? `https://${SUBDOMAIN_PREFIX}ekblogcdn.netlify.com/`
   : '/';
 const SOURCE = path.join(__dirname, '_posts');
-const DESTINATION = path.join(__dirname, '_site', 'archive');
+const DESTINATION = path.join(__dirname, '_site');
 const LAYOUTS = path.join(__dirname, '_layouts');
 const FILE_NAME_DATE_RE = /^(\d{4}-\d{2}-\d{2})/;
 
@@ -56,8 +56,8 @@ const metalSmithInstance = Metalsmith(__dirname)
     site: {
       title: 'Emanuel Kluge',
       description: 'Beiträge zum Thema JS, HTML, CSS & anderem Kram',
-      baseurl: url.resolve(BASE_URL, 'archive'),
-      url: url.resolve(BASE_URL, 'archive'), // For Metalsmith-feed ...
+      baseurl: BASE_URL,
+      url: BASE_URL, // For Metalsmith-feed ...
       cdnurl: CDN_URL,
       time: new Date(),
     },
@@ -75,6 +75,18 @@ const metalSmithInstance = Metalsmith(__dirname)
     msStatic({
       src: 'userfiles',
       dest: 'wp-content',
+    })
+  )
+  .use(
+    msStatic({
+      src: 'favicon.ico',
+      dest: 'favicon.ico',
+    })
+  )
+  .use(
+    msStatic({
+      src: '_headers',
+      dest: '_headers',
     })
   )
   .use(postDate())
@@ -131,7 +143,7 @@ const metalSmithInstance = Metalsmith(__dirname)
 // .use(minifyHtml());
 
 function postDate() {
-  return function (files, _, done) {
+  return function (files, metalsmith, done) {
     Object.keys(files).forEach((file) => {
       if (FILE_NAME_DATE_RE.test(file)) {
         const date = new Date(FILE_NAME_DATE_RE.exec(file)[0]);
@@ -143,7 +155,7 @@ function postDate() {
 }
 
 function prepareFeedContents() {
-  return function (_, metalsmith, done) {
+  return function (files, metalsmith, done) {
     const metadata = metalsmith.metadata();
     const feedContents = metadata.feed.map((item) => {
       item.excerpt =
@@ -217,7 +229,7 @@ const saveWebpackCompilerResult = (metalsmith, done) => {
       fs.readFile(fullPath, 'utf8', (err, contents) => {
         if (err) return cb(err);
         assets[fileName] = {
-          url: url.resolve(CDN_URL, path.join('/archive', 'assets', file)),
+          url: url.resolve(CDN_URL, path.join('/assets', file)),
           contents: Buffer.from(contents, 'utf8'),
         };
         cb();

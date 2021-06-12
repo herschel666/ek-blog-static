@@ -7,8 +7,8 @@ categories:
   - Apple
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2010/04/green-apple-480x312.jpg" data-alt="Green Apple">
-<img src="/archive/wp-content/uploads/2010/04/green-apple-480x312.jpg" alt="Green Apple">
+<noscript data-src="/wp-content/uploads/2010/04/green-apple-480x312.jpg" data-alt="Green Apple">
+<img src="/wp-content/uploads/2010/04/green-apple-480x312.jpg" alt="Green Apple">
 </noscript>  
 <small>*[Green Apples][flickr] unter einer [CC][cc]-Lizenz*</small>
 

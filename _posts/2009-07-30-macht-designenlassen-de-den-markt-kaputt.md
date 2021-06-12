@@ -7,8 +7,8 @@ categories:
   - Überlegungen
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/07/designenlassen.jpg" data-alt="designenlassen.de">
-<img src="/archive/wp-content/uploads/2009/07/designenlassen.jpg" alt="designenlassen.de">
+<noscript data-src="/wp-content/uploads/2009/07/designenlassen.jpg" data-alt="designenlassen.de">
+<img src="/wp-content/uploads/2009/07/designenlassen.jpg" alt="designenlassen.de">
 </noscript>
 
 [Auf dem Fontblog wurde heute ein offener Brief von Stefan Maas an den Online-Dienst DesignenLassen.de veröffentlicht][fontblog]. ([Link zu DesignenLassen.de][designenlassen])

@@ -11,8 +11,8 @@ categories:
 
 Hier habe ich ein kleines Tutorial, wie ihr in euren WordPress-Blog einen schicken Login-/Logout-Button einbaut. Dafür nutzen wir die WordPress-eigene Funktion `wp_loginout()`, die Abfrage `is_user_logged_in()` und die Text Replacement-Technik mithilfe von CSS.
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/loginout-button\_-\_style-480x132.png" data-alt="loginout-button &mdash; style">
-<img src="/archive/wp-content/uploads/2009/06/loginout-button\_-\_style-480x132.png" alt="loginout-button &mdash; style">
+<noscript data-src="/wp-content/uploads/2009/06/loginout-button\_-\_style-480x132.png" data-alt="loginout-button &mdash; style">
+<img src="/wp-content/uploads/2009/06/loginout-button\_-\_style-480x132.png" alt="loginout-button &mdash; style">
 </noscript>
 
 Vorweg eine kleine [Demo][demo].
@@ -81,8 +81,8 @@ Nun kommen die Styles hinzu, um den schicken Button, anstatt des schnöden Text-
 
 Per `text-indent: -9999px` wird der Text-Link nach links ins Abseits verschoben und zurück bleibt die Grafik. Diese sieht wie folgt aus:
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/loginout.jpg" data-alt="loginout &mdash; grafik">
-<img src="/archive/wp-content/uploads/2009/06/loginout.jpg" alt="loginout &mdash; grafik">
+<noscript data-src="/wp-content/uploads/2009/06/loginout.jpg" data-alt="loginout &mdash; grafik">
+<img src="/wp-content/uploads/2009/06/loginout.jpg" alt="loginout &mdash; grafik">
 </noscript>
 
 Per `background-position` wird je nach Zustand der richtige Button angezeigt. Ihr könnt die Grafik gerne übernehmen, oder einfach was eigenes entwerfen, was besser in euren Blog passt.

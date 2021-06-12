@@ -7,8 +7,8 @@ categories:
   - Off-Topic
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg" data-alt="Mortadella-Buch &mdash; Übersicht">
-<img src="/archive/wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg" alt="Mortadella-Buch &mdash; Übersicht">
+<noscript data-src="/wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg" data-alt="Mortadella-Buch &mdash; Übersicht">
+<img src="/wp-content/uploads/2010/01/mortadella-buch-uebersicht.jpg" alt="Mortadella-Buch &mdash; Übersicht">
 </noscript>
 
 Gerade noch war ich bei Da Giorgio und habe mir eine schmackhafte Mortadella-Bemme geschossen, schon läuft mir das **Mortadella-Buch** von **Christoph Hänsli** über den Weg. Das ist ein Zeichen &mdash; ich soll darüber bloggen. Und das tue ich hiermit auch.

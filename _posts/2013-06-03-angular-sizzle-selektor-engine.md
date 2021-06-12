@@ -8,8 +8,8 @@ categories:
   - JavaScript
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2013/06/sizzle-angular-480x95.gif" data-alt="Sizzle & Angular">
-<img src="/archive/wp-content/uploads/2013/06/sizzle-angular-480x95.gif" alt="Sizzle & Angular">
+<noscript data-src="/wp-content/uploads/2013/06/sizzle-angular-480x95.gif" data-alt="Sizzle & Angular">
+<img src="/wp-content/uploads/2013/06/sizzle-angular-480x95.gif" alt="Sizzle & Angular">
 </noscript>
 
 Wie weithin bekannt ist, benutzt [Angular][angular] für DOM-Angelegenheiten intern eine abgespeckte [jQuery][jquery]-Variante namens [jqLite][ngelement], auf die über `angular.element` zugegriffen werden kann. Diese bietet ein paar Methoden aus dem Bereich DOM-Manipulation und -Traversing, hat jedoch keine Selektor-Engine. Bindet man parallel zu Angular die jQuery-Library ein, wird jqLite durch jQuery ersetzt.

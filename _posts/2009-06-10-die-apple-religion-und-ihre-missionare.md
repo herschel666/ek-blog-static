@@ -8,8 +8,8 @@ categories:
   - Überlegungen
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/apple_sky-157x210.jpg" data-alt="apple in front of sky">
-<img src="/archive/wp-content/uploads/2009/06/apple_sky-157x210.jpg" alt="apple in front of sky">
+<noscript data-src="/wp-content/uploads/2009/06/apple_sky-157x210.jpg" data-alt="apple in front of sky">
+<img src="/wp-content/uploads/2009/06/apple_sky-157x210.jpg" alt="apple in front of sky">
 </noscript>  
 <small>*[Autumn harvest][flickr_img] von [tanakawho][flickr_user] unter [CC]-[cc]Lizenz*</small>
 

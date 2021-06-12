@@ -7,8 +7,8 @@ categories:
   - Hannover
 ---
 
-<noscript data-src="/archive/wp-content/uploads/2009/06/zensursula-protest-banner\_-\_www-zeichne-mit-de.png" data-alt="zensursula-protest-banner &mdash; www.zeichne-mit.de">
-<img src="/archive/wp-content/uploads/2009/06/zensursula-protest-banner\_-\_www-zeichne-mit-de.png" alt="zensursula-protest-banner &mdash; www.zeichne-mit.de">
+<noscript data-src="/wp-content/uploads/2009/06/zensursula-protest-banner\_-\_www-zeichne-mit-de.png" data-alt="zensursula-protest-banner &mdash; www.zeichne-mit.de">
+<img src="/wp-content/uploads/2009/06/zensursula-protest-banner\_-\_www-zeichne-mit-de.png" alt="zensursula-protest-banner &mdash; www.zeichne-mit.de">
 </noscript>
 
 Vorgestern, am 12. Juni 2009, war Ursula von der Leyen aka Ursula von der Laien aka Zensursula aka Zensuschi an der Universität Hannover und hat anlässlich der Verleihung des Sozialpreises des deutschen Studentenwerks in Hannover eine Rede gehalten. Dabei wurde sie von Aktivisten überrascht, die an der Balustrade hinter ihr ein für alle Gäste gut sichtbares Transparent mit obigem Slogan gegen die geplanten Netzsperren aufhängten.
