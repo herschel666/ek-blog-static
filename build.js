@@ -61,7 +61,7 @@ const metalSmithInstance = Metalsmith(__dirname)
       cdnurl: CDN_URL,
       time: new Date(),
     },
-    build_str: process.env.GITHUB_SHA || Date.now(),
+    build_str: process.env.TRAVIS_COMMIT || Date.now(),
     environment: process.env.NODE_ENV,
   })
   .use(runWebpack())
