@@ -45,7 +45,6 @@ jobs:
           deploy-message: 'Deploy from herschel666/ek-blog-static'
           enable-pull-request-comment: false
           enable-commit-comment: false
-          netlify-config-path: ./netlify.toml
           alias: ${{ github.head_ref }}
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
