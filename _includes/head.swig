@@ -10,6 +10,7 @@
     <meta name="author" content="Emanuel Kluge">
     <meta name="MSSmartTagsPreventParsing" content="true">
     <meta name="verify-v1" content="pYcpJoNSdi6bVynT2dKuPoD+74fWR1PHO3mb3slZJns=">
+    <meta name="robots" content="noindex,nofollow,noarchive">
 
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Emanuel Kluge">
