@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.15.5",
-    "@babel/plugin-proposal-object-rest-spread": "7.14.7",
-    "@babel/preset-env": "7.15.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.15.6",
+    "@babel/preset-env": "7.15.6",
     "async": "3.2.1",
     "autoprefixer": "10.3.4",
     "babel-eslint": "10.1.0",
