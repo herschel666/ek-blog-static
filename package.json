@@ -21,7 +21,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
     "file-loader": "6.2.0",
-    "image-webpack-loader": "7.0.1",
+    "image-webpack-loader": "8.0.1",
     "jstransformer-swig": "1.0.0",
     "md5": "2.3.0",
     "metalsmith": "2.3.0",
