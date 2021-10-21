@@ -15,7 +15,7 @@
     "async": "3.2.1",
     "autoprefixer": "10.3.7",
     "babel-eslint": "10.1.0",
-    "babel-loader": "8.2.2",
+    "babel-loader": "8.2.3",
     "css-loader": "6.4.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
