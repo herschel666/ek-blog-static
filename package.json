@@ -12,7 +12,7 @@
     "@babel/core": "7.15.8",
     "@babel/plugin-proposal-object-rest-spread": "7.15.6",
     "@babel/preset-env": "7.15.8",
-    "async": "3.2.1",
+    "async": "3.2.2",
     "autoprefixer": "10.3.7",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.2.3",
