@@ -9,7 +9,7 @@
     "modern-normalize": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.16.10",
+    "@babel/core": "7.16.12",
     "@babel/plugin-proposal-object-rest-spread": "7.16.7",
     "@babel/preset-env": "7.16.11",
     "async": "3.2.3",
