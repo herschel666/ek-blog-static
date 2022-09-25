@@ -37,7 +37,7 @@
     "metalsmith-static": "0.0.5",
     "mini-css-extract-plugin": "2.5.3",
     "mkdirp": "1.0.4",
-    "node-sass": "6.0.1",
+    "node-sass": "7.0.2",
     "postcss": "8.4.7",
     "postcss-loader": "6.2.1",
     "prettier": "2.5.1",
