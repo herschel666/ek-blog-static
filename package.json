@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.14",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.3.0",
-    "css-loader": "6.6.0",
+    "css-loader": "6.8.1",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.0.0",
