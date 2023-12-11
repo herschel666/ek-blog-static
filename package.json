@@ -9,9 +9,9 @@
     "modern-normalize": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.1",
+    "@babel/core": "7.23.6",
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
-    "@babel/preset-env": "7.22.2",
+    "@babel/preset-env": "7.23.6",
     "async": "3.2.4",
     "autoprefixer": "10.4.14",
     "babel-eslint": "10.1.0",
