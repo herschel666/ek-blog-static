@@ -13,7 +13,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
     "@babel/preset-env": "7.23.8",
     "async": "3.2.5",
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.19",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.3.0",
     "css-loader": "6.9.0",
