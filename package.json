@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/core": "7.26.0",
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
-    "@babel/preset-env": "7.26.0",
+    "@babel/preset-env": "7.29.7",
     "async": "3.2.6",
     "autoprefixer": "10.4.20",
     "babel-eslint": "10.1.0",
